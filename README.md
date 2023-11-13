@@ -1,7 +1,7 @@
 # Cinderella City Project Website
 A website for the Cinderella City Project, including the history of Cinderella City and latest updates on the project.
 
-## Developing
+## Development
 
 ### First time install
 
@@ -19,10 +19,10 @@ yarn run dev
 
 
 ```bash
-npm run build
+yarn run build
 ```
 
 ### Preview production
 ```bash
-npm run preview
+yarn run preview
 ```
