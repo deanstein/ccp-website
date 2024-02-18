@@ -2,7 +2,7 @@
 	import { css } from '@emotion/css';
 	import { JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 
-	import { jdgWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
+	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import 'jdg-ui-svelte/jdg-styling-root.css';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
 
@@ -29,13 +29,13 @@
 </script>
 
 <div class="jdg-layout {jdgLayoutCss}">
-	<JDGHeader logoTitle={'THE CINDERELLA CITY PROJECT'} logoSrc={'./ccp-logo.png'} />
+	<JDGHeader logoTitle={'THE CINDERELLA CITY PROJECT'} logoSrc={'./ccp-logo.png'} useMobileNav={true}/>
 
 	<JDGBackground />
 
 	<slot />
 
-	<JDGFooter repoName={jdgWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
+	<JDGFooter repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
 </div>
 
 <style>
