@@ -15,7 +15,7 @@
 	const additionalVersionData = `JDG UI: v${jdgUIVersion}`;
 
 	const disclaimer =
-		'Some projects may have been completed while employed by or in collaboration with various organizations, consultants, or designers.';
+		'Photographs are from public domain sources or are used with permission and credited accordingly. See a photo with missing or wrong credit? Let us know.';
 
 	// global styles, but using emotion css
 	const jdgLayoutCss = css`
@@ -29,11 +29,7 @@
 </script>
 
 <div class="jdg-layout {jdgLayoutCss}">
-	<JDGHeader
-		logoTitle={'J. DEAN GOLDSTEIN'}
-		logoSupertitle={'THE WORK OF'}
-		logoSrc={'./jdg-logo.jpg'}
-	/>
+	<JDGHeader logoTitle={'THE CINDERELLA CITY PROJECT'} logoSrc={'./ccp-logo.png'} />
 
 	<JDGBackground />
 
