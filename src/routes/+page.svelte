@@ -3,11 +3,13 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
+		JDGImageFullWidth,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
 </script>
 
-<JDGContentContainer>
+<JDGContentContainer overlapWithHeader={true}>
+	<JDGImageFullWidth imgSrc={'./blue-mall/blue-mall-1.jpg'} />
 	<JDGContentBoxFloating>
 		<JDGGridLayout>
 			<JDGImageTile label={'PROJECT 1'} />
@@ -16,6 +18,3 @@
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
-
-<style>
-</style>

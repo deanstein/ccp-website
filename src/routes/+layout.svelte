@@ -1,6 +1,6 @@
 <script>
 	import { css } from '@emotion/css';
-	import { JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
+	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 
 	import navItem from 'jdg-ui-svelte/schemas/nav-item.js';
 
@@ -36,23 +36,9 @@
 
 	const disclaimer =
 		'Photographs are from public domain sources or are used with permission and credited accordingly. See a photo with missing or wrong credit? Let us know.';
-
-	// global styles, but using emotion css
-	const ccpLayoutCss = css`
-		a {
-			color: ${jdgColors.text};
-		}
-		a.no-initial-highlight::before,
-		.jdg-highlight-container .jdg-highlight::before {
-			background: ${jdgColors.accentStripesJDG[0]};
-		}
-		a:before {
-			background-color: ${jdgColors.accentStripesJDG[0]};
-		}
-	`;
 </script>
 
-<div class="ccp-layout {ccpLayoutCss}">
+<JDGAppContainer>
 	<JDGHeader
 		logoTitle={'THE CINDERELLA CITY PROJECT'}
 		logoSrc={'./ccp-logo.png'}
@@ -60,17 +46,8 @@
 		{navItems}
 		useMobileNav={true}
 	/>
-
 	<JDGBackground />
-
+	<!-- all content goes in this slot -->
 	<slot />
-
 	<JDGFooter repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
-</div>
-
-<style>
-	.ccp-layout {
-		display: flex;
-		flex-direction: column;
-	}
-</style>
+</JDGAppContainer>
