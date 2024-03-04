@@ -13,14 +13,22 @@
 	newNavItem1.href = '/';
 
 	const newNavItem2 = instantiateObject(navItem);
-	newNavItem2.label = 'ABOUT';
+	newNavItem2.label = 'ABOUT THE PROJECT';
 	newNavItem2.href = '/about';
 
 	const newNavItem3 = instantiateObject(navItem);
-	newNavItem3.label = 'CONTACT';
-	newNavItem3.href = '/contact';
+	newNavItem3.label = 'HISTORY OF CINDERELLA CITY';
+	newNavItem3.href = '/history';
 
-	const navItems = [newNavItem1, newNavItem2, newNavItem3];
+	const newNavItem4 = instantiateObject(navItem);
+	newNavItem4.label = 'CINDERELLA CITY SIMULATION';
+	newNavItem4.href = '/simulation';
+
+	const newNavItem5 = instantiateObject(navItem);
+	newNavItem5.label = 'CONTACT';
+	newNavItem5.href = '/contact';
+
+	const navItems = [newNavItem1, newNavItem2, newNavItem3, newNavItem4, newNavItem5];
 
 	// get versions from package.json to display in the footer
 	//@ts-expect-error
@@ -34,7 +42,7 @@
 		'Photographs are from public domain sources or are used with permission and credited accordingly. See a photo with missing or wrong credit? Let us know.';
 </script>
 
-<JDGAppContainer appLoadingIconSrc='./ccp-logo.png'>
+<JDGAppContainer appLoadingIconSrc="./ccp-logo.png">
 	<JDGHeader
 		logoTitle={'THE CINDERELLA CITY PROJECT'}
 		logoSrc={'./ccp-logo.png'}
