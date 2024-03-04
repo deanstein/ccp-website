@@ -42,7 +42,7 @@
 		to be Victorian, with an emphasis on landscape to shield the mall from the surrounding neighborhood.
 		<br /><br />
 		“… because three years of surveys show that’s the place a regional shopping center is needed and
-		should be located.” Englewood Mayor Elmer Schwab, March 7th, 1968
+		should be located.” Gerri Von Frellick, 1960
 		<br /><br />
 		The proposed zoning change for a shopping center in Cherry Hills was denied by Arapahoe County. Von
 		Frellick publicly clashed with citizens and lawsuits were filed. Eventually, a group of businesses
