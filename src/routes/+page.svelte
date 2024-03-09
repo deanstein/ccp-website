@@ -34,7 +34,7 @@
 		Creek as Colorado’s two main shopping centers, with Lakeside being the first enclosed,
 		air-conditioned mall experience in Colorado.
 		<br /><br />
-		<JDGImageTile imgSrc={'./history/lakeside-1.jpg'} />
+		<JDGImageTile imgSrc={'./history/lakeside-1.jpg'} cropToFit={false} />
 		<br /><br />
 		After Lakeside, Von Frellick set his eyes on the southern suburbs. By 1960, he announced plans to
 		build a shopping mall on the KLZ radio tower land at East Hampden Ave and South University Boulevard
