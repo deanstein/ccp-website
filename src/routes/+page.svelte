@@ -6,10 +6,12 @@
 		JDGImageFullWidth,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
+
+	import imageAttributesCollection from './image-attributes-collection';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
-	<JDGImageFullWidth imgSrc={'./blue-mall/blue-mall-1.jpg'} />
+	<JDGImageFullWidth imageAttributes={imageAttributesCollection.get('blue-mall-1')} />
 	<JDGContentBoxFloating isForBodyCopy={true}>
 		In 1968, the city of Englewood, Colorado changed forever when mall magnate Gerri Von Frellick
 		opened a 1.35 million-square foot shopping center on the site of Englewood’s beloved City Park.
@@ -34,7 +36,10 @@
 		Creek as Colorado’s two main shopping centers, with Lakeside being the first enclosed,
 		air-conditioned mall experience in Colorado.
 		<br /><br />
-		<JDGImageTile imgSrc={'./history/lakeside-1.jpg'} cropToFit={false} />
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.get('lakeside-1')}
+			fillContainer={false}
+		/>
 		<br /><br />
 		After Lakeside, Von Frellick set his eyes on the southern suburbs. By 1960, he announced plans to
 		build a shopping mall on the KLZ radio tower land at East Hampden Ave and South University Boulevard
