@@ -1,5 +1,7 @@
 <script>
 	import {
+		JDGAccentBlock,
+		JDGAccentText,
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGGridLayout,
@@ -29,9 +31,6 @@
 		But the legend lives on! Cinderella City is being brought back to life virtually as an interactive
 		exhibit known as The Cinderella City Project - an accurate simulation of the mall which transports
 		visitors back in time to the mall’s two distinct periods: 1968-1987, and 1988-1997.
-		<br /><br />
-		Follow along as we dive into Cinderella City’s fairytale from beginning to end, including rare photos
-		and little-known details of each mall.
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating isForBodyCopy={true}>
 		In 1952, real estate developer Gerri Von Frellick was looking for a new beginning after the
@@ -50,9 +49,6 @@
 		in the Cherry Hills neighborhood. Code-named Cinderella City, the design was originally intended
 		to be Victorian, with an emphasis on landscape to shield the mall from the surrounding neighborhood.
 		<br /><br />
-		“… because three years of surveys show that’s the place a regional shopping center is needed and
-		should be located.” Gerri Von Frellick, 1960
-		<br /><br />
 		The proposed zoning change for a shopping center in Cherry Hills was denied by Arapahoe County. Von
 		Frellick publicly clashed with citizens and lawsuits were filed. Eventually, a group of businesses
 		and City of Englewood leaders offered Von Frellick Englewood’s City Park as an alternative to the
@@ -66,6 +62,13 @@
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 <JDGContentContainer>
+	<JDGAccentBlock>
+		<JDGAccentText
+			primaryText={`“… because three years of surveys show that’s the place a regional shopping center is needed and
+			should be located.”`}
+			secondaryText="Gerri Von Frellick, 1960"
+		/>
+	</JDGAccentBlock>
 	<JDGContentBoxFloating>
 		<JDGGridLayout>
 			<JDGImageTile label={'PROJECT 1'} />
