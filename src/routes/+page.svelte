@@ -11,7 +11,11 @@
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
-	<JDGImageFullWidth imageAttributes={imageAttributesCollection.get('blue-mall-1')} />
+	<JDGImageFullWidth
+		imageAttributes={imageAttributesCollection.get('blue-mall-1')}
+		primaryText="STEP BACK IN TIME"
+		secondaryText="to Cinderella City Mall"
+	/>
 	<JDGContentBoxFloating isForBodyCopy={true}>
 		In 1968, the city of Englewood, Colorado changed forever when mall magnate Gerri Von Frellick
 		opened a 1.35 million-square foot shopping center on the site of Englewood’s beloved City Park.
