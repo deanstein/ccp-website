@@ -4,7 +4,16 @@
 	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
-	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader, JDGNotificationBanner } from 'jdg-ui-svelte';
+	import uiState from 'jdg-ui-svelte/states/ui-state.js';
+
+	import {
+		JDGAppContainer,
+		JDGBackground,
+		JDGFooter,
+		JDGHeader,
+		JDGImageDetailOverlay,
+		JDGNotificationBanner
+	} from 'jdg-ui-svelte';
 	import 'jdg-ui-svelte/jdg-styling-root.css';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
 
@@ -44,7 +53,10 @@
 </script>
 
 <JDGAppContainer appLoadingIconSrc="./ccp-logo.png">
-	<JDGNotificationBanner message="Coming soon! This site is under construction." color={jdgColors.notificationWarning} />
+	<JDGNotificationBanner
+		message="Coming soon! This site is under construction."
+		color={jdgColors.notificationWarning}
+	/>
 	<JDGHeader
 		logoTitle={'THE CINDERELLA CITY PROJECT'}
 		logoSrc={'./ccp-logo.png'}
@@ -57,3 +69,6 @@
 	<slot />
 	<JDGFooter repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
 </JDGAppContainer>
+{#if $uiState.showImageDetailOverlay}
+	<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
+{/if}

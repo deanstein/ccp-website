@@ -10,12 +10,18 @@
 	} from 'jdg-ui-svelte';
 
 	import imageAttributesCollection from './image-attributes-collection';
+
+	import {
+		setShowImageDetailModal,
+		setImageDetailAttributes
+	} from 'jdg-ui-svelte/jdg-ui-management.js';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.get('blue-mall-1')}
 		primaryText="STEP BACK IN TIME"
+		primaryTextFontFamily="Righteous"
 		secondaryText="to Cinderella City Mall"
 	/>
 	<JDGContentBoxFloating isForBodyCopy={true}>
@@ -40,6 +46,10 @@
 		air-conditioned mall experience in Colorado.
 		<br /><br />
 		<JDGImageTile
+			onClickFunction={() => {
+				setShowImageDetailModal(true);
+				setImageDetailAttributes(imageAttributesCollection.get('lakeside-1'));
+			}}
 			imageAttributes={imageAttributesCollection.get('lakeside-1')}
 			fillContainer={false}
 		/>
