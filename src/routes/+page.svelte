@@ -19,7 +19,7 @@
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.get('blue-mall-1')}
+		imageAttributes={imageAttributesCollection.blue_mall_1}
 		primaryText="STEP BACK IN TIME"
 		primaryTextFontFamily="Righteous"
 		secondaryText="to Cinderella City Mall"
@@ -28,11 +28,11 @@
 		<span>
 			The Cinderella City Project is an examination of a unique mid-century shopping destination,
 			developed by its creator as a "city under a roof", which became both a fairtyale and a
-			nightmare for its actual city: Englewood, Colorado.
+			nightmare for its actual city of Englewood, Colorado.
 			<br /><br />
 			<JDGImageTile
 				maxHeight="400px"
-				imageAttributes={imageAttributesCollection.get('aerial-60s70s-1')}
+				imageAttributes={imageAttributesCollection.aerial_60s_70s_1}
 				fillContainer={false}
 				showCaption={true}
 				showAttribution={true}
@@ -40,6 +40,14 @@
 			<br /><br />
 			From concept to layout, Cinderella City was quirky, thematic, and unconventional in its every detail,
 			and its short 30-year life provided lessons in retail design, architecture, and placemaking.
+			<br /><br />
+			<JDGImageTile
+				maxHeight="400px"
+				imageAttributes={imageAttributesCollection.aerial_60s_70s_1}
+				fillContainer={false}
+				showCaption={true}
+				showAttribution={true}
+			/>
 			<br /><br />
 			Take a trip into history and see the good, the bad, and the ugly of Cinderella City through
 			<a href="./history">historic photographs</a>
