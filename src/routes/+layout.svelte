@@ -63,11 +63,12 @@
 		logoJustification="center"
 		{navItems}
 		useMobileNav={true}
+		showHorizontalStripes={true}
 	/>
 	<JDGBackground />
 	<!-- all content goes in this slot -->
 	<slot />
-	<JDGFooter repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
+	<JDGFooter repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} showHorizontalStripes={true} />
 </JDGAppContainer>
 {#if $uiState.showImageDetailOverlay}
 	<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />

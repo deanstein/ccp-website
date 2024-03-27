@@ -5,6 +5,15 @@ import jdgImageAttributes from 'jdg-ui-svelte/schemas/jdg-image-attributes.js';
 // new images with a caption must be added here
 const imageAttributesCollection = new Map([
 	[
+		'aerial-60s70s-1',
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: './aerials/aerial-60s70s-1.jpg',
+			imgAlt: 'Cinderella City as it appeared in 1968.',
+			imgCaption: 'Cinderella City as it appeared in 1968.',
+			imgAttribution: 'Englewood Public Library'
+		})
+	],
+	[
 		'blue-mall-1',
 		instantiateObject(jdgImageAttributes, {
 			imgSrc: './blue-mall/blue-mall-1.jpg',
