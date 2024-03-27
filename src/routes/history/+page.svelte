@@ -1,10 +1,19 @@
 <script>
-
-	import { setShowImageDetailModal, setImageDetailAttributes } from 'jdg-ui-svelte/jdg-state-management.js';
+	import {
+		setShowImageDetailModal,
+		setImageDetailAttributes
+	} from 'jdg-ui-svelte/jdg-state-management.js';
 
 	import imageAttributesCollection from '../image-attributes-collection';
 
-	import { JDGAccentBlock, JDGAccentText, JDGContentBoxFloating, JDGContentContainer, JDGGridLayout, JDGImageTile } from 'jdg-ui-svelte';
+	import {
+		JDGAccentBlock,
+		JDGAccentText,
+		JDGContentBoxFloating,
+		JDGContentContainer,
+		JDGGridLayout,
+		JDGImageTile
+	} from 'jdg-ui-svelte';
 </script>
 
 <JDGContentContainer>

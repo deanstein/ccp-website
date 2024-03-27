@@ -68,8 +68,14 @@
 	<JDGBackground />
 	<!-- all content goes in this slot -->
 	<slot />
-	<JDGFooter repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} showHorizontalStripes={true} />
+	<JDGFooter
+		repoName={ccpWebsiteRepoName}
+		{appVersion}
+		{additionalVersionData}
+		{disclaimer}
+		showHorizontalStripes={true}
+	/>
+	{#if $uiState.showImageDetailOverlay}
+		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
+	{/if}
 </JDGAppContainer>
-{#if $uiState.showImageDetailOverlay}
-	<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
-{/if}
