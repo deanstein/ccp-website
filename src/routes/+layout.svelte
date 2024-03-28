@@ -27,7 +27,7 @@
 	newNavItem2.href = '/about';
 
 	const newNavItem3 = instantiateObject(jdgNavItem);
-	newNavItem3.label = 'HISTORY OF CINDERELLA CITY';
+	newNavItem3.label = 'CINDERELLA CITY HISTORY';
 	newNavItem3.href = '/history';
 
 	const newNavItem4 = instantiateObject(jdgNavItem);
