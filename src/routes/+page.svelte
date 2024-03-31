@@ -27,7 +27,7 @@
 	/>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy>
-			The Cinderella City Project is an immersive look at a unique mid-century shopping destination,
+			The <strong>Cinderella City Project</strong> is an immersive look at a unique mid-century shopping destination,
 			developed by its creator as a "city under a roof," which became both a fairtyale and a
 			nightmare for the actual city of Englewood, Colorado.
 			<br /><br />
@@ -59,7 +59,7 @@
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy>
-			The Cinderella City Project aims to document Cinderella City as an architectural artifact -
+			The <strong>Cinderella City Project</strong> aims to document Cinderella City as an architectural artifact -
 			from a detailed history, to an anatomical analysis, to a fully-fledged interactive simulation.
 			<br /><br />
 			Take a trip into history and see the good, the bad, and the ugly of Cinderella City through a
