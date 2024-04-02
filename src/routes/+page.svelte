@@ -54,10 +54,37 @@
 		</JDGGridLayout>
 		<JDGBodyCopy>
 			From concept to layout to construction, Cinderella City was an unconventional experiment in
-			mixed-use development, and its short but explosive 30-year life provides lessons in retail
-			design, land use, and placemaking.
+			mixed-use development, offering not only local retail but offices, city services, and even an outpost of Englewood High School.
 		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.plan_60s70s_1}
+				showCaption={true}
+				showAttribution={true}
+				compactModeOnMobile={true}
+			/>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.rose_mall_60s70s_1}
+				showCaption={true}
+				showAttribution={true}
+				compactModeOnMobile={true}
+			/>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.city_campus_1}
+				showBlurInUnfilledSpace={true}
+				showCaption={true}
+				showAttribution={true}
+				compactModeOnMobile={true}
+			/>
+		</JDGGridLayout>
 		<JDGBodyCopy>
+			In the end, Cinderella City was simultaneously futuristic but also terribly behind the times. Changing customer trends, an outmoded layout, and skyrocketing maintenance costs forced the original owners to sell in the late 1970s.
+			<br><br>
+			A major renovation in the 1980s brought Cinderella City into the modern retail era, but 
+			<br><br>
+			and its short but explosive 30-year life provides lessons in retail
+			design, land use, and placemaking.
+			<br><br>
 			The <strong>Cinderella City Project</strong> aims to document Cinderella City as an
 			architectural artifact - from a detailed history, to an anatomical analysis, to a
 			fully-fledged interactive simulation.

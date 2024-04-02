@@ -25,6 +25,14 @@ const imageAttributesCollection = {
 			'The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.',
 		imgAttribution: 'Englewood Public Library'
 	}),
+	city_campus_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './blue-mall/city-campus-1.jpg',
+		imgAlt:
+			`City Campus, an extension of Englewood High School, was on the third floor of Cinderella City along with other private and commercial offices.`,
+		imgCaption:
+			`City Campus, an extension of Englewood High School, was on the third floor of Cinderella City along with other private and commercial offices.`,
+		imgAttribution: 'Englewood Public Library'
+	}),
 	cinder_alley_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './cinder-alley/cinder-alley-1.jpg',
 		imgAlt:
