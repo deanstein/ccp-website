@@ -6,23 +6,31 @@ import jdgImageAttributes from 'jdg-ui-svelte/schemas/jdg-image-attributes.js';
 const imageAttributesCollection = {
 	aerial_60s_70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './aerials/aerial-60s70s-1.jpg',
-		imgAlt: "Cinderella City's sprawling M shape as seen from the air on opening day in 1968.",
-		imgCaption: "Cinderella City's sprawling M shape as seen from the air on opening day in 1968.",
+		imgAlt: "Cinderella City's unique layout as seen from the air on opening day in 1968.",
+		imgCaption: "Cinderella City's unique layout as seen from the air on opening day in 1968.",
 		imgAttribution: 'Englewood Public Library'
 	}),
 	blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/blue-mall-60s70s-1.jpg',
 		imgAlt:
-			'The Blue Mall centered around a massive 35-foot fountain which became an unofficial Cinderella City pastime: "Meet me at the Fountain." ',
+			'The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.',
 		imgCaption:
-			'The Blue Mall centered around a massive 35-foot fountain which became an unofficial Cinderella City pastime: "Meet me at the Fountain."'
+			'The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.'
 	}),
 	blue_mall_60s70s_2: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/blue-mall-60s70s-2.jpg',
 		imgAlt:
-			'The Blue Mall centered around a massive 35-foot fountain which became an unofficial Cinderella City pastime: "Meet me at the Fountain."',
+			'The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.',
 		imgCaption:
-			'The Blue Mall centered around a massive 35-foot fountain which became an unofficial Cinderella City pastime: "Meet me at the Fountain."',
+			'The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.',
+		imgAttribution: 'Englewood Public Library'
+	}),
+	cinder_alley_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './cinder-alley/cinder-alley-1.jpg',
+		imgAlt:
+			`Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
+		imgCaption:
+			`Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
 		imgAttribution: 'Englewood Public Library'
 	}),
 	lakeside_1: instantiateObject(jdgImageAttributes, {
