@@ -27,18 +27,14 @@ const imageAttributesCollection = {
 	}),
 	city_campus_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/city-campus-1.jpg',
-		imgAlt:
-			`City Campus, an extension of Englewood High School, was on the third floor of Cinderella City along with other private and commercial offices.`,
-		imgCaption:
-			`City Campus, an extension of Englewood High School, was on the third floor of Cinderella City along with other private and commercial offices.`,
+		imgAlt: `City Campus, an extension of Englewood High School, was on the mezzanine level.`,
+		imgCaption: `City Campus, an extension of Englewood High School, was on the mezzanine level.`,
 		imgAttribution: 'Englewood Public Library'
 	}),
 	cinder_alley_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './cinder-alley/cinder-alley-1.jpg',
-		imgAlt:
-			`Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
-		imgCaption:
-			`Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
+		imgAlt: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
+		imgCaption: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
 		imgAttribution: 'Englewood Public Library'
 	}),
 	lakeside_1: instantiateObject(jdgImageAttributes, {
@@ -65,6 +61,12 @@ const imageAttributesCollection = {
 		imgSrc: './rose-mall/rose-mall-60s70s-1.jpg',
 		imgAlt: 'Rose Mall as it appeared before opening in 1968.',
 		imgCaption: 'Rose Mall as it appeared before opening in 1968.',
+		imgAttribution: 'Denver Public Library'
+	}),
+	rose_mall_60s70s_2: instantiateObject(jdgImageAttributes, {
+		imgSrc: './rose-mall/rose-mall-60s70s-2.jpg',
+		imgAlt: 'The mezzanine level featured offices for lease, seen here from Rose Mall.',
+		imgCaption: 'The mezzanine level featured offices for lease, seen here from Rose Mall.',
 		imgAttribution: 'Denver Public Library'
 	})
 };

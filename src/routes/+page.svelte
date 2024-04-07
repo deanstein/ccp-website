@@ -27,9 +27,10 @@
 	/>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy>
-			The <strong>Cinderella City Project</strong> is an immersive look at a unique mid-century shopping
-			destination, developed by its creator as a "city under a roof," which became both a fairtyale and
-			a nightmare for the actual city of Englewood, Colorado.
+			The <strong>Cinderella City Project</strong> is an immersive look at a novel mid-century
+			retail destination, hailed by its creator as a "city under a roof," which faded from fairytale
+			to nightmare in just 30 years.
+			<br /><br />
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -53,8 +54,22 @@
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy>
-			From concept to layout to construction, Cinderella City was an unconventional experiment in
-			mixed-use development, offering not only local retail but offices, city services, and even an outpost of Englewood High School.
+			In 1968, the city of Englewood, Colorado changed forever when mall magnate Gerri Von Frellick
+			opened a controversial 1.35 million-square foot shopping center on the site of the community's
+			beloved City Park.
+			<br /><br />
+			Dubbed "Cinderella City," Von Frellick's new development was originally planned for another location.
+			It was thrust upon an unwitting community after a protracted legal battle which resulted in an
+			oversized complex squeezed into an incompatible site using a unique M-shaped complex surrounded
+			by a two-level parking garage.
+			<br /><br />
+			True to its name, Cinderella City was more than a mall - it was a city under a roof, and a novel
+			precursor to today’s mixed-use retail developments. It not only offered retail by local artisans,
+			it featured office space, city services, and an outpost of Englewood High School.
+			<br /><br />
+			Built for the community, by the community, the mall's floors even featured imprinted busts of civic
+			and business leaders who helped make the fairytale a reality.
+			<br /><br />
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -64,7 +79,7 @@
 				compactModeOnMobile={true}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.rose_mall_60s70s_1}
+				imageAttributes={imageAttributesCollection.rose_mall_60s70s_2}
 				showCaption={true}
 				showAttribution={true}
 				compactModeOnMobile={true}
@@ -78,58 +93,49 @@
 			/>
 		</JDGGridLayout>
 		<JDGBodyCopy>
-			In the end, Cinderella City was simultaneously futuristic but also terribly behind the times. Changing customer trends, an outmoded layout, and skyrocketing maintenance costs forced the original owners to sell in the late 1970s.
-			<br><br>
-			A major renovation in the 1980s brought Cinderella City into the modern retail era, but 
-			<br><br>
-			and its short but explosive 30-year life provides lessons in retail
-			design, land use, and placemaking.
-			<br><br>
-			The <strong>Cinderella City Project</strong> aims to document Cinderella City as an
-			architectural artifact - from a detailed history, to an anatomical analysis, to a
-			fully-fledged interactive simulation.
+			Not all fairytales last, and despite accounting for 52% of Englewood's revenue in at its peak
+			in 1974, Cinderella City eventually fell on hard times. Changing customer trends, an outmoded
+			layout, and skyrocketing maintenance costs forced the original owners to sell in the late
+			1970s.
 			<br /><br />
-			Take a trip into history and see the good, the bad, and the ugly of Cinderella City through a
-			<a href="./history">detailed history</a>
-			and an accurate digital 3D re-creation called the
-			<a href="./simulation">Cinderella City Simulation.</a>
+			New ownership embarked on a modernization effort in the 1980s which helped somewhat, but the mall
+			continued on its downward decline. Cinderella City eventually closed in 1997 with just one store
+			left. The City of Englewood redeveloped the mall in 1998, resulting in a new transit-oriented open-air
+			development called CityCenter.
+			<br /><br />
+			Cinderella City's short but explosive life provides lessons in retail design, land use, and placemaking.
+			<br /><br />
+			Created by an architectural designer and software developer, the
+			<strong>Cinderella City Project</strong>
+			aims to document this unique place through a <a href="./history">detailed history</a>, an
+			<a href="./layout">architectural dissection</a>
+			of its layout, and a fully-fledged <a href="./simulation">interactive simulation</a> which
+			transports visitors back in time to the mall's two distinct periods: 1968-1987, and 1988-1997.
+			<br /><br />
+			Take a trip into history and see the good, the bad, and the ugly of Cinderella City with The Cinderella
+			City Project.
 		</JDGBodyCopy>
-		<JDGImageTile
-			maxHeight="400px"
-			imageAttributes={imageAttributesCollection.rose_mall_60s70s_1}
-			fillContainer={false}
-			showCaption={true}
-			showAttribution={true}
-		/>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 <JDGContentContainer>
-	<JDGContentBoxFloating title="SHORT HISTORY">
+	<JDGContentBoxFloating title="ABOUT THE PROJECT">
 		<JDGBodyCopy>
-			In 1968, the city of Englewood, Colorado changed forever when mall magnate Gerri Von Frellick
-			opened a controversial 1.35 million-square foot shopping center on the site of Englewood’s
-			beloved City Park.
+			Seeing Cinderella City falling to the wrecking ball in 1998 made Josh Goldstein want to become
+			an architect at a young age. After living that dream, Josh pivoted his career into 3D
+			architectural software, and decided to harness his new skills to pay tribute to the place that
+			changed his life.
 			<br /><br />
-			Originally planned for another location, Cinderella City was thrust upon an unwitting community
-			after a protracted legal battle, replacing a beloved park but ushering in an era of prosperity
-			never seen in Englewood before.
+			Using blueprints, directories, and photos, Josh used cutting-edge 3D software to faithfully recreate
+			Cinderella City in stunning detail, for both the 1968-1977 era and the 1988-1997 era of the mall’s
+			life.
 			<br /><br />
-			Dubbed "Cinderella City," Von Frellick's new development was more than a mall - it was a city under
-			a roof, and a novel precursor to today’s mixed-use retail developments. It not only offered retail
-			by local artisans, it featured office space, city services, and an outpost of Englewood High School.
-			The floors themselves were designed with imprinted busts of civic and business leaders who helped
-			make the fairytale a reality.
+			The two versions of the digital mall were combined into the Cinderella City Simulation, where anyone
+			can revisit Cinderella City in three dimensions and time-travel to see how its unique details,
+			signage, shoppers, and music changed over time.
 			<br /><br />
-			Not all fairytales last, and despite accounting for 52% of Englewood's revenue in 1974, Cinderella
-			City eventually fell on hard times. Modernization in the 1980s helped somewhat, but the mall eventually
-			closed with just one store left. The City of Englewood redeveloped the mall in 1998, resulting
-			in a new transit-oriented open-air development called CityCenter.
-			<br /><br />
-			Cinderella City is being brought back to life virtually as an interactive exhibit known as The
-			Cinderella City Project - an accurate simulation of the mall which transports visitors back in
-			time to the mall’s two distinct periods: 1968-1987, and 1988-1997.
-			<br /><br />
-			Read more about <a href="./history">Cinderella City's history</a>
+			The simulation will eventually feature real spoken memories submitted by fans of the mall. If you’d
+			like to leave a memory to be included in the final simulation, call (724) 624-8968 and leave your
+			memory as a message.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
