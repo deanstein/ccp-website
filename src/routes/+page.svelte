@@ -27,7 +27,7 @@
 	/>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy>
-			The <strong>Cinderella City Project</strong> is an immersive look at a novel mid-century
+			The <strong>Cinderella City Project</strong> is an immersive journey into an unconventional mid-century
 			retail destination, hailed by its creator as a "city under a roof," which faded from fairytale
 			to nightmare in just 30 years.
 		</JDGBodyCopy>
@@ -59,7 +59,7 @@
 			<br /><br />
 			Dubbed "Cinderella City," Von Frellick's new development was originally planned for another location.
 			It was thrust upon an unwitting community after a protracted legal battle which resulted in an
-			oversized complex squeezed into an incompatible site using a unique M-shaped complex surrounded
+			oversized complex squeezed into an incompatible site, featuring a unique M-shaped complex broken up into 5 sub-malls and surrounded
 			by a two-level parking garage.
 			<br /><br />
 			True to its name, Cinderella City was more than a mall - it was a city under a roof, and a novel
@@ -98,7 +98,7 @@
 			1970s.
 			<br /><br />
 			New ownership embarked on a modernization effort in the 1980s which helped somewhat, but the mall
-			continued on its downward decline. Cinderella City eventually closed in 1997 with just one store
+			continued to decline and decay. Cinderella City eventually closed in 1997 with just one store
 			left. The City of Englewood redeveloped the mall in 1998, resulting in a new transit-oriented open-air
 			development called CityCenter.
 			<br /><br />
@@ -110,9 +110,6 @@
 			<a href="./layout">architectural dissection</a>
 			of its layout, and a fully-fledged <a href="./simulation">interactive simulation</a> which
 			transports visitors back in time to the mall's two distinct periods: 1968-1987, and 1988-1997.
-			<br /><br />
-			Take a trip into history and see the good, the bad, and the ugly of Cinderella City with The Cinderella
-			City Project.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
