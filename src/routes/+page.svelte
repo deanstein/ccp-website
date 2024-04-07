@@ -57,8 +57,7 @@
 			opened a controversial 1.35 million-square foot shopping center on the site of the community's
 			beloved City Park.
 			<br /><br />
-			Dubbed "Cinderella City," Von Frellick's new development was originally planned for another location.
-			It was thrust upon an unwitting community after a protracted legal battle which resulted in an
+			Dubbed "Cinderella City," Von Frellick's new development was thrust upon an unwitting community after a protracted legal battle over its location. The result was an
 			oversized complex squeezed into an incompatible site, featuring a unique M-shaped complex broken up into 5 sub-malls and surrounded
 			by a two-level parking garage.
 			<br /><br />
@@ -97,7 +96,7 @@
 			layout, and skyrocketing maintenance costs forced the original owners to sell in the late
 			1970s.
 			<br /><br />
-			New ownership embarked on a modernization effort in the 1980s which helped somewhat, but the mall
+			A modernization effort in the 1980s by the new owners helped somewhat, but the mall
 			continued to decline and decay. Cinderella City eventually closed in 1997 with just one store
 			left. The City of Englewood redeveloped the mall in 1998, resulting in a new transit-oriented open-air
 			development called CityCenter.
