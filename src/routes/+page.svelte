@@ -30,7 +30,6 @@
 			The <strong>Cinderella City Project</strong> is an immersive look at a novel mid-century
 			retail destination, hailed by its creator as a "city under a roof," which faded from fairytale
 			to nightmare in just 30 years.
-			<br /><br />
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
