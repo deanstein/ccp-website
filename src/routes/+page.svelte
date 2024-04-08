@@ -5,17 +5,13 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGGridLayout,
+		JDGFullWidthContainer,
 		JDGImageFullWidth,
+		JDGImageHybridGridCarousel,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
 
 	import imageAttributesCollection from './image-attributes-collection';
-
-	import {
-		setShowImageDetailModal,
-		setImageDetailAttributes
-	} from 'jdg-ui-svelte/jdg-state-management.js';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
@@ -31,29 +27,9 @@
 			retail destination, hailed by its creator as a "city under a roof," which faded from fairytale
 			to nightmare in just 30 years.
 		</JDGBodyCopy>
-		<JDGGridLayout>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.aerial_60s_70s_1}
-				showCaption={true}
-				showAttribution={true}
-				compactModeOnMobile={true}
-			/>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.blue_mall_60s70s_2}
-				showCaption={true}
-				showAttribution={true}
-				compactModeOnMobile={true}
-			/>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.cinder_alley_1}
-				showBlurInUnfilledSpace={true}
-				showCaption={true}
-				showAttribution={true}
-				compactModeOnMobile={true}
-			/>
-		</JDGGridLayout>
+		<JDGImageHybridGridCarousel imageAttributeObjects={[imageAttributesCollection.aerial_60s_70s_1, imageAttributesCollection.blue_mall_60s70s_2, imageAttributesCollection.cinder_alley_1]}></JDGImageHybridGridCarousel>
 		<JDGBodyCopy>
-			In 1968, the city of Englewood, Colorado changed forever when mall magnate Gerri Von Frellick
+			The city of Englewood, Colorado changed forever in 1968 when mall magnate Gerri Von Frellick
 			opened a controversial 1.35 million-square foot shopping center on the site of the community's
 			beloved City Park.
 			<br /><br />
@@ -65,31 +41,13 @@
 			precursor to today’s mixed-use retail developments. It not only offered retail by local artisans,
 			it featured office space, city services, and an outpost of Englewood High School.
 			<br /><br />
-			Built for the community, by the community, the mall's floors even featured imprinted busts of civic
+			The mall served as Englewood's gathering place, frequently hosting community events like performances, competitions, and trade shows. The floors themselves featured imprinted busts of civic
 			and business leaders who helped make the fairytale a reality.
 			<br /><br />
 		</JDGBodyCopy>
-		<JDGGridLayout>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.plan_60s70s_1}
-				showCaption={true}
-				showAttribution={true}
-				compactModeOnMobile={true}
-			/>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.rose_mall_60s70s_2}
-				showCaption={true}
-				showAttribution={true}
-				compactModeOnMobile={true}
-			/>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.city_campus_1}
-				showBlurInUnfilledSpace={true}
-				showCaption={true}
-				showAttribution={true}
-				compactModeOnMobile={true}
-			/>
-		</JDGGridLayout>
+		<JDGImageHybridGridCarousel imageAttributeObjects={[imageAttributesCollection.plan_60s70s_1, imageAttributesCollection.rose_mall_60s70s_2, imageAttributesCollection.city_campus_1]}>
+		</JDGImageHybridGridCarousel>
+
 		<JDGBodyCopy>
 			Not all fairytales last, and despite accounting for 52% of Englewood's revenue in at its peak
 			in 1974, Cinderella City eventually fell on hard times. Changing customer trends, an outmoded
@@ -101,7 +59,12 @@
 			left. The City of Englewood redeveloped the mall in 1998, resulting in a new transit-oriented open-air
 			development called CityCenter.
 			<br /><br />
-			Cinderella City's short but explosive life provides lessons in retail design, land use, and placemaking.
+			<JDGFullWidthContainer>
+			<JDGAccentBlock>
+				<JDGAccentText primaryText={`Cinderella City's short but explosive life offers lessons in retail design, land use, and placemaking.`}>
+				</JDGAccentText>
+			</JDGAccentBlock>
+			</JDGFullWidthContainer>
 			<br /><br />
 			Created by an architectural designer and software developer, the
 			<strong>Cinderella City Project</strong>
@@ -115,7 +78,7 @@
 <JDGContentContainer>
 	<JDGContentBoxFloating title="ABOUT THE PROJECT">
 		<JDGBodyCopy>
-			Seeing Cinderella City falling to the wrecking ball in 1998 made Josh Goldstein want to become
+			Seeing Cinderella City fall to the wrecking ball in 1998 made Josh Goldstein want to become
 			an architect at a young age. After living that dream, Josh pivoted his career into 3D
 			architectural software, and decided to harness his new skills to pay tribute to the place that
 			changed his life.
@@ -128,9 +91,7 @@
 			can revisit Cinderella City in three dimensions and time-travel to see how its unique details,
 			signage, shoppers, and music changed over time.
 			<br /><br />
-			The simulation will eventually feature real spoken memories submitted by fans of the mall. If you’d
-			like to leave a memory to be included in the final simulation, call (724) 624-8968 and leave your
-			memory as a message.
+
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
