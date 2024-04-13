@@ -27,16 +27,20 @@
 	newNavItem2.href = '/about';
 
 	const newNavItem3 = instantiateObject(jdgNavItem);
-	newNavItem3.label = 'CINDERELLA CITY HISTORY';
+	newNavItem3.label = 'MALL HISTORY';
 	newNavItem3.href = '/history';
-
+	
 	const newNavItem4 = instantiateObject(jdgNavItem);
-	newNavItem4.label = 'CINDERELLA CITY SIMULATION';
-	newNavItem4.href = '/simulation';
+	newNavItem4.label = 'MALL ANATOMY';
+	newNavItem4.href = '/anatomy';
 
 	const newNavItem5 = instantiateObject(jdgNavItem);
-	newNavItem5.label = 'CONTACT';
-	newNavItem5.href = '/contact';
+	newNavItem5.label = 'MALL SIMULATION';
+	newNavItem5.href = '/simulation';
+
+	const newNavItem6 = instantiateObject(jdgNavItem);
+	newNavItem6.label = 'CONTACT';
+	newNavItem6.href = '/contact';
 
 	const navItems = [newNavItem1, newNavItem2, newNavItem3, newNavItem4, newNavItem5];
 
