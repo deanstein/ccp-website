@@ -44,12 +44,12 @@ const imageAttributesCollection = {
 		imgAttribution: 'Englewood Public Library'
 	}),
 	ccp_blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
-		imgSrc: './ccp/blue-mall-60s70s-1.jpg',
+		imgSrc: './ccp/blue-mall-60s70s-1.png',
 		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`,
 		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`
 	}),
-	ccp_blue_mall_60s70s_2: instantiateObject(jdgImageAttributes, {
-		imgSrc: './ccp/blue-mall-80s90s-1.jpg',
+	ccp_blue_mall_80s90s_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/blue-mall-80s90s-1.png',
 		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`,
 		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`
 	}),

@@ -6,6 +6,7 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGFullWidthContainer,
+		JDGImageCompare,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel,
 		JDGImageTile
@@ -80,15 +81,14 @@
 				imageAttributesCollection.blue_mall_80s90s_demolition_1
 			]}
 		/>
+		<JDGFullWidthContainer>
+			<JDGAccentBlock>
+				<JDGAccentText
+					primaryText={`Cinderella City's short but explosive life offers lessons in retail design, land use, and placemaking.`}
+				></JDGAccentText>
+			</JDGAccentBlock>
+		</JDGFullWidthContainer>
 		<JDGBodyCopy>
-			<JDGFullWidthContainer>
-				<JDGAccentBlock>
-					<JDGAccentText
-						primaryText={`Cinderella City's short but explosive life offers lessons in retail design, land use, and placemaking.`}
-					></JDGAccentText>
-				</JDGAccentBlock>
-			</JDGFullWidthContainer>
-			<br /><br />
 			Created by an architectural designer and software developer, the
 			<strong>Cinderella City Project</strong>
 			aims to document this unique place through a <a href="./history">detailed history</a>, an
@@ -96,6 +96,10 @@
 			of its layout, and a fully-fledged <a href="./simulation">interactive simulation</a> which transports
 			visitors back in time to the mall's two distinct periods: 1968-1987, and 1988-1997.
 		</JDGBodyCopy>
+		<JDGImageCompare
+			imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+			imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
+		/>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 <JDGContentContainer>
