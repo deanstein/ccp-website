@@ -16,11 +16,16 @@
 <JDGContentContainer>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy>
-			In 1952, real estate developer Gerri Von Frellick was looking for a new beginning after the
-			collapse of his construction empire in Texas, and chose Colorado for his fresh start. By 1956,
-			he had gotten back on his feet and opened Lakeside Mall in north Denver. Lakeside joined
-			Cherry Creek as Colorado’s two main shopping centers, with Lakeside being the first enclosed,
-			air-conditioned mall experience in Colorado.
+			Cinderella City Mall debuted on March 7, 1968 in Englewood, Colorado changing the city forever
+			when mall magnate Gerri Von Frellick opened his controversial 1.35 million-square foot
+			shopping center on the site of the community's City Park. But the story actually starts much
+			earlier.
+			<br /><br />
+			In 1952, real estate developer Gerri Von Frellick was looking for a new beginning after the collapse
+			of his construction empire in Texas, and chose Colorado for his fresh start. By 1956, he had gotten
+			back on his feet and opened Lakeside Mall in north Denver. Lakeside joined Cherry Creek as Colorado’s
+			two main shopping centers, with Lakeside being the first enclosed, air-conditioned mall experience
+			in Colorado.
 			<br /><br />
 			<JDGImageTile imageAttributes={imageAttributesCollection.lakeside_1} fillContainer={false} />
 			<br /><br />

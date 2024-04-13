@@ -31,6 +31,28 @@ const imageAttributesCollection = {
 		imgCaption: `City Campus, an extension of Englewood High School, was on the mezzanine level.`,
 		imgAttribution: 'Englewood Public Library'
 	}),
+	blue_mall_80s90s_demolition_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './blue-mall/blue-mall-80s90s-demolition-1.jpg',
+		imgAlt: `Demolition of Cinderella City in 1998.`,
+		imgCaption: `Demolition of Cinderella City in 1998.`,
+		imgAttribution: 'Englewood Public Library'
+	}),
+	blue_mall_80s90s_exterior_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './blue-mall/blue-mall-80s90s-exterior-1.JPG',
+		imgAlt: `The southeast Blue Mall entrance after the mall closed in 1997.`,
+		imgCaption: `The southeast Blue Mall entrance after the mall closed in 1997.`,
+		imgAttribution: 'Englewood Public Library'
+	}),
+	ccp_blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/blue-mall-60s70s-1.jpg',
+		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`,
+		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`
+	}),
+	ccp_blue_mall_60s70s_2: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/blue-mall-80s90s-1.jpg',
+		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`,
+		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`
+	}),
 	cinder_alley_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './cinder-alley/cinder-alley-1.jpg',
 		imgAlt: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
@@ -68,6 +90,12 @@ const imageAttributesCollection = {
 		imgAlt: 'The mezzanine level featured offices for lease, seen here from Rose Mall.',
 		imgCaption: 'The mezzanine level featured offices for lease, seen here from Rose Mall.',
 		imgAttribution: 'Denver Public Library'
+	}),
+	rose_mall_80s90s_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './rose-mall/rose-mall-80s90s-1.jpg',
+		imgAlt: 'Rose Mall as seen post-renovation in the mid-to-late 1980s.',
+		imgCaption: 'Rose Mall as seen post-renovation in the mid-to-late 1980s.',
+		imgAttribution: 'Englewood Public Library'
 	})
 };
 
