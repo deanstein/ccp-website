@@ -4,18 +4,66 @@ import jdgImageAttributes from 'jdg-ui-svelte/schemas/jdg-image-attributes.js';
 // a map of all available images and their attributes
 // new images with a caption must be added here
 const imageAttributesCollection = {
+	/*** CCP - BACKGROUND ***/
+	jdg_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/jdg-1.png',
+		imgAlt: `Josh in 1998.`,
+		imgCaption: `Josh in 1998.`
+	}),
+	ccp_construction_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/ccp-construction-1.png',
+		imgAlt: 'The 1968-1978 3D model of Cinderella City.',
+		imgCaption: 'The 1968-1978 3D model of Cinderella City.'
+	}),
+
+	/*** CCP - SIMULATION ***/
+	ccp_blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/blue-mall-60s70s-1.png',
+		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`,
+		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`
+	}),
+	ccp_blue_mall_80s90s_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/blue-mall-80s90s-1.png',
+		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`,
+		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`
+	}),
+	cinder_alley_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './cinder-alley/cinder-alley-1.jpg',
+		imgAlt: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
+		imgCaption: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
+		imgAttribution: 'Englewood Public Library'
+	}),
+
+	/*** AERIALS ***/
 	aerial_60s_70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './aerials/aerial-60s70s-1.jpg',
 		imgAlt: "Cinderella City's unique layout as seen from the air on opening day in 1968.",
 		imgCaption: "Cinderella City's unique layout as seen from the air on opening day in 1968.",
 		imgAttribution: 'Englewood Public Library'
 	}),
+
+	/*** BLUE MALL ***/
 	blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/blue-mall-60s70s-1.jpg',
 		imgAlt:
 			'The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.',
 		imgCaption:
 			'The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.'
+	}),
+	blue_mall_60s70s_event_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './blue-mall/blue-mall-60s70s-event-1.jpg',
+		imgAlt: `A concert takes place in the Blue Mall.`,
+		imgCaption: `A concert takes place in the Blue Mall.`
+	}),
+	blue_mall_60s70s_parking_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './blue-mall/blue-mall-60s70s-parking-1.jpg',
+		imgAlt: `Cinderella City's scale required the use of parking decks and ramps to fit within its constraints.`,
+		imgCaption: `Cinderella City's scale required the use of parking decks and ramps to fit within its constraints.`
+	}),
+	blue_mall_60s70s_parking_2: instantiateObject(jdgImageAttributes, {
+		imgSrc: './blue-mall/blue-mall-60s70s-parking-2.jpg',
+		imgAlt: `The giant complex was surrounded by 7,000 parking spaces on two levels.`,
+		imgCaption: `The giant complex was surrounded by 7,000 parking spaces on two levels.`
 	}),
 	blue_mall_60s70s_2: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/blue-mall-60s70s-2.jpg',
@@ -43,27 +91,15 @@ const imageAttributesCollection = {
 		imgCaption: `The southeast Blue Mall entrance after the mall closed in 1997.`,
 		imgAttribution: 'Englewood Public Library'
 	}),
-	ccp_blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
-		imgSrc: './ccp/blue-mall-60s70s-1.png',
-		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`,
-		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`
-	}),
-	ccp_blue_mall_80s90s_1: instantiateObject(jdgImageAttributes, {
-		imgSrc: './ccp/blue-mall-80s90s-1.png',
-		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`,
-		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`
-	}),
-	cinder_alley_1: instantiateObject(jdgImageAttributes, {
-		imgSrc: './cinder-alley/cinder-alley-1.jpg',
-		imgAlt: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
-		imgCaption: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
-		imgAttribution: 'Englewood Public Library'
-	}),
+
+	/*** HISTORY ***/
 	lakeside_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './history/lakeside-1.jpg',
 		imgAlt: 'Lakeside Mall',
 		imgCaption: 'Lakeside Mall'
 	}),
+
+	/*** PLANS ***/
 	plan_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './plans/plan-60s70s-1.png',
 		imgAlt: 'Cinderella City featured 5 sub-malls: Blue, Rose, Gold, Shamrock, and Cinder Alley.',
@@ -71,6 +107,8 @@ const imageAttributesCollection = {
 			'Cinderella City featured 5 sub-malls: Blue, Rose, Gold, Shamrock, and Cinder Alley.',
 		imgAttribution: 'Englewood Public Library'
 	}),
+
+	/*** PARKING ***/
 	parking_blue_mall_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './parking/parking-blue-mall-1.jpg',
 		imgAlt:
@@ -79,6 +117,8 @@ const imageAttributesCollection = {
 			'Cinderella City was surrounded by a sprawling parking garage, seen here with a ramp leading below Blue Mall.',
 		imgAttribution: 'Denver Public Library'
 	}),
+
+	/*** ROSE MALL ***/
 	rose_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './rose-mall/rose-mall-60s70s-1.jpg',
 		imgAlt: 'Rose Mall as it appeared before opening in 1968.',
@@ -93,8 +133,8 @@ const imageAttributesCollection = {
 	}),
 	rose_mall_80s90s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './rose-mall/rose-mall-80s90s-1.jpg',
-		imgAlt: 'Rose Mall as seen post-renovation in the mid-to-late 1980s.',
-		imgCaption: 'Rose Mall as seen post-renovation in the mid-to-late 1980s.',
+		imgAlt: 'Rose Mall as seen post-renovation in the mid-1980s.',
+		imgCaption: 'Rose Mall as seen post-renovation in the mid-1980s.',
 		imgAttribution: 'Englewood Public Library'
 	})
 };

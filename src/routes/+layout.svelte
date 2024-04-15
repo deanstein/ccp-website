@@ -29,7 +29,7 @@
 	const newNavItem3 = instantiateObject(jdgNavItem);
 	newNavItem3.label = 'MALL HISTORY';
 	newNavItem3.href = '/history';
-	
+
 	const newNavItem4 = instantiateObject(jdgNavItem);
 	newNavItem4.label = 'MALL ANATOMY';
 	newNavItem4.href = '/anatomy';
