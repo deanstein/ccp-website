@@ -97,6 +97,12 @@ const imageAttributesCollection = {
 	}),
 
 	/*** HISTORY ***/
+	construction_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './history/construction-1.jpg',
+		imgAlt: 'Cinderella City under construction in 1966.',
+		imgCaption: 'Cinderella City under construction in 1966.',
+		imgAttribution: 'Maranda Penner'
+	}),
 	lakeside_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './history/lakeside-1.jpg',
 		imgAlt: 'Lakeside Mall',

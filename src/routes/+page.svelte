@@ -137,8 +137,8 @@
 			After seeing Cinderella City fall to the wrecking ball in 1998, 8-year-old <a
 				href="https://jdeangoldstein.com">Josh Goldstein</a
 			>
-			vowed to become an architect in pursuit of making great places and learning from our
-			architectural past.
+			vowed to become an architect in pursuit of making great places and learning from our architectural
+			past.
 			<br /><br />
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
