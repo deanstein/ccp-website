@@ -40,16 +40,19 @@
 				label="DETAILED HISTORY"
 				href="./HISTORY"
 				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+				labelJustification={'center'}
 			/>
 			<JDGImageTile
 				label="ARCHITECTURAL ANALYSIS"
 				href="./history"
 				imageAttributes={imageAttributesCollection.plan_60s70s_1}
+				labelJustification={'center'}
 			/>
 			<JDGImageTile
 				label="IMMERSIVE SIMULATION"
 				href="./simulation"
 				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+				labelJustification={'center'}
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
@@ -175,16 +178,18 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="LEARN MORE">
 		<JDGGridLayout>
-			<JDGImageTile label="ABOUT THE PROJECT" href="./about" />
+			<JDGImageTile label="ABOUT THE PROJECT" href="./about" labelJustification={'center'} />
 			<JDGImageTile
 				label="READ THE FULL HISTORY"
 				href="./history"
 				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+				labelJustification={'center'}
 			/>
 			<JDGImageTile
 				label="EXPERIENCE THE SIMULATION"
 				href="./simulation"
 				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+				labelJustification={'center'}
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
