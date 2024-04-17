@@ -26,15 +26,42 @@
 		secondaryText="to Cinderella City Mall"
 	/>
 	<JDGContentBoxFloating>
-		<JDGBodyCopy>
+		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <strong>Cinderella City Project</strong> is an immersive journey into an unconventional
 			mid-century retail destination, hailed by its creator as a "city under a roof," which faded
 			from fairytale to nightmare in just 30 years.
+			<br /><br />
+			Created by architectural designer and software developer
+			<a href="https://jdeangoldstein.com/">Josh Goldstein</a>, the project aims to document this
+			unique place through a variety of media:
 		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile
+				label="DETAILED HISTORY"
+				href="./HISTORY"
+				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+			/>
+			<JDGImageTile
+				label="ARCHITECTURAL ANALYSIS"
+				href="./history"
+				imageAttributes={imageAttributesCollection.plan_60s70s_1}
+			/>
+			<JDGImageTile
+				label="IMMERSIVE SIMULATION"
+				href="./simulation"
+				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+			/>
+		</JDGGridLayout>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 <JDGContentContainer>
 	<JDGContentBoxFloating title="BRIEF HISTORY">
+		<JDGBodyCopy paddingTop="0">
+			The city of Englewood, Colorado changed forever in 1968 when mall magnate Gerri Von Frellick
+			opened a controversial 1.35 million square-foot shopping center on the site of Englewood's
+			beloved City Park.
+			<br /><br />
+		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
 			imageAttributeObjects={[
 				imageAttributesCollection.blue_mall_60s70s_parking_2,
@@ -43,15 +70,14 @@
 			]}
 		></JDGImageHybridGridCarousel>
 		<JDGBodyCopy>
-			The city of Englewood, Colorado changed forever in 1968 when mall magnate Gerri Von Frellick
-			opened a controversial 1.35 million-square foot shopping center on the site of the community's
-			beloved City Park.
+			Dubbed "Cinderella City," Von Frellick's new shopping center became the largest mall west of
+			the Mississippi in spite of massive community resistance including a protracted legal battle
+			over its final location.
 			<br /><br />
-			Dubbed "Cinderella City," Von Frellick's new development was thrust upon an unwitting community
-			after a protracted legal battle over its location.
-			<br /><br />
-			The result was an oversized complex squeezed into an undersized boundary, utilizing a unique M-shaped
-			complex broken up into 5 sub-malls, and surrounded by a two-level parking garage.
+			The result was an oversized complex squeezed into a tight boundary, employing a unique M-shaped
+			layout surrounded by a 2-level parking garage. It was so large that in order to make navigation
+			easier for customers, the mall was broken up into five sub-malls, each with their own unique color
+			and character.
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
@@ -106,24 +132,22 @@
 			></JDGAccentText>
 		</JDGAccentBlock>
 	</JDGFullWidthContainer>
-	<JDGContentBoxFloating title="ABOUT THE PROJECT">
-		<JDGBodyCopy>
-			Created by architectural designer and software developer <a
-				href="https://www.linkedin.com/in/jdeangoldstein/">Josh Goldstein</a
-			>, the
-			<strong>Cinderella City Project</strong>
-			aims to document Cinderella City through historic photographs, architectural analysis, and immersive
-			simulation
+	<JDGContentBoxFloating title="PROJECT BACKGROUND">
+		<JDGBodyCopy paddingTop="0">
+			After seeing Cinderella City fall to the wrecking ball in 1998, 8-year-old <a
+				href="https://jdeangoldstein.com">Josh Goldstein</a
+			>
+			vowed to become an architect in pursuit of making great places and learning from our
+			architectural past.
 			<br /><br />
-			After seeing Cinderella City fall to the wrecking ball in 1998, 8-year-old Josh Goldstein vowed
-			to become an architect in pursuit of making great places and learning from our architectural past.
-			After living that dream, Josh pivoted his career into 3D architectural software, and decided to
-			harness his new skills to pay tribute to the place that changed his life.
-			<br /><br /><br />
-			<JDGImage
+			<JDGImageTile
 				imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
 				fillContainer={false}
+				showCaption={true}
 			/>
+			<br /><br />
+			Josh eventually pivoted his career into 3D architectural software, where he decided to harness
+			his new skills to pay tribute to the place that changed his life.
 			<br /><br />
 			Using blueprints, directories, and photos, Josh used cutting-edge 3D software to faithfully recreate
 			Cinderella City in stunning detail, for both the 1968-1977 era and the 1988-1997 era of the mall’s
@@ -151,9 +175,17 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="LEARN MORE">
 		<JDGGridLayout>
-			<JDGImageTile label="MORE ABOUT THE PROJECT" href="./about" />
-			<JDGImageTile label="READ THE FULL HISTORY" href="./history" />
-			<JDGImageTile label="EXPERIENCE THE SIMULATION" href="./simulation" />
+			<JDGImageTile label="ABOUT THE PROJECT" href="./about" />
+			<JDGImageTile
+				label="READ THE FULL HISTORY"
+				href="./history"
+				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+			/>
+			<JDGImageTile
+				label="EXPERIENCE THE SIMULATION"
+				href="./simulation"
+				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
 </JDGContentContainer>

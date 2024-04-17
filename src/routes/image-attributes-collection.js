@@ -17,6 +17,10 @@ const imageAttributesCollection = {
 	}),
 
 	/*** CCP - SIMULATION ***/
+	ccp_composite_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/ccp-composite-1.jpg',
+		imgAlt: `A composite of a photo and a rendering of Cinderella City's Blue Mall.`
+	}),
 	ccp_blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './ccp/blue-mall-60s70s-1.png',
 		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`,
@@ -130,6 +134,12 @@ const imageAttributesCollection = {
 		imgAlt: 'The mezzanine level featured offices for lease, seen here from Rose Mall.',
 		imgCaption: 'The mezzanine level featured offices for lease, seen here from Rose Mall.',
 		imgAttribution: 'Denver Public Library'
+	}),
+	rose_mall_60s70s_construction_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './rose-mall/rose-mall-60s70s-construction-1.JPG',
+		imgAlt: 'Rose Mall during construction in 1967.',
+		imgCaption: 'Rose Mall during construction in 1967.',
+		imgAttribution: 'Englewood Public Library'
 	}),
 	rose_mall_80s90s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './rose-mall/rose-mall-80s90s-1.jpg',
