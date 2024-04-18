@@ -95,12 +95,14 @@ const imageAttributesCollection = {
 	blue_mall_60s70s_parking_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/blue-mall-60s70s-parking-1.jpg',
 		imgAlt: `Cinderella City's scale required the use of parking decks and ramps to fit within its constraints.`,
-		imgCaption: `Cinderella City's scale required the use of parking decks and ramps to fit within its constraints.`
+		imgCaption: `Cinderella City's scale required the use of parking decks and ramps to fit within its constraints.`,
+		imgAttribution: 'Englewood Public Library'
 	}),
 	blue_mall_60s70s_parking_2: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/blue-mall-60s70s-parking-2.jpg',
 		imgAlt: `The giant complex was surrounded by 7,000 parking spaces on two levels.`,
-		imgCaption: `The giant complex was surrounded by 7,000 parking spaces on two levels.`
+		imgCaption: `The giant complex was surrounded by 7,000 parking spaces on two levels.`,
+		imgAttribution: 'Englewood Public Library'
 	}),
 	blue_mall_60s70s_2: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/blue-mall-60s70s-2.jpg',
