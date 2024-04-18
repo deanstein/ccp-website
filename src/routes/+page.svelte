@@ -159,24 +159,24 @@
 			Using floor plans, directories, and photos, Josh used cutting-edge 3D modeling technology to accurately
 			recreate Cinderella City in impressive detail, for both the 1968-1978 era and the 1987-1997 era
 			of the mall’s life.
-			<br /><br /><br />
-			<JDGFullWidthContainer>
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.ccp_construction_60s70s_2}
-					fillContainer={false}
-					showCaption={true}
-					maxHeight="40vh"
-				/>
-			</JDGFullWidthContainer>
-			<JDGFullWidthContainer>
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1}
-					fillContainer={false}
-					showCaption={true}
-					maxHeight="40vh"
-				/>
-			</JDGFullWidthContainer>
-			<br /><br />
+		</JDGBodyCopy>
+		<JDGFullWidthContainer>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.ccp_construction_60s70s_2}
+				fillContainer={false}
+				showCaption={true}
+				maxHeight="40vh"
+			/>
+		</JDGFullWidthContainer>
+		<JDGFullWidthContainer>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1}
+				fillContainer={false}
+				showCaption={true}
+				maxHeight="40vh"
+			/>
+		</JDGFullWidthContainer>
+		<JDGBodyCopy paddingTop="0">
 			The two versions of the digital mall were combined into the
 			<a href="./simulation">Cinderella City Simulation</a>, an immersive, interactive exhibit where
 			visitors can experience Cinderella City as an accurate and highly-detailed reconstruction in
