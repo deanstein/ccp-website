@@ -53,7 +53,7 @@
 	const additionalVersionData = `JDG UI: v${jdgUIVersion}`;
 
 	const disclaimer =
-		'Photographs are from public domain sources or are used with permission and credited accordingly. See a photo with missing or wrong credit? Let us know.';
+		'Photographs are from public domain sources or are used with permission and credited accordingly.';
 </script>
 
 <JDGAppContainer appLoadingIconSrc="./ccp-logo.png" showHeaderStripes={false}>

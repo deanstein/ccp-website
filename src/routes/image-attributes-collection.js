@@ -10,24 +10,56 @@ const imageAttributesCollection = {
 		imgAlt: `Josh in 1998.`,
 		imgCaption: `Josh in 1998.`
 	}),
-	ccp_construction_1: instantiateObject(jdgImageAttributes, {
-		imgSrc: './ccp/ccp-construction-1.png',
-		imgAlt: 'The 1968-1978 3D model of Cinderella City.',
-		imgCaption: 'The 1968-1978 3D model of Cinderella City.'
-	}),
 
 	/*** CCP - SIMULATION ***/
 	ccp_composite_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './ccp/ccp-composite-1.jpg',
 		imgAlt: `A composite of a photo and a rendering of Cinderella City's Blue Mall.`
 	}),
+	ccp_construction_80s90s_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/ccp-construction-80s90s-1.png',
+		imgAlt: `A very early massing model of Cinderella City's 1987-1997 era at the beginning of the project.`,
+		imgCaption: `A very early massing model of Cinderella City's 1987-1997 era at the beginning of the project.`
+	}),
+	ccp_construction_60s70s_2: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/ccp-construction-60s70s-2.jpg',
+		imgAlt:
+			'The 1968-1978 3D model of Cinderella City with the roof and parking deck removed, showing interior details including structure, lighting, signage, and more.',
+		imgCaption:
+			'The 1968-1978 3D model of Cinderella City with the roof and parking deck removed, showing interior details including structure, lighting, signage, and more.'
+	}),
+	ccp_construction_60s70s_3: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/ccp-construction-60s70s-3.jpg',
+		imgAlt: 'The 1968-1978 3D model of Cinderella City.',
+		imgCaption: 'The 1968-1978 3D model of Cinderella City.'
+	}),
+	ccp_construction_60s70s_4: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/ccp-construction-60s70s-4.jpg',
+		imgAlt: 'The 1968-1978 3D model of Cinderella City.',
+		imgCaption: 'The 1968-1978 3D model of Cinderella City.'
+	}),
 	ccp_blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './ccp/blue-mall-60s70s-1.png',
 		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`,
 		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`
 	}),
+	ccp_blue_mall_60s70s_2: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/blue-mall-60s70s-2.png',
+		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`,
+		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1968-1978 era.`
+	}),
+	ccp_blue_mall_60s70s_exterior_1: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/blue-mall-60s70s-exterior-1.png',
+		imgAlt: `Cinderella City's iconic signage seen on the exterior of the Blue Mall in the 1968-1978 era.`,
+		imgCaption: `Cinderella City's iconic signage seen on the exterior of the Blue Mall in the 1968-1978 era.`
+	}),
 	ccp_blue_mall_80s90s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './ccp/blue-mall-80s90s-1.png',
+		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`,
+		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`
+	}),
+	ccp_blue_mall_80s90s_2: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/blue-mall-80s90s-2.png',
 		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`,
 		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`
 	}),
@@ -57,7 +89,8 @@ const imageAttributesCollection = {
 	blue_mall_60s70s_event_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/blue-mall-60s70s-event-1.jpg',
 		imgAlt: `A concert takes place in the Blue Mall.`,
-		imgCaption: `A concert takes place in the Blue Mall.`
+		imgCaption: `A concert takes place in the Blue Mall.`,
+		imgAttribution: 'Englewood Public Library'
 	}),
 	blue_mall_60s70s_parking_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './blue-mall/blue-mall-60s70s-parking-1.jpg',

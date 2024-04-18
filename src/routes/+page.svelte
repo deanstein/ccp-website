@@ -32,19 +32,19 @@
 			from fairytale to nightmare in just 30 years.
 			<br /><br />
 			Created by architectural designer and software developer
-			<a href="https://jdeangoldstein.com/">Josh Goldstein</a>, the project aims to document this
-			unique place through a variety of media:
+			<a href="https://jdeangoldstein.com/">Josh Goldstein</a>, the project is dedicated to
+			documenting this unique place in three ways:
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
 				label="DETAILED HISTORY"
-				href="./HISTORY"
+				href="./history"
 				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
 				labelJustification={'center'}
 			/>
 			<JDGImageTile
 				label="ARCHITECTURAL ANALYSIS"
-				href="./history"
+				href="./anatomy"
 				imageAttributes={imageAttributesCollection.plan_60s70s_1}
 				labelJustification={'center'}
 			/>
@@ -74,8 +74,8 @@
 		></JDGImageHybridGridCarousel>
 		<JDGBodyCopy>
 			Dubbed "Cinderella City," Von Frellick's new shopping center became the largest mall west of
-			the Mississippi in spite of massive community resistance including a protracted legal battle
-			over its final location.
+			the Mississippi in spite of massive community resistance and a protracted legal battle over
+			its final location.
 			<br /><br />
 			The result was an oversized complex squeezed into a tight boundary, employing a unique M-shaped
 			layout surrounded by a 2-level parking garage. It was so large that in order to make navigation
@@ -92,7 +92,7 @@
 		</JDGFullWidthContainer>
 		<JDGBodyCopy>
 			True to its name, Cinderella City was more than a mall: it was a city under a roof, and a
-			novel precursor to today’s mixed-use retail developments. It not only offered retail by local
+			novel precursor to today’s mixed-use developments. It not only offered retail by local
 			artisans, it featured office space, city services, and an outpost of Englewood High School.
 			<br /><br />
 			The mall served as Englewood's gathering place, frequently hosting community events like performances,
@@ -135,35 +135,55 @@
 			></JDGAccentText>
 		</JDGAccentBlock>
 	</JDGFullWidthContainer>
-	<JDGContentBoxFloating title="PROJECT BACKGROUND">
+	<JDGContentBoxFloating title="PROJECT BRIEF">
 		<JDGBodyCopy paddingTop="0">
-			After seeing Cinderella City fall to the wrecking ball in 1998, 8-year-old <a
+			Seeing Cinderella City fall to the wrecking ball in 1998 made 8-year-old <a
 				href="https://jdeangoldstein.com">Josh Goldstein</a
 			>
-			vowed to become an architect in pursuit of making great places and learning from our architectural
+			vow to become an architect in pursuit of making great places that honor and learn from our architectural
 			past.
 			<br /><br />
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
-				fillContainer={false}
-				showCaption={true}
-			/>
+			<JDGFullWidthContainer>
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
+					fillContainer={false}
+					showCaption={true}
+					maxHeight="40vh"
+				/>
+			</JDGFullWidthContainer>
 			<br /><br />
-			Josh eventually pivoted his career into 3D architectural software, where he decided to harness
-			his new skills to pay tribute to the place that changed his life.
+			After receiving a Master of Architecture degree and working at a world-class architectural design
+			firm, Josh pivoted his career into 3D architectural software, where he harnessed new skills to
+			pay tribute to the place that changed his life.
 			<br /><br />
-			Using blueprints, directories, and photos, Josh used cutting-edge 3D software to faithfully recreate
-			Cinderella City in stunning detail, for both the 1968-1977 era and the 1988-1997 era of the mall’s
-			life.
+			Using floor plans, directories, and photos, Josh used cutting-edge 3D modeling technology to accurately
+			recreate Cinderella City in impressive detail, for both the 1968-1978 era and the 1987-1997 era
+			of the mall’s life.
 			<br /><br /><br />
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.ccp_construction_1}
-				fillContainer={false}
-			/>
+			<JDGFullWidthContainer>
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.ccp_construction_60s70s_2}
+					fillContainer={false}
+					showCaption={true}
+					maxHeight="40vh"
+				/>
+			</JDGFullWidthContainer>
+			<JDGFullWidthContainer>
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1}
+					fillContainer={false}
+					showCaption={true}
+					maxHeight="40vh"
+				/>
+			</JDGFullWidthContainer>
 			<br /><br />
-			The two versions of the digital mall were combined into the Cinderella City Simulation, where anyone
-			can revisit Cinderella City in three dimensions and time-travel to see how its unique details,
-			signage, shoppers, and music changed over time.
+			The two versions of the digital mall were combined into the
+			<a href="./simulation">Cinderella City Simulation</a>, an immersive, interactive exhibit where
+			visitors can experience Cinderella City as an accurate and highly-detailed reconstruction in
+			3D space.
+			<br /><br />
+			The simulation includes the ability to time-travel between distinct eras to see how the mall's
+			unique details, signage, shoppers, and music changed over time:
 			<br /><br /><br />
 			<JDGFullWidthContainer>
 				<JDGImageCompare
@@ -175,10 +195,19 @@
 				/>
 			</JDGFullWidthContainer>
 		</JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0">
+			Built in Unity, the simulation is available for Windows with more device support (including
+			virtual reality headsets) planned for the future. <a href="./simulation">Learn more</a>.
+		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="LEARN MORE">
+	<JDGContentBoxFloating title="UP NEXT:">
 		<JDGGridLayout>
-			<JDGImageTile label="ABOUT THE PROJECT" href="./about" labelJustification={'center'} />
+			<JDGImageTile
+				label="LEARN MORE ABOUT THE PROJECT"
+				href="./about"
+				labelJustification={'center'}
+				imageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+			/>
 			<JDGImageTile
 				label="READ THE FULL HISTORY"
 				href="./history"
@@ -188,7 +217,7 @@
 			<JDGImageTile
 				label="EXPERIENCE THE SIMULATION"
 				href="./simulation"
-				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
 				labelJustification={'center'}
 			/>
 		</JDGGridLayout>
