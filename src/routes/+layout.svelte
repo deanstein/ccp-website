@@ -56,7 +56,7 @@
 		'Photographs are from public domain sources or are used with permission and credited accordingly.';
 </script>
 
-<JDGAppContainer appLoadingIconSrc="./ccp-logo.png" showHeaderStripes={false}>
+<JDGAppContainer appLoadingIconSrc="./ccp-logo.png" showHeaderStripes={false} accentColors={jdgColors.accentColorsCCP}>
 	<JDGNotificationBanner
 		message="Coming soon! This site is under construction."
 		color={jdgColors.notificationWarning}
