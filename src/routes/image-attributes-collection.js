@@ -4,6 +4,12 @@ import jdgImageAttributes from 'jdg-ui-svelte/schemas/jdg-image-attributes.js';
 // a map of all available images and their attributes
 // new images with a caption must be added here
 const imageAttributesCollection = {
+	/*** CCP - BRANDING ***/
+	ccp_ouatacc_white: instantiateObject(jdgImageAttributes, {
+		imgSrc: './ccp/ouatacc-white.png',
+		imgAlt: `Once Upon a Time at Cinderella City.`
+	}),
+
 	/*** CCP - BACKGROUND ***/
 	jdg_1: instantiateObject(jdgImageAttributes, {
 		imgSrc: './ccp/jdg-1.png',

@@ -32,8 +32,7 @@
 			from fairytale to nightmare in just 30 years.
 			<br /><br />
 			Created by architectural designer and software developer
-			<a href="https://jdeangoldstein.com/">Josh Goldstein</a>, the project is dedicated to
-			documenting this unique place in three ways:
+			<a href="https://jdeangoldstein.com/">Josh Goldstein</a>, the project's goal is to document this unique place in <b>three ways</b>:
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -79,7 +78,7 @@
 			<br /><br />
 			The result was an oversized complex squeezed into a tight boundary, employing a unique M-shaped
 			layout surrounded by a 2-level parking garage. It was so large that in order to make navigation
-			easier for customers, the mall was broken up into five sub-malls, each with their own unique color
+			easier for customers, the mall was broken up into five sub-malls, each with its own unique color
 			and character.
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
@@ -116,7 +115,9 @@
 			the late 1970s.
 			<br /><br />
 			A modernization effort in the 1980s by the new owners helped somewhat, but the mall continued to
-			decline and decay. Cinderella City eventually closed in 1997 with just one store left. The City
+			decline and decay. Cinderella City eventually closed in 1997 with just one store left. 
+			<br><br>
+			The City
 			of Englewood redeveloped the mall in 1998, resulting in a new transit-oriented open-air development
 			called CityCenter.
 		</JDGBodyCopy>
@@ -127,6 +128,11 @@
 				imageAttributesCollection.blue_mall_80s90s_demolition_1
 			]}
 		/>
+		<JDGBodyCopy>
+			Lasting only 30 years from construction to demolition, the impacts from Cinderella City's sharp rise and fall are still being felt in Englewood today.
+			<br><br>
+			There's even more to the story. Read the full <a href='./history'>Cinderella City History</a>.
+		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGFullWidthContainer>
 		<JDGAccentBlock>
@@ -200,7 +206,7 @@
 			virtual reality headsets) planned for the future. <a href="./simulation">Learn more</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="UP NEXT:">
+	<JDGContentBoxFloating title="UP NEXT">
 		<JDGGridLayout>
 			<JDGImageTile
 				label="LEARN MORE ABOUT THE PROJECT"
