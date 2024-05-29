@@ -15,7 +15,7 @@
 		JDGImageTile
 	} from 'jdg-ui-svelte';
 
-	import imageAttributesCollection from './image-attributes-collection';
+	import imageAttributesCollection from '../image-attributes-collection';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
@@ -32,7 +32,8 @@
 			from fairytale to nightmare in just 30 years.
 			<br /><br />
 			Created by architectural designer and software developer
-			<a href="https://jdeangoldstein.com/">Josh Goldstein</a>, the project's goal is to document this unique place in <b>three ways</b>:
+			<a href="https://jdeangoldstein.com/">Josh Goldstein</a>, the project's goal is to document
+			this unique place in <b>three ways</b>:
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -115,11 +116,10 @@
 			the late 1970s.
 			<br /><br />
 			A modernization effort in the 1980s by the new owners helped somewhat, but the mall continued to
-			decline and decay. Cinderella City eventually closed in 1997 with just one store left. 
-			<br><br>
-			The City
-			of Englewood redeveloped the mall in 1998, resulting in a new transit-oriented open-air development
-			called CityCenter.
+			decline and decay. Cinderella City eventually closed in 1997 with just one store left.
+			<br /><br />
+			The City of Englewood redeveloped the mall in 1998, resulting in a new transit-oriented open-air
+			development called CityCenter.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
 			imageAttributeObjects={[
@@ -129,9 +129,10 @@
 			]}
 		/>
 		<JDGBodyCopy>
-			Lasting only 30 years from construction to demolition, the impacts from Cinderella City's sharp rise and fall are still being felt in Englewood today.
-			<br><br>
-			There's even more to the story. Read the full <a href='./history'>Cinderella City History</a>.
+			Lasting only 30 years from construction to demolition, the impacts from Cinderella City's
+			sharp rise and fall are still being felt in Englewood today.
+			<br /><br />
+			There's even more to the story. Read the full <a href="./history">Cinderella City History</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGFullWidthContainer>

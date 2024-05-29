@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../image-attributes-collection';
+	import imageAttributesCollection from '../../image-attributes-collection';
 
 	import {
 		JDGAccentBlock,

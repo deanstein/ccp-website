@@ -1,6 +1,6 @@
 <script>
 	import { JDGBodyCopy, JDGContentBoxFloating, JDGContentContainer, JDGImage } from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../image-attributes-collection';
+	import imageAttributesCollection from '../../image-attributes-collection';
 </script>
 
 <JDGContentContainer>
