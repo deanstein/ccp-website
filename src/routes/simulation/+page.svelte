@@ -27,11 +27,11 @@
 			that combines software and history to bring an architectural and retail icon back to life in
 			full 3D.
 			<br /><br />
-			The simulation is an accurate digital reconstruction of the mall in two distinct time periods,
-			both featuring period-correct architectural detailing, signage, and music.
+			The simulation is an accurate digital reconstruction of the mall in two distinct eras,
+			each featuring period-correct architectural detailing, signage, and music.
 			<br /><br />
-			Tying it all together, the simulation features the ability to time-travel between the periods to
-			experience the drastic changes in retail over three decades.
+			Tying it all together, the simulation features the ability to time-travel between the eras to
+			experience the drastic changes in retail over three decades that ultimately befelled the mall.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
