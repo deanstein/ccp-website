@@ -7,7 +7,6 @@
 		JDGContentContainer,
 		JDGFullWidthContainer,
 		JDGGridLayout,
-		JDGImage,
 		JDGImageCarousel,
 		JDGImageCompare,
 		JDGImageFullWidth,
@@ -32,7 +31,8 @@
 			from fairytale to nightmare in just 30 years.
 			<br /><br />
 			Created by architectural designer and software developer
-			<a href="https://jdeangoldstein.com/">Josh Goldstein</a>, the project's goal is to document
+			<a href="https://jdeangoldstein.com/">Josh Goldstein</a>, a Colorado native whose career path
+			was unknowingly influenced by Cinderella City's demolition, the project's goal is to document
 			this unique place in <b>three ways</b>:
 		</JDGBodyCopy>
 		<JDGGridLayout>
@@ -132,7 +132,7 @@
 			Lasting only 30 years from construction to demolition, the impacts from Cinderella City's
 			sharp rise and fall are still being felt in Englewood today.
 			<br /><br />
-			There's even more to the story. Read the full <a href="./history">Cinderella City History</a>.
+			There's even more to Cinderella City's story. <a href="./history">Read the full history</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGFullWidthContainer>

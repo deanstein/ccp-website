@@ -12,15 +12,26 @@
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+		imageAttributes={imageAttributesCollection.ccp_composite_2}
 		showOverlay={true}
-		overlayColorRgba="rgba(30, 30, 30, 0.1)"
+		overlayColorRgba="rgba(30, 30, 30, 0.5)"
 		overlayImageAttributes={imageAttributesCollection.ccp_ouatacc_white}
+		primaryTextFontFamily="Righteous"
+		overlayImageText="An Immersive Retail History Experience"
+		overlayImageTextFontFamily="Righteous"
 	/>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
-			<strong>Once Upon a Time at Cinderella City</strong> is an interactive simulation of Cinderella
-			City Mall in two distinct eras: 1968-1978, and 1987-1997.
+			<strong>Once Upon a Time at Cinderella City</strong> is an interactive simulation of
+			<a href="./history">Cinderella City Mall</a>
+			that combines software and history to bring an architectural and retail icon back to life in
+			full 3D.
+			<br /><br />
+			The simulation is an accurate digital reconstruction of the mall in two distinct time periods,
+			both featuring period-correct architectural detailing, signage, and music.
+			<br /><br />
+			Tying it all together, the simulation features the ability to time-travel between the periods to
+			experience the drastic changes in retail over three decades.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
@@ -29,7 +40,8 @@
 	<JDGContentBoxFloating title="DOWNLOAD">
 		<JDGBodyCopy paddingTop="0">
 			Once Upon a Time at Cinderella City is currently only available on Windows.
-			<br /><br /> Download the latest version <a href="./">here</a>.
+			<br /><br /> Download the latest version
+			<a href="https://github.com/deanstein/CinderellaCityProject">here</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>

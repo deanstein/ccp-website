@@ -25,6 +25,11 @@ const imageAttributesCollection = {
 			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962800/ccp-website/ccp/ccp-composite-1_u7yato.jpg',
 		imgAlt: `A composite of a photo and a rendering of Cinderella City's Blue Mall.`
 	}),
+	ccp_composite_2: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/v1716962800/ccp-website/ccp/ccp-composite-2_ddnvun.jpg',
+		imgAlt: `A composite of the 1968-1978 simulated version of the mall on the left, and the 1987-1997 simulated version of the mall on the right.`
+	}),
 	ccp_construction_80s90s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
 			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962801/ccp-website/ccp/ccp-construction-80s90s-1_mrmqo6.png',
@@ -86,6 +91,15 @@ const imageAttributesCollection = {
 			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962802/ccp-website/cinder-alley/cinder-alley-1_ltelh7.jpg',
 		imgAlt: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
 		imgCaption: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
+		imgAttribution: 'Englewood Public Library'
+	}),
+
+	/*** CONCEPT ART ***/
+	concept_art_1: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/v1717546050/ccp-website/concept-art/concept-art-1_b4ppdd.jpg',
+		imgAlt: "An early rendering of Cinderella City's central court.",
+		imgCaption: "An early rendering of Cinderella City's central court.",
 		imgAttribution: 'Englewood Public Library'
 	}),
 

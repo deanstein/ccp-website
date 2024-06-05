@@ -10,24 +10,18 @@
 		JDGGridLayout,
 		JDGImage,
 		JDGImageCarousel,
+		JDGImageFullWidth,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
 </script>
 
-<JDGContentContainer>
-	<JDGContentBoxFloating title="COMING SOON">
-		<JDGBodyCopy paddingTop="0">
-			<span style="display: flex; justify-content: center;">
-				This page is under construction. Check back soon!
-			</span>
-		</JDGBodyCopy>
-		<JDGImage
-			imageAttributes={imageAttributesCollection.construction_1}
-			maxHeight="60vh"
-			showCaption={true}
-			showAttribution={true}
-		/>
-	</JDGContentBoxFloating>
+<JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
+	<JDGImageFullWidth
+		imageAttributes={imageAttributesCollection.concept_art_1}
+		primaryText="A FAIRYTALE CONCEPT"
+		primaryTextFontFamily="Righteous"
+		secondaryText="The Beginnings of Cinderella City Mall"
+	/>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy>
 			Cinderella City Mall debuted on March 7, 1968 in Englewood, Colorado changing the city forever
