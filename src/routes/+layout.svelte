@@ -58,7 +58,7 @@
 
 <JDGAppContainer
 	appLoadingIconSrc="./ccp-logo.png"
-	showHeaderStripes={false}
+	showHeaderStripes={true}
 	accentColors={jdgColors.accentColorsCCP}
 >
 	<JDGNotificationBanner
@@ -71,7 +71,7 @@
 		logoJustification="center"
 		{navItems}
 		useMobileNav={true}
-		showHorizontalStripes={true}
+		suppressAlphaOnScroll={true}
 	/>
 	<JDGBackground />
 	<!-- all content goes in this slot -->
@@ -81,7 +81,6 @@
 		{appVersion}
 		{additionalVersionData}
 		{disclaimer}
-		showHorizontalStripes={true}
 	/>
 	{#if $uiState.showImageDetailOverlay}
 		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
