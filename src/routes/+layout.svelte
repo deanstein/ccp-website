@@ -18,31 +18,35 @@
 	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
 
 	// define the nav items in the header
-	const newNavItem1 = instantiateObject(jdgNavItem);
-	newNavItem1.label = 'HOME';
-	newNavItem1.href = '/';
+	const navItemHome = instantiateObject(jdgNavItem);
+	navItemHome.label = 'HOME';
+	navItemHome.href = '/';
 
-	const newNavItem2 = instantiateObject(jdgNavItem);
-	newNavItem2.label = 'ABOUT THE PROJECT';
-	newNavItem2.href = '/about';
+	const navItemAbout = instantiateObject(jdgNavItem);
+	navItemAbout.label = 'ABOUT';
+	navItemAbout.href = '/about';
 
-	const newNavItem3 = instantiateObject(jdgNavItem);
-	newNavItem3.label = 'MALL HISTORY';
-	newNavItem3.href = '/history';
+	const navItemHistory = instantiateObject(jdgNavItem);
+	navItemHistory.label = 'HISTORY';
+	navItemHistory.href = '/history';
 
-	const newNavItem4 = instantiateObject(jdgNavItem);
-	newNavItem4.label = 'MALL ANATOMY';
-	newNavItem4.href = '/anatomy';
+	const navItemAnatomy = instantiateObject(jdgNavItem);
+	navItemAnatomy.label = 'ANATOMY';
+	navItemAnatomy.href = '/anatomy';
 
-	const newNavItem5 = instantiateObject(jdgNavItem);
-	newNavItem5.label = 'MALL SIMULATION';
-	newNavItem5.href = '/simulation';
+	const navItemSimulation = instantiateObject(jdgNavItem);
+	navItemSimulation.label = 'SIMULATION';
+	navItemSimulation.href = '/simulation';
 
-	const newNavItem6 = instantiateObject(jdgNavItem);
-	newNavItem6.label = 'CONTACT';
-	newNavItem6.href = '/contact';
+	const navItemExhibit = instantiateObject(jdgNavItem);
+	navItemExhibit.label = 'EXHIBIT';
+	navItemExhibit.href = '/exhibit';
 
-	const navItems = [newNavItem1, newNavItem2, newNavItem3, newNavItem4, newNavItem5];
+	const navItemContact = instantiateObject(jdgNavItem);
+	navItemContact.label = 'CONTACT';
+	navItemContact.href = '/contact';
+
+	const navItems = [navItemHome, navItemAbout, navItemHistory, navItemAnatomy, navItemSimulation, navItemExhibit, navItemContact];
 
 	// get versions from package.json to display in the footer
 	//@ts-expect-error
