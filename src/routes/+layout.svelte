@@ -75,7 +75,6 @@
 		logoJustification="center"
 		{navItems}
 		useMobileNav={true}
-		suppressAlphaOnScroll={true}
 	/>
 	<JDGBackground />
 	<!-- all content goes in this slot -->
