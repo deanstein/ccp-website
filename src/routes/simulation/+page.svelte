@@ -24,16 +24,18 @@
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			<strong>Once Upon a Time at Cinderella City</strong> is an interactive simulation of
 			<a href="./history">Cinderella City Mall</a>
-			that combines software and history to bring an architectural and retail icon back to life in
-			full 3D.
+			that combines software and history to bring an architectural and retail icon back to life in full
+			3D.
 			<br /><br />
-			The simulation is an accurate digital reconstruction of the mall in two distinct eras,
-			each featuring period-correct architectural detailing, signage, and music.
+			The simulation is an accurate digital reconstruction of the mall in two distinct eras, each featuring
+			period-correct architectural detailing, signage, and music.
 			<br /><br />
-			Bringing it all together, players can also time-travel between the mall's unique eras to
-			experience the drastic changes in retail over three decades, a fast-changing landscape which ultimately befelled the mall. 
-			<br><br>
-			Each era also features dozens of historic photos which can be toggled on to view a window into time, aligned perfectly with that location in the simulated space.
+			Bringing it all together, players can also time-travel between the mall's unique eras to experience
+			the drastic changes in retail over three decades, a fast-changing landscape which ultimately befelled
+			the mall.
+			<br /><br />
+			Each era also features dozens of historic photos which can be toggled on to view a window into
+			time, aligned perfectly with that location in the simulated space.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
@@ -47,18 +49,22 @@
 					It's a work in progress and many storefronts are unfinished.
 					<ul>
 						<li>
-						<i>Have photos of missing stores? Please <a href="./contact">reach out</a>!</i>
+							<i>Have photos of missing stores? Please <a href="./contact">reach out</a>!</i>
 						</li>
 					</ul>
 				</li>
-				<li>
-					It's currently only available on Windows.
-				</li>
+				<li>It's currently only available on Windows.</li>
 			</ul>
 			<br /><br /> Download the latest version
 			<a href="https://github.com/deanstein/CinderellaCityProject">here</a>.
 		</JDGBodyCopy>
-		<iframe id='kofiframe' src='https://ko-fi.com/cinderellacityproject/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='cinderellacityproject'></iframe>
+		<iframe
+			id="kofiframe"
+			src="https://ko-fi.com/cinderellacityproject/?hidefeed=true&widget=true&embed=true&preview=true"
+			style="border:none;width:100%;padding:4px;background:#f9f9f9;"
+			height="712"
+			title="cinderellacityproject"
+		></iframe>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 

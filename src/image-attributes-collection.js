@@ -94,22 +94,22 @@ const imageAttributesCollection = {
 		imgAttribution: 'Englewood Public Library'
 	}),
 
-		/*** CCP - EXHIBIT ***/
-		ccp_exhibit_composite: instantiateObject(jdgImageAttributes, {
-			imgSrc:
-				'https://res.cloudinary.com/jdg-main/image/upload/v1718424942/ccp-website/ccp/exhibit/final_photo_collage_jueatw.jpg',
-			imgAlt: `A composite image showing several view of the Cinderella City exhibit at the Historic Englewood Museum.`
-		}),
-		ccp_exhibit_1: instantiateObject(jdgImageAttributes, {
-			imgSrc:
-				'https://res.cloudinary.com/jdg-main/image/upload/v1718411998/ccp-website/ccp/exhibit/20240504_202149245_iOS_enhanced_ja62gb.jpg',
-			imgAlt: `The Cinderella City exhibit at the Historic Englewood Museum.`
-		}),
-		ccp_exhibit_2: instantiateObject(jdgImageAttributes, {
-			imgSrc:
-				'https://res.cloudinary.com/jdg-main/image/upload/v1718415076/ccp-website/ccp/exhibit/20240504_185629703_iOS_enhanced_cropped_mambna.jpg',
-			imgAlt: `The Cinderella City exhibit at the Historic Englewood Museum.`
-		}),
+	/*** CCP - EXHIBIT ***/
+	ccp_exhibit_composite: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/v1718424942/ccp-website/ccp/exhibit/final_photo_collage_jueatw.jpg',
+		imgAlt: `A composite image showing several view of the Cinderella City exhibit at the Historic Englewood Museum.`
+	}),
+	ccp_exhibit_1: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/v1718411998/ccp-website/ccp/exhibit/20240504_202149245_iOS_enhanced_ja62gb.jpg',
+		imgAlt: `The Cinderella City exhibit at the Historic Englewood Museum.`
+	}),
+	ccp_exhibit_2: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/v1718415076/ccp-website/ccp/exhibit/20240504_185629703_iOS_enhanced_cropped_mambna.jpg',
+		imgAlt: `The Cinderella City exhibit at the Historic Englewood Museum.`
+	}),
 
 	/*** CONCEPT ART ***/
 	concept_art_1: instantiateObject(jdgImageAttributes, {

@@ -46,7 +46,15 @@
 	navItemContact.label = 'CONTACT';
 	navItemContact.href = '/contact';
 
-	const navItems = [navItemHome, navItemAbout, navItemHistory, navItemAnatomy, navItemSimulation, navItemExhibit, navItemContact];
+	const navItems = [
+		navItemHome,
+		navItemAbout,
+		navItemHistory,
+		navItemAnatomy,
+		navItemSimulation,
+		navItemExhibit,
+		navItemContact
+	];
 
 	// get versions from package.json to display in the footer
 	//@ts-expect-error
@@ -79,12 +87,7 @@
 	<JDGBackground />
 	<!-- all content goes in this slot -->
 	<slot />
-	<JDGFooter
-		repoName={ccpWebsiteRepoName}
-		{appVersion}
-		{additionalVersionData}
-		{disclaimer}
-	/>
+	<JDGFooter repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
 	{#if $uiState.showImageDetailOverlay}
 		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
 	{/if}

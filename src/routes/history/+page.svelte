@@ -26,8 +26,8 @@
 	<JDGContentBoxFloating title="COMING SOON">
 		<JDGBodyCopy paddingTop="0">
 			<span style="display: flex; justify-content: center;">
-				This page is under construction. The text and images below are in-progress and will change. 
-				<br><br>
+				This page is under construction. The text and images below are in-progress and will change.
+				<br /><br />
 				Check back soon!
 			</span>
 		</JDGBodyCopy>
@@ -38,21 +38,23 @@
 			showAttribution={true}
 		/>
 	</JDGContentBoxFloating>
-	</JDGContentContainer>
-	<JDGContentContainer topBottomPadding="0" gap="0">
+</JDGContentContainer>
+<JDGContentContainer topBottomPadding="0" gap="0">
 	<JDGContentBoxFloating>
 		<JDGBodyCopy>
-			As the legend goes, Cinderella City Mall debuted on March 7, 1968 - a record-breaking and controversial 1.35 million-square foot
-			shopping center built on the site of Englewood, Colorado's beloved City Park. 
-			<br><br>
-			But the full story of Cinderella City actually starts much
-			earlier.
+			As the legend goes, Cinderella City Mall debuted on March 7, 1968 - a record-breaking and
+			controversial 1.35 million-square foot shopping center built on the site of Englewood,
+			Colorado's beloved City Park.
 			<br /><br />
-			Back in 1952, a real estate developer named Gerri Von Frellick was looking for a new beginning after the collapse
-			of his construction empire in Texas. Seeing a rapidly-growing metro area with under-developed retail, Von Frellick chose Colorado for his fresh start. 
-			<br><br>
-			By 1956, Von Frellick had gotten
-			back on his feet and opened Lakeside Mall in the tiny north Denver suburb of the same name. Lakeside became Colorado's first enclosed, air-conditioned mall experience in Colorado, which was seen as a major advantage over outdoor shopping centers like Cherry Creek.
+			But the full story of Cinderella City actually starts much earlier.
+			<br /><br />
+			Back in 1952, a real estate developer named Gerri Von Frellick was looking for a new beginning
+			after the collapse of his construction empire in Texas. Seeing a rapidly-growing metro area with
+			under-developed retail, Von Frellick chose Colorado for his fresh start.
+			<br /><br />
+			By 1956, Von Frellick had gotten back on his feet and opened Lakeside Mall in the tiny north Denver
+			suburb of the same name. Lakeside became Colorado's first enclosed, air-conditioned mall experience
+			in Colorado, which was seen as a major advantage over outdoor shopping centers like Cherry Creek.
 			<br /><br />
 			<JDGImageTile imageAttributes={imageAttributesCollection.lakeside_1} fillContainer={false} />
 			<br /><br />
