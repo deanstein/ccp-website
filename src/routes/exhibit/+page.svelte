@@ -4,13 +4,14 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGImage,
-		JDGImageFullWidth
+		JDGImageFullWidth,
+		JDGImageHybridGridCarousel
 	} from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
 	import Layout from '../+layout.svelte';
 </script>
 
-<JDGContentContainer topBottomPadding="0" gap="0">
+<JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.ccp_exhibit_composite}
 		showOverlay={true}
@@ -18,7 +19,6 @@
 		primaryText="EXPERIENCE THE FAIRYTALE"
 		primaryTextFontFamily="Righteous"
 		secondaryText="at the Historic Englewood Museum"
-		secondaryTextFontFamily="Righteous"
 	/>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy>
@@ -30,8 +30,19 @@
 			Immerse yourself in Cinderella City's history and design with life-size photos, little-known facts,
 			and several artifacts from the mall, including the iconic Cinder Alley sign which has been restored
 			to its former glory.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.ccp_exhibit_4,
+				imageAttributesCollection.ccp_exhibit_2,
+				imageAttributesCollection.ccp_exhibit_3
+			]}
+		/>
+		<JDGBodyCopy>
+			As an added bonus, the building that hosts the Historic Englewood museum was originally built
+			in 1985 as Cinderella City's Broadway Southwest department store.
 			<br /><br />
-			The Cinderella City exhibit is on now through fall 2024.
+			<b>The Cinderella City exhibit is on now through fall 2024.</b>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
@@ -47,12 +58,14 @@
 			<br />
 			Englewood, Colorado 80110
 			<br /><br />
-			<i
-				>Fun fact: The Englewood Civic Center was originally built in 1985 as Cinderella City's
-				Broadway Southwest department store.</i
-			>
 			<h3>HOURS</h3>
 			Saturdays 10am to 2pm MST
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
+
+<style>
+	h3 {
+		margin: 5px;
+	}
+</style>
