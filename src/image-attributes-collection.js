@@ -97,7 +97,7 @@ const imageAttributesCollection = {
 	/*** CCP - EXHIBIT ***/
 	ccp_exhibit_composite: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1718424942/ccp-website/ccp/exhibit/final_photo_collage_jueatw.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/v1718561285/ccp-website/ccp/exhibit/final_photo_collage_ewll6g.jpg',
 		imgAlt: `A composite image showing several view of the Cinderella City exhibit at the Historic Englewood Museum.`
 	}),
 	ccp_exhibit_1: instantiateObject(jdgImageAttributes, {
