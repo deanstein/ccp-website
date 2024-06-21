@@ -39,8 +39,13 @@
 			]}
 		/>
 		<JDGBodyCopy>
-			As an added bonus, the building that hosts the Historic Englewood museum was originally built
-			in 1985 as Cinderella City's Broadway Southwest department store.
+			The exhibit also features the fully-interactive <a href="./simulation"
+				>Cinderella City Simulation</a
+			>, which guides visitors on a tour of historic photos inside both eras of the mall, and also
+			offers a game controller for intrepid mall walkers to take control and go where they please.
+			<br /><br />
+			As an added bonus, the building that hosts the Historic Englewood museum was originally built in
+			1985 as Cinderella City's Broadway Southwest department store.
 			<br /><br />
 			<b>The Cinderella City exhibit is on now through fall 2024.</b>
 		</JDGBodyCopy>
