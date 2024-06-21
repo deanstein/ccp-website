@@ -64,7 +64,9 @@
 			<h3>ADMISSION</h3>
 			Adults: $10
 			<br />
-			Seniors, Military, Historic Englewood Members: $8
+			Historic Englewood Members: $8
+			<br />
+			Seniors and Military Members: $8
 			<br />
 			Children 5-12: $5
 			<br />
