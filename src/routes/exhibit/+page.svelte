@@ -3,7 +3,6 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGImage,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel
 	} from 'jdg-ui-svelte';
@@ -19,6 +18,7 @@
 		primaryText="EXPERIENCE THE FAIRYTALE"
 		primaryTextFontFamily="Righteous"
 		secondaryText="at the Historic Englewood Museum"
+		overlapWithHeader={true}
 	/>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy>

@@ -23,6 +23,7 @@
 		primaryText="STEP BACK IN TIME"
 		primaryTextFontFamily="Righteous"
 		secondaryText="to Cinderella City Mall"
+		overlapWithHeader={true}
 	/>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>

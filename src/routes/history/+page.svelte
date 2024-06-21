@@ -7,7 +7,6 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGGridLayout,
 		JDGImage,
 		JDGImageCarousel,
 		JDGImageFullWidth,
@@ -22,6 +21,7 @@
 		primaryTextFontFamily="Righteous"
 		secondaryText="The Beginnings of Cinderella City Mall"
 		overlayColorRgba="rgba(30, 30, 30, 0.5)"
+		overlapWithHeader={true}
 	/>
 	<JDGContentBoxFloating title="COMING SOON">
 		<JDGBodyCopy paddingTop="0">

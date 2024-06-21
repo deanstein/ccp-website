@@ -4,8 +4,6 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGImage,
-		JDGImageTile,
 		JDGImageFullWidth
 	} from 'jdg-ui-svelte';
 </script>
@@ -19,6 +17,7 @@
 		primaryTextFontFamily="Righteous"
 		overlayImageText="An Immersive Retail History Experience"
 		overlayImageTextFontFamily="Righteous"
+		overlapWithHeader={true}
 	/>
 	<JDGContentBoxFloating>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
