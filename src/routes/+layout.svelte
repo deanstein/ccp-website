@@ -74,7 +74,7 @@
 	accentColors={jdgColors.accentColorsCCP}
 >
 	<JDGNotificationBanner
-		message="Coming soon! This site is under construction."
+		message="Coming soon! This website is under construction and may be unfinished in some places."
 		color={jdgColors.notificationWarning}
 	/>
 	<JDGHeader
