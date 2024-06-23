@@ -86,41 +86,40 @@ const imageAttributesCollection = {
 		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`,
 		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`
 	}),
-	cinder_alley_1: instantiateObject(jdgImageAttributes, {
+	ccp_historic_photos_gold_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962802/ccp-website/cinder-alley/cinder-alley-1_ltelh7.jpg',
-		imgAlt: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
-		imgCaption: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
-		imgAttribution: 'Englewood Public Library'
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1719178835/ccp-website/ccp/ccp-historic-photos-gold-mall-60s70s-1_quyekf.png',
+		imgAlt: `Historic photos of Gold Mall in the 1968-1978 era, as seen in the Cinderella City Simulation.`,
+		imgCaption: `Historic photos of Gold Mall in the 1968-1978 era, as seen in the Cinderella City Simulation.`
 	}),
 
 	/*** CCP - EXHIBIT ***/
 	ccp_exhibit_composite: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1718561285/ccp-website/ccp/exhibit/final_photo_collage_ewll6g.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718561285/ccp-website/ccp/exhibit/final_photo_collage_ewll6g.jpg',
 		imgAlt: `A composite image showing several view of the Cinderella City exhibit at the Historic Englewood Museum.`
 	}),
 	ccp_exhibit_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1718411998/ccp-website/ccp/exhibit/20240504_202149245_iOS_enhanced_ja62gb.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718411998/ccp-website/ccp/exhibit/20240504_202149245_iOS_enhanced_ja62gb.jpg',
 		imgAlt: `The Cinderella City exhibit at the Historic Englewood Museum.`,
 		imgCaption: `The Cinderella City exhibit at the Historic Englewood Museum.`
 	}),
 	ccp_exhibit_2: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1718636892/ccp-website/ccp/exhibit/20240504_185646544_iOS_ianlep.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718636892/ccp-website/ccp/exhibit/20240504_185646544_iOS_ianlep.jpg',
 		imgAlt: `The Cinderella City Project at the Historic Englewood museum theater.`,
 		imgCaption: `The Cinderella City Project at the Historic Englewood museum theater.`
 	}),
 	ccp_exhibit_3: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1718636870/ccp-website/ccp/exhibit/20240504_202300854_iOS_mr5zxc.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718636870/ccp-website/ccp/exhibit/20240504_202300854_iOS_mr5zxc.jpg',
 		imgAlt: `A salvaged flag from the 1980s Rose Mall renovation hangs in the Historic Englewood museum space.`,
 		imgCaption: `A salvaged flag from the 1980s Rose Mall renovation hangs in the Historic Englewood museum space.`
 	}),
 	ccp_exhibit_4: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1718638199/ccp-website/ccp/exhibit/20240504_202334358_iOS_enhanced_kkb26e.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718638199/ccp-website/ccp/exhibit/20240504_202334358_iOS_enhanced_kkb26e.jpg',
 		imgAlt: `A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space.`,
 		imgCaption: `A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space.`
 	}),
@@ -128,7 +127,7 @@ const imageAttributesCollection = {
 	/*** CONCEPT ART ***/
 	concept_art_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1717546050/ccp-website/concept-art/concept-art-1_b4ppdd.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1717546050/ccp-website/concept-art/concept-art-1_b4ppdd.jpg',
 		imgAlt: "An early rendering of Cinderella City's central court.",
 		imgCaption: "An early rendering of Cinderella City's central court.",
 		imgAttribution: 'Englewood Public Library'
@@ -201,6 +200,15 @@ const imageAttributesCollection = {
 			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962800/ccp-website/blue-mall/blue-mall-80s90s-exterior-1_gkm6ta.jpg',
 		imgAlt: `The southeast Blue Mall entrance after the mall closed in 1997.`,
 		imgCaption: `The southeast Blue Mall entrance after the mall closed in 1997.`,
+		imgAttribution: 'Englewood Public Library'
+	}),
+
+	/*** CINDER ALLEY ***/
+	cinder_alley_1: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962802/ccp-website/cinder-alley/cinder-alley-1_ltelh7.jpg',
+		imgAlt: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
+		imgCaption: `Cinderella City featured a lower-level market and bazaar known as Cinder Alley, a precursor today's mixed-use retail.`,
 		imgAttribution: 'Englewood Public Library'
 	}),
 
