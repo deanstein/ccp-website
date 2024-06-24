@@ -86,11 +86,29 @@ const imageAttributesCollection = {
 		imgAlt: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`,
 		imgCaption: `Cinderella City's central Blue Mall, simulated in the 1987-1997 era.`
 	}),
+	ccp_rose_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962806/ccp-website/ccp/rose-mall-60s70s-1_mzr1tl.png',
+		imgAlt: `Cinderella City's Rose Mall simulated in the 1968-1978 era.`,
+		imgCaption: `Cinderella City's Rose Mall simulated in the 1968-1978 era.`
+	}),
+	ccp_rose_mall_80s90s_1: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962807/ccp-website/ccp/rose-mall-80s90s-1_fkyyh5.png',
+		imgAlt: `Cinderella City's Rose Mall simulated in the 1987-1997 era.`,
+		imgCaption: `Cinderella City's Rose Mall simulated in the 1987-1997 era.`
+	}),
 	ccp_historic_photos_gold_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
 			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1719178835/ccp-website/ccp/ccp-historic-photos-gold-mall-60s70s-1_quyekf.png',
 		imgAlt: `Historic photos of Gold Mall in the 1968-1978 era, as seen in the Cinderella City Simulation.`,
 		imgCaption: `Historic photos of Gold Mall in the 1968-1978 era, as seen in the Cinderella City Simulation.`
+	}),
+	ccp_vaporwave_blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1719193759/ccp-website/ccp/ccp-vaporwave-blue-mall-60s70s-1_emzam4.png',
+		imgAlt: `Cinderella City's central Blue Mall as seen through a Vaporwave camera mode.`,
+		imgCaption: `Cinderella City's central Blue Mall as seen through a Vaporwave camera mode.`
 	}),
 
 	/*** CCP - EXHIBIT ***/
