@@ -146,6 +146,6 @@
 
 <style>
 	ul {
-		margin: 2;
+		margin: 4px;
 	}
 </style>
