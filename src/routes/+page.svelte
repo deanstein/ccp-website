@@ -32,9 +32,9 @@
 			from fairytale to nightmare in just 30 years.
 			<br /><br />
 			Created by architectural designer and software developer
-			<a href="https://www.linkedin.com/in/jdeangoldstein/">Josh Goldstein</a>, a Colorado native whose career path
-			was unknowingly influenced by Cinderella City's demolition, the project's goal is to document
-			this unique place in <b>three ways</b>:
+			<a href="https://www.linkedin.com/in/jdeangoldstein/">Josh Goldstein</a>, a Colorado native
+			whose career path was unknowingly influenced by Cinderella City's demolition, the project's
+			goal is to document this unique place in <b>three ways</b>:
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
