@@ -1,9 +1,12 @@
 <script>
+	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
 	import imageAttributesCollection from '../../image-attributes-collection';
 	import {
+		JDGAccentBlock,
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
+		JDGFeatureCard,
 		JDGFullWidthContainer,
 		JDGImageCompare,
 		JDGImageFullWidth,
@@ -53,57 +56,60 @@
 
 <JDGContentContainer>
 	<JDGContentBoxFloating title="FEATURES">
-		<JDGBodyCopy paddingTop="0">
-			<ul>
-				<li>
-					Experience Cinderella City Mall in full 3D complete with accurate architectural details
-					and signage based on real photographs and original blueprints of the mall
-				</li>
-			</ul>
+		<JDGFeatureCard
+			featureTitle="HISTORICALLY ACCURATE"
+			featureDescription="Experience Cinderella City Mall in full 3D, complete with accurate architectural details
+			and signage based on real photographs and original blueprints of the mall"
+			titleFontFamily="Righteous"
+			backgroundColor={jdgColors.accentColorsCCP[1]}
+		>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1}
-				fillContainer={false}
-				showCaption={true}
-				maxHeight="300px"
+				maxHeight={'400px'}
+				compactModeOnMobile={true}
 			/>
-			<br /> <br />
-			<ul>
-				<li>
-					Time travel between two distinct periods: The first 10 years (1968-1978) and the last 10
-					years (1987-1997) of the mall's life
-				</li>
-			</ul>
+		</JDGFeatureCard>
+		<JDGFeatureCard
+			featureTitle="TIME TRAVELING"
+			featureDescription="Time travel between two distinct periods: The first 10 years (1968-1978) and the last 10
+					years (1987-1997) of the mall's life"
+			titleFontFamily="Righteous"
+			backgroundColor={jdgColors.accentColorsCCP[2]}
+			imageAlign="right"
+		>
 			<JDGImageCompare
 				imageAttributes1={imageAttributesCollection.ccp_rose_mall_60s70s_1}
 				imageAttributes2={imageAttributesCollection.ccp_rose_mall_80s90s_1}
-				caption="Cinderella City's Rose Mall as seen simulated in 1968-1978 and in 1987-1997."
-				maxHeight="300px"
-				showBlurInUnfilledSpace={false}
+				maxHeight="400px"
+				showBlurInUnfilledSpace={true}
 			/>
-			<br /><br />
-			<ul>
-				<li>
-					See dozens of historic photographs in the 3D space of each era, grounding the simulation
-					in reality and opening a unique window back in time
-				</li>
-			</ul>
+		</JDGFeatureCard>
+		<JDGFeatureCard
+			featureTitle="FLOATING PHOTOS"
+			featureDescription="See dozens of historic photographs in the 3D space of each era, grounding the simulation
+		in reality and opening a unique window back in time"
+			titleFontFamily="Righteous"
+			backgroundColor={jdgColors.accentColorsCCP[0]}
+		>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
-				fillContainer={false}
-				showCaption={true}
-				maxHeight="300px"
+				maxHeight={'400px'}
+				compactModeOnMobile={true}
 			/>
-			<br /><br />
-			<ul>
-				<li>View the mall through different camera modes like Sepia and Vaporwave</li>
-			</ul>
+		</JDGFeatureCard>
+		<JDGFeatureCard
+			featureTitle="CAMERA MODES"
+			featureDescription="View the mall through different camera modes like Sepia and Vaporwave"
+			titleFontFamily="Righteous"
+			backgroundColor={jdgColors.accentColorsCCP[1]}
+			imageAlign="right"
+		>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_vaporwave_blue_mall_60s70s_1}
-				fillContainer={false}
-				showCaption={true}
-				maxHeight="300px"
+				maxHeight={'400px'}
+				compactModeOnMobile={true}
 			/>
-		</JDGBodyCopy>
+		</JDGFeatureCard>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="DONATE">
 		<JDGBodyCopy paddingTop="0">
