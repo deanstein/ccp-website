@@ -1,7 +1,8 @@
 <script>
+	import imageAttributesCollection from '../image-attributes-collection';
+	
 	import {
-		JDGAccentBlock,
-		JDGAccentText,
+		JDGAccentBlockWithText,
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
@@ -13,8 +14,7 @@
 		JDGImageHybridGridCarousel,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
-
-	import imageAttributesCollection from '../image-attributes-collection';
+	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
@@ -137,11 +137,10 @@
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGFullWidthContainer>
-		<JDGAccentBlock>
-			<JDGAccentText
-				primaryText={`Cinderella City's short but explosive life offers lessons in retail design, land use, and placemaking.`}
-			></JDGAccentText>
-		</JDGAccentBlock>
+		<JDGAccentBlockWithText
+			primaryText={"Cinderella City's short but explosive life offers lessons in retail design, land use, and placemaking."}
+			backgroundColor={jdgColors.accentColorsCCP[2]}
+		/>
 	</JDGFullWidthContainer>
 	<JDGContentBoxFloating title="PROJECT BRIEF">
 		<JDGBodyCopy paddingTop="0">

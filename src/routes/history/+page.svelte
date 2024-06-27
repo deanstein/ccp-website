@@ -2,8 +2,7 @@
 	import imageAttributesCollection from '../../image-attributes-collection';
 
 	import {
-		JDGAccentBlock,
-		JDGAccentText,
+		JDGAccentBlockWithText,
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
@@ -12,6 +11,7 @@
 		JDGImageFullWidth,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
+	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
 </script>
 
 <JDGContentContainer overlapWithHeader={true}>
@@ -85,11 +85,10 @@
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 <JDGContentContainer>
-	<JDGAccentBlock>
-		<JDGAccentText
-			primaryText={`“… because three years of surveys show that’s the place a regional shopping center is needed and
+	<JDGAccentBlockWithText
+		primaryText={`“… because three years of surveys show that’s the place a regional shopping center is needed and
 			should be located.”`}
-			secondaryText="Gerri Von Frellick, 1960"
-		/>
-	</JDGAccentBlock>
+		secondaryText="Gerri Von Frellick, 1960"
+		backgroundColor={jdgColors.accentColorsCCP[1]}
+	/>
 </JDGContentContainer>
