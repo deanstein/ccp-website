@@ -1,6 +1,6 @@
 <script>
 	import imageAttributesCollection from '../image-attributes-collection';
-	
+
 	import {
 		JDGAccentBlockWithText,
 		JDGBodyCopy,
@@ -12,9 +12,27 @@
 		JDGImageCompare,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel,
-		JDGImageTile
+		JDGImageTile,
+		JDGJumpTo
 	} from 'jdg-ui-svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
+	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
+	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
+
+	const jumpToNavItems = [
+		instantiateObject(jdgNavItem, {
+			label: 'SHORT HISTORY',
+			href: '#SHORT-HISTORY'
+		}),
+		instantiateObject(jdgNavItem, {
+			label: 'PROJECT BRIEF',
+			href: '#PROJECT-BRIEF'
+		}),
+		instantiateObject(jdgNavItem, {
+			label: 'EXPLORE FURTHER',
+			href: '#EXPLORE-FURTHER'
+		})
+	];
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
@@ -59,7 +77,8 @@
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 <JDGContentContainer>
-	<JDGContentBoxFloating title="BRIEF HISTORY">
+	<JDGJumpTo {jumpToNavItems} />
+	<JDGContentBoxFloating title="SHORT HISTORY">
 		<JDGBodyCopy paddingTop="0">
 			The city of Englewood, Colorado changed forever in 1968 when mall magnate Gerri Von Frellick
 			opened a controversial 1.35 million square-foot shopping center on the site of Englewood's
@@ -72,7 +91,7 @@
 				imageAttributesCollection.blue_mall_60s70s_2,
 				imageAttributesCollection.cinder_alley_1
 			]}
-		></JDGImageHybridGridCarousel>
+		/>
 		<JDGBodyCopy>
 			Dubbed "Cinderella City," Von Frellick's new shopping center became the largest mall west of
 			the Mississippi in spite of massive community resistance and a protracted legal battle over
@@ -139,7 +158,7 @@
 	<JDGFullWidthContainer>
 		<JDGAccentBlockWithText
 			primaryText={"Cinderella City's short but explosive life offers lessons in retail design, land use, and placemaking."}
-			backgroundColor={jdgColors.accentColorsCCP[2]}
+			backgroundColor={jdgColors.accentColorsCCP[1]}
 		/>
 	</JDGFullWidthContainer>
 	<JDGContentBoxFloating title="PROJECT BRIEF">
@@ -163,51 +182,58 @@
 			firm, Josh pivoted his career into 3D architectural software, where he harnessed new skills to
 			pay tribute to the place that changed his life.
 			<br /><br />
-			Using floor plans, directories, and photos, Josh used cutting-edge 3D modeling technology to accurately
-			recreate Cinderella City in impressive detail, for both the 1968-1978 era and the 1987-1997 era
-			of the mall’s life.
+			Extracting details from floor plans, directories, and photos, Josh used cutting-edge 3D modeling
+			technology to accurately reconstruct Cinderella City in impressive detail, including period-correct
+			architecture, signage, and lighting.
 		</JDGBodyCopy>
-		<JDGFullWidthContainer>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.ccp_construction_60s70s_2}
-				fillContainer={false}
-				showCaption={true}
-				maxHeight="40vh"
-			/>
-		</JDGFullWidthContainer>
-		<JDGFullWidthContainer>
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1}
-				fillContainer={false}
-				showCaption={true}
-				maxHeight="40vh"
-			/>
-		</JDGFullWidthContainer>
+		<JDGImageHybridGridCarousel
+			imageAttributeObjects={[
+				imageAttributesCollection.ccp_construction_60s70s_2,
+				imageAttributesCollection.ccp_blue_mall_60s70s_2,
+				imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1
+			]}
+		/>
 		<JDGBodyCopy paddingTop="0">
-			The two versions of the digital mall were combined into the
-			<a href="./simulation">Cinderella City Simulation</a>, an immersive, interactive exhibit where
-			visitors can experience Cinderella City as an accurate and highly-detailed reconstruction in
-			3D space.
+			The 3D modeling effort covers both the first 10 years (1968-1978) and the last 10 years
+			(1987-1997) of the mall's existence - dramatically illustrating the evolution of retail and
+			design over three decades.
 			<br /><br />
-			The simulation includes the ability to time-travel between distinct eras to see how the mall's
-			unique details, signage, shoppers, and music changed over time:
-			<br /><br /><br />
-			<JDGFullWidthContainer>
+			Bringing together his architecture experience and a desire to learn software and videogame development,
+			Josh fused the two versions of the mall into the
+			<a href="./simulation">Cinderella City Simulation:</a> an immersive, interactive history
+			exhibit where visitors can experience Cinderella City as an accurate and detailed
+			reconstruction in 3D space.
+			<br /><br />
+			The simulation can also time-travel between Cinderella City's distinct eras to see how its unique
+			mid-century vibe evolved over time, each era complete with floating historical photographs to ground
+			the simulation in reality:
+		</JDGBodyCopy>
+		<JDGGridLayout maxColumns={2}>
+			<div style="display: flex; width: fit-content; margin-left: auto;">
 				<JDGImageCompare
 					imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 					imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
-					caption="Cinderella City's Blue Mall as seen simulated in 1968-1978 and in 1987-1997."
-					maxHeight="60vh"
+					maxHeight="300px"
 					showBlurInUnfilledSpace={false}
 				/>
-			</JDGFullWidthContainer>
-		</JDGBodyCopy>
+			</div>
+			<div style="width: fit-content; display: flex; flex-direction: row-reverse">
+				<JDGImageTile
+					imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
+					fillContainer={false}
+					maxHeight="300px"
+				/>
+			</div>
+		</JDGGridLayout>
+
 		<JDGBodyCopy paddingTop="0">
-			Built in Unity, the simulation is available for Windows with more device support (including
-			virtual reality headsets) planned for the future. <a href="./simulation">Learn more</a>.
+			The project also aims to document Cinderella City through the curation and preservation of
+			historic photographs, blueprints, and artifacts. Rare photographs and little-known facts are
+			shared on social media, while a new Historic Englewood Museum features a Cinderella City
+			exhibit through 2024.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="UP NEXT">
+	<JDGContentBoxFloating title="EXPLORE FURTHER">
 		<JDGGridLayout>
 			<JDGImageTile
 				label="LEARN MORE ABOUT THE PROJECT"
