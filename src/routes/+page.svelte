@@ -193,7 +193,7 @@
 				imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1
 			]}
 		/>
-		<JDGBodyCopy paddingTop="0">
+		<JDGBodyCopy>
 			The 3D modeling effort covers both the first 10 years (1968-1978) and the last 10 years
 			(1987-1997) of the mall's existence - dramatically illustrating the evolution of retail and
 			design over three decades.
@@ -213,7 +213,7 @@
 				<JDGImageCompare
 					imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 					imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
-					maxHeight="300px"
+					maxHeight="400px"
 					showBlurInUnfilledSpace={false}
 				/>
 			</div>
@@ -221,16 +221,19 @@
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
 					fillContainer={false}
-					maxHeight="300px"
+					maxHeight="400px"
 				/>
 			</div>
 		</JDGGridLayout>
 
-		<JDGBodyCopy paddingTop="0">
-			The project also aims to document Cinderella City through the curation and preservation of
-			historic photographs, blueprints, and artifacts. Rare photographs and little-known facts are
-			shared on social media, while a new Historic Englewood Museum features a Cinderella City
-			exhibit through 2024.
+		<JDGBodyCopy>
+			The Cinderella City Project also aims to document the mall through the curation and
+			preservation of historic photographs, blueprints, and artifacts.
+			<br /><br />
+			The project regularly shares rare photographs and little-known facts on
+			<a href="./contact">its channels</a>, and also helped design and build a new Historic
+			Englewood Museum which debuted with a <a href="./exhibit">Cinderella City exhibit</a> - on now
+			through 2024.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="EXPLORE FURTHER">
