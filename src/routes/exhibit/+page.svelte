@@ -1,4 +1,5 @@
 <script>
+	import { urls } from '$lib/strings';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -7,7 +8,6 @@
 		JDGImageHybridGridCarousel
 	} from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
-	import Layout from '../+layout.svelte';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
@@ -21,11 +21,11 @@
 		overlapWithHeader={true}
 	/>
 	<JDGContentBoxFloating>
-		<JDGBodyCopy>
+		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <b>Cinderella City Project</b> has teamed up with
-			<a href="https://historicenglewood.org/">Historic Englewood</a> to create Englewood's first
-			history museum, bringing to life the story of <a href="./history">Cinderella City Mall</a> as
-			the inaugural exhibit.
+			<a href={urls.historicEnglewood}>Historic Englewood</a> to create Englewood's first history
+			museum, bringing to life the story of <a href="./history">Cinderella City Mall</a> as the
+			inaugural exhibit.
 			<br /><br />
 			Immerse yourself in Cinderella City's history and design with life-size photos, little-known facts,
 			and several artifacts from the mall, including the iconic Cinder Alley sign which has been restored

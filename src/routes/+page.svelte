@@ -1,4 +1,5 @@
 <script>
+	import { urls } from '$lib/strings';
 	import imageAttributesCollection from '../image-attributes-collection';
 
 	import {
@@ -50,9 +51,9 @@
 			from fairytale to nightmare in just 30 years.
 			<br /><br />
 			Created by architectural designer and software developer
-			<a href="https://www.linkedin.com/in/jdeangoldstein/">Josh Goldstein</a>, a Colorado native
-			whose career path was unknowingly influenced by Cinderella City's demolition, the project's
-			goal is to document this unique place in <b>three ways</b>:
+			<a href={urls.jdgLinkedIn}>Josh Goldstein</a>, a Colorado native whose career path was
+			unknowingly influenced by Cinderella City's demolition, the project's goal is to document this
+			unique place in <b>three ways</b>:
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -164,7 +165,7 @@
 	<JDGContentBoxFloating title="PROJECT BRIEF">
 		<JDGBodyCopy paddingTop="0">
 			Seeing Cinderella City fall to the wrecking ball in 1998 made 8-year-old <a
-				href="https://jdeangoldstein.com">Josh Goldstein</a
+				href={urls.jdgLinkedIn}>Josh Goldstein</a
 			>
 			vow to become an architect in pursuit of making great places that honor and learn from our architectural
 			past.
@@ -195,8 +196,8 @@
 		/>
 		<JDGBodyCopy>
 			The 3D modeling effort covers both the first 10 years (1968-1978) and the last 10 years
-			(1987-1997) of the mall's existence - dramatically illustrating the evolution of retail and
-			design over three decades.
+			(1987-1997) of the mall's operational existence - dramatically illustrating the evolution of
+			retail and design over three decades.
 			<br /><br />
 			Bringing together his architecture experience and a desire to learn software and videogame development,
 			Josh fused the two versions of the mall into the

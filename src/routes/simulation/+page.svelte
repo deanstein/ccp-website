@@ -37,20 +37,19 @@
 			available in the 3D space. The cavernous spaces are enlivened with music and people which are also
 			unique to each era.
 			<br /><br />
-			Players can time-travel between Cinderella City's eclectic time periods to experience the drastic
-			evolution in retail and design over three decades, reflecting the fast-changing consumer trends
-			which ultimately befelled the mall.
-			<br /><br />
-			<JDGFullWidthContainer>
-				<JDGImageCompare
-					imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
-					imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
-					caption="Cinderella City's central Blue Mall as seen simulated in 1968-1978 and in 1987-1997."
-					maxHeight="60vh"
-					showBlurInUnfilledSpace={false}
-				/>
-			</JDGFullWidthContainer>
+			Players can also time-travel between Cinderella City's eclectic time periods to experience the
+			drastic evolution in retail and design over three decades, reflecting the fast-changing consumer
+			trends which ultimately befelled the mall.
 		</JDGBodyCopy>
+		<JDGFullWidthContainer>
+			<JDGImageCompare
+				imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+				imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
+				caption="Cinderella City's central Blue Mall as seen simulated in 1968-1978 and in 1987-1997."
+				maxHeight="60vh"
+				showBlurInUnfilledSpace={true}
+			/>
+		</JDGFullWidthContainer>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 

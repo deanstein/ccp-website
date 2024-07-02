@@ -31,8 +31,8 @@
 	navItemHistory.href = '/history';
 
 	const navItemAnatomy = instantiateObject(jdgNavItem);
-	navItemAnatomy.label = 'ANATOMY';
-	navItemAnatomy.href = '/anatomy';
+	navItemAnatomy.label = 'ANALYSIS';
+	navItemAnatomy.href = '/analysis';
 
 	const navItemSimulation = instantiateObject(jdgNavItem);
 	navItemSimulation.label = 'SIMULATION';

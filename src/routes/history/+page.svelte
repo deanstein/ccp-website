@@ -42,7 +42,7 @@
 <JDGContentContainer topBottomPadding="0" gap="0">
 	<JDGContentBoxFloating>
 		<JDGBodyCopy>
-			As the legend goes, Cinderella City Mall debuted on March 7, 1968 - a record-breaking and
+			As the legend goes, Cinderella City Mall debuted on March 7, 1968 as a record-breaking and
 			controversial 1.35 million-square foot shopping center built on the site of Englewood,
 			Colorado's beloved City Park.
 			<br /><br />
