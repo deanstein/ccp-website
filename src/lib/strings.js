@@ -6,5 +6,6 @@ export const urls = {
 	historicEnglewood: 'https://historicenglewood.org/',
 	jdgLinkedIn: 'https://www.linkedin.com/in/jdeangoldstein/',
 	vipFacebook: 'https://www.facebook.com/villaitaliaproject/',
-	vipInstagram: 'https://www.instagram.com/villaitaliaproject/'
+	vipInstagram: 'https://www.instagram.com/villaitaliaproject/',
+	githubDownload: 'https://github.com/deanstein/CinderellaCityProject/tags'
 };
