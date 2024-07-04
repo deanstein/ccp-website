@@ -18,7 +18,7 @@
 			src="https://ko-fi.com/cinderellacityproject/?hidefeed=true&widget=true&embed=true&preview=true"
 			style="border:none;padding:4px;background:#f9f9f9;"
 			width="400"
-			height="620"
+			height="680"
 			title="cinderellacityproject"
 		/>
 	</div>
