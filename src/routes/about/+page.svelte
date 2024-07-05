@@ -1,9 +1,5 @@
 <script>
-	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
-
 	import imageAttributesCollection from '../../image-attributes-collection';
-
-	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 
 	import { urls } from '$lib/strings';
 
@@ -16,21 +12,6 @@
 		JDGImageTile,
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
-
-	const jumpToNavItems = [
-		instantiateObject(jdgNavItem, {
-			label: 'BACKGROUND',
-			href: '#BACKGROUND'
-		}),
-		instantiateObject(jdgNavItem, {
-			label: 'GOALS',
-			href: '#GOALS'
-		}),
-		instantiateObject(jdgNavItem, {
-			label: 'OTHER INITIATIVES',
-			href: '#OTHER-INITIATIVES'
-		})
-	];
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
@@ -64,7 +45,7 @@
 </JDGContentContainer>
 
 <JDGContentContainer>
-	<JDGJumpTo {jumpToNavItems} />
+	<JDGJumpTo />
 	<JDGContentBoxFloating title="BACKGROUND">
 		<JDGBodyCopy paddingTop="0">
 			In 1998, a young <a href={urls.jdgLinkedIn}>Josh Goldstein</a> was in his parents' car when
@@ -209,7 +190,7 @@
 			topics:
 			<br /><br />
 			<h3>Historic Englewood Museum</h3>
-			As Secretary of<a href={urls.historicEnglewood}>Historic Englewood</a>, Josh helped design and
+			As Secretary of <a href={urls.historicEnglewood}>Historic Englewood</a>, Josh helped design and
 			build Englewood's first history museum and its inaugural
 			<a href="./exhibit">Cinderella City exhibit</a>, on now through fall 2024.
 			<br /><br />

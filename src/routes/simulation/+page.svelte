@@ -7,6 +7,7 @@
 
 	import {
 		JDGBodyCopy,
+		JDGButton,
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGFeatureCard,
@@ -20,28 +21,13 @@
 	import Donate from '../../components/Donate.svelte';
 	import { urls } from '$lib/strings';
 
-	const jumpToNavItems = [
-		instantiateObject(jdgNavItem, {
-			label: 'FEATURES',
-			href: '#FEATURES'
-		}),
-		instantiateObject(jdgNavItem, {
-			label: 'DONATE',
-			href: '#DONATE'
-		}),
-		instantiateObject(jdgNavItem, {
-			label: 'DOWNLOAD',
-			href: '#DOWNLOAD'
-		})
-	];
-
 	// in order to download, name a price
 	let isDownloadShown = false;
 	const showDownload = () => {
 		isDownloadShown = true;
 	};
 	const donateAndShowDownload = () => {
-		const element = document.getElementById('DONATE');
+		const element = document.getElementById('donate');
 		if (element) element.scrollIntoView({ behavior: 'smooth' });
 		showDownload();
 	};
@@ -96,7 +82,7 @@
 </JDGContentContainer>
 
 <JDGContentContainer>
-	<JDGJumpTo {jumpToNavItems} />
+	<JDGJumpTo />
 	<JDGContentBoxFloating title="FEATURES">
 		<JDGFeatureCard
 			featureTitle="HISTORICALLY ACCURATE"
@@ -161,12 +147,8 @@
 			You can name your price to optionally support the project.
 			<br /><br />
 			<div class="buttons-container">
-				<button class="button-primary" on:click={donateAndShowDownload}>
-					Buy the project a coffee
-				</button>
-				<button class="button-secondary" on:click={continueAndShowDownload}>
-					Continue without donating
-				</button>
+				<JDGButton label="Buy the project a coffee" onClickFunction={donateAndShowDownload} backgroundColor={jdgColors.accentColorsCCP[1]} />
+				<JDGButton label="Continue without donating" onClickFunction={continueAndShowDownload} isPrimary={false} />
 			</div>
 			<div id="continue" title="continue"></div>
 		</JDGBodyCopy>
@@ -199,28 +181,5 @@
 		width: 100%;
 		justify-content: center;
 		align-items: center;
-	}
-
-	button {
-		padding: 15px;
-		width: 400px;
-		border-radius: 20px;
-		border: none;
-		cursor: pointer;
-		font-weight: bold;
-	}
-
-	button:hover {
-		background-color: rgb(162, 233, 233);
-		color: black;
-	}
-
-	.button-primary {
-		color: white;
-		background-color: #e19311;
-	}
-
-	.button-secondary {
-		background-color: lightgray;
 	}
 </style>

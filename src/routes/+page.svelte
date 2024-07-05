@@ -17,23 +17,6 @@
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
-	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
-	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
-
-	const jumpToNavItems = [
-		instantiateObject(jdgNavItem, {
-			label: 'SHORT HISTORY',
-			href: '#SHORT-HISTORY'
-		}),
-		instantiateObject(jdgNavItem, {
-			label: 'PROJECT BRIEF',
-			href: '#PROJECT-BRIEF'
-		}),
-		instantiateObject(jdgNavItem, {
-			label: 'EXPLORE FURTHER',
-			href: '#EXPLORE-FURTHER'
-		})
-	];
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
@@ -78,7 +61,7 @@
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 <JDGContentContainer>
-	<JDGJumpTo {jumpToNavItems} />
+	<JDGJumpTo />
 	<JDGContentBoxFloating title="SHORT HISTORY">
 		<JDGBodyCopy paddingTop="0">
 			The city of Englewood, Colorado changed forever in 1968 when mall magnate Gerri Von Frellick
