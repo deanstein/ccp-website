@@ -1,7 +1,5 @@
 <script>
-	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
-
-	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
+	import { scrollToAnchor } from 'jdg-ui-svelte/jdg-utils.js';
 
 	import imageAttributesCollection from '../../image-attributes-collection';
 
@@ -27,8 +25,7 @@
 		isDownloadShown = true;
 	};
 	const donateAndShowDownload = () => {
-		const element = document.getElementById('donate');
-		if (element) element.scrollIntoView({ behavior: 'smooth' });
+		scrollToAnchor('donate');
 		showDownload();
 	};
 	const continueAndShowDownload = () => {
@@ -147,8 +144,23 @@
 			You can name your price to optionally support the project.
 			<br /><br />
 			<div class="buttons-container">
-				<JDGButton label="Buy the project a coffee" onClickFunction={donateAndShowDownload} backgroundColor={jdgColors.accentColorsCCP[1]} />
-				<JDGButton label="Continue without donating" onClickFunction={continueAndShowDownload} isPrimary={false} />
+				<JDGButton
+					faIcon="fa-mug-saucer"
+					label="Buy the project a coffee"
+					onClickFunction={donateAndShowDownload}
+					backgroundColor={jdgColors.accentColorsCCP[1]}
+					width="300px"
+					gap="15px"
+				/>
+				<JDGButton
+					faIcon="fa-circle-arrow-right"
+					label="Continue without donating"
+					onClickFunction={continueAndShowDownload}
+					isPrimary={false}
+					width="300px"
+					gap="15px"
+					isEnabled={!isDownloadShown}
+				/>
 			</div>
 			<div id="continue" title="continue"></div>
 		</JDGBodyCopy>
