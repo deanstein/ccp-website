@@ -16,7 +16,7 @@
 		JDGImageTile,
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
+	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
@@ -220,7 +220,22 @@
 			through 2024.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="EXPLORE FURTHER">
+	<JDGContentBoxFloating title="LATEST UPDATES">
+		<JDGBodyCopy paddingTop="0" simpleHyperlinkStyle={true}>
+			<ul>
+				<li>
+					June 22, 2024: <a href="./exhibit">The Cinderella City exhibit at the Historic Englewood Museum is now open</a>
+				</li>
+				<li>
+					July 29, 2023: <a href="https://youtu.be/GUgowEJG9HY">See the latest progress: Simulation v0.7 update video</a>
+				</li>
+				<li>
+					April 26, 2022: <a href="https://youtu.be/va9xoslXjQo">Watch the latest history and simulation presentation</a>
+				</li>
+			</ul>
+		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="EXPLORE FURTHER" includeInJumpTo={false}>
 		<JDGGridLayout>
 			<JDGImageTile
 				label="LEARN MORE ABOUT THE PROJECT"

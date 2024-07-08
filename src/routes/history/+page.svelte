@@ -11,7 +11,7 @@
 		JDGImageFullWidth,
 		JDGImageTile
 	} from 'jdg-ui-svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
+	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 </script>
 
 <JDGContentContainer overlapWithHeader={true}>

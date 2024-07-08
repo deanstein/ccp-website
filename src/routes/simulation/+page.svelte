@@ -15,7 +15,7 @@
 		JDGImageTile,
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
+	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 	import Donate from '../../components/Donate.svelte';
 	import { urls } from '$lib/strings';
 
@@ -152,6 +152,7 @@
 					width="300px"
 					gap="15px"
 				/>
+				{#if !isDownloadShown}
 				<JDGButton
 					faIcon="fa-circle-arrow-right"
 					label="Continue without donating"
@@ -161,6 +162,7 @@
 					gap="15px"
 					isEnabled={!isDownloadShown}
 				/>
+				{/if}
 			</div>
 			<div id="continue" title="continue"></div>
 		</JDGBodyCopy>

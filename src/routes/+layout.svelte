@@ -1,9 +1,11 @@
 <script>
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
+	import jdgNotificationTypes from 'jdg-ui-svelte/schemas/jdg-notification-types.js';
 
 	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
+	import { getAccentColors } from 'jdg-ui-svelte/jdg-state-management.js';
 	import uiState from 'jdg-ui-svelte/states/ui-state.js';
 
 	import {
@@ -14,8 +16,7 @@
 		JDGImageDetailOverlay,
 		JDGNotificationBanner
 	} from 'jdg-ui-svelte';
-	import 'jdg-ui-svelte/jdg-styling-root.css';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-styling-constants.js';
+	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
 	// define the nav items in the header
 	const navItemHome = instantiateObject(jdgNavItem);
@@ -72,10 +73,11 @@
 	appLoadingIconSrc="./ccp-logo.png"
 	showHeaderStripes={true}
 	accentColors={jdgColors.accentColorsCCP}
+	linkColorSimple={getAccentColors()[0]}
 >
 	<JDGNotificationBanner
 		message="Coming soon! This website is under construction and may be unfinished in some places."
-		color={jdgColors.notificationWarning}
+		notificationType={jdgNotificationTypes.warning.id}
 	/>
 	<JDGHeader
 		logoTitle={'THE CINDERELLA CITY PROJECT'}
