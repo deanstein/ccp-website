@@ -153,15 +153,15 @@
 					gap="15px"
 				/>
 				{#if !isDownloadShown}
-				<JDGButton
-					faIcon="fa-circle-arrow-right"
-					label="Continue without donating"
-					onClickFunction={continueAndShowDownload}
-					isPrimary={false}
-					width="300px"
-					gap="15px"
-					isEnabled={!isDownloadShown}
-				/>
+					<JDGButton
+						faIcon="fa-circle-arrow-right"
+						label="Continue without donating"
+						onClickFunction={continueAndShowDownload}
+						isPrimary={false}
+						width="300px"
+						gap="15px"
+						isEnabled={!isDownloadShown}
+					/>
 				{/if}
 			</div>
 			<div id="continue" title="continue"></div>
