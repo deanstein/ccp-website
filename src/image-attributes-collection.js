@@ -119,25 +119,25 @@ const imageAttributesCollection = {
 	}),
 	ccp_exhibit_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718411998/ccp-website/ccp/exhibit/20240504_202149245_iOS_enhanced_ja62gb.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718411998/ccp-website/ccp/exhibit/ccp_exhibit_1.jpg',
 		imgAlt: `The Cinderella City exhibit at the Historic Englewood Museum.`,
 		imgCaption: `The Cinderella City exhibit at the Historic Englewood Museum.`
 	}),
 	ccp_exhibit_2: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718636892/ccp-website/ccp/exhibit/20240504_185646544_iOS_ianlep.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1720559712/ccp-website/ccp/exhibit/ccp_exhibit_2.jpg',
 		imgAlt: `The Cinderella City Project at the Historic Englewood museum theater.`,
 		imgCaption: `The Cinderella City Project at the Historic Englewood museum theater.`
 	}),
 	ccp_exhibit_3: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718636870/ccp-website/ccp/exhibit/20240504_202300854_iOS_mr5zxc.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1720559913/ccp-website/ccp/exhibit/ccp_exhibit_3.jpg',
 		imgAlt: `A salvaged flag from the 1980s Rose Mall renovation hangs in the Historic Englewood museum space.`,
 		imgCaption: `A salvaged flag from the 1980s Rose Mall renovation hangs in the Historic Englewood museum space.`
 	}),
 	ccp_exhibit_4: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1718638199/ccp-website/ccp/exhibit/20240504_202334358_iOS_enhanced_kkb26e.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1720559357/ccp-website/ccp/exhibit/ccp_exhibit_4.jpg',
 		imgAlt: `A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space.`,
 		imgCaption: `A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space.`
 	}),
