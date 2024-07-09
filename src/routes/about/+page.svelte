@@ -8,6 +8,7 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGFullWidthContainer,
+		JDGGridLayout,
 		JDGImageFullWidth,
 		JDGImageTile,
 		JDGJumpTo
@@ -202,6 +203,28 @@
 			evolution. Check it out on <a href={urls.vipInstagram}>Instagram</a> and
 			<a href={urls.vipFacebook}>Facebook</a>.
 		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
+		<JDGGridLayout>
+			<JDGImageTile
+				label="SEE THE EXHIBIT"
+				href="./exhibit"
+				imageAttributes={imageAttributesCollection.ccp_exhibit_4}
+				labelJustification={'center'}
+			/>
+			<JDGImageTile
+				label="READ THE FULL HISTORY"
+				href="./history"
+				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+				labelJustification={'center'}
+			/>
+			<JDGImageTile
+				label="EXPERIENCE THE SIMULATION"
+				href="./simulation"
+				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+				labelJustification={'center'}
+			/>
+		</JDGGridLayout>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 
