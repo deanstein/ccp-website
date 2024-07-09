@@ -49,6 +49,28 @@
 		</div>
 		<br />
 	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
+		<JDGGridLayout>
+			<JDGImageTile
+				label="LEARN MORE ABOUT THE PROJECT"
+				href="./about"
+				labelJustification={'center'}
+				imageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+			/>
+			<JDGImageTile
+				label="SEE THE EXHIBIT"
+				href="./exhibit"
+				imageAttributes={imageAttributesCollection.ccp_exhibit_4}
+				labelJustification={'center'}
+			/>
+			<JDGImageTile
+				label="EXPERIENCE THE SIMULATION"
+				href="./simulation"
+				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+				labelJustification={'center'}
+			/>
+		</JDGGridLayout>
+	</JDGContentBoxFloating>
 </JDGContentContainer>
 {#if showInProgressContent}
 	<JDGContentContainer topBottomPadding="0" gap="0">
@@ -110,25 +132,3 @@
 		/>
 	</JDGContentContainer>
 {/if}
-<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
-	<JDGGridLayout>
-		<JDGImageTile
-			label="LEARN MORE ABOUT THE PROJECT"
-			href="./about"
-			labelJustification={'center'}
-			imageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
-		/>
-		<JDGImageTile
-			label="SEE THE EXHIBIT"
-			href="./exhibit"
-			imageAttributes={imageAttributesCollection.ccp_exhibit_4}
-			labelJustification={'center'}
-		/>
-		<JDGImageTile
-			label="EXPERIENCE THE SIMULATION"
-			href="./simulation"
-			imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
-			labelJustification={'center'}
-		/>
-	</JDGGridLayout>
-</JDGContentBoxFloating>
