@@ -243,7 +243,7 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="PRESS COVERAGE">
 		<JDGBodyCopy paddingTop="0" simpleHyperlinkStyle={true}>
-			<h3>NEWER</h3>
+			<h3>LATEST</h3>
 			<ul>
 				<li>
 					April 26, 2022 (<i>Westword</i>):
