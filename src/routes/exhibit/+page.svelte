@@ -4,8 +4,12 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
+		JDGGridLayout,
 		JDGImageFullWidth,
-		JDGImageHybridGridCarousel
+		JDGImageHybridGridCarousel,
+
+		JDGImageTile
+
 	} from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
 </script>
@@ -78,6 +82,28 @@
 			Children under 5: Free
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
+		<JDGGridLayout>
+			<JDGImageTile
+				label="LEARN ABOUT THE PROJECT"
+				href="./about"
+				labelJustification={'center'}
+				imageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+			/>
+			<JDGImageTile
+				label="READ THE FULL HISTORY"
+				href="./history"
+				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+				labelJustification={'center'}
+			/>
+			<JDGImageTile
+				label="MORE ON THE SIMULATION"
+				href="./simulation"
+				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+				labelJustification={'center'}
+			/>
+		</JDGGridLayout>
+		</JDGContentBoxFloating>
 </JDGContentContainer>
 
 <style>

@@ -307,7 +307,7 @@
 			</ul>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="EXPLORE FURTHER" includeInJumpTo={false}>
+	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
 		<JDGGridLayout>
 			<JDGImageTile
 				label="LEARN MORE ABOUT THE PROJECT"
