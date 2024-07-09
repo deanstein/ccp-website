@@ -7,9 +7,7 @@
 		JDGGridLayout,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel,
-
 		JDGImageTile
-
 	} from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
 </script>
@@ -103,7 +101,7 @@
 				labelJustification={'center'}
 			/>
 		</JDGGridLayout>
-		</JDGContentBoxFloating>
+	</JDGContentBoxFloating>
 </JDGContentContainer>
 
 <style>
