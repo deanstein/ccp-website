@@ -1,5 +1,6 @@
 <script>
 	import { scrollToAnchor } from 'jdg-ui-svelte/jdg-utils.js';
+	import { getDistanceToBottomOfHeader } from 'jdg-ui-svelte/jdg-ui-management.js';
 
 	import imageAttributesCollection from '../../image-attributes-collection';
 
@@ -10,6 +11,7 @@
 		JDGContentContainer,
 		JDGFeatureCard,
 		JDGFullWidthContainer,
+		JDGGridLayout,
 		JDGImageCompare,
 		JDGImageFullWidth,
 		JDGImageTile,
@@ -32,10 +34,27 @@
 		showDownload();
 		const element = document.getElementById('continue');
 		setTimeout(() => {
-			if (element) {
-				element.scrollIntoView({ behavior: 'smooth' });
-			}
+			scrollToAnchorAlt('continue', true, 0);
 		}, 100);
+	};
+
+	// @ts-expect-error
+	const scrollToAnchorAlt = (anchorId, accountForHeader = true, additionalOffset = 0) => {
+		const element = document.getElementById(anchorId);
+		if (element) {
+			const topValue = accountForHeader
+				? element.offsetTop -
+					getDistanceToBottomOfHeader().value -
+					additionalOffset +
+					window.scrollY
+				: element.offsetTop - additionalOffset + window.scrollY;
+			window.scrollTo({
+				top: topValue,
+				behavior: 'smooth'
+			});
+		} else {
+			console.error('No scroll element found.');
+		}
 	};
 </script>
 
@@ -181,9 +200,112 @@
 			</JDGBodyCopy>
 		{/if}
 	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="CONTROLS">
+		<JDGBodyCopy paddingTop="0">
+			After the simulation loads, you'll find yourself at the Main Menu, where you can pick a time
+			and place to start.
+			<br /><br />
+			Once you're in the simulation, here's how to navigate:
+			<br /><br />
+			<h3>KEYBOARD</h3>
+			<ul>
+				<li>
+					<b>WASD</b> to walk forward, left, right, and backward
+				</li>
+				<ul>
+					<li>
+						<i>Hold <b>Shift</b> to run!</i>
+					</li>
+				</ul>
+				<li>
+					Use your <b>mouse</b> to look around
+				</li>
+				<li>
+					<b>Spacebar</b> to jump
+				</li>
+				<li>
+					<b>Q</b> and <b>E</b> to time-travel
+				</li>
+				<li>
+					<b>P</b> to toggle people on/off
+				</li>
+				<li>
+					<b>O</b> to reset the people to their original positions
+				</li>
+				<li>
+					<b>G</b> to enter/exit anti-gravity mode. While in anti-gravity mode:
+				</li>
+				<ul>
+					<li>
+						Hold <b>R</b> to rise/ascend
+					</li>
+					<li>
+						Hold <b>F</b> to fall/descend
+					</li>
+					<li>
+						Hit <b>G</b> again to toggle gravity back on
+					</li>
+				</ul>
+				<li>
+					<b>X</b> to take a screenshot (stored at users/AppData/The Cinderella City Project/Cinderella
+					City Simulation/Screenshots)
+				</li>
+				<li>
+					<b>1</b>, <b>2</b>, <b>3</b>, <b>4</b> to cycle between special post-processing camera
+					modes. Tap the number again to return to the default.
+				</li>
+				<li>
+					<b>ESC</b> to go to the Pause Menu
+					<ul>
+						<li>
+							<i
+								>You can also time-travel from here, with a visual showing what the other eras look
+								like at this point in space</i
+							>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<b>M</b> to go to the Main Menu
+				</li>
+				<li>
+					<b>V</b> to go to the Visualization Menu
+				</li>
+				<li>
+					<b>U</b> to go to the Audio Menu
+				</li>
+			</ul>
+		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
+		<JDGGridLayout>
+			<JDGImageTile
+				label="LEARN MORE ABOUT THE PROJECT"
+				href="./about"
+				labelJustification={'center'}
+				imageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+			/>
+			<JDGImageTile
+				label="READ THE FULL HISTORY"
+				href="./history"
+				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+				labelJustification={'center'}
+			/>
+			<JDGImageTile
+				label="SEE THE EXHIBIT"
+				href="./exhibit"
+				imageAttributes={imageAttributesCollection.ccp_exhibit_4}
+				labelJustification={'center'}
+			/>
+		</JDGGridLayout>
+	</JDGContentBoxFloating>
 </JDGContentContainer>
 
 <style>
+	h3 {
+		text-align: center;
+	}
+
 	ul {
 		margin: 4px;
 	}
