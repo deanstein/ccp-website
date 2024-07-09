@@ -47,7 +47,7 @@
 			/>
 			<JDGImageTile
 				label="ARCHITECTURAL ANALYSIS"
-				href="./anatomy"
+				href="./analysis"
 				imageAttributes={imageAttributesCollection.plan_60s70s_1}
 				labelJustification={'center'}
 			/>
