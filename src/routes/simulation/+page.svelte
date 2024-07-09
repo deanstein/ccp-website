@@ -251,8 +251,8 @@
 					City Simulation/Screenshots)
 				</li>
 				<li>
-					<b>1</b>, <b>2</b>, <b>3</b>, <b>4</b> to cycle between special post-processing camera
-					modes. Tap the number again to return to the default.
+					<b>1</b>, <b>2</b>, <b>3</b>, <b>4</b> to cycle between special post-processing camera modes.
+					Tap the number again to return to the default.
 				</li>
 				<li>
 					<b>ESC</b> to go to the Pause Menu
