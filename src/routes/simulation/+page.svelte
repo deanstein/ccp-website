@@ -1,7 +1,7 @@
 <script>
 	import { scrollToAnchor } from 'jdg-ui-svelte/jdg-utils.js';
-	import { getDistanceToBottomOfHeader } from 'jdg-ui-svelte/jdg-ui-management.js';
 
+	import { urls } from '$lib/strings';
 	import imageAttributesCollection from '../../image-attributes-collection';
 
 	import {
@@ -17,9 +17,8 @@
 		JDGImageTile,
 		JDGJumpTo
 	} from 'jdg-ui-svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 	import Donate from '../../components/Donate.svelte';
-	import { urls } from '$lib/strings';
+	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
 	// in order to download, name a price
 	let isDownloadShown = false;
@@ -34,27 +33,8 @@
 		showDownload();
 		const element = document.getElementById('continue');
 		setTimeout(() => {
-			scrollToAnchorAlt('continue', true, 0);
+			scrollToAnchor('continue', true, 0);
 		}, 100);
-	};
-
-	// @ts-expect-error
-	const scrollToAnchorAlt = (anchorId, accountForHeader = true, additionalOffset = 0) => {
-		const element = document.getElementById(anchorId);
-		if (element) {
-			const topValue = accountForHeader
-				? element.offsetTop -
-					getDistanceToBottomOfHeader().value -
-					additionalOffset +
-					window.scrollY
-				: element.offsetTop - additionalOffset + window.scrollY;
-			window.scrollTo({
-				top: topValue,
-				behavior: 'smooth'
-			});
-		} else {
-			console.error('No scroll element found.');
-		}
 	};
 </script>
 
