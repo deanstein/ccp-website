@@ -3,6 +3,7 @@
 	import jdgNotificationTypes from 'jdg-ui-svelte/schemas/jdg-notification-types.js';
 
 	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
 	import { getAccentColors } from 'jdg-ui-svelte/jdg-state-management.js';
@@ -14,7 +15,8 @@
 		JDGFooter,
 		JDGHeader,
 		JDGImageDetailOverlay,
-		JDGNotificationBanner
+		JDGNotificationBanner,
+		JDGSocialMedia
 	} from 'jdg-ui-svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
@@ -89,7 +91,19 @@
 	<JDGBackground />
 	<!-- all content goes in this slot -->
 	<slot />
-	<JDGFooter alignItems="center" repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
+	<JDGFooter
+		alignItems="center"
+		repoName={ccpWebsiteRepoName}
+		{appVersion}
+		{additionalVersionData}
+		{disclaimer}
+	>
+		<JDGSocialMedia
+			instagramHref={jdgSharedUrls.ccpInstagram}
+			facebookHref={jdgSharedUrls.ccpFacebook}
+			youtubeHref={jdgSharedUrls.ccpYouTube}
+		/>
+	</JDGFooter>
 	{#if $uiState.showImageDetailOverlay}
 		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
 	{/if}
