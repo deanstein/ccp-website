@@ -192,7 +192,7 @@
 			adjacent topics:
 			<br /><br />
 			<h3>Historic Englewood Museum</h3>
-			As Secretary of<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
+			As Secretary of <a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
 			design and build Englewood's first history museum and its inaugural
 			<a href="./exhibit">Cinderella City exhibit</a>, on now through fall 2024.
 			<br /><br />
