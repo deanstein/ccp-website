@@ -49,8 +49,8 @@
 	<JDGJumpTo />
 	<JDGContentBoxFloating title="BACKGROUND">
 		<JDGBodyCopy paddingTop="0">
-			In 1998, a young <a href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a> was in his parents' car when
-			they passed by a vast and shocking demolition site in Englewood, Colorado.
+			In 1998, a young <a href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a> was in his parents'
+			car when they passed by a vast and shocking demolition site in Englewood, Colorado.
 			<br /><br />
 			<JDGFullWidthContainer>
 				<JDGImageTile
@@ -131,7 +131,8 @@
 						</li>
 						<li>
 							Visit on <a href={jdgSharedUrls.ccpInstagram}>Instagram</a>,
-							<a href={jdgSharedUrls.ccpFacebook}>Facebook</a>, or <a href={jdgSharedUrls.ccpYouTube}>YouTube</a>.
+							<a href={jdgSharedUrls.ccpFacebook}>Facebook</a>, or
+							<a href={jdgSharedUrls.ccpYouTube}>YouTube</a>.
 						</li>
 					</ul>
 				</li>
@@ -153,8 +154,8 @@
 							lessons for the future.
 						</li>
 						<li>
-							Watch the whole story on <a href={jdgSharedUrls.ccpYouTube}>YouTube</a> or read the full
-							history <a href="./history">here</a>.
+							Watch the whole story on <a href={jdgSharedUrls.ccpYouTube}>YouTube</a> or read the
+							full history <a href="./history">here</a>.
 						</li>
 					</ul>
 				</li>
@@ -191,8 +192,8 @@
 			adjacent topics:
 			<br /><br />
 			<h3>Historic Englewood Museum</h3>
-			As Secretary of<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped design and
-			build Englewood's first history museum and its inaugural
+			As Secretary of<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
+			design and build Englewood's first history museum and its inaugural
 			<a href="./exhibit">Cinderella City exhibit</a>, on now through fall 2024.
 			<br /><br />
 			<h3>The Villa Italia Project</h3>

@@ -25,9 +25,9 @@
 	<JDGContentBoxFloating>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <b>Cinderella City Project</b> has teamed up with
-			<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a> to create Englewood's first history
-			museum, bringing to life the story of <a href="./history">Cinderella City Mall</a> as the
-			inaugural exhibit.
+			<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a> to create Englewood's first
+			history museum, bringing to life the story of <a href="./history">Cinderella City Mall</a> as
+			the inaugural exhibit.
 			<br /><br />
 			Immerse yourself in Cinderella City's history and design with life-size photos, little-known facts,
 			and several artifacts from the mall, including the iconic Cinder Alley sign which has been restored
