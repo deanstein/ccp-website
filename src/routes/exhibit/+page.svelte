@@ -1,5 +1,5 @@
 <script>
-	import { urls } from '$lib/strings';
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -25,7 +25,7 @@
 	<JDGContentBoxFloating>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <b>Cinderella City Project</b> has teamed up with
-			<a href={urls.historicEnglewood}>Historic Englewood</a> to create Englewood's first history
+			<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a> to create Englewood's first history
 			museum, bringing to life the story of <a href="./history">Cinderella City Mall</a> as the
 			inaugural exhibit.
 			<br /><br />

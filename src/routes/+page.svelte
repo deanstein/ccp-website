@@ -1,5 +1,5 @@
 <script>
-	import { urls } from '$lib/strings';
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import imageAttributesCollection from '../image-attributes-collection';
 
 	import {
@@ -34,7 +34,7 @@
 			from fairytale to nightmare in just 30 years.
 			<br /><br />
 			Created by architectural designer and software developer
-			<a href={urls.jdgLinkedIn}>Josh Goldstein</a>, a Colorado native whose career path was
+			<a href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a>, a Colorado native whose career path was
 			unknowingly influenced by Cinderella City's demolition, the project's goal is to document this
 			unique place in <b>three ways</b>:
 		</JDGBodyCopy>
@@ -148,7 +148,7 @@
 	<JDGContentBoxFloating title="PROJECT BRIEF">
 		<JDGBodyCopy paddingTop="0">
 			Seeing Cinderella City fall to the wrecking ball in 1998 made 8-year-old <a
-				href={urls.jdgLinkedIn}>Josh Goldstein</a
+				href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a
 			>
 			vow to become an architect in pursuit of making great places that honor and learn from our architectural
 			past.

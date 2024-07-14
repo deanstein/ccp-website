@@ -89,7 +89,7 @@
 	<JDGBackground />
 	<!-- all content goes in this slot -->
 	<slot />
-	<JDGFooter repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
+	<JDGFooter alignItems="center" repoName={ccpWebsiteRepoName} {appVersion} {additionalVersionData} {disclaimer} />
 	{#if $uiState.showImageDetailOverlay}
 		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
 	{/if}

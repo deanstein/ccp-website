@@ -1,7 +1,7 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 
-	import { urls } from '$lib/strings';
+	import imageAttributesCollection from '../../image-attributes-collection';
 
 	import {
 		JDGBodyCopy,
@@ -49,7 +49,7 @@
 	<JDGJumpTo />
 	<JDGContentBoxFloating title="BACKGROUND">
 		<JDGBodyCopy paddingTop="0">
-			In 1998, a young <a href={urls.jdgLinkedIn}>Josh Goldstein</a> was in his parents' car when
+			In 1998, a young <a href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a> was in his parents' car when
 			they passed by a vast and shocking demolition site in Englewood, Colorado.
 			<br /><br />
 			<JDGFullWidthContainer>
@@ -130,8 +130,8 @@
 							icon. Why not share them?
 						</li>
 						<li>
-							Visit on <a href={urls.ccpInstagram}>Instagram</a>,
-							<a href={urls.ccpFacebook}>Facebook</a>, or <a href={urls.ccpYouTube}>YouTube</a>.
+							Visit on <a href={jdgSharedUrls.ccpInstagram}>Instagram</a>,
+							<a href={jdgSharedUrls.ccpFacebook}>Facebook</a>, or <a href={jdgSharedUrls.ccpYouTube}>YouTube</a>.
 						</li>
 					</ul>
 				</li>
@@ -153,7 +153,7 @@
 							lessons for the future.
 						</li>
 						<li>
-							Watch the whole story on <a href={urls.ccpYouTube}>YouTube</a> or read the full
+							Watch the whole story on <a href={jdgSharedUrls.ccpYouTube}>YouTube</a> or read the full
 							history <a href="./history">here</a>.
 						</li>
 					</ul>
@@ -191,7 +191,7 @@
 			adjacent topics:
 			<br /><br />
 			<h3>Historic Englewood Museum</h3>
-			As Secretary of<a href={urls.historicEnglewood}>Historic Englewood</a>, Josh helped design and
+			As Secretary of<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped design and
 			build Englewood's first history museum and its inaugural
 			<a href="./exhibit">Cinderella City exhibit</a>, on now through fall 2024.
 			<br /><br />
@@ -200,8 +200,8 @@
 			an eerily similar timeline and trajectory.
 			<br /><br />
 			Although it doesn't have the same cult following, Villa Italia has a fascinating story and design
-			evolution. Check it out on <a href={urls.vipInstagram}>Instagram</a> and
-			<a href={urls.vipFacebook}>Facebook</a>.
+			evolution. Check it out on <a href={jdgSharedUrls.vipInstagram}>Instagram</a> and
+			<a href={jdgSharedUrls.vipFacebook}>Facebook</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>

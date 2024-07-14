@@ -1,7 +1,7 @@
 <script>
 	import { scrollToAnchor } from 'jdg-ui-svelte/jdg-utils.js';
+	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 
-	import { urls } from '$lib/strings';
 	import imageAttributesCollection from '../../image-attributes-collection';
 
 	import {
@@ -176,7 +176,7 @@
 				</ul>
 				<br />
 				Download the latest version
-				<a href={urls.githubDownload}>here</a>.
+				<a href={jdgSharedUrls.ccpGitHubReleases}>here</a>.
 			</JDGBodyCopy>
 		{/if}
 	</JDGContentBoxFloating>
