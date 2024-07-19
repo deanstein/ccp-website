@@ -27,7 +27,7 @@ const imageAttributesCollection = {
 	}),
 	ccp_composite_2: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1716962800/ccp-website/ccp/ccp-composite-2_ddnvun.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962800/ccp-website/ccp/ccp-composite-2_ddnvun.jpg',
 		imgAlt: `A composite of the 1968-1978 simulated version of the mall on the left, and the 1987-1997 simulated version of the mall on the right.`
 	}),
 	ccp_construction_80s90s_1: instantiateObject(jdgImageAttributes, {
