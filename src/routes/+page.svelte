@@ -193,21 +193,17 @@
 			the simulation in reality:
 		</JDGBodyCopy>
 		<JDGGridLayout maxColumns={2}>
-			<div style="display: flex; width: fit-content; margin-left: auto;">
 				<JDGImageCompare
 					imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 					imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
 					maxHeight="400px"
 					showBlurInUnfilledSpace={false}
 				/>
-			</div>
-			<div style="width: fit-content; display: flex; flex-direction: row-reverse">
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
 					fillContainer={false}
 					maxHeight="400px"
 				/>
-			</div>
 		</JDGGridLayout>
 
 		<JDGBodyCopy>
