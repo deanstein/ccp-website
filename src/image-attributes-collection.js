@@ -172,10 +172,8 @@ const imageAttributesCollection = {
 	blue_mall_60s70s_2: instantiateObject(jdgImageAttributes, {
 		imgSrc:
 			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962799/ccp-website/blue-mall/blue-mall-60s70s-2_vy6cnk.jpg',
-		imgAlt:
-			`The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.`,
-		imgCaption:
-			`The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.`,
+		imgAlt: `The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.`,
+		imgCaption: `The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.`,
 		imgAttribution: 'Englewood Public Library'
 	}),
 	blue_mall_60s70s_event_1: instantiateObject(jdgImageAttributes, {
