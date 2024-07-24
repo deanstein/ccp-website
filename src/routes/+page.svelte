@@ -44,18 +44,24 @@
 				href="./history"
 				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
 				labelJustification={'center'}
+				compactModeOnMobile={false}
+				maxHeight={"300px"}
 			/>
 			<JDGImageTile
 				label="ARCHITECTURAL ANALYSIS"
 				href="./analysis"
 				imageAttributes={imageAttributesCollection.plan_60s70s_1}
 				labelJustification={'center'}
+				compactModeOnMobile={false}
+				maxHeight={"300px"}
 			/>
 			<JDGImageTile
 				label="IMMERSIVE SIMULATION"
 				href="./simulation"
 				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 				labelJustification={'center'}
+				compactModeOnMobile={false}
+				maxHeight={"300px"}
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
