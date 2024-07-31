@@ -4,10 +4,9 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGGridLayout,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel,
-		JDGImageTile
+		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
 </script>
@@ -80,28 +79,17 @@
 			Children under 5: Free
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
-		<JDGGridLayout>
-			<JDGImageTile
-				label="LEARN ABOUT THE PROJECT"
-				href="./about"
-				labelJustification={'center'}
-				imageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
-			/>
-			<JDGImageTile
-				label="READ THE FULL HISTORY"
-				href="./history"
-				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
-				labelJustification={'center'}
-			/>
-			<JDGImageTile
-				label="MORE ON THE SIMULATION"
-				href="./simulation"
-				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
-				labelJustification={'center'}
-			/>
-		</JDGGridLayout>
-	</JDGContentBoxFloating>
+	<JDGUpNext
+		item1Label={'LEARN ABOUT THE PROJECT'}
+		item1Href={'./about'}
+		item1ImageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+		item2Label={'READ THE FULL HISTORY'}
+		item2Href="./history"
+		item2ImageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+		item3Label="MORE ON THE SIMULATION"
+		item3Href="./simulation"
+		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+	/>
 </JDGContentContainer>
 
 <style>

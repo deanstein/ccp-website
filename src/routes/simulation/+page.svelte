@@ -11,11 +11,11 @@
 		JDGContentContainer,
 		JDGFeatureCard,
 		JDGFullWidthContainer,
-		JDGGridLayout,
 		JDGImageCompare,
 		JDGImageFullWidth,
 		JDGImageTile,
-		JDGJumpTo
+		JDGJumpTo,
+		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import Donate from '../../components/Donate.svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
@@ -257,28 +257,17 @@
 			</ul>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
-		<JDGGridLayout>
-			<JDGImageTile
-				label="LEARN MORE ABOUT THE PROJECT"
-				href="./about"
-				labelJustification={'center'}
-				imageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
-			/>
-			<JDGImageTile
-				label="READ THE FULL HISTORY"
-				href="./history"
-				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
-				labelJustification={'center'}
-			/>
-			<JDGImageTile
-				label="SEE THE EXHIBIT"
-				href="./exhibit"
-				imageAttributes={imageAttributesCollection.ccp_exhibit_4}
-				labelJustification={'center'}
-			/>
-		</JDGGridLayout>
-	</JDGContentBoxFloating>
+	<JDGUpNext
+		item1Label={'LEARN MORE ABOUT THE PROJECT'}
+		item1Href={'./about'}
+		item1ImageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+		item2Label={'READ THE FULL HISTORY'}
+		item2Href="./history"
+		item2ImageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+		item3Label="SEE THE EXHIBIT"
+		item3Href="./exhibit"
+		item3ImageAttributes={imageAttributesCollection.ccp_exhibit_4}
+	/>
 </JDGContentContainer>
 
 <style>

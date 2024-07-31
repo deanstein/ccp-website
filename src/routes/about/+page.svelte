@@ -8,10 +8,10 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGFullWidthContainer,
-		JDGGridLayout,
 		JDGImageFullWidth,
 		JDGImageTile,
-		JDGJumpTo
+		JDGJumpTo,
+		JDGUpNext
 	} from 'jdg-ui-svelte';
 </script>
 
@@ -193,7 +193,7 @@
 			<br /><br />
 			<h3>Historic Englewood Museum</h3>
 			<!-- prettier-ignore -->
-			As Secretary of  <a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
+			As Secretary of    <a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
 			design and build Englewood's first history museum and its inaugural
 			<a href="./exhibit">Cinderella City exhibit</a>, on now through fall 2024.
 			<br /><br />
@@ -206,28 +206,17 @@
 			<a href={jdgSharedUrls.vipFacebook}>Facebook</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
-		<JDGGridLayout>
-			<JDGImageTile
-				label="SEE THE EXHIBIT"
-				href="./exhibit"
-				imageAttributes={imageAttributesCollection.ccp_exhibit_4}
-				labelJustification={'center'}
-			/>
-			<JDGImageTile
-				label="READ THE FULL HISTORY"
-				href="./history"
-				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
-				labelJustification={'center'}
-			/>
-			<JDGImageTile
-				label="EXPERIENCE THE SIMULATION"
-				href="./simulation"
-				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
-				labelJustification={'center'}
-			/>
-		</JDGGridLayout>
-	</JDGContentBoxFloating>
+	<JDGUpNext
+		item1Label={'SEE THE EXHIBIT'}
+		item1Href={'./exhibit'}
+		item1ImageAttributes={imageAttributesCollection.ccp_exhibit_4}
+		item2Label={'READ THE FULL HISTORY'}
+		item2Href="./history"
+		item2ImageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+		item3Label="EXPERIENCE THE SIMULATION"
+		item3Href="./simulation"
+		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+	/>
 </JDGContentContainer>
 
 <style>

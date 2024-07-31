@@ -1,5 +1,11 @@
 <script>
-	import { JDGBodyCopy, JDGContentBoxFloating, JDGContentContainer, JDGImage } from 'jdg-ui-svelte';
+	import {
+		JDGBodyCopy,
+		JDGContentBoxFloating,
+		JDGContentContainer,
+		JDGImage,
+		JDGUpNext
+	} from 'jdg-ui-svelte';
 	import imageAttributesCollection from '../../image-attributes-collection';
 </script>
 
@@ -17,4 +23,15 @@
 			showAttribution={true}
 		/>
 	</JDGContentBoxFloating>
+	<JDGUpNext
+		item1Label={'SEE THE EXHIBIT'}
+		item1Href={'./exhibit'}
+		item1ImageAttributes={imageAttributesCollection.ccp_exhibit_4}
+		item2Label={'READ THE FULL HISTORY'}
+		item2Href="./history"
+		item2ImageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+		item3Label="EXPERIENCE THE SIMULATION"
+		item3Href="./simulation"
+		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+	/>
 </JDGContentContainer>

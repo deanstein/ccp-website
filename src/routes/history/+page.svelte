@@ -6,11 +6,10 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGGridLayout,
-		JDGImage,
 		JDGImageCarousel,
 		JDGImageFullWidth,
-		JDGImageTile
+		JDGImageTile,
+		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
@@ -49,28 +48,17 @@
 		</div>
 		<br />
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="UP NEXT" includeInJumpTo={false}>
-		<JDGGridLayout>
-			<JDGImageTile
-				label="LEARN MORE ABOUT THE PROJECT"
-				href="./about"
-				labelJustification={'center'}
-				imageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
-			/>
-			<JDGImageTile
-				label="SEE THE EXHIBIT"
-				href="./exhibit"
-				imageAttributes={imageAttributesCollection.ccp_exhibit_4}
-				labelJustification={'center'}
-			/>
-			<JDGImageTile
-				label="EXPERIENCE THE SIMULATION"
-				href="./simulation"
-				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
-				labelJustification={'center'}
-			/>
-		</JDGGridLayout>
-	</JDGContentBoxFloating>
+	<JDGUpNext
+		item1Label={'LEARN MORE ABOUT THE PROJECT'}
+		item1Href={'./about'}
+		item1ImageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+		item2Label={'SEE THE EXHIBIT'}
+		item2Href="./exhibit"
+		item2ImageAttributes={imageAttributesCollection.ccp_exhibit_4}
+		item3Label="EXPERIENCE THE SIMULATION"
+		item3Href="./simulation"
+		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+	/>
 </JDGContentContainer>
 {#if showInProgressContent}
 	<JDGContentContainer topBottomPadding="0" gap="0">
