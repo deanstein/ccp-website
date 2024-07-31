@@ -49,7 +49,7 @@
 		overlayImageTextFontFamily="Righteous"
 		overlapWithHeader={true}
 	/>
-	<JDGContentBoxFloating>
+	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			<strong>Once Upon a Time at Cinderella City</strong> is an interactive simulation of
 			<a href="./history">Cinderella City Mall</a>

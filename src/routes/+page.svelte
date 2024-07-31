@@ -27,7 +27,7 @@
 		secondaryText="to Cinderella City Mall"
 		overlapWithHeader={true}
 	/>
-	<JDGContentBoxFloating>
+	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <strong>Cinderella City Project</strong> is an immersive journey into an unconventional
 			mid-century retail destination, hailed by its creator as a "city under a roof," which faded
@@ -45,7 +45,7 @@
 				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
 				labelJustification={'center'}
 				compactModeOnMobile={false}
-				maxHeight={"300px"}
+				maxHeight={'300px'}
 			/>
 			<JDGImageTile
 				label="ARCHITECTURAL ANALYSIS"
@@ -53,7 +53,7 @@
 				imageAttributes={imageAttributesCollection.plan_60s70s_1}
 				labelJustification={'center'}
 				compactModeOnMobile={false}
-				maxHeight={"300px"}
+				maxHeight={'300px'}
 			/>
 			<JDGImageTile
 				label="IMMERSIVE SIMULATION"
@@ -61,7 +61,7 @@
 				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 				labelJustification={'center'}
 				compactModeOnMobile={false}
-				maxHeight={"300px"}
+				maxHeight={'300px'}
 			/>
 		</JDGGridLayout>
 	</JDGContentBoxFloating>
@@ -199,17 +199,17 @@
 			the simulation in reality:
 		</JDGBodyCopy>
 		<JDGGridLayout maxColumns={2}>
-				<JDGImageCompare
-					imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
-					imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
-					maxHeight="400px"
-					showBlurInUnfilledSpace={false}
-				/>
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
-					fillContainer={false}
-					maxHeight="400px"
-				/>
+			<JDGImageCompare
+				imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+				imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
+				maxHeight="400px"
+				showBlurInUnfilledSpace={false}
+			/>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
+				fillContainer={false}
+				maxHeight="400px"
+			/>
 		</JDGGridLayout>
 
 		<JDGBodyCopy>

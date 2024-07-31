@@ -26,7 +26,7 @@
 		overlayImageTextFontFamily="Righteous"
 		overlapWithHeader={true}
 	/>
-	<JDGContentBoxFloating>
+	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <b>Cinderella City Project</b> is one man's quest to document and reconstruct a quirky
 			mid-century shopping center in Englewood, Colorado which inspired his career in architecture
@@ -193,7 +193,7 @@
 			<br /><br />
 			<h3>Historic Englewood Museum</h3>
 			<!-- prettier-ignore -->
-			As Secretary of <a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
+			As Secretary of  <a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
 			design and build Englewood's first history museum and its inaugural
 			<a href="./exhibit">Cinderella City exhibit</a>, on now through fall 2024.
 			<br /><br />

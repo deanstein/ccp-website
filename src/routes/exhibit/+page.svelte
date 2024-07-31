@@ -22,7 +22,7 @@
 		secondaryText="at the Historic Englewood Museum"
 		overlapWithHeader={true}
 	/>
-	<JDGContentBoxFloating>
+	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <b>Cinderella City Project</b> has teamed up with
 			<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a> to create Englewood's first

@@ -26,7 +26,7 @@
 		overlayColorRgba="rgba(30, 30, 30, 0.5)"
 		overlapWithHeader={true}
 	/>
-	<JDGContentBoxFloating title="COMING SOON">
+	<JDGContentBoxFloating title="COMING SOON" animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0">
 			<span style="display: flex; justify-content: center;">
 				The full written history of Cinderella City Mall is coming soon. Stay tuned!
