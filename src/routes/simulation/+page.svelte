@@ -81,7 +81,7 @@
 	<JDGJumpTo />
 	<JDGContentBoxFloating title="FEATURES">
 		<JDGFeatureCard
-			featureTitle="HISTORICALLY ACCURATE"
+			featureTitle="HIGHLY ACCURATE"
 			featureDescription="Experience Cinderella City Mall in full 3D, complete with accurate architectural details
 			and signage based on real photographs and original blueprints of the mall"
 			titleFontFamily="Righteous"
