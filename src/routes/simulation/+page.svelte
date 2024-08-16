@@ -297,6 +297,15 @@
 					<b>U</b> to go to the Audio Menu
 				</li>
 			</ul>
+			<h3>XBOX ONE</h3>
+			Simulation v0.8.0 and newer supports an Xbox One controller attached to the PC.
+			<br /><br />
+			Here are the controls for the Xbox One controller:
+			<br /><br />
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.ccp_xbox_one_controller_diagram}
+				fillContainer={false}
+			/>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGUpNext

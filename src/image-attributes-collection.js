@@ -1,4 +1,8 @@
-import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
+import {
+	addCloudinaryUrlTransformation,
+	instantiateObject,
+	postProcessImageAttributes
+} from 'jdg-ui-svelte/jdg-utils.js';
 import jdgImageAttributes from 'jdg-ui-svelte/schemas/jdg-image-attributes.js';
 
 // a map of all available images and their attributes
@@ -141,6 +145,15 @@ const imageAttributesCollection = {
 		imgAlt: `A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space.`,
 		imgCaption: `A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space.`
 	}),
+	ccp_xbox_one_controller_diagram: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc: addCloudinaryUrlTransformation(
+				'https://res.cloudinary.com/jdg-main/image/upload/v1723785244/ccp-website/ccp/ccp-xbox-one-controller-diagram.jpg'
+			),
+			imgCaption: 'Xbox One controller diagram for Once Upon a Time at Cinderella City',
+			allowBackgroundBlur: false
+		})
+	),
 
 	/*** CONCEPT ART ***/
 	concept_art_1: instantiateObject(jdgImageAttributes, {
