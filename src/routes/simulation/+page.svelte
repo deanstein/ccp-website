@@ -297,6 +297,7 @@
 					<b>U</b> to go to the Audio Menu
 				</li>
 			</ul>
+			<br />
 			<h3>XBOX ONE</h3>
 			Simulation v0.8.0 and newer supports an Xbox One controller attached to the PC.
 			<br /><br />
@@ -306,6 +307,25 @@
 				imageAttributes={imageAttributesCollection.ccp_xbox_one_controller_diagram}
 				fillContainer={false}
 			/>
+		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="KNOWN ISSUES">
+		<JDGBodyCopy paddingTop="0">
+			The simulation is still under development, so it has a few known issues:
+			<br /><br />
+			<ul>
+				<li>Large areas of both time periods are unfinished</li>
+				<li>The audio when walking outside the mall is too short and loops too quickly</li>
+				<li>
+					Jumping or using anti-gravity mode while walking outside the mall will play the interior
+					audio unexpectedly
+				</li>
+				<li>
+					Running the Guided Tour for extended periods may result in the player walking into walls
+				</li>
+			</ul>
+			<br />
+			Noticing an issue not listed? <a href="./contact">Get in touch</a>!
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGUpNext
