@@ -169,14 +169,56 @@
 			<JDGBodyCopy paddingTop="0">
 				Let's rock!
 				<br /><br />
+				<i>Once Upon a Time at Cinderella City</i> is under development, but in-progress builds are
+				available for intrepid mall fans to try out.
+				<br /><br />
 				A few things to keep in mind about the simulation:
 				<ul>
 					<li>It's a work in progress and many storefronts are unfinished.</li>
-					<li>It's currently only available on Windows.</li>
+					<li>It's currently only available on Microsoft Windows.</li>
 				</ul>
 				<br />
-				Download the latest version
-				<a href={jdgSharedUrls.ccpGitHubReleases}>here</a>.
+				<h3 style="text-align: left;">DOWNLOAD</h3>
+				<ul>
+					<li>
+						Go to the <a
+							href="https://github.com/deanstein/CinderellaCityProject/releases"
+							target="_blank">Releases</a
+						> page
+					</li>
+					<li>Click "Assets" below the release notes on the latest release</li>
+					<li>Download the .7z file ending in "_Win"</li>
+				</ul>
+				<h3 style="text-align: left;">EXTRACT</h3>
+				<ul>
+					<li>
+						If you're on Windows 10, you may need to install <a
+							href="https://www.7-zip.org/a/7z2201-x64.exe"
+							target="_blank">7-Zip</a
+						> first
+					</li>
+					<li>
+						Extract the .7z file
+						<ul>
+							<li>
+								On Windows 10: Right-click the .7z file, 7-Zip -> Extract To
+								"CinderellaCityProject..."
+							</li>
+							<li>On Windows 11: Right-click the .7z file -> Extract All...</li>
+						</ul>
+					</li>
+				</ul>
+				<h3 style="text-align: left;">RUN</h3>
+				<ul>
+					<li>Double-click on "Cinderella City Simulation.exe"</li>
+					<li>Optionally choose your desired resolution</li>
+					<ul>
+						<li>Recommended starting resolution: 1920x1080 or similar</li>
+						<li>Higher resolutions may result in slower performance depending on your hardware</li>
+					</ul>
+				</ul>
+				<br /><br />
+				This is a work-in-progress, so these builds may exhibit bugs and unexpected behavior.
 			</JDGBodyCopy>
 		{/if}
 	</JDGContentBoxFloating>
