@@ -199,16 +199,18 @@
 			mid-century vibe evolved over time, each era complete with floating historical photographs to ground
 			the simulation in reality:
 		</JDGBodyCopy>
-		<JDGGridLayout maxColumns={2}>
+		<JDGGridLayout>
 			<JDGImageCompare
 				imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 				imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
 				maxHeight="400px"
 				showBlurInUnfilledSpace={false}
+				caption={"Cinderella City's Blue Mall, seen in two distinct time periods."}
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
-				fillContainer={false}
+				fillContainer={true}
+				showCaption={true}
 				maxHeight="400px"
 			/>
 		</JDGGridLayout>
