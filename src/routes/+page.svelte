@@ -70,7 +70,7 @@
 <JDGContentContainer>
 	<JDGJumpTo />
 	<JDGContentBoxFloating title="SHORT HISTORY">
-		<JDGBodyCopy paddingTop="0">
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			The city of Englewood, Colorado changed forever in 1968 when mall magnate Gerri Von Frellick
 			opened a controversial 1.35 million square-foot shopping center on the site of Englewood's
 			beloved City Park.
@@ -199,7 +199,7 @@
 			mid-century vibe evolved over time, each era complete with floating historical photographs to ground
 			the simulation in reality:
 		</JDGBodyCopy>
-		<JDGGridLayout>
+		<JDGGridLayout maxColumns={2}>
 			<JDGImageCompare
 				imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 				imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
