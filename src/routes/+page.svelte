@@ -199,7 +199,7 @@
 			mid-century vibe evolved over time, each era complete with floating historical photographs to ground
 			the simulation in reality:
 		</JDGBodyCopy>
-		<JDGGridLayout maxColumns={2}>
+		<JDGGridLayout>
 			<JDGImageCompare
 				imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 				imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
