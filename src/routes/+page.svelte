@@ -20,7 +20,7 @@
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 </script>
 
-<JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
+<JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0" gap="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.blue_mall_60s70s_1}
 		primaryText="STEP BACK IN TIME"

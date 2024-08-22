@@ -15,7 +15,7 @@
 	} from 'jdg-ui-svelte';
 </script>
 
-<JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
+<JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0" gap="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.ccp_construction_60s70s_3}
 		showOverlay={true}
@@ -193,7 +193,7 @@
 			<br /><br />
 			<h3>Historic Englewood Museum</h3>
 			<!-- prettier-ignore -->
-			As Secretary of    <a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
+			As Secretary of &nbsp;<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
 			design and build Englewood's first history museum and its inaugural
 			<a href="./exhibit">Cinderella City exhibit</a>, on now through fall 2024.
 			<br /><br />

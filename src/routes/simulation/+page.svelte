@@ -38,7 +38,7 @@
 	};
 </script>
 
-<JDGContentContainer overlapWithHeader={true} topBottomPadding="0" gap="0">
+<JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0" gap="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.ccp_composite_2}
 		showOverlay={true}

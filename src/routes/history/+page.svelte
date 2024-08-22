@@ -61,7 +61,7 @@
 	/>
 </JDGContentContainer>
 {#if showInProgressContent}
-	<JDGContentContainer topBottomPadding="0" gap="0">
+	<JDGContentContainer topPadding="0" bottomPadding="0" gap="0">
 		<JDGContentBoxFloating>
 			<JDGBodyCopy>
 				As the legend goes, Cinderella City Mall debuted on March 7, 1968 as a record-breaking and

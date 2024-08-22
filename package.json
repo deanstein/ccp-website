@@ -1,6 +1,6 @@
 {
 	"name": "ccp-website",
-	"version": "0.7.11",
+	"version": "0.7.12",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -32,6 +32,6 @@
 		"@emotion/css": "^11.11.2",
 		"@emotion/react": "^11.11.1",
 		"@sveltejs/adapter-static": "^3.0.1",
-		"jdg-ui-svelte": "0.19.6"
+		"jdg-ui-svelte": "0.19.7"
 	}
 }
