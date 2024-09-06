@@ -15,9 +15,9 @@
 		JDGFooter,
 		JDGHeader,
 		JDGImageDetailOverlay,
-		JDGNotificationBanner,
-		JDGSocialMedia
+		JDGNotificationBanner
 	} from 'jdg-ui-svelte';
+	import SocialMedia from '../components/SocialMedia.svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
 	// define the nav items in the header
@@ -98,11 +98,7 @@
 		{additionalVersionData}
 		{disclaimer}
 	>
-		<JDGSocialMedia
-			instagramHref={jdgSharedUrls.ccpInstagram}
-			facebookHref={jdgSharedUrls.ccpFacebook}
-			youtubeHref={jdgSharedUrls.ccpYouTube}
-		/>
+		<SocialMedia />
 	</JDGFooter>
 	{#if $uiState.showImageDetailOverlay}
 		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />

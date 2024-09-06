@@ -1,28 +1,51 @@
 <script>
+	import imageAttributesCollection from '../../image-attributes-collection';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGImage,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import SocialMedia from '../../components/SocialMedia.svelte';
+	import Donate from '../../components/Donate.svelte';
 </script>
 
 <JDGContentContainer>
-	<JDGContentBoxFloating title="COMING SOON">
-		<JDGBodyCopy paddingTop="0">
-			<span style="display: flex; justify-content: center;">
-				This page is under construction. Check back soon!
-			</span>
+	<JDGContentBoxFloating title={'GET IN TOUCH'}>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center">
+			The Cinderella City Project would love to hear from you!
 		</JDGBodyCopy>
-		<JDGImage
-			imageAttributes={imageAttributesCollection.construction_1}
-			maxHeight="60vh"
-			showCaption={true}
-			showAttribution={true}
-		/>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center">
+			<h3 style="margin-bottom: 0;">SOCIAL MEDIA</h3>
+			Follow along for historic photographs and project updates.
+			<br />
+			<div style="margin-top: 10px;">
+				<SocialMedia />
+			</div>
+			<br />
+			<br />
+			<h3 style="margin-bottom: 0;">LEAVE A MEMORY</h3>
+			Share your memories of Cinderella City as a voicemail.
+			<br />
+			Memories may be used in a future version of the simulation.
+			<br />
+			<div style="font-size: 24px;">724-624-8968</div>
+			<br /><br />
+			<h3 style="margin-bottom: 10px;">CONTACT FORM</h3>
+			<div style="display: flex; justify-content: center;">
+				<iframe
+					title="Contact The Cinderella City Project"
+					src="https://docs.google.com/forms/d/e/1FAIpQLSc_zDmHr4Ug1HJREfxIqIWC7Kwz9g7DJhtQy_aia-rwVCtrYg/viewform?embedded=true"
+					width="640"
+					height="817"
+					frameborder="0"
+					marginheight="0"
+					marginwidth="0">Loading…</iframe
+				>
+			</div>
+		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<Donate />
 	<JDGUpNext
 		item1Label={'SEE THE EXHIBIT'}
 		item1Href={'./exhibit'}
