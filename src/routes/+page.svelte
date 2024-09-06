@@ -230,17 +230,17 @@
 		<JDGBodyCopy paddingTop="0" simpleHyperlinkStyle={true}>
 			<ul>
 				<li>
-					June 22, 2024: <a href="./exhibit"
+					June 22, 2024: <a href="./exhibit" target="_blank"
 						>The Cinderella City exhibit at the Historic Englewood Museum is now open</a
 					>
 				</li>
 				<li>
-					July 29, 2023: <a href="https://youtu.be/GUgowEJG9HY"
+					July 29, 2023: <a href="https://youtu.be/GUgowEJG9HY" target="_blank"
 						>See the latest progress: Simulation v0.7 update video</a
 					>
 				</li>
 				<li>
-					April 26, 2022: <a href="https://youtu.be/va9xoslXjQo"
+					April 26, 2022: <a href="https://youtu.be/va9xoslXjQo" target="_blank"
 						>Watch the latest history and simulation presentation</a
 					>
 				</li>
@@ -254,28 +254,28 @@
 				<li>
 					April 26, 2022 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/cinderella-city-famous-colorado-mall-virtual-online-project-update-13955248"
+						href="https://www.westword.com/news/cinderella-city-famous-colorado-mall-virtual-online-project-update-13955248" target="_blank"
 						>Once Upon a Time at Cinderella City: Project Update</a
 					>
 				</li>
 				<li>
 					February 19, 2021 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/englewood-citycenter-development-and-fight-to-save-cinderella-citys-final-remains-11853344"
+						href="https://www.westword.com/news/englewood-citycenter-development-and-fight-to-save-cinderella-citys-final-remains-11853344" target="_blank"
 						>Fight to Save the Final Remains of Cinderella City
 					</a>
 				</li>
 				<li>
 					April 23, 2020 (<i>5280 Magazine</i>):
 					<a
-						href="https://www.5280.com/2020/04/one-denverite-is-creating-a-virtual-tour-of-the-iconic-cinderella-city-mall/"
+						href="https://www.5280.com/2020/04/one-denverite-is-creating-a-virtual-tour-of-the-iconic-cinderella-city-mall/" target="_blank"
 						>One Denverite is Creating a Virtual tour of the Iconic Cinderella City Mall</a
 					>
 				</li>
 				<li>
 					January 28, 2020 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/cinderella-city-virtual-video-game-project-update-2020-11516741/"
+						href="https://www.westword.com/news/cinderella-city-virtual-video-game-project-update-2020-11516741/" target="_blank"
 						>Cinderella City Virtual Video Game Project Update
 					</a>
 				</li>
@@ -285,28 +285,28 @@
 			<ul>
 				<li>
 					November 1, 2018 (<i>Very Famous Magazine</i>):
-					<a href="http://veryfamousmagazine.com/fairytale-mall-colorado-virtual-life/"
+					<a href="http://veryfamousmagazine.com/fairytale-mall-colorado-virtual-life/" target="_blank"
 						>A Giant Fairytale Mall in Colorado Is Being Brought Back to Virtual Life</a
 					>
 				</li>
 				<li>
 					June 28, 2018 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/cinderella-city-vintage-photos-helping-to-turn-famed-mall-into-video-game-10303551"
+						href="https://www.westword.com/news/cinderella-city-vintage-photos-helping-to-turn-famed-mall-into-video-game-10303551" target="_blank"
 						>Cinderella City Vintage Photos Helping to Turn famed Mall Into video Game</a
 					>
 				</li>
 				<li>
 					March 16, 2018 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/bringing-cinderella-city-back-to-virtual-life-for-its-50th-anniversary-10069280"
+						href="https://www.westword.com/news/bringing-cinderella-city-back-to-virtual-life-for-its-50th-anniversary-10069280" target="_blank"
 						>Bringing Cinderella City Back to virtual Life for its 50th Anniversary
 					</a>
 				</li>
 				<li>
 					January 16, 2018 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/cinderella-city-project-video-preview-new-effects-music-by-dead-mall-10983679"
+						href="https://www.westword.com/news/cinderella-city-project-video-preview-new-effects-music-by-dead-mall-10983679" target="_blank"
 						>Cinderella City Project Video Preview new Effects, Music by Dead Mall
 					</a>
 				</li>
