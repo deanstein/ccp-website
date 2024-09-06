@@ -18,6 +18,7 @@
 		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
+	import Donate from '../components/Donate.svelte';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0" gap="0">
@@ -312,6 +313,7 @@
 			</ul>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<Donate />
 	<JDGUpNext
 		item1Label={'LEARN MORE ABOUT THE PROJECT'}
 		item1Href={'./about'}

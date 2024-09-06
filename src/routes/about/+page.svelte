@@ -13,6 +13,7 @@
 		JDGJumpTo,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
+	import Donate from '../../components/Donate.svelte';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0" gap="0">
@@ -206,6 +207,7 @@
 			<a href={jdgSharedUrls.vipFacebook}>Facebook</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<Donate />
 	<JDGUpNext
 		item1Label={'SEE THE EXHIBIT'}
 		item1Href={'./exhibit'}
