@@ -26,7 +26,7 @@ const imageAttributesCollection = {
 	/*** CCP - SIMULATION ***/
 	ccp_composite_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962800/ccp-website/ccp/ccp-composite-1_u7yato.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962800/ccp-website/ccp/ccp-composite-1.jpg',
 		imgAlt: `A composite of a photo and a rendering of Cinderella City's Blue Mall.`
 	}),
 	ccp_composite_2: instantiateObject(jdgImageAttributes, {
