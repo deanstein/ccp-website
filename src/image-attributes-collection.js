@@ -36,7 +36,7 @@ const imageAttributesCollection = {
 	}),
 	ccp_construction_80s90s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962801/ccp-website/ccp/ccp-construction-80s90s-1_mrmqo6.png',
+			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962801/ccp-website/ccp/ccp-construction-80s90s-1.png',
 		imgAlt: `A very early massing model of Cinderella City's 1987-1997 era at the beginning of the project.`,
 		imgCaption: `A very early massing model of Cinderella City's 1987-1997 era at the beginning of the project.`
 	}),
