@@ -5,7 +5,6 @@
 	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
-	import { getAccentColors } from 'jdg-ui-svelte/jdg-state-management.js';
 	import {
 		accentColors,
 		doShowImageDetailOverlay,
