@@ -3,11 +3,14 @@
 	import jdgNotificationTypes from 'jdg-ui-svelte/schemas/jdg-notification-types.js';
 
 	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
 	import { getAccentColors } from 'jdg-ui-svelte/jdg-state-management.js';
-	import uiState from 'jdg-ui-svelte/states/ui-state.js';
+	import {
+		accentColors,
+		doShowImageDetailOverlay,
+		imageDetailAttributes
+	} from 'jdg-ui-svelte/states/ui-state.js';
 
 	import {
 		JDGAppContainer,
@@ -18,7 +21,6 @@
 		JDGNotificationBanner
 	} from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
 	// define the nav items in the header
 	const navItemHome = instantiateObject(jdgNavItem);
@@ -74,8 +76,8 @@
 <JDGAppContainer
 	appLoadingIconSrc="./ccp-logo.png"
 	showHeaderStripes={true}
-	accentColors={jdgColors.accentColorsCCP}
-	linkColorSimple={getAccentColors()[0]}
+	appAccentColors={$accentColors}
+	linkColorSimple={$accentColors[0]}
 >
 	<JDGNotificationBanner
 		message="Coming soon! This website is under construction and may be unfinished in some places."
@@ -100,7 +102,7 @@
 	>
 		<SocialMedia />
 	</JDGFooter>
-	{#if $uiState.showImageDetailOverlay}
-		<JDGImageDetailOverlay imageAttributes={$uiState.imageDetailAttributes} />
+	{#if $doShowImageDetailOverlay}
+		<JDGImageDetailOverlay imageAttributes={$imageDetailAttributes} />
 	{/if}
 </JDGAppContainer>

@@ -21,7 +21,7 @@
 	import Donate from '../components/Donate.svelte';
 </script>
 
-<JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0" gap="0">
+<JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.blue_mall_60s70s_1}
 		primaryText="STEP BACK IN TIME"
@@ -46,7 +46,7 @@
 				href="./history"
 				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
 				labelJustification={'center'}
-				compactModeOnMobile={false}
+				useCompactHeightOnMobile={false}
 				maxHeight={'300px'}
 			/>
 			<JDGImageTile
@@ -54,7 +54,7 @@
 				href="./analysis"
 				imageAttributes={imageAttributesCollection.plan_60s70s_1}
 				labelJustification={'center'}
-				compactModeOnMobile={false}
+				useCompactHeightOnMobile={false}
 				maxHeight={'300px'}
 			/>
 			<JDGImageTile
@@ -62,7 +62,7 @@
 				href="./simulation"
 				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 				labelJustification={'center'}
-				compactModeOnMobile={false}
+				useCompactHeightOnMobile={false}
 				maxHeight={'300px'}
 			/>
 		</JDGGridLayout>
@@ -164,7 +164,7 @@
 			<JDGFullWidthContainer>
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
-					fillContainer={false}
+					cropToFillContainer={false}
 					showCaption={true}
 					maxHeight="40vh"
 				/>
@@ -210,7 +210,7 @@
 			/>
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
-				fillContainer={true}
+				cropToFillContainer={true}
 				showCaption={true}
 				maxHeight="400px"
 			/>
@@ -254,28 +254,31 @@
 				<li>
 					April 26, 2022 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/cinderella-city-famous-colorado-mall-virtual-online-project-update-13955248" target="_blank"
-						>Once Upon a Time at Cinderella City: Project Update</a
+						href="https://www.westword.com/news/cinderella-city-famous-colorado-mall-virtual-online-project-update-13955248"
+						target="_blank">Once Upon a Time at Cinderella City: Project Update</a
 					>
 				</li>
 				<li>
 					February 19, 2021 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/englewood-citycenter-development-and-fight-to-save-cinderella-citys-final-remains-11853344" target="_blank"
+						href="https://www.westword.com/news/englewood-citycenter-development-and-fight-to-save-cinderella-citys-final-remains-11853344"
+						target="_blank"
 						>Fight to Save the Final Remains of Cinderella City
 					</a>
 				</li>
 				<li>
 					April 23, 2020 (<i>5280 Magazine</i>):
 					<a
-						href="https://www.5280.com/2020/04/one-denverite-is-creating-a-virtual-tour-of-the-iconic-cinderella-city-mall/" target="_blank"
+						href="https://www.5280.com/2020/04/one-denverite-is-creating-a-virtual-tour-of-the-iconic-cinderella-city-mall/"
+						target="_blank"
 						>One Denverite is Creating a Virtual tour of the Iconic Cinderella City Mall</a
 					>
 				</li>
 				<li>
 					January 28, 2020 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/cinderella-city-virtual-video-game-project-update-2020-11516741/" target="_blank"
+						href="https://www.westword.com/news/cinderella-city-virtual-video-game-project-update-2020-11516741/"
+						target="_blank"
 						>Cinderella City Virtual Video Game Project Update
 					</a>
 				</li>
@@ -285,28 +288,33 @@
 			<ul>
 				<li>
 					November 1, 2018 (<i>Very Famous Magazine</i>):
-					<a href="http://veryfamousmagazine.com/fairytale-mall-colorado-virtual-life/" target="_blank"
+					<a
+						href="http://veryfamousmagazine.com/fairytale-mall-colorado-virtual-life/"
+						target="_blank"
 						>A Giant Fairytale Mall in Colorado Is Being Brought Back to Virtual Life</a
 					>
 				</li>
 				<li>
 					June 28, 2018 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/cinderella-city-vintage-photos-helping-to-turn-famed-mall-into-video-game-10303551" target="_blank"
+						href="https://www.westword.com/news/cinderella-city-vintage-photos-helping-to-turn-famed-mall-into-video-game-10303551"
+						target="_blank"
 						>Cinderella City Vintage Photos Helping to Turn famed Mall Into video Game</a
 					>
 				</li>
 				<li>
 					March 16, 2018 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/bringing-cinderella-city-back-to-virtual-life-for-its-50th-anniversary-10069280" target="_blank"
+						href="https://www.westword.com/news/bringing-cinderella-city-back-to-virtual-life-for-its-50th-anniversary-10069280"
+						target="_blank"
 						>Bringing Cinderella City Back to virtual Life for its 50th Anniversary
 					</a>
 				</li>
 				<li>
 					January 16, 2018 (<i>Westword</i>):
 					<a
-						href="https://www.westword.com/news/cinderella-city-project-video-preview-new-effects-music-by-dead-mall-10983679" target="_blank"
+						href="https://www.westword.com/news/cinderella-city-project-video-preview-new-effects-music-by-dead-mall-10983679"
+						target="_blank"
 						>Cinderella City Project Video Preview new Effects, Music by Dead Mall
 					</a>
 				</li>

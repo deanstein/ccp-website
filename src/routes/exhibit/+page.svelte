@@ -11,7 +11,7 @@
 	import imageAttributesCollection from '../../image-attributes-collection';
 </script>
 
-<JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0" gap="0">
+<JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.ccp_exhibit_composite}
 		showOverlay={true}

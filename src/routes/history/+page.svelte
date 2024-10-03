@@ -61,7 +61,7 @@
 	/>
 </JDGContentContainer>
 {#if showInProgressContent}
-	<JDGContentContainer topPadding="0" bottomPadding="0" gap="0">
+	<JDGContentContainer paddingTop="0" paddingBottom="0" gap="0">
 		<JDGContentBoxFloating>
 			<JDGBodyCopy>
 				As the legend goes, Cinderella City Mall debuted on March 7, 1968 as a record-breaking and
@@ -81,7 +81,7 @@
 				<br /><br />
 				<JDGImageTile
 					imageAttributes={imageAttributesCollection.lakeside_1}
-					fillContainer={false}
+					cropToFillContainer={false}
 				/>
 				<br /><br />
 				After Lakeside, Von Frellick set his eyes on the southern suburbs. By 1960, he announced plans

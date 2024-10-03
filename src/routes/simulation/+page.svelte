@@ -38,7 +38,7 @@
 	};
 </script>
 
-<JDGContentContainer overlapWithHeader={true} topPadding="0" bottomPadding="0" gap="0">
+<JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
 		imageAttributes={imageAttributesCollection.ccp_composite_2}
 		showOverlay={true}
@@ -90,7 +90,7 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1}
 				maxHeight={'400px'}
-				compactModeOnMobile={true}
+				useCompactHeightOnMobile={true}
 			/>
 		</JDGFeatureCard>
 		<JDGFeatureCard
@@ -118,7 +118,7 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
 				maxHeight={'400px'}
-				compactModeOnMobile={true}
+				useCompactHeightOnMobile={true}
 			/>
 		</JDGFeatureCard>
 		<JDGFeatureCard
@@ -131,7 +131,7 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_vaporwave_blue_mall_60s70s_1}
 				maxHeight={'400px'}
-				compactModeOnMobile={true}
+				useCompactHeightOnMobile={true}
 			/>
 		</JDGFeatureCard>
 	</JDGContentBoxFloating>
@@ -303,7 +303,7 @@
 			<br /><br />
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_xbox_one_controller_diagram}
-				fillContainer={false}
+				cropToFillContainer={false}
 			/>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>

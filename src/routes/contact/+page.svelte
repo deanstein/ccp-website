@@ -4,6 +4,7 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
+		JDGIFrame,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import SocialMedia from '../../components/SocialMedia.svelte';
@@ -32,18 +33,13 @@
 			<div style="font-size: 24px;">724-624-8968</div>
 			<br /><br />
 			<h3 style="margin-bottom: 10px;">CONTACT FORM</h3>
-			<div style="display: flex; justify-content: center;">
-				<iframe
-					title="Contact The Cinderella City Project"
-					src="https://docs.google.com/forms/d/e/1FAIpQLSc_zDmHr4Ug1HJREfxIqIWC7Kwz9g7DJhtQy_aia-rwVCtrYg/viewform?embedded=true"
-					width="640"
-					height="817"
-					frameborder="0"
-					marginheight="0"
-					marginwidth="0">Loading…</iframe
-				>
-			</div>
 		</JDGBodyCopy>
+		<div class="iframe-wrapper">
+			<JDGIFrame
+				title={'Contact The Cinderella City Project'}
+				src={'https://docs.google.com/forms/d/e/1FAIpQLSc_zDmHr4Ug1HJREfxIqIWC7Kwz9g7DJhtQy_aia-rwVCtrYg/viewform?embedded=true'}
+			/>
+		</div>
 	</JDGContentBoxFloating>
 	<Donate />
 	<JDGUpNext
@@ -58,3 +54,10 @@
 		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
 	/>
 </JDGContentContainer>
+
+<style>
+	.iframe-wrapper {
+		width: 100%;
+		margin-top: -40px;
+	}
+</style>
