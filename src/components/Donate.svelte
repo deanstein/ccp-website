@@ -3,7 +3,7 @@
 </script>
 
 <JDGContentBoxFloating title="DONATE">
-	<JDGBodyCopy textAlign="center" paddingTop="0">
+	<JDGBodyCopy textAlign="center" paddingTop="0" textWrap="balance">
 		Digitally reconstructing a massive shopping center in two time periods is hard work! The
 		Cinderella City Project is self-funded and built by just <a
 			href="https://www.jdeangoldstein.com"
@@ -22,7 +22,7 @@
 			title="cinderellacityproject"
 		/>
 	</div>
-	<JDGBodyCopy textAlign="center">
+	<JDGBodyCopy textAlign="center" textWrap="balance">
 		Donations will be used to purchase the content, software, and hardware needed to bring
 		Cinderella City Mall back to life as realistically as possible.
 	</JDGBodyCopy>

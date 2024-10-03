@@ -223,12 +223,13 @@
 		{/if}
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="CONTROLS">
-		<JDGBodyCopy paddingTop="0">
+		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
 			After the simulation loads, you'll find yourself at the Main Menu, where you can pick a time
 			and place to start.
 			<br /><br />
 			Once you're in the simulation, here's how to navigate:
-			<br /><br />
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			<h3>KEYBOARD</h3>
 			<ul>
 				<li>
@@ -297,15 +298,15 @@
 					<b>U</b> to go to the Audio Menu
 				</li>
 			</ul>
-			<br />
+		</JDGBodyCopy>
+		<JDGBodyCopy textAlign="center" paddingTop="0" paddingBottom="0">
 			<h3>XBOX ONE</h3>
 			Simulation v0.8.0 and newer supports an Xbox One controller attached to the PC.
-			<br /><br />
-			<JDGImageTile
-				imageAttributes={imageAttributesCollection.ccp_xbox_one_controller_diagram}
-				cropToFillContainer={false}
-			/>
 		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.ccp_xbox_one_controller_diagram}
+			cropToFillContainer={false}
+		/>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="KNOWN ISSUES">
 		<JDGBodyCopy paddingTop="0">

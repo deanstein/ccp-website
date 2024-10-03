@@ -188,10 +188,11 @@
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="OTHER INITIATIVES">
+		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
+			The creator of The Cinderella City Project is involved in other endeavors related to
+			Cinderella City and adjacent topics:
+		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0">
-			The man behind the project is involved in other endeavors related to Cinderella City and
-			adjacent topics:
-			<br /><br />
 			<h3>Historic Englewood Museum</h3>
 			<!-- prettier-ignore -->
 			As Secretary of &nbsp;<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
