@@ -1,13 +1,13 @@
 <script>
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 	import { JDGBodyCopy, JDGContentBoxFloating } from 'jdg-ui-svelte';
 </script>
 
 <JDGContentBoxFloating title="DONATE">
 	<JDGBodyCopy textAlign="center" paddingTop="0">
 		Digitally reconstructing a massive shopping center in two time periods is hard work! The
-		Cinderella City Project is self-funded and built by just <a href={jdgSharedUrls.jdgLinkedIn}
-			>one person</a
+		Cinderella City Project is self-funded and built by just <a
+			href="https://www.jdeangoldstein.com"
+			target="_blank">one person</a
 		>, requiring dedication, time, and resources.
 		<br /><br />
 		Support the project by buying its creator coffee via Ko-Fi!
