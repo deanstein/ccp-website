@@ -252,6 +252,15 @@
 			<h3>LATEST</h3>
 			<ul>
 				<li>
+					March 21, 2024 (<i>Englewood Herald</i>)
+					<a
+						href="https://coloradocommunitymedia.com/2024/03/21/englewood-historic-museum/"
+						target="_blank"
+					>
+						Immersive retro Cinderella City display on tap at soon-to-open Englewood museum
+					</a>
+				</li>
+				<li>
 					April 26, 2022 (<i>Westword</i>):
 					<a
 						href="https://www.westword.com/news/cinderella-city-famous-colorado-mall-virtual-online-project-update-13955248"
