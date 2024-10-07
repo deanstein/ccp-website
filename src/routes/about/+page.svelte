@@ -49,22 +49,21 @@
 <JDGContentContainer>
 	<JDGJumpTo />
 	<JDGContentBoxFloating title="BACKGROUND">
-		<JDGBodyCopy paddingTop="0">
-			In 1998, a young <a href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a> was in his parents'
-			car when they passed by a vast and shocking demolition site in Englewood, Colorado.
-			<br /><br />
-			<JDGFullWidthContainer>
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
-					cropToFillContainer={false}
-					showCaption={true}
-					maxHeight="40vh"
-				/>
-			</JDGFullWidthContainer>
-			<br /><br />
-			The hulking expanse of a partially-demolished structure and its surrounding parking deck was jarring,
-			providing eerie views into cavernous spaces of a once-thriving place. Josh asked his parents what
-			he was seeing and they described the former magic of a defunct shopping center called
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
+			In 1998, a young <a href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a> was in his parents' car
+			when they passed by a vast and shocking demolition site in Englewood, Colorado.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
+			cropToFillContainer={false}
+			showCaption={true}
+			maxHeight="40vh"
+		/>
+		<JDGBodyCopy>
+			The hulking expanse of a partially-demolished structure and its surrounding parking deck was
+			jarring, providing eerie views into cavernous spaces of a once-thriving place. Josh asked his
+			parents what he was seeing and they described the former magic of a defunct shopping center
+			called
 			<a href="./history">Cinderella City Mall</a>.
 			<br /><br />
 			Thanks to a burgeoning internet and the City of Englewood's efforts to track the redevelopment
