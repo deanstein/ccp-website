@@ -154,25 +154,23 @@
 		/>
 	</JDGFullWidthContainer>
 	<JDGContentBoxFloating title="PROJECT BRIEF">
-		<JDGBodyCopy paddingTop="0">
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			Seeing Cinderella City fall to the wrecking ball in 1998 made 8-year-old <a
 				href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a
 			>
 			vow to become an architect in pursuit of making great places that honor and learn from our architectural
 			past.
-			<br /><br />
-			<JDGFullWidthContainer>
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
-					cropToFillContainer={false}
-					showCaption={true}
-					maxHeight="40vh"
-				/>
-			</JDGFullWidthContainer>
-			<br /><br />
-			After receiving a Master of Architecture degree and working at a world-class architectural design
-			firm, Josh pivoted his career into 3D architectural software, where he harnessed new skills to
-			pay tribute to the place that changed his life.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
+			cropToFillContainer={false}
+			showCaption={true}
+			maxHeight="40vh"
+		/>
+		<JDGBodyCopy>
+			After receiving a Master of Architecture degree and working at a world-class architectural
+			design firm, Josh pivoted his career into 3D architectural software, where he harnessed new
+			skills to pay tribute to the place that changed his life.
 			<br /><br />
 			Extracting details from floor plans, directories, and photos, Josh used cutting-edge 3D modeling
 			technology to accurately reconstruct Cinderella City in impressive detail, including period-correct
