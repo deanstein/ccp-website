@@ -98,6 +98,7 @@
 		{appVersion}
 		{additionalVersionData}
 		{disclaimer}
+		showDevToolsButton
 	>
 		<SocialMedia />
 	</JDGFooter>
