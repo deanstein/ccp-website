@@ -1506,14 +1506,15 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-jdg-ui-svelte@0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/jdg-ui-svelte/-/jdg-ui-svelte-0.24.0.tgz#207577ab8ebeaca56ce09505363dc85745c4fa07"
-  integrity sha512-/eCu993sXPK28gLXpmL+hFvHbafp+OPyAHUS9BDEuMgPSYHMBAEQQdud1C403sSr0Z5sJxeWuxKf/vx3BMVpRA==
+jdg-ui-svelte@0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/jdg-ui-svelte/-/jdg-ui-svelte-0.25.0.tgz#c27fac79e33a4e02ef25d5d152f8180b49e8d489"
+  integrity sha512-6Gacfvt1OrbLZcsL249ZxcLmu3xSuUJ02/DtlbDdwHVX5kTGEHCk6iPvdWxe2Ln/K2jM5zliLxZDCo9sZL6FXQ==
   dependencies:
     "@emotion/css" "^11.11.2"
     crypto-js "^4.2.0"
     d3 "^7.8.5"
+    svelte-meta-tags "^3.1.4"
     uuid "^9.0.0"
 
 js-tokens@^4.0.0:
@@ -1949,6 +1950,11 @@ sander@^0.5.0:
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
+schema-dts@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-1.1.2.tgz#82ccf71b5dcb80065a1cc5941888507a4ce1e44b"
+  integrity sha512-MpNwH0dZJHinVxk9bT8XUdjKTxMYrA5bLtrrGmFA6PTLwlOKnhi67XoRd6/ty+Djt6ZC0slR57qFhZDNMI6DhQ==
+
 semver@^7.5.3:
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
@@ -2074,6 +2080,13 @@ svelte-hmr@^0.15.3:
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.15.3.tgz#df54ccde9be3f091bf5f18fc4ef7b8eb6405fbe6"
   integrity sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==
+
+svelte-meta-tags@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-3.1.4.tgz#e1c98f80f5c21f5b86017522760d984248516e50"
+  integrity sha512-TUIfhut0iVeTm7f5v/ZuU/tZ9XsNig9bNN8yK0t2x2WL9qw6AxAVRe9i5XddYJE0SuVwkoDCzjoSg5hXv7oWbQ==
+  dependencies:
+    schema-dts "^1.1.2"
 
 svelte-preprocess@^5.1.0:
   version "5.1.3"
