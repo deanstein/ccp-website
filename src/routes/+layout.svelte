@@ -1,25 +1,30 @@
 <script>
+	import { page } from '$app/stores';
+	import { MetaTags } from 'svelte-meta-tags';
+	import extend from 'just-extend';
+
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
 	import jdgNotificationTypes from 'jdg-ui-svelte/schemas/jdg-notification-types.js';
 
 	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
-	import {
-		accentColors,
-		doShowImageDetailOverlay,
-		imageDetailAttributes
-	} from 'jdg-ui-svelte/states/ui-state.js';
+	import { accentColors } from 'jdg-ui-svelte/states/ui-state.js';
 
 	import {
 		JDGAppContainer,
 		JDGBackground,
 		JDGFooter,
 		JDGHeader,
-		JDGImageDetailOverlay,
 		JDGNotificationBanner
 	} from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
+
+	// META TAGS
+	// will be be sourced from +layout.js first,
+	// then optionally +page.js as overrides via $page
+	export let data; // meta tag data from $page
+	$: metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);
 
 	// define the nav items in the header
 	const navItemHome = instantiateObject(jdgNavItem);
@@ -72,6 +77,7 @@
 		'Photographs are from public domain sources or are used with permission and credited accordingly.';
 </script>
 
+<MetaTags {...metaTags} />
 <JDGAppContainer
 	appLoadingIconSrc="./ccp-logo.png"
 	showHeaderStripes={true}
