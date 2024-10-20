@@ -9,7 +9,7 @@ export const pageMeta = {
 		title: 'The Cinderella City Project',
 		description:
 			'An immersive journey into an unconvential mid-century "city under a roof" destination which failed in less than 30 years',
-		image: imageAttributesCollection.ccp_composite_2,
+		image: imageAttributesCollection.ccp_composite_2.imgSrc,
 		url: '/'
 	},
 	about: {
@@ -20,7 +20,7 @@ export const pageMeta = {
 	analysis: {
 		title: 'Mall Analysis',
 		description: 'Analyzing the good, bad, and ugly of Cinderella City Mall',
-		image: imageAttributesCollection.plan_60s70s_1,
+		image: imageAttributesCollection.plan_60s70s_1.imgSrc,
 		url: '/analysis'
 	},
 	contact: {
@@ -37,13 +37,13 @@ export const pageMeta = {
 	history: {
 		title: 'History of Cinderella City Mall',
 		description: 'The full history of Cinderella City Mall',
-		image: imageAttributesCollection.rose_mall_60s70s_construction_1,
+		image: imageAttributesCollection.rose_mall_60s70s_construction_1.imgSrc,
 		url: '/history'
 	},
 	simulation: {
 		title: 'Simulation',
 		description: 'About the Cinderella City Simulation',
-		image: imageAttributesCollection.ccp_blue_mall_60s70s_1,
+		image: imageAttributesCollection.ccp_blue_mall_60s70s_1.imgSrc,
 		url: '/simulation'
 	}
 };
