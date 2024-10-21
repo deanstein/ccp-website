@@ -31,7 +31,7 @@ export const pageMeta = {
 	exhibit: {
 		title: 'Exhibit',
 		description: 'About the Cinderella City exhibit at the Englewood History Museum',
-		image: imageAttributesCollection.ccp_exhibit_2,
+		image: imageAttributesCollection.ccp_exhibit_2.imgSrc,
 		url: '/exhibit'
 	},
 	history: {
