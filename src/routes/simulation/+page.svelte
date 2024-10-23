@@ -313,14 +313,11 @@
 			The simulation is still under development, so it has a few known issues:
 			<br /><br />
 			<ul>
-				<li>Large areas of both time periods are unfinished</li>
+				<li>Many storefronts in both time periods are blank/unfinished</li>
 				<li>The audio when walking outside the mall is too short and loops too quickly</li>
 				<li>
 					Jumping or using anti-gravity mode while walking outside the mall will play the interior
 					audio unexpectedly
-				</li>
-				<li>
-					Running the Guided Tour for extended periods may result in the player walking into walls
 				</li>
 			</ul>
 			<br />
