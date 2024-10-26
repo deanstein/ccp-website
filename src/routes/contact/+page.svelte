@@ -38,6 +38,7 @@
 			<JDGIFrame
 				title={'Contact The Cinderella City Project'}
 				src={'https://docs.google.com/forms/d/e/1FAIpQLSc_zDmHr4Ug1HJREfxIqIWC7Kwz9g7DJhtQy_aia-rwVCtrYg/viewform?embedded=true'}
+				maxHeightPx="900"
 			/>
 		</div>
 	</JDGContentBoxFloating>
