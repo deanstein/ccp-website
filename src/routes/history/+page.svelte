@@ -6,6 +6,7 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
+		JDGIFrame,
 		JDGImageCarousel,
 		JDGImageFullWidth,
 		JDGImageTile,
@@ -34,18 +35,7 @@
 				on YouTube:
 			</span>
 		</JDGBodyCopy>
-		<div style="display: flex; align-items: center; justify-content: center;">
-			<iframe
-				width="560"
-				height="315"
-				src="https://www.youtube.com/embed/va9xoslXjQo?si=x4nWo9sTY3pZ3OvB"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				referrerpolicy="strict-origin-when-cross-origin"
-				allowfullscreen
-			></iframe>
-		</div>
+		<JDGIFrame title="YouTube" src="https://www.youtube.com/embed/va9xoslXjQo?si=x4nWo9sTY3pZ3OvB" aspectRatio="1.77"/>
 		<br />
 	</JDGContentBoxFloating>
 	<JDGUpNext
