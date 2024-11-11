@@ -105,6 +105,7 @@
 		{additionalVersionData}
 		{disclaimer}
 		showDevToolsButton={true}
+		copyrightHref={'https://www.jdeangoldstein.com'}
 	>
 		<SocialMedia />
 	</JDGFooter>
