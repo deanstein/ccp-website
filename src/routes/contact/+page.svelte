@@ -30,7 +30,14 @@
 			<br />
 			Memories may be used in a future version of the simulation.
 			<br />
-			<div style="font-size: 24px;">724-624-8968</div>
+			<div class="phone-icon-number-container">
+				<i
+					class="fa-solid fa-phone"
+					style="display: flex; justify-content: center; font-size: 24px; padding: 10px;"
+				/>
+				<div style="font-size: 20px; font-weight: bold;">7-CIN-CITY-68</div>
+				<div style="font-size: 15px; line-height: 10px;">(724) 624-8968</div>
+			</div>
 			<br /><br />
 			<h3 style="margin-bottom: 10px;">CONTACT FORM</h3>
 		</JDGBodyCopy>
