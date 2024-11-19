@@ -31,12 +31,16 @@
 			<span style="display: flex; justify-content: center;">
 				The full written history of Cinderella City Mall is coming soon. Stay tuned!
 				<br /><br />
-				In the meantime, watch the history presented to a live audience by The Cinderella City Project,
-				on YouTube:
+				In the meantime, you can watch the history of Cinderella City presented to a live audience by
+				The Cinderella City Project, on YouTube:
 			</span>
+			<br />
+			<JDGIFrame
+				title="YouTube"
+				src="https://www.youtube.com/embed/va9xoslXjQo?si=x4nWo9sTY3pZ3OvB"
+				aspectRatio="1.77"
+			/>
 		</JDGBodyCopy>
-		<JDGIFrame title="YouTube" src="https://www.youtube.com/embed/va9xoslXjQo?si=x4nWo9sTY3pZ3OvB" aspectRatio="1.77"/>
-		<br />
 	</JDGContentBoxFloating>
 	<JDGUpNext
 		item1Label={'LEARN MORE ABOUT THE PROJECT'}
