@@ -4,7 +4,6 @@
 	import extend from 'just-extend';
 
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
-	import jdgNotificationTypes from 'jdg-ui-svelte/schemas/jdg-notification-types.js';
 
 	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
@@ -15,8 +14,7 @@
 		JDGAppContainer,
 		JDGBackground,
 		JDGFooter,
-		JDGHeader,
-		JDGNotificationBanner
+		JDGHeader
 	} from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
 
@@ -84,10 +82,6 @@
 	appAccentColors={$accentColors}
 	linkColorSimple={$accentColors[0]}
 >
-	<JDGNotificationBanner
-		message="Coming soon! This website is under construction and may be unfinished in some places."
-		notificationType={jdgNotificationTypes.warning.id}
-	/>
 	<JDGHeader
 		logoTitle={'THE CINDERELLA CITY PROJECT'}
 		logoSrc={'./ccp-logo.png'}
