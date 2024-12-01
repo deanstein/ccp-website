@@ -10,19 +10,26 @@
 
 	import { accentColors } from 'jdg-ui-svelte/states/ui-state.js';
 
-	import {
-		JDGAppContainer,
-		JDGBackground,
-		JDGFooter,
-		JDGHeader
-	} from 'jdg-ui-svelte';
+	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
+	import { pageMeta } from '$lib/shared-strings';
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
 	// then optionally +page.js as overrides via $page
 	export let data; // meta tag data from $page
-	$: metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);
+	/** @type {Object.<string, any>} */
+	let metaTags;
+	$: {
+		metaTags = extend(true, {}, data.baseMetaTags, $page.data.pageMetaTags);
+		// make the title template simply the website title
+		// if the page title is the same as the website title
+		if (metaTags.title === pageMeta.home.title) {
+			metaTags.titleTemplate = pageMeta.home.title;
+		} else {
+			metaTags.titleTemplate = pageMeta.titleTemplate;
+		}
+	}
 
 	// define the nav items in the header
 	const navItemHome = instantiateObject(jdgNavItem);

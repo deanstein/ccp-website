@@ -7,7 +7,7 @@ export const load = ({ url }) => {
 	// these may be overridden with +page.js next to any +page.svelte
 	const baseMetaTags = Object.freeze({
 		title: pageMeta.home.title,
-		titleTemplate: '%s | ' + pageMeta.home.title,
+		titleTemplate: pageMeta.titleTemplate,
 		description: pageMeta.home.description,
 		canonical: new URL(url.pathname, url.origin).href,
 		openGraph: {

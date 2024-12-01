@@ -5,6 +5,9 @@ export const sharedStyles = {
 };
 
 export const pageMeta = {
+	get titleTemplate() {
+		return '%s | ' + this.home.title;
+	},
 	home: {
 		title: 'The Cinderella City Project',
 		description:
