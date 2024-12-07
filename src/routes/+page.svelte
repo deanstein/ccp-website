@@ -250,6 +250,15 @@
 			<h3>LATEST</h3>
 			<ul>
 				<li>
+					December 6, 2024 (<i>Westword</i>)
+					<a
+						href="https://www.westword.com/arts/cinderella-city-exhibit-brings-famed-metro-denver-mall-back-to-life-22705262"
+						target="_blank"
+					>
+						Cinderella City Exhibit Brings Famed Mall Back to Life
+					</a>
+				</li>
+				<li>
 					March 21, 2024 (<i>Englewood Herald</i>)
 					<a
 						href="https://coloradocommunitymedia.com/2024/03/21/englewood-historic-museum/"
@@ -273,6 +282,10 @@
 						>Fight to Save the Final Remains of Cinderella City
 					</a>
 				</li>
+			</ul>
+			<br />
+			<h3>OLDER</h3>
+			<ul>
 				<li>
 					April 23, 2020 (<i>5280 Magazine</i>):
 					<a
@@ -289,10 +302,6 @@
 						>Cinderella City Virtual Video Game Project Update
 					</a>
 				</li>
-			</ul>
-			<br />
-			<h3>OLDER</h3>
-			<ul>
 				<li>
 					November 1, 2018 (<i>Very Famous Magazine</i>):
 					<a
