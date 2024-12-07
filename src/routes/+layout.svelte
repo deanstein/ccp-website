@@ -40,6 +40,14 @@
 	navItemAbout.label = 'ABOUT';
 	navItemAbout.href = '/about';
 
+	const navItemPress = instantiateObject(jdgNavItem);
+	navItemPress.label = 'PRESS';
+	navItemPress.href = '/#press-coverage';
+
+	const navItemDonate = instantiateObject(jdgNavItem);
+	navItemDonate.label = 'DONATE';
+	navItemDonate.href = '/#donate';
+
 	const navItemHistory = instantiateObject(jdgNavItem);
 	navItemHistory.label = 'HISTORY';
 	navItemHistory.href = '/history';
@@ -63,6 +71,8 @@
 	const navItems = [
 		navItemHome,
 		navItemAbout,
+		navItemPress,
+		navItemDonate,
 		navItemHistory,
 		navItemAnatomy,
 		navItemSimulation,
