@@ -8,7 +8,7 @@
 	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
-	import { accentColors } from 'jdg-ui-svelte/states/ui-state.js';
+	import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
@@ -96,8 +96,8 @@
 <JDGAppContainer
 	appLoadingIconSrc="./ccp-logo.png"
 	showHeaderStripes={true}
-	appAccentColors={$accentColors}
-	linkColorSimple={$accentColors[0]}
+	accentColors={$appAccentColors}
+	linkColorSimple={$appAccentColors[0]}
 >
 	<JDGHeader
 		logoTitle={'THE CINDERELLA CITY PROJECT'}
