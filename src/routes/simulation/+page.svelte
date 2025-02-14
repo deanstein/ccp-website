@@ -19,6 +19,11 @@
 	} from 'jdg-ui-svelte';
 	import Donate from '../../components/Donate.svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
+	import { onMount } from 'svelte';
+	import { repoOwner } from 'jdg-ui-svelte/jdg-persistence-management.js';
+
+	// latest version of the simulation
+	let latestTag = { name: '', date: '', url: '' };
 
 	// in order to download, name a price
 	let isDownloadShown = false;
@@ -36,6 +41,80 @@
 			scrollToAnchor('continue', true, 0);
 		}, 100);
 	};
+
+	// get the latest tag for the simulation
+	// TODO: move this to jdg-ui-svelte utils
+	/**
+	 * Fetches the latest tag and its details from a GitHub repository.
+	 * @param {string} owner - The owner of the repository.
+	 * @param {string} repo - The name of the repository.
+	 * @returns {Promise<{name: string, date: string}>} An object containing the name of the latest tag and its date.
+	 */
+	/**
+	 * Fetches the latest tag and its commit details from a GitHub repository.
+	 * @param {string} owner - The owner of the repository.
+	 * @param {string} repo - The name of the repository.
+	 * @returns {Promise<{name: string, date: string}>} An object containing the name of the latest tag and the date of the associated commit.
+	 */
+	/**
+	 * Fetches the latest tag and its commit details from a GitHub repository.
+	 * @param {string} owner - The owner of the repository.
+	 * @param {string} repo - The name of the repository.
+	 * @returns {Promise<{name: string, date: string}>} An object containing the name of the latest tag and the formatted date of the associated commit.
+	 */
+	/**
+	 * Fetches the latest tag and its commit details from a GitHub repository.
+	 * @param {string} owner - The owner of the repository.
+	 * @param {string} repo - The name of the repository.
+	 * @returns {Promise<{name: string, date: string}>} An object containing the name of the latest tag and the formatted date of the associated commit.
+	 */
+	/**
+	 * Fetches the latest tag and its commit details from a GitHub repository.
+	 * @param {string} owner - The owner of the repository.
+	 * @param {string} repo - The name of the repository.
+	 * @returns {Promise<{name: string, date: string, url: string}>} An object containing the name of the latest tag, the formatted date of the associated commit, and the URL to the tag.
+	 */
+	export const fetchLatestTagWithCommitDate = async (owner, repo) => {
+		const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/tags`);
+		const tags = await response.json();
+
+		if (tags.length === 0) {
+			throw new Error('No tags found in the repository');
+		}
+
+		const latestTag = tags[0];
+
+		if (!latestTag.commit.sha) {
+			throw new Error('SHA for the latest tag commit is undefined');
+		}
+
+		const commitDetailsResponse = await fetch(
+			`https://api.github.com/repos/${owner}/${repo}/commits/${latestTag.commit.sha}`
+		);
+		const commitDetails = await commitDetailsResponse.json();
+
+		const date = new Date(commitDetails.commit.committer.date);
+		const formattedDate = `${date.getFullYear()}${(date.getMonth() + 1)
+			.toString()
+			.padStart(2, '0')}${date.getDate().toString().padStart(2, '0')}`;
+
+		const url = `https://github.com/${owner}/${repo}/releases/tag/${latestTag.name}`;
+
+		return {
+			name: latestTag.name,
+			date: formattedDate,
+			url: url
+		};
+	};
+
+	onMount(async () => {
+		try {
+			latestTag = await fetchLatestTagWithCommitDate(repoOwner, 'CinderellaCityProject');
+		} catch (error) {
+			console.error(error);
+			latestTag = { name: 'No tags available', date: '', url: '' };
+		}
+	});
 </script>
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
@@ -163,7 +242,11 @@
 					/>
 				{/if}
 			</div>
-			<div id="continue" title="continue"></div>
+			{#if !isDownloadShown}
+				<div id="latest-version" style="padding-top: 25px; color: gray; font-size: 12pt">
+					Latest version: {latestTag.name}
+				</div>
+			{/if}
 		</JDGBodyCopy>
 		{#if isDownloadShown}
 			<JDGBodyCopy paddingTop="0">
@@ -181,12 +264,10 @@
 				<h3 style="text-align: left;">DOWNLOAD</h3>
 				<ul>
 					<li>
-						Go to the <a
-							href="https://github.com/deanstein/CinderellaCityProject/releases"
-							target="_blank">Releases</a
-						> page
+						Download the latest release: <a href={latestTag.url} target="_blank">{latestTag.name}</a
+						>
 					</li>
-					<li>Click "Assets" below the release notes on the latest release</li>
+					<li>Click "Assets" below the release notes</li>
 					<li>Download the .7z file ending in "_Win"</li>
 				</ul>
 				<h3 style="text-align: left;">EXTRACT</h3>
