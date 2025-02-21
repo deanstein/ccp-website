@@ -1,6 +1,5 @@
 <script>
 	import { scrollToAnchor } from 'jdg-ui-svelte/jdg-utils.js';
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
 
 	import imageAttributesCollection from '../../image-attributes-collection';
 
@@ -20,7 +19,7 @@
 	import Donate from '../../components/Donate.svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 	import { onMount } from 'svelte';
-	import { repoOwner } from 'jdg-ui-svelte/jdg-persistence-management.js';
+	import { jdgRepoOwner } from 'jdg-ui-svelte/jdg-persistence-management.js';
 
 	// latest version of the simulation
 	let latestTag = { name: '', date: '', url: '' };
@@ -42,32 +41,6 @@
 		}, 100);
 	};
 
-	// get the latest tag for the simulation
-	// TODO: move this to jdg-ui-svelte utils
-	/**
-	 * Fetches the latest tag and its details from a GitHub repository.
-	 * @param {string} owner - The owner of the repository.
-	 * @param {string} repo - The name of the repository.
-	 * @returns {Promise<{name: string, date: string}>} An object containing the name of the latest tag and its date.
-	 */
-	/**
-	 * Fetches the latest tag and its commit details from a GitHub repository.
-	 * @param {string} owner - The owner of the repository.
-	 * @param {string} repo - The name of the repository.
-	 * @returns {Promise<{name: string, date: string}>} An object containing the name of the latest tag and the date of the associated commit.
-	 */
-	/**
-	 * Fetches the latest tag and its commit details from a GitHub repository.
-	 * @param {string} owner - The owner of the repository.
-	 * @param {string} repo - The name of the repository.
-	 * @returns {Promise<{name: string, date: string}>} An object containing the name of the latest tag and the formatted date of the associated commit.
-	 */
-	/**
-	 * Fetches the latest tag and its commit details from a GitHub repository.
-	 * @param {string} owner - The owner of the repository.
-	 * @param {string} repo - The name of the repository.
-	 * @returns {Promise<{name: string, date: string}>} An object containing the name of the latest tag and the formatted date of the associated commit.
-	 */
 	/**
 	 * Fetches the latest tag and its commit details from a GitHub repository.
 	 * @param {string} owner - The owner of the repository.
@@ -109,7 +82,7 @@
 
 	onMount(async () => {
 		try {
-			latestTag = await fetchLatestTagWithCommitDate(repoOwner, 'CinderellaCityProject');
+			latestTag = await fetchLatestTagWithCommitDate(jdgRepoOwner, 'CinderellaCityProject');
 		} catch (error) {
 			console.error(error);
 			latestTag = { name: 'No tags available', date: '', url: '' };
@@ -169,7 +142,7 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1}
 				maxHeight={'400px'}
-				useCompactHeightOnMobile={true}
+				useAutoHeightOnMobile={true}
 			/>
 		</JDGFeatureCard>
 		<JDGFeatureCard
@@ -197,7 +170,7 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
 				maxHeight={'400px'}
-				useCompactHeightOnMobile={true}
+				useAutoHeightOnMobile={true}
 			/>
 		</JDGFeatureCard>
 		<JDGFeatureCard
@@ -210,7 +183,7 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ccp_vaporwave_blue_mall_60s70s_1}
 				maxHeight={'400px'}
-				useCompactHeightOnMobile={true}
+				useAutoHeightOnMobile={true}
 			/>
 		</JDGFeatureCard>
 	</JDGContentBoxFloating>

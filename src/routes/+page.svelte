@@ -1,5 +1,5 @@
 <script>
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
+	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
 	import imageAttributesCollection from '../image-attributes-collection';
 
 	import {
@@ -36,9 +36,9 @@
 			from fairytale to nightmare in just 30 years.
 			<br /><br />
 			Created by architectural designer and software developer
-			<a href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a>, a Colorado native whose career path
-			was unknowingly influenced by Cinderella City's demolition, the project's goal is to document
-			this unique place in <b>three ways</b>:
+			<a href={$jdgSharedUrlsStore.jdgLinkedIn}>Josh Goldstein</a>, a Colorado native whose career
+			path was unknowingly influenced by Cinderella City's demolition, the project's goal is to
+			document this unique place in <b>three ways</b>:
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -46,7 +46,7 @@
 				href="./history"
 				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
 				labelJustification={'center'}
-				useCompactHeightOnMobile={false}
+				useAutoHeightOnMobile={false}
 				maxHeight={'300px'}
 			/>
 			<JDGImageTile
@@ -54,7 +54,7 @@
 				href="./analysis"
 				imageAttributes={imageAttributesCollection.plan_60s70s_1}
 				labelJustification={'center'}
-				useCompactHeightOnMobile={false}
+				useAutoHeightOnMobile={false}
 				maxHeight={'300px'}
 			/>
 			<JDGImageTile
@@ -62,7 +62,7 @@
 				href="./simulation"
 				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
 				labelJustification={'center'}
-				useCompactHeightOnMobile={false}
+				useAutoHeightOnMobile={false}
 				maxHeight={'300px'}
 			/>
 		</JDGGridLayout>
@@ -156,7 +156,7 @@
 	<JDGContentBoxFloating title="PROJECT BRIEF">
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
 			Seeing Cinderella City fall to the wrecking ball in 1998 made 8-year-old <a
-				href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a
+				href={$jdgSharedUrlsStore.jdgLinkedIn}>Josh Goldstein</a
 			>
 			vow to become an architect in pursuit of making great places that honor and learn from our architectural
 			past.

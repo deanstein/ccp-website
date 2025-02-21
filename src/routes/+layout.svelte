@@ -4,15 +4,14 @@
 	import extend from 'just-extend';
 
 	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
+	import { pageMeta } from '$lib/shared-strings';
 
 	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
 	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
 
-	import { appAccentColors } from 'jdg-ui-svelte/states/ui-state.js';
-
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import SocialMedia from '../components/SocialMedia.svelte';
-	import { pageMeta } from '$lib/shared-strings';
+	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
@@ -96,8 +95,8 @@
 <JDGAppContainer
 	appLoadingIconSrc="./ccp-logo.png"
 	showHeaderStripes={true}
-	accentColors={$appAccentColors}
-	linkColorSimple={$appAccentColors[0]}
+	accentColors={jdgColors.accentColorsCCP}
+	linkColorSimple={jdgColors.accentColorsCCP[0]}
 >
 	<JDGHeader
 		logoTitle={'THE CINDERELLA CITY PROJECT'}

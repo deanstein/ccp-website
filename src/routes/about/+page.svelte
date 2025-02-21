@@ -1,5 +1,5 @@
 <script>
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
+	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
 
 	import imageAttributesCollection from '../../image-attributes-collection';
 
@@ -7,7 +7,7 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGFullWidthContainer,
+		JDGGridLayout,
 		JDGImageFullWidth,
 		JDGImageTile,
 		JDGJumpTo,
@@ -50,8 +50,8 @@
 	<JDGJumpTo />
 	<JDGContentBoxFloating title="BACKGROUND">
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
-			In 1998, a young <a href={jdgSharedUrls.jdgLinkedIn}>Josh Goldstein</a> was in his parents' car
-			when they passed by a vast and shocking demolition site in Englewood, Colorado.
+			In 1998, a young <a href={$jdgSharedUrlsStore.jdgLinkedIn}>Josh Goldstein</a> was in his parents'
+			car when they passed by a vast and shocking demolition site in Englewood, Colorado.
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
@@ -130,9 +130,9 @@
 							icon. Why not share them?
 						</li>
 						<li>
-							Visit on <a href={jdgSharedUrls.ccpInstagram}>Instagram</a>,
-							<a href={jdgSharedUrls.ccpFacebook}>Facebook</a>, or
-							<a href={jdgSharedUrls.ccpYouTube}>YouTube</a>.
+							Visit on <a href={$jdgSharedUrlsStore.ccpInstagram}>Instagram</a>,
+							<a href={$jdgSharedUrlsStore.ccpFacebook}>Facebook</a>, or
+							<a href={$jdgSharedUrlsStore.ccpYouTube}>YouTube</a>.
 						</li>
 					</ul>
 				</li>
@@ -154,8 +154,8 @@
 							lessons for the future.
 						</li>
 						<li>
-							Watch the whole story on <a href={jdgSharedUrls.ccpYouTube}>YouTube</a> or read the
-							full history <a href="./history">here</a>.
+							Watch the whole story on <a href={$jdgSharedUrlsStore.ccpYouTube}>YouTube</a> or read
+							the full history <a href="./history">here</a>.
 						</li>
 					</ul>
 				</li>
@@ -194,17 +194,21 @@
 		<JDGBodyCopy paddingTop="0">
 			<h3>Historic Englewood Museum</h3>
 			<!-- prettier-ignore -->
-			As Secretary of &nbsp;<a href={jdgSharedUrls.historicEnglewood}>Historic Englewood</a>, Josh helped
-			design and build Englewood's first history museum and its inaugural
-			<a href="./exhibit">Cinderella City exhibit</a>, on now through fall 2024.
+			As Secretary of &nbsp;<a href={$jdgSharedUrlsStore.historicEnglewood}>Historic Englewood</a>, Josh
+			helped design and build Englewood's first history museum and its inaugural
+			<a href="./exhibit">Cinderella City exhibit</a>, on now through summer 2025.
 			<br /><br />
 			<h3>The Villa Italia Project</h3>
-			Villa Italia was Cinderella City's sister: Designed and developed by the same man and experiencing
+			Villa Italia was Cinderella City's sister mall: Designed and developed by the same man and experiencing
 			an eerily similar timeline and trajectory.
 			<br /><br />
 			Although it doesn't have the same cult following, Villa Italia has a fascinating story and design
-			evolution. Check it out on <a href={jdgSharedUrls.vipInstagram}>Instagram</a> and
-			<a href={jdgSharedUrls.vipFacebook}>Facebook</a>.
+			evolution. Josh is now documenting the mall's history and may eventually reconstruct it in a similar
+			fashion as Cinderella City.
+			<br /><br />
+			Check out the Villa Italia Project on <a href={$jdgSharedUrlsStore.vipInstagram}>Instagram</a>
+			and
+			<a href={$jdgSharedUrlsStore.vipFacebook}>Facebook</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<Donate />

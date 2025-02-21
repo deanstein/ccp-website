@@ -1,8 +1,4 @@
-import {
-	addCloudinaryUrlTransformation,
-	instantiateObject,
-	postProcessImageAttributes
-} from 'jdg-ui-svelte/jdg-utils.js';
+import { instantiateObject, postProcessImageAttributes } from 'jdg-ui-svelte/jdg-utils.js';
 import jdgImageAttributes from 'jdg-ui-svelte/schemas/jdg-image-attributes.js';
 
 // a map of all available images and their attributes
@@ -147,9 +143,8 @@ const imageAttributesCollection = {
 	}),
 	ccp_xbox_one_controller_diagram: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
-			imgSrc: addCloudinaryUrlTransformation(
-				'https://res.cloudinary.com/jdg-main/image/upload/v1723785244/ccp-website/ccp/ccp-xbox-one-controller-diagram.jpg'
-			),
+			imgSrc:
+				'https://res.cloudinary.com/jdg-main/image/upload/v1723785244/ccp-website/ccp/ccp-xbox-one-controller-diagram.jpg',
 			imgCaption: 'Xbox One controller diagram for Once Upon a Time at Cinderella City',
 			allowBackgroundBlur: false
 		})
@@ -304,6 +299,24 @@ const imageAttributesCollection = {
 			'https://res.cloudinary.com/jdg-main/image/upload/f_auto/v1716962804/ccp-website/rose-mall/rose-mall-80s90s-1_rsnpr0.jpg',
 		imgAlt: 'Rose Mall as seen post-renovation in the mid-1980s.',
 		imgCaption: 'Rose Mall as seen post-renovation in the mid-1980s.',
+		imgAttribution: 'Englewood Public Library'
+	}),
+
+	/*** ENGLEWOOD CIVIC CENTER ***/
+	ecc_existing_1: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc:
+				'https://res.cloudinary.com/jdg-main/image/upload/v1739673653/ccp-website/ccp/ecc-existing-1.jpg',
+			imgCaption:
+				"The Englewood Civic Center's north side faces into plaza where it formerly attached to Cinderella City Mall.",
+			imgAttribution: 'Englewood Public Library'
+		})
+	),
+	ecc_post_demo_1: instantiateObject(jdgImageAttributes, {
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/v1739673653/ccp-website/ccp/ecc-post-demo-1.jpg',
+		imgCaption:
+			'The former Broadway Southwest department store as seen after Cinderella City was demolished in 1998. The right side of the building was once attached to the mall.',
 		imgAttribution: 'Englewood Public Library'
 	})
 };

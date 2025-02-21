@@ -1,10 +1,10 @@
 <script>
-	import { jdgSharedUrls } from 'jdg-ui-svelte/jdg-shared-strings.js';
+	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
 	import { JDGSocialMedia } from 'jdg-ui-svelte';
 </script>
 
 <JDGSocialMedia
-	instagramHref={jdgSharedUrls.ccpInstagram}
-	facebookHref={jdgSharedUrls.ccpFacebook}
-	youtubeHref={jdgSharedUrls.ccpYouTube}
+	instagramHref={$jdgSharedUrlsStore.ccpInstagram}
+	facebookHref={$jdgSharedUrlsStore.ccpFacebook}
+	youtubeHref={$jdgSharedUrlsStore.ccpYouTube}
 />
