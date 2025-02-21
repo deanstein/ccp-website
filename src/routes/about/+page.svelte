@@ -191,10 +191,10 @@
 			The creator of The Cinderella City Project is involved in other endeavors related to
 			Cinderella City and adjacent topics:
 		</JDGBodyCopy>
-		<JDGBodyCopy paddingBottom="0">
-			<h3>Save the Civic Center</h3>
+		<JDGBodyCopy paddingBottom="0" textAlign="center" textWrap="balance">
+			<h3>Saving The Englewood Civic Center</h3>
 			<!-- prettier-ignore -->
-			One final piece of Cinderella City is still standing, but it's increasingly at risk of demolition.</JDGBodyCopy
+			One final piece of Cinderella City is still standing, but maybe not for long.</JDGBodyCopy
 		>
 		<JDGGridLayout>
 			<JDGImageTile
@@ -214,7 +214,7 @@
 			cropToFillContainer={false}
 		/>
 		<JDGBodyCopy paddingBottom="0" paddingTop="0">
-			Now, it may be razed as part of an Englewood redevelopment plan currently taking shape.
+			Now, the Englewood Civic Center may be razed as part of an Englewood redevelopment plan currently taking shape.
 			<br /><br />
 			Harnessing his experience in retail design and software engineering, Josh put together an adaptive
 			reuse concept for the City of Englewood to demonstrate the benefits and possibilities of reconfiguring
@@ -239,7 +239,7 @@
 			<a href="./exhibit">Cinderella City exhibit</a>.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.ccp_exhibit_5}
+			imageAttributes={imageAttributesCollection.ccp_exhibit_4}
 			showCaption
 			cropToFillContainer={false}
 		/>
