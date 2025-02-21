@@ -191,7 +191,47 @@
 			The creator of The Cinderella City Project is involved in other endeavors related to
 			Cinderella City and adjacent topics:
 		</JDGBodyCopy>
-		<JDGBodyCopy paddingTop="0">
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
+			<h3>Save the Civic Center</h3>
+			<!-- prettier-ignore -->
+			One final piece of Cinderella City is still standing, but it's increasingly at risk of demolition.</JDGBodyCopy
+		>
+		<JDGGridLayout>
+			<JDGImageTile
+				imageAttributes={imageAttributesCollection.ecc_abandoned_1}
+				showCaption
+				cropToFillContainer
+			/>
+		</JDGGridLayout>
+		<JDGBodyCopy paddingBottom="0">
+			Originally built as the Broadway Southwest in 1985 as part of Cinderella City's mid-life
+			renovation, the building now known as the Englewood Civic Center was saved from the wrecking
+			ball and adaptively reused into its current form in 2000. 
+			</JDGBodyCopy>
+			<JDGImageTile
+			imageAttributes={imageAttributesCollection.ecc_existing_south}
+			showCaption
+			cropToFillContainer
+		/>
+			<JDGBodyCopy paddingBottom="0">
+				Now, it may be razed as part of an
+			Englewood redevelopment plan currently taking shape.
+			<br><br>
+			Harnessing his experience in retail design and software engineering, Josh put together an adaptive
+			reuse concept for the City of Englewood to demonstrate the benefits and possibilities of reconfiguring
+			the building and extending its life once more. The design includes new uses like Englewood's first
+			food hall, public plazas with history exhibits, and other possible uses like a hotel and office
+			space.
+			</JDGBodyCopy>
+			<JDGImageTile
+			imageAttributes={imageAttributesCollection.ecc_reuse_opt_5_terraces}
+			showCaption
+			cropToFillContainer
+		/>
+			<JDGBodyCopy>
+			Check out the proposed concept and support it by signing your name at
+			<a href="https://change.org/SaveCivicCenter" target="_blank">Change.org</a>.
+			<br /><br />
 			<h3>Historic Englewood Museum</h3>
 			<!-- prettier-ignore -->
 			As Secretary of &nbsp;<a href={$jdgSharedUrlsStore.historicEnglewood}>Historic Englewood</a>, Josh
