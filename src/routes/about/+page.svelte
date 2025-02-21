@@ -191,7 +191,7 @@
 			The creator of The Cinderella City Project is involved in other endeavors related to
 			Cinderella City and adjacent topics:
 		</JDGBodyCopy>
-		<JDGBodyCopy paddingTop="0" paddingBottom="0">
+		<JDGBodyCopy paddingBottom="0">
 			<h3>Save the Civic Center</h3>
 			<!-- prettier-ignore -->
 			One final piece of Cinderella City is still standing, but it's increasingly at risk of demolition.</JDGBodyCopy
@@ -200,10 +200,10 @@
 			<JDGImageTile
 				imageAttributes={imageAttributesCollection.ecc_abandoned_1}
 				showCaption
-				cropToFillContainer
+				cropToFillContainer={false}
 			/>
 		</JDGGridLayout>
-		<JDGBodyCopy paddingBottom="0">
+		<JDGBodyCopy paddingBottom="0" paddingTop="0">
 			Originally built as the Broadway Southwest in 1985 as part of Cinderella City's mid-life
 			renovation, the building now known as the Englewood Civic Center was saved from the wrecking
 			ball and adaptively reused into its current form in 2000.
@@ -211,9 +211,9 @@
 		<JDGImageTile
 			imageAttributes={imageAttributesCollection.ecc_existing_south}
 			showCaption
-			cropToFillContainer
+			cropToFillContainer={false}
 		/>
-		<JDGBodyCopy paddingBottom="0">
+		<JDGBodyCopy paddingBottom="0" paddingTop="0">
 			Now, it may be razed as part of an Englewood redevelopment plan currently taking shape.
 			<br /><br />
 			Harnessing his experience in retail design and software engineering, Josh put together an adaptive
@@ -225,25 +225,41 @@
 		<JDGImageTile
 			imageAttributes={imageAttributesCollection.ecc_reuse_opt_5_terraces}
 			showCaption
-			cropToFillContainer
+			cropToFillContainer={false}
 		/>
-		<JDGBodyCopy>
+		<JDGBodyCopy paddingTop="0">
 			Check out the proposed concept and support it by signing your name at
 			<a href="https://change.org/SaveCivicCenter" target="_blank">Change.org</a>.
-			<br /><br />
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingBottom="0">
 			<h3>Historic Englewood Museum</h3>
 			<!-- prettier-ignore -->
 			As Secretary of &nbsp;<a href={$jdgSharedUrlsStore.historicEnglewood}>Historic Englewood</a>, Josh
 			helped design and build Englewood's first history museum and its inaugural
-			<a href="./exhibit">Cinderella City exhibit</a>, on now through summer 2025.
-			<br /><br />
+			<a href="./exhibit">Cinderella City exhibit</a>.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.ccp_exhibit_5}
+			showCaption
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy paddingTop="0">
+			The Cinderella City exhibit is on now through summer 2025.
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingBottom="0">
 			<h3>The Villa Italia Project</h3>
 			Villa Italia was Cinderella City's sister mall: Designed and developed by the same man and experiencing
 			an eerily similar timeline and trajectory.
-			<br /><br />
-			Although it doesn't have the same cult following, Villa Italia has a fascinating story and design
-			evolution. Josh is now documenting the mall's history and may eventually reconstruct it in a similar
-			fashion as Cinderella City.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageAttributes={imageAttributesCollection.villa_italia_grand_opening_1}
+			showCaption
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy paddingTop="0">
+			Although it doesn't have the same cult following, Villa Italia has a fascinating story and
+			design evolution. Josh is now documenting the mall's history and may eventually reconstruct it
+			in a similar fashion as Cinderella City.
 			<br /><br />
 			Check out the Villa Italia Project on <a href={$jdgSharedUrlsStore.vipInstagram}>Instagram</a>
 			and

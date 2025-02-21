@@ -141,6 +141,13 @@ const imageAttributesCollection = {
 		imgAlt: `A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space.`,
 		imgCaption: `A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space.`
 	}),
+	ccp_exhibit_5: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc:
+				'https://res.cloudinary.com/jdg-main/image/upload/v1720560067/ccp-website/ccp/exhibit/ccp_exhibit_5.jpg',
+			imgCaption: `A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space.`
+		})
+	),
 	ccp_xbox_one_controller_diagram: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc:
@@ -345,6 +352,16 @@ const imageAttributesCollection = {
 				'https://res.cloudinary.com/jdg-main/image/upload/v1740172529/ccp-website/save-civic-center/ecc-reuse-opt-5-terraces.png',
 			imgCaption:
 				'One option for reuse is installing a food hall in the lower level and peeling back the parking garage to reveal terraces down to the ground level, with replacement parking in a multifamily building offscreen.',
+			imgAttribution: 'Englewood Public Library'
+		})
+	),
+
+	/*** VILLA ITALIA ***/
+	villa_italia_grand_opening_1: postProcessImageAttributes(
+		instantiateObject(jdgImageAttributes, {
+			imgSrc:
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740175711/ccp-website/villa-italia/villa-italia-grand-opening-1.jpg',
+			imgCaption: 'Villa Italia during its grand opening in March of 1966.',
 			imgAttribution: 'Englewood Public Library'
 		})
 	)
