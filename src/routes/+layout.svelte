@@ -82,10 +82,6 @@
 	// get versions from package.json to display in the footer
 	//@ts-expect-error
 	const appVersion = packageJson?.version;
-	//@ts-expect-error
-	const jdgUIVersion = packageJson?.dependencies['jdg-ui-svelte'];
-
-	const additionalVersionData = `JDG UI: v${jdgUIVersion}`;
 
 	const disclaimer =
 		'Photographs are from public domain sources or are used with permission and credited accordingly.';
@@ -112,7 +108,6 @@
 		alignItems="center"
 		repoName={ccpWebsiteRepoName}
 		{appVersion}
-		{additionalVersionData}
 		{disclaimer}
 		showDevToolsButton={true}
 		copyrightHref={'https://www.jdeangoldstein.com'}
