@@ -206,29 +206,28 @@
 		<JDGBodyCopy paddingBottom="0">
 			Originally built as the Broadway Southwest in 1985 as part of Cinderella City's mid-life
 			renovation, the building now known as the Englewood Civic Center was saved from the wrecking
-			ball and adaptively reused into its current form in 2000. 
-			</JDGBodyCopy>
-			<JDGImageTile
+			ball and adaptively reused into its current form in 2000.
+		</JDGBodyCopy>
+		<JDGImageTile
 			imageAttributes={imageAttributesCollection.ecc_existing_south}
 			showCaption
 			cropToFillContainer
 		/>
-			<JDGBodyCopy paddingBottom="0">
-				Now, it may be razed as part of an
-			Englewood redevelopment plan currently taking shape.
-			<br><br>
+		<JDGBodyCopy paddingBottom="0">
+			Now, it may be razed as part of an Englewood redevelopment plan currently taking shape.
+			<br /><br />
 			Harnessing his experience in retail design and software engineering, Josh put together an adaptive
 			reuse concept for the City of Englewood to demonstrate the benefits and possibilities of reconfiguring
 			the building and extending its life once more. The design includes new uses like Englewood's first
 			food hall, public plazas with history exhibits, and other possible uses like a hotel and office
 			space.
-			</JDGBodyCopy>
-			<JDGImageTile
+		</JDGBodyCopy>
+		<JDGImageTile
 			imageAttributes={imageAttributesCollection.ecc_reuse_opt_5_terraces}
 			showCaption
 			cropToFillContainer
 		/>
-			<JDGBodyCopy>
+		<JDGBodyCopy>
 			Check out the proposed concept and support it by signing your name at
 			<a href="https://change.org/SaveCivicCenter" target="_blank">Change.org</a>.
 			<br /><br />

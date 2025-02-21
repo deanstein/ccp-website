@@ -326,28 +326,28 @@ const imageAttributesCollection = {
 			imgSrc:
 				'https://res.cloudinary.com/jdg-main/image/upload/v1740171781/ccp-website/ccp/ecc-existing-south.png',
 			imgCaption:
-				"The south side of the Englewood Civic Center is fronted by a parking deck much like the parking deck that once surrounded the entire mall.",
+				'The south side of the Englewood Civic Center is fronted by a parking deck much like the parking deck that once surrounded the entire mall.',
 			imgAttribution: 'Englewood Public Library'
 		})
 	),
-	ecc_post_demo_1: 
-	postProcessImageAttributes(
+	ecc_post_demo_1: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
-		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1740171988/ccp-website/ccp/ecc-post-demo-1.jpg',
-		imgCaption:
-			'The former Broadway Southwest department store as seen after Cinderella City was demolished in 1998. The right side of the building was once attached to the mall.',
-		imgAttribution: 'Englewood Public Library'
-	})),
-	ecc_reuse_opt_5_terraces: 
-	postProcessImageAttributes(
+			imgSrc:
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740171988/ccp-website/ccp/ecc-post-demo-1.jpg',
+			imgCaption:
+				'The former Broadway Southwest department store as seen after Cinderella City was demolished in 1998. The right side of the building was once attached to the mall.',
+			imgAttribution: 'Englewood Public Library'
+		})
+	),
+	ecc_reuse_opt_5_terraces: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
-		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1740172529/ccp-website/ccp/ecc-reuse-opt-5-terraces.png',
-		imgCaption:
-			'One option for reuse is installing a food hall in the lower level and peeling back the parking garage to reveal terraces down to the ground level, with replacement parking in a multifamily building offscreen.',
-		imgAttribution: 'Englewood Public Library'
-	}))
+			imgSrc:
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740172529/ccp-website/ccp/ecc-reuse-opt-5-terraces.png',
+			imgCaption:
+				'One option for reuse is installing a food hall in the lower level and peeling back the parking garage to reveal terraces down to the ground level, with replacement parking in a multifamily building offscreen.',
+			imgAttribution: 'Englewood Public Library'
+		})
+	)
 };
 
 export default imageAttributesCollection;
