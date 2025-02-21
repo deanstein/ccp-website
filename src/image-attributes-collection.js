@@ -306,7 +306,7 @@ const imageAttributesCollection = {
 	ecc_abandoned_1: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc:
-				'https://res.cloudinary.com/jdg-main/image/upload/v1740171773/ccp-website/ccp/ecc-abandoned-1.jpg',
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740171773/ccp-website/save-civic-center/ecc-abandoned-1.jpg',
 			imgCaption:
 				"Abandoned by Foley's in 1994, the empty department store is seen here attached to an ailing Cinderella City in 1996.",
 			imgAttribution: 'Englewood Public Library'
@@ -315,7 +315,7 @@ const imageAttributesCollection = {
 	ecc_existing_north: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc:
-				'https://res.cloudinary.com/jdg-main/image/upload/v1739673653/ccp-website/ccp/ecc-existing-north.jpg',
+				'https://res.cloudinary.com/jdg-main/image/upload/v1739673653/ccp-website/save-civic-center/ecc-existing-north.jpg',
 			imgCaption:
 				"The Englewood Civic Center's north side formerly connected to Cinderella City Mall and now faces into a public plaza surrounded by mixed-use buildings.",
 			imgAttribution: 'Englewood Public Library'
@@ -324,7 +324,7 @@ const imageAttributesCollection = {
 	ecc_existing_south: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc:
-				'https://res.cloudinary.com/jdg-main/image/upload/v1740171781/ccp-website/ccp/ecc-existing-south.png',
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740171781/ccp-website/save-civic-center/ecc-existing-south.png',
 			imgCaption:
 				'The south side of the Englewood Civic Center is fronted by a parking deck much like the parking deck that once surrounded the entire mall.',
 			imgAttribution: 'Englewood Public Library'
@@ -333,7 +333,7 @@ const imageAttributesCollection = {
 	ecc_post_demo_1: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc:
-				'https://res.cloudinary.com/jdg-main/image/upload/v1740171988/ccp-website/ccp/ecc-post-demo-1.jpg',
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740171988/ccp-website/save-civic-center/ecc-post-demo-1.jpg',
 			imgCaption:
 				'The former Broadway Southwest department store as seen after Cinderella City was demolished in 1998. The right side of the building was once attached to the mall.',
 			imgAttribution: 'Englewood Public Library'
@@ -342,7 +342,7 @@ const imageAttributesCollection = {
 	ecc_reuse_opt_5_terraces: postProcessImageAttributes(
 		instantiateObject(jdgImageAttributes, {
 			imgSrc:
-				'https://res.cloudinary.com/jdg-main/image/upload/v1740172529/ccp-website/ccp/ecc-reuse-opt-5-terraces.png',
+				'https://res.cloudinary.com/jdg-main/image/upload/v1740172529/ccp-website/save-civic-center/ecc-reuse-opt-5-terraces.png',
 			imgCaption:
 				'One option for reuse is installing a food hall in the lower level and peeling back the parking garage to reveal terraces down to the ground level, with replacement parking in a multifamily building offscreen.',
 			imgAttribution: 'Englewood Public Library'
