@@ -229,7 +229,7 @@
 		/>
 		<JDGBodyCopy paddingTop="0">
 			Check out the proposed concept and support it by signing your name at
-			<a href="https://change.org/SaveCivicCenter" target="_blank">Change.org</a>.
+			<a href="{$jdgSharedUrlsStore.ccpCivicCenterPetition}" target="_blank">Change.org</a>.
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingBottom="0">
 			<h3>Historic Englewood Museum</h3>
