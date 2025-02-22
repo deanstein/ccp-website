@@ -289,7 +289,7 @@ const imageAttributesCollection = {
 	}),
 	rose_mall_60s70s_2: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1716962803/ccp-website/rose-mall/rose-mall-60s70s-2_bblxau.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/v1740204382/ccp-website/rose-mall/rose-mall-60s70s-2.png',
 		imgAlt: 'The mezzanine level featured offices for lease, seen here from Rose Mall.',
 		imgCaption: 'The mezzanine level featured offices for lease, seen here from Rose Mall.',
 		imgAttribution: 'Denver Public Library'
