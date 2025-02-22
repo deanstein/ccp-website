@@ -84,7 +84,7 @@
 	const appVersion = packageJson?.version;
 
 	const disclaimer =
-		'Photographs are from public domain sources or are used with permission and credited accordingly.';
+		'Photographs are from public domain sources or are used with permission and credited.';
 </script>
 
 <MetaTags {...metaTags} />
