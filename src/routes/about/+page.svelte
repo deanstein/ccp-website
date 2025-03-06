@@ -214,7 +214,8 @@
 			cropToFillContainer={false}
 		/>
 		<JDGBodyCopy paddingBottom="0" paddingTop="0">
-			Now, the Englewood Civic Center may be razed as part of an Englewood redevelopment plan currently taking shape.
+			Now, the Englewood Civic Center may be razed as part of an Englewood redevelopment plan
+			currently taking shape.
 			<br /><br />
 			Harnessing his experience in retail design and software engineering, Josh put together an adaptive
 			reuse concept for the City of Englewood to demonstrate the benefits and possibilities of reconfiguring
@@ -229,7 +230,7 @@
 		/>
 		<JDGBodyCopy paddingTop="0">
 			Check out the proposed concept and support it by signing your name at
-			<a href="{$jdgSharedUrlsStore.ccpCivicCenterPetition}" target="_blank">Change.org</a>.
+			<a href={$jdgSharedUrlsStore.ccpCivicCenterPetition} target="_blank">Change.org</a>.
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingBottom="0">
 			<h3>Historic Englewood Museum</h3>
@@ -244,7 +245,7 @@
 			cropToFillContainer={false}
 		/>
 		<JDGBodyCopy paddingTop="0">
-			The Cinderella City exhibit is on now through summer 2025.
+			The Cinderella City exhibit is on now through July 2025.
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingBottom="0">
 			<h3>The Villa Italia Project</h3>

@@ -49,7 +49,7 @@
 			As an added bonus, the building that hosts the Historic Englewood museum was originally built in
 			1985 as Cinderella City's Broadway Southwest department store.
 			<br /><br />
-			<b>The Cinderella City exhibit is on now through at least spring 2025.</b>
+			<b>The Cinderella City exhibit is on now through July 2025.</b>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
