@@ -1,5 +1,6 @@
 <script>
 	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
+	import imageAttributesCollection from '../../image-attributes-collection';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -8,7 +9,7 @@
 		JDGImageHybridGridCarousel,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import Donate from '../../components/Donate.svelte';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
@@ -80,6 +81,7 @@
 			Children under 5: Free
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<Donate />
 	<JDGUpNext
 		item1Label={'LEARN ABOUT THE PROJECT'}
 		item1Href={'./about'}

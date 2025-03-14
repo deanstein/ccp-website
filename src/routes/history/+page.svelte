@@ -1,6 +1,5 @@
 <script>
 	import imageAttributesCollection from '../../image-attributes-collection';
-
 	import {
 		JDGAccentBlockWithText,
 		JDGBodyCopy,
@@ -13,6 +12,7 @@
 		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
+	import Donate from '../../components/Donate.svelte';
 
 	const showInProgressContent = false; // optionally hide during construction
 </script>
@@ -42,6 +42,7 @@
 			/>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<Donate />
 	<JDGUpNext
 		item1Label={'LEARN MORE ABOUT THE PROJECT'}
 		item1Href={'./about'}

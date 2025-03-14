@@ -1,4 +1,5 @@
 <script>
+	import imageAttributesCollection from '../../image-attributes-collection';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -6,7 +7,7 @@
 		JDGImage,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import Donate from '../../components/Donate.svelte';
 </script>
 
 <JDGContentContainer>
@@ -23,6 +24,7 @@
 			showAttribution={true}
 		/>
 	</JDGContentBoxFloating>
+	<Donate />
 	<JDGUpNext
 		item1Label={'SEE THE EXHIBIT'}
 		item1Href={'./exhibit'}
