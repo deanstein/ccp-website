@@ -245,7 +245,7 @@
 			cropToFillContainer={false}
 		/>
 		<JDGBodyCopy paddingTop="0">
-			The Cinderella City exhibit is on now through July 2025.
+			The Cinderella City exhibit is on now through July 26, 2025.
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingBottom="0">
 			<h3>The Villa Italia Project</h3>
