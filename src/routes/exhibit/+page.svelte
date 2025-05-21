@@ -70,15 +70,13 @@
 			Saturdays 10am to 2pm MST
 			<br /><br />
 			<h3>ADMISSION</h3>
-			Adults: $10
+			Adults: $5
 			<br />
-			Historic Englewood Members: $8
+			Historic Englewood Members: Free
 			<br />
-			Seniors and Military Members: $8
+			Seniors and Military Members: Free
 			<br />
-			Children 5-12: $5
-			<br />
-			Children under 5: Free
+			Children: Free
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<Donate />
