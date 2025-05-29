@@ -30,6 +30,20 @@
 		}
 	}
 
+	// GOOGLE ANALYLTICS
+	// this enables tracking of each page dynamically
+	const trackingId = 'G-8Y56LMC5GF';
+	$: {
+		// @ts-expect-error
+		if (typeof gtag !== 'undefined') {
+			// @ts-expect-error
+			gtag('config', trackingId, {
+				page_title: document.title,
+				page_path: $page.url.pathname
+			});
+		}
+	}
+
 	// define the nav items in the header
 	const navItemHome = instantiateObject(jdgNavItem);
 	navItemHome.label = 'HOME';
@@ -87,6 +101,20 @@
 		'Photographs are from public domain sources or are used with permission and credited.';
 </script>
 
+<!-- GOOGLE ANALYTICS -->
+<svelte:head>
+	<!-- Google tag (gtag.js) -->
+	<script async src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-8Y56LMC5GF');
+	</script>
+</svelte:head>
 <MetaTags {...metaTags} />
 <JDGAppContainer
 	appLoadingIconSrc="./ccp-logo.png"
