@@ -221,7 +221,7 @@
 			The project regularly shares rare photographs and little-known facts on
 			<a href="./contact">social media channels</a>, and also helped design and build a new Historic
 			Englewood Museum which debuted with a <a href="./exhibit">Cinderella City exhibit</a> - on now
-			through 2024.
+			through July 2025.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="LATEST UPDATES">
