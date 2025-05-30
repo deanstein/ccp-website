@@ -70,13 +70,15 @@
 			Saturdays 10am to 2pm MST
 			<br /><br />
 			<h3>ADMISSION</h3>
-			Adults: $5
+			<b>Youth:</b> <i>Free!</i>
+			<div class="age">(age 18 or younger)</div>
+			<b>Adults:</b> $5.00
+			<div class="age">(age 19-64)</div>
+			<b>Seniors:</b> <i>Free!</i>
+			<div class="age">(age 65 or older)</div>
+			<b>Historic Englewood Members:</b> <i>Free!</i>
 			<br />
-			Historic Englewood Members: Free
-			<br />
-			Seniors and Military Members: Free
-			<br />
-			Children: Free
+			<b>Military Members:</b> <i>Free!</i>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<Donate />
@@ -96,5 +98,12 @@
 <style>
 	h3 {
 		margin: 5px;
+	}
+
+	.age {
+		font-size: 0.9rem;
+		color: gray;
+		padding-top: 0px;
+		padding-bottom: 15px;
 	}
 </style>
