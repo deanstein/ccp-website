@@ -67,7 +67,7 @@
 			Englewood, Colorado 80110
 			<br /><br />
 			<h3>HOURS</h3>
-			Saturdays 10am to 2pm MST
+			Saturdays 10am to 2pm MT
 			<br /><br />
 			<h3>ADMISSION</h3>
 			<b>Youth:</b> <i>Free!</i>
