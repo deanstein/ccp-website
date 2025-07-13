@@ -50,7 +50,8 @@
 			As an added bonus, the building that hosts the Historic Englewood museum was originally built in
 			1985 as Cinderella City's Broadway Southwest department store.
 			<br /><br />
-			<b>The Cinderella City exhibit is on now through July 26, 2025.</b>
+			<div><b>Update: Extended by popular demand!</b></div>
+			The Cinderella City exhibit is on now through<s>July 26, 2025</s><b>August 30, 2025</b>!
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
@@ -68,17 +69,31 @@
 			<br /><br />
 			<h3>HOURS</h3>
 			Saturdays 10am to 2pm MT
-			<br /><br />
-			<h3>ADMISSION</h3>
-			<b>Youth:</b> <i>Free!</i>
-			<div class="age">(age 18 or younger)</div>
-			<b>Adults:</b> $5.00
-			<div class="age">(age 19-64)</div>
-			<b>Seniors:</b> <i>Free!</i>
-			<div class="age">(age 65 or older)</div>
-			<b>Historic Englewood Members:</b> <i>Free!</i>
 			<br />
-			<b>Military Members:</b> <i>Free!</i>
+			<div class="age">through August 30, 2025</div>
+			<br />
+			<h3>ADMISSION</h3>
+			<table class="admission-table">
+				<tr>
+					<td class="left">Adult</td>
+					<td class="right">$5.00</td>
+				</tr>
+				<tr>
+					<td class="left"
+						>Youth
+						<div class="age">18 or under</div></td
+					>
+					<td class="right"><i>Free!</i></td>
+				</tr>
+				<tr>
+					<td class="left">Historic Englewood members</td>
+					<td class="right"><i>Free!</i></td>
+				</tr>
+				<tr>
+					<td class="left">Military members</td>
+					<td class="right"><i>Free!</i></td>
+				</tr>
+			</table>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<Donate />
@@ -101,9 +116,36 @@
 	}
 
 	.age {
+		font-style: italic;
 		font-size: 0.9rem;
 		color: gray;
-		padding-top: 0px;
-		padding-bottom: 15px;
+		padding: 0;
+		margin-top: -8px;
+	}
+
+	.admission-table {
+		width: 100%;
+		table-layout: fixed;
+		border-collapse: collapse;
+	}
+
+	.admission-table td {
+		padding: 0.5rem;
+		vertical-align: top;
+	}
+
+	.admission-table .left {
+		width: 50%;
+		text-align: right;
+		white-space: nowrap;
+		overflow-wrap: break-word;
+		padding-left: 0.5rem;
+		border-right: 2px solid gainsboro;
+	}
+
+	.admission-table .right {
+		width: 50%;
+		text-align: left;
+		padding-left: 0.5rem;
 	}
 </style>
