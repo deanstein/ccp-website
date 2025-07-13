@@ -51,7 +51,9 @@
 			1985 as Cinderella City's Broadway Southwest department store.
 			<br /><br />
 			<div><b>Update: Extended by popular demand!</b></div>
-			The Cinderella City exhibit is on now through<s>July 26, 2025</s><b> August 30, 2025</b>!
+			The Cinderella City exhibit is on now through&nbsp;<s>July 26, 2025</s>&nbsp;<b
+				>August 30, 2025</b
+			>!
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
