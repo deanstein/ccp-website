@@ -54,6 +54,12 @@
 			The Cinderella City exhibit is on now through&nbsp;<s>July 26, 2025</s>&nbsp;<b
 				>August 30, 2025</b
 			>!
+			<br />
+			<i
+				>Note that simulation creator <a href="https://jdeangoldstein.com">Josh Goldstein</a>
+				<b>will not be present</b> for in-person tours during the extended month of operation. The simulation
+				will be running in autopilot mode.</i
+			>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
