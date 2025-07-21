@@ -55,10 +55,12 @@
 				>August 30, 2025</b
 			>!
 			<br />
+			<br />
 			<i
 				>Note that simulation creator <a href="https://jdeangoldstein.com">Josh Goldstein</a>
 				<b>will not be present</b> for in-person tours during the extended month of operation. The simulation
-				will be running in autopilot mode.</i
+				will run in autopilot mode with a controller available for intrepid mallwalkers to take control
+				themselves.</i
 			>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
