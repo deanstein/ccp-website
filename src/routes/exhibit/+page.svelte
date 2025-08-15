@@ -47,8 +47,8 @@
 			>, which guides visitors on a tour of historic photos inside both eras of the mall, and also
 			offers a game controller for intrepid mall walkers to take control and go where they please.
 			<br /><br />
-			Fittingly, the exhibit is housed in a building that was once part of Cinderella City itself: The
-			former Broadway Southwest department store built in 1985.
+			Adding a layer of nostalgia, the Cinderella City exhibit takes place inside the last surviving
+			piece of the mall: the Broadway Southwest department store constructed in 1985.
 			<br /><br />
 			The Cinderella City exhibit is on now through&nbsp;<s>July 26, 2025</s>&nbsp;<b
 				>August 30, 2025</b
