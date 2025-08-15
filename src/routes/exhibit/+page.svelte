@@ -47,21 +47,15 @@
 			>, which guides visitors on a tour of historic photos inside both eras of the mall, and also
 			offers a game controller for intrepid mall walkers to take control and go where they please.
 			<br /><br />
-			As an added bonus, the building that hosts the Historic Englewood museum was originally built in
-			1985 as Cinderella City's Broadway Southwest department store.
+			Fittingly, the exhibit is housed in a building that was once part of Cinderella City itself: The
+			former Broadway Southwest department store built in 1985.
 			<br /><br />
-			<div><b>Update: Extended by popular demand!</b></div>
 			The Cinderella City exhibit is on now through&nbsp;<s>July 26, 2025</s>&nbsp;<b
 				>August 30, 2025</b
-			>!
+			>*!
 			<br />
 			<br />
-			<i
-				>Note that simulation creator <a href="https://jdeangoldstein.com">Josh Goldstein</a>
-				<b>will not be present</b> for in-person tours during the extended month of operation. The simulation
-				will run in autopilot mode with a controller available for intrepid mallwalkers to take control
-				themselves.</i
-			>
+			<i style="font-size: 10pt;">* Closed August 23rd for the Englewood Block Party</i>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
