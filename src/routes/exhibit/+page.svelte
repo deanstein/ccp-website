@@ -52,10 +52,9 @@
 			<br /><br />
 			The Cinderella City exhibit is on now through&nbsp;<s>July 26, 2025</s>&nbsp;<b
 				>August 30, 2025</b
-			>!*
+			>!
 			<br />
 			<br />
-			<i style="font-size: 10pt;">* Closed August 23rd for the Englewood Block Party</i>
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
