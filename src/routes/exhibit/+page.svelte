@@ -7,6 +7,7 @@
 		JDGContentContainer,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel,
+		JDGNotificationBanner,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import Donate from '../../components/Donate.svelte';
@@ -23,6 +24,10 @@
 		overlapWithHeader={true}
 	/>
 	<JDGContentBoxFloating animateWhenVisible={false}>
+		<JDGNotificationBanner
+			message={'The Cinderella City exhibit was open from May 2024 through August 2025 and is now closed.'}
+			backgroundColor={'#f5e576'}
+		/>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <b>Cinderella City Project</b> has teamed up with
 			<a href={$jdgSharedUrlsStore.historicEnglewood}>Historic Englewood</a> to create Englewood's
@@ -49,56 +54,14 @@
 			<br /><br />
 			Adding a layer of nostalgia, the Cinderella City exhibit takes place inside the last surviving
 			piece of the mall: the Broadway Southwest department store constructed in 1985.
-			<br /><br />
-			The Cinderella City exhibit is on now through&nbsp;<s>July 26, 2025</s>&nbsp;<b
-				>August 30, 2025</b
-			>!
-			<br />
-			<br />
 		</JDGBodyCopy>
+		<JDGNotificationBanner
+			message={'The Cinderella City exhibit was open from May 2024 through August 2025 and is now closed.'}
+			backgroundColor={'#f5e576'}
+		/>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 <JDGContentContainer>
-	<JDGContentBoxFloating title="EXHIBIT INFORMATION">
-		<JDGBodyCopy paddingTop="0" textAlign="center">
-			<h3>LOCATION</h3>
-			<b>Historic Englewood Museum</b>
-			<br />
-			Englewood Civic Center, 2nd Floor
-			<br />
-			1000 Englewood Parkway
-			<br />
-			Englewood, Colorado 80110
-			<br /><br />
-			<h3>HOURS</h3>
-			Saturdays 10am to 2pm MT
-			<br />
-			<div class="age">through August 30, 2025</div>
-			<br />
-			<h3>ADMISSION</h3>
-			<table class="admission-table">
-				<tr>
-					<td class="left">Adult</td>
-					<td class="right">$5.00</td>
-				</tr>
-				<tr>
-					<td class="left"
-						>Youth
-						<div class="age">18 or under</div></td
-					>
-					<td class="right"><i>Free!</i></td>
-				</tr>
-				<tr>
-					<td class="left">Historic Englewood members</td>
-					<td class="right"><i>Free!</i></td>
-				</tr>
-				<tr>
-					<td class="left">Military members</td>
-					<td class="right"><i>Free!</i></td>
-				</tr>
-			</table>
-		</JDGBodyCopy>
-	</JDGContentBoxFloating>
 	<Donate />
 	<JDGUpNext
 		item1Label={'LEARN ABOUT THE PROJECT'}
