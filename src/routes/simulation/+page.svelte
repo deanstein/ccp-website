@@ -104,7 +104,7 @@
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			<strong>Once Upon a Time at Cinderella City</strong> is an interactive simulation of
-			<a href="./history">Cinderella City Mall</a>
+			<a href="https://cinderellacityproject.com/#short-history">Cinderella City Mall</a>
 			that combines software and history to bring an architectural and retail icon back to life in full
 			3D.
 			<br /><br />
