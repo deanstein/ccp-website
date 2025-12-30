@@ -1,4 +1,4 @@
-// TEMPORARY REGISTRY FOR TESTING AHEAD OF JDG-UI-SVELTE v2.0
+// STAGING REGISTRY FOR TESTING AHEAD OF JDG-UI-SVELTE v2.0
 
 // This registry contains all available images and their metadata
 // New images with a caption must be added manually or via ImageMetaModal
