@@ -352,5 +352,14 @@ const imageMetaRegistry = {
 		alt: 'This is a reupload test!',
 		caption: 'This is a reupload test!',
 		attribution: 'Some attribution'
+	},
+	blue_mall: {
+		_1968_03_07_von_frellick: {
+			id: '70e86128-3043-4452-b1a5-d6a788b8d00a',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767073265/ccp-website/blue-mall/1968-03-07%20von%20frellick.png',
+			alt: 'Gerri Von Frellick stands on a Blue Room stair landing while grand opening festivities take place below',
+			caption: 'Gerri Von Frellick stands on a Blue Room stair landing while grand opening festivities take place below',
+			attribution: 'Englewood Public Library'
+		}
 	}
 };
