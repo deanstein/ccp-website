@@ -364,6 +364,17 @@ const imageMetaRegistry = {
 			title: '',
 			showBackgroundBlur: true,
 			version: '0.3.0'
+		},
+		_1968_03_07_grand_opening_crowds_1: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767147844/ccp-website/blue-mall/1968-03-07-grand-opening-crowds-1.jpg',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.3.0',
+			alt: `Crowds in the Blue Room at Cinderella City's grand opening`,
+			title: '',
+			attribution: 'Gerri Lu Von Frellick',
+			caption: `Crowds in the Blue Room at Cinderella City's grand opening`,
+			id: 'a3e00938-3c21-42ff-abad-c00e61195ff0'
 		}
 	}
 };
