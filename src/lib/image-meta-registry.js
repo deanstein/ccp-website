@@ -389,5 +389,18 @@ const imageMetaRegistry = {
 			caption: 'Von Frellick sells interest in Cinderella City.',
 			id: '0293235f-5cfc-4009-b1bb-d20575b80576'
 		}
+	},
+	rose_mall: {
+		_1981_06_25_rose_mall_sketch: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767159179/ccp-website/rose-mall/1981-06-25-rose-mall-sketch.jpg',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.3.0',
+			alt: 'A 1981 sketch of the renovated Blue Mall center court.',
+			title: '',
+			attribution: '',
+			caption: 'A 1981 sketch of the renovated Blue Mall center court.',
+			id: '4f7f3f49-14e4-4096-b26c-b8e5a392234e'
+		}
 	}
 };
