@@ -375,6 +375,17 @@ const imageMetaRegistry = {
 			attribution: 'Gerri Lu Von Frellick',
 			caption: `Crowds in the Blue Room at Cinderella City's grand opening`,
 			id: 'a3e00938-3c21-42ff-abad-c00e61195ff0'
+		},
+		_1981_12_23_center_court_sketch: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767159240/ccp-website/blue-mall/1981-12-23-center-court-sketch.jpg',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.3.0',
+			alt: 'A 1981 sketch of the renovated Blue Mall center court.',
+			title: '',
+			attribution: '',
+			caption: 'A 1981 sketch of the renovated Blue Mall center court.',
+			id: '62235e40-3eec-42ed-b836-3ffc08269371'
 		}
 	},
 	history: {
