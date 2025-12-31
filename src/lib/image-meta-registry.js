@@ -397,6 +397,17 @@ const imageMetaRegistry = {
 			attribution: '',
 			caption: 'The newly-renovated Blue Mall and Food Court.',
 			id: '2946f95d-8497-4bb7-8906-66c06c6628a8'
+		},
+		_1968_blue_mall: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767206588/ccp-website/blue-mall/1968-blue-mall.jpg',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.3.0',
+			alt: 'The Blue Mall shortly before opening in 1968.',
+			title: '',
+			attribution: 'Tone Journal of Interior Design, March 1968',
+			caption: 'The Blue Mall shortly before opening in 1968.',
+			id: '66b6c736-c69f-47ad-b112-20c91613da56'
 		}
 	},
 	history: {
