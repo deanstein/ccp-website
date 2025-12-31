@@ -424,5 +424,18 @@ const imageMetaRegistry = {
 			caption: 'A 1981 sketch of the renovated Rose Mall.',
 			id: '4f7f3f49-14e4-4096-b26c-b8e5a392234e'
 		}
+	},
+	concept_art: {
+		_1967_01_01_blue_mall_exterior_rendering: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767159604/ccp-website/concept-art/1967-01-01-blue-mall-exterior-rendering.jpg',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.3.0',
+			alt: 'A 1967 rendering of the southeast Blue Mall entrance.',
+			title: '',
+			attribution: '',
+			caption: 'A 1967 rendering of the southeast Blue Mall entrance.',
+			id: 'ab8d8722-ffae-4178-8198-418b8800ea76'
+		}
 	}
 };
