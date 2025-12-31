@@ -386,6 +386,17 @@ const imageMetaRegistry = {
 			attribution: '',
 			caption: 'A 1981 sketch of the renovated Blue Mall center court.',
 			id: '62235e40-3eec-42ed-b836-3ffc08269371'
+		},
+		_1983_05_19_blue_mall_and_food_court: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767159486/ccp-website/blue-mall/1983-05-19-blue-mall-and-food-court.jpg',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.3.0',
+			alt: 'The newly-renovated Blue Mall and Food Court.',
+			title: '',
+			attribution: '',
+			caption: 'The newly-renovated Blue Mall and Food Court.',
+			id: '2946f95d-8497-4bb7-8906-66c06c6628a8'
 		}
 	},
 	history: {
