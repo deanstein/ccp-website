@@ -383,10 +383,10 @@ const imageMetaRegistry = {
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
 			version: '0.3.0',
-			alt: '',
+			alt: 'Von Frellick sells interest in Cinderella City.',
 			title: '',
 			attribution: '',
-			caption: '',
+			caption: 'Von Frellick sells interest in Cinderella City.',
 			id: '0293235f-5cfc-4009-b1bb-d20575b80576'
 		}
 	}
