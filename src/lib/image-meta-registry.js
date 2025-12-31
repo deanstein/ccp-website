@@ -378,17 +378,6 @@ const imageMetaRegistry = {
 		}
 	},
 	history: {
-		Article___Von_Frellick_Sells_Interest: {
-			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767158535/ccp-website/history/Article---Von-Frellick-Sells-Interest.jpg',
-			showBackgroundBlur: true,
-			toolbarJustification: 'right',
-			version: '0.3.0',
-			alt: '',
-			title: '',
-			attribution: '',
-			caption: '',
-			id: 'e7390be2-a918-4679-afd7-27e056c00e1b'
-		},
 		_1978_12_30_von_frellick: {
 			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767158668/ccp-website/history/1978-12-30-von-frellick.jpg',
 			showBackgroundBlur: true,
