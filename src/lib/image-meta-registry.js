@@ -407,10 +407,10 @@ const imageMetaRegistry = {
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
 			version: '0.3.0',
-			alt: 'A 1981 sketch of the renovated Blue Mall center court.',
+			alt: 'A 1981 sketch of the renovated Rose Mall.',
 			title: '',
 			attribution: '',
-			caption: 'A 1981 sketch of the renovated Blue Mall center court.',
+			caption: 'A 1981 sketch of the renovated Rose Mall.',
 			id: '4f7f3f49-14e4-4096-b26c-b8e5a392234e'
 		}
 	}
