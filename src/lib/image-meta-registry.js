@@ -388,6 +388,17 @@ const imageMetaRegistry = {
 			attribution: '',
 			caption: '',
 			id: 'e7390be2-a918-4679-afd7-27e056c00e1b'
+		},
+		_1978_12_30_von_frellick: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767158668/ccp-website/history/1978-12-30-von-frellick.jpg',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.3.0',
+			alt: '',
+			title: '',
+			attribution: '',
+			caption: '',
+			id: '0293235f-5cfc-4009-b1bb-d20575b80576'
 		}
 	}
 };
