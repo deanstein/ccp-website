@@ -459,5 +459,18 @@ const imageMetaRegistry = {
 			caption: 'A 1967 rendering of the southeast Blue Mall entrance.',
 			id: 'ab8d8722-ffae-4178-8198-418b8800ea76'
 		}
+	},
+	parking: {
+		_1968_03_07_parking: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767406888/ccp-website/parking/1968-03-07-parking.jpg',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1',
+			alt: `Cinderella City's parking deck as seen on opening day.`,
+			id: '12cfb95d-aaa6-4adb-8d78-90d5cde3fa96',
+			title: '',
+			attribution: 'Englewood Public Library',
+			caption: `Cinderella City's parking deck as seen on opening day.`
+		}
 	}
 };
