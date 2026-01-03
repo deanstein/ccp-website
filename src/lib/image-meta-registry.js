@@ -517,6 +517,17 @@ const imageMetaRegistry = {
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
 			version: '0.5.1'
+		},
+		_1963_01_10_Montgomery_Ward_rendering: {
+			id: '2a06578b-ba10-424f-8fc2-86986434eb70',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767470494/ccp-website/concept-art/1963-01-10-Montgomery-Ward-rendering.jpg',
+			caption: 'A 1963 rendering of the Montgomery Ward building at the east Hampden and Franklin site for Cinderella City.',
+			attribution: 'Denver Public Library',
+			alt: 'A 1963 rendering of the Montgomery Ward building at the east Hampden and Franklin site for Cinderella City.',
+			title: '',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1'
 		}
 	},
 	parking: {
