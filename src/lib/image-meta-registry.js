@@ -506,6 +506,17 @@ const imageMetaRegistry = {
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
 			version: '0.5.1'
+		},
+		_1963_01_10_Denver_rendering: {
+			id: '05bd2762-d151-4f6b-87e7-ea5e75ad6fd0',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767468960/ccp-website/concept-art/1963-01-10-Denver-rendering.jpg',
+			caption: 'A 1963 rendering of the Cinderella City Denver Dry Goods department store at the east Hampden and Franklin site',
+			attribution: 'Denver Public Library',
+			alt: 'A 1963 rendering of the Cinderella City Denver Dry Goods department store at the east Hampden and Franklin site',
+			title: '',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1'
 		}
 	},
 	parking: {
