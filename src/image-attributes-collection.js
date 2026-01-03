@@ -214,7 +214,7 @@ const imageAttributesCollection = {
 	}),
 	city_campus_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1716962800/ccp-website/blue-mall/city-campus-1_uafwj8.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/v1767408411/ccp-website/rose-mall/1970-08-13-city-campus.png',
 		imgAlt: `City Campus, an extension of Englewood High School, was on the mezzanine level.`,
 		imgCaption: `City Campus, an extension of Englewood High School, was on the mezzanine level.`,
 		imgAttribution: 'Englewood Public Library'
