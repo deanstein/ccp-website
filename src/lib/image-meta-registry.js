@@ -440,13 +440,9 @@ const imageMetaRegistry = {
 		_1968_03_07_Von_Frellicks_start_fountain: {
 			id: 'd768c245-0c5a-4f9e-82eb-9711e8cc32e9',
 			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767460067/ccp-website/history/1968-03-07-Von-Frellicks-start-fountain.jpg',
-			caption: 'The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. 
-
-From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick',
+			caption: "The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick",
 			attribution: 'Denver Public Library',
-			alt: 'The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. 
-
-From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick',
+			alt: 'The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick',
 			title: '',
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
@@ -455,13 +451,9 @@ From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frel
 		_1966_03_31_groundbreaking: {
 			id: 'bbab8973-89d6-4248-a703-31294d3006f9',
 			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767460808/ccp-website/history/1966-03-31-groundbreaking.jpg',
-			caption: 'Groundbreaking for Cinderella City. 
-
-From right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick',
+			caption: 'Groundbreaking for Cinderella City. From right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick',
 			attribution: 'Rocky Mountain News - March 31, 1966',
-			alt: 'Groundbreaking for Cinderella City. 
-
-From right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick',
+			alt: 'Groundbreaking for Cinderella City. From right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick',
 			title: '',
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
