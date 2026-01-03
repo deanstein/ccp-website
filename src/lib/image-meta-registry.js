@@ -445,6 +445,17 @@ const imageMetaRegistry = {
 			attribution: '',
 			caption: 'A 1981 sketch of the renovated Rose Mall.',
 			id: '4f7f3f49-14e4-4096-b26c-b8e5a392234e'
+		},
+		_1970_08_13_city_campus: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767408411/ccp-website/rose-mall/1970-08-13-city-campus.png',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1',
+			alt: 'Two students and a teacher enter the Englewood High School city campus on the mezzanine level of Cinderella City.',
+			id: 'd68b90d2-e0f2-4c48-94de-dfae39f4b3d0',
+			title: '',
+			attribution: 'Denver Public Library',
+			caption: 'Two students and a teacher enter the Englewood High School city campus on the mezzanine level of Cinderella City.'
 		}
 	},
 	concept_art: {
