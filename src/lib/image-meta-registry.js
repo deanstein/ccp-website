@@ -495,6 +495,17 @@ const imageMetaRegistry = {
 			attribution: '',
 			caption: 'A 1967 rendering of the southeast Blue Mall entrance.',
 			id: 'ab8d8722-ffae-4178-8198-418b8800ea76'
+		},
+		_1963_01_10_aerial_rendering: {
+			id: '9732476a-3fdd-4922-a03b-6e56159f61d6',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767468902/ccp-website/concept-art/1963-01-10-aerial-rendering.jpg',
+			caption: 'A 1963 aerial rendering of Cinderella City at the east Hampden and Franklin site',
+			attribution: 'Denver Public Library',
+			alt: 'A 1963 aerial rendering of Cinderella City at the east Hampden and Franklin site',
+			title: '',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1'
 		}
 	},
 	parking: {
