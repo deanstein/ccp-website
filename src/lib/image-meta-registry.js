@@ -206,13 +206,6 @@ const imageMetaRegistry = {
 		caption: `The giant complex was surrounded by 7,000 parking spaces on two levels.`,
 		attribution: 'Englewood Public Library'
 	},
-	city_campus_1: {
-		src:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1716962800/ccp-website/blue-mall/city-campus-1_uafwj8.jpg',
-		alt: `City Campus, an extension of Englewood High School, was on the mezzanine level.`,
-		caption: `City Campus, an extension of Englewood High School, was on the mezzanine level.`,
-		attribution: 'Englewood Public Library'
-	},
 	blue_mall_80s90s_demolition_1: {
 		src:
 			'https://res.cloudinary.com/jdg-main/image/upload/v1716962800/ccp-website/blue-mall/blue-mall-80s90s-demolition-1_k7jfp2.jpg',
