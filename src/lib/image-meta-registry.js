@@ -542,5 +542,18 @@ const imageMetaRegistry = {
 			attribution: 'Englewood Public Library',
 			caption: `Cinderella City's parking deck as seen on opening day.`
 		}
+	},
+	image_testing: {
+		_1963_01_10_court_rendering: {
+			id: '0c0481ce-c9ba-47d9-94dd-d50b2474b838',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767470533/ccp-website/image-testing/1963-01-10-court-rendering.jpg',
+			caption: 'A 1963 rendering of a central atrium at the east Hampden and Franklin site of Cinderella City.',
+			attribution: 'Denver Public Library',
+			alt: 'A 1963 rendering of a central atrium at the east Hampden and Franklin site of Cinderella City.',
+			title: '',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1'
+		}
 	}
 };
