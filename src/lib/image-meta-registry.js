@@ -408,6 +408,17 @@ const imageMetaRegistry = {
 			attribution: 'Tone Journal of Interior Design, March 1968',
 			caption: 'The Blue Mall shortly before opening in 1968.',
 			id: '66b6c736-c69f-47ad-b112-20c91613da56'
+		},
+		_1978_03_09_boat_show_2: {
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767404923/ccp-website/blue-mall/1978-03-09-boat-show-2.jpg',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1',
+			alt: 'A boat show in the Blue Room, as part of the 1978 Fall Fun Fest event series',
+			id: '1f111173-9ce8-4f80-9f86-f8b373af96d9',
+			title: '',
+			attribution: 'Englewood Public Library',
+			caption: 'A boat show in the Blue Room, as part of the 1978 Fall Fun Fest event series'
 		}
 	},
 	history: {
