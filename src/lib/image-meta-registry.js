@@ -451,6 +451,21 @@ From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frel
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
 			version: '0.5.1'
+		},
+		_1966_03_31_groundbreaking: {
+			id: 'bbab8973-89d6-4248-a703-31294d3006f9',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767460808/ccp-website/history/1966-03-31-groundbreaking.jpg',
+			caption: 'Groundbreaking for Cinderella City. 
+
+From right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick',
+			attribution: 'Rocky Mountain News - March 31, 1966',
+			alt: 'Groundbreaking for Cinderella City. 
+
+From right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick',
+			title: '',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1'
 		}
 	},
 	rose_mall: {
