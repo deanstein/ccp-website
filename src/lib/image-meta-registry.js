@@ -428,7 +428,7 @@ const imageMetaRegistry = {
 		},
 		_1962_11_06_council_meeting: {
 			id: '6a70330f-88e7-4ead-ace3-89bddd15276d',
-			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767459227/ccp-website/history/1960-11-14-council-meeting.jpg',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767459227/ccp-website/history/1962-11-06-council-meeting.jpg',
 			caption: 'A contentiousm 6-hour City Council meeting where citizens and business expressed opposition to a shopping center on the east Hampden site.',
 			attribution: 'Englewood Public Library',
 			alt: 'A contentiousm 6-hour City Council meeting where citizens and business expressed opposition to a shopping center on the east Hampden site.',
