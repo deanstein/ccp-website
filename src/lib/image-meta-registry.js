@@ -566,5 +566,18 @@ const imageMetaRegistry = {
 			toolbarJustification: 'right',
 			version: '0.5.1'
 		}
+	},
+	demolition: {
+		_1998_08_18_demolition_celebration__1_: {
+			id: '7c4e3c1f-a679-403b-b82c-97411f0c347a',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767496678/ccp-website/demolition/1998-08-18-demolition-celebration-%281%29.jpg',
+			caption: 'Englewood Mayor Tom Burns addresses the crowd before demolition beings in August 1998.',
+			attribution: 'City of Englewood, Colorado',
+			alt: 'Englewood Mayor Tom Burns addresses the crowd before demolition beings in August 1998.',
+			title: '',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1'
+		}
 	}
 };
