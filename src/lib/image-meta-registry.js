@@ -440,9 +440,13 @@ const imageMetaRegistry = {
 		_1968_03_07_Von_Frellicks_start_fountain: {
 			id: 'd768c245-0c5a-4f9e-82eb-9711e8cc32e9',
 			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767460067/ccp-website/history/1968-03-07-Von-Frellicks-start-fountain.jpg',
-			caption: "The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick",
+			caption: `The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. 
+
+From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick`,
 			attribution: 'Denver Public Library',
-			alt: 'The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick',
+			alt: `The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. 
+
+From left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick`,
 			title: '',
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
