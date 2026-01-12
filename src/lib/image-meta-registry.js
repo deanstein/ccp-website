@@ -560,6 +560,17 @@ Englewood City Council will meet at 8pm Monday at the Englewood High School Fiel
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
 			version: '0.5.1'
+		},
+		_1960_08_14_aerial_rendering: {
+			id: '7cace405-3343-4fbb-8d77-9f2010506ca2',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1768201375/ccp-website/concept-art/1960-08-14-aerial-rendering.jpg',
+			caption: 'A 1960 aerial rendering of the shopping center on the KLZ Radio Tower site at Hampden and Franklin.',
+			attribution: '',
+			alt: 'A 1960 aerial rendering of the shopping center on the KLZ Radio Tower site at Hampden and Franklin.',
+			title: '',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1'
 		}
 	},
 	parking: {
