@@ -466,6 +466,19 @@ From right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, presiden
 			showBackgroundBlur: true,
 			toolbarJustification: 'right',
 			version: '0.5.1'
+		},
+		_1961_06_19_protestors: {
+			id: '73497767-162f-4a42-b2fa-ff71081d52e0',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1768198895/ccp-website/history/1961-06-19-protestors.jpg',
+			caption: `William Urban and Mrs. Kass Nachazel display some of the 97 posters painted by youngsters at a picnic rally of the Northeast Englewood Citizens Committee to drum up support for the committee's fight against the proposed Cinderella City shopping center. 
+Englewood City Council will meet at 8pm Monday at the Englewood High School Field House to decide on rezoning for the area of the proposed center - the KLZ Radio Towers site on East Hampden Ave., just west of S. University Blvd.`,
+			attribution: 'Denver Post - June 19, 1961',
+			alt: `William Urban and Mrs. Kass Nachazel display some of the 97 posters painted by youngsters at a picnic rally of the Northeast Englewood Citizens Committee to drum up support for the committee's fight against the proposed Cinderella City shopping center. 
+Englewood City Council will meet at 8pm Monday at the Englewood High School Field House to decide on rezoning for the area of the proposed center - the KLZ Radio Towers site on East Hampden Ave., just west of S. University Blvd.`,
+			title: '',
+			showBackgroundBlur: true,
+			toolbarJustification: 'right',
+			version: '0.5.1'
 		}
 	},
 	rose_mall: {
