@@ -539,7 +539,7 @@ From right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, presiden
 		},
 		_1960_rendering_enhanced: {
 			id: 'd637d891-dbd3-45da-be4f-29e11ca13fce',
-			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767470860/ccp-website/concept-art/1960-rendering_enhanced.jpg',
+			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1767470860/ccp-website/concept-art/1960-rendering.jpg',
 			caption: 'A 1960 rendering of Cinderella City at the east Hampden and Franklin site, when the design still featured Victorian architecture.',
 			attribution: 'Denver Public Library',
 			alt: 'A 1960 rendering of Cinderella City at the east Hampden and Franklin site, when the design still featured Victorian architecture.',
