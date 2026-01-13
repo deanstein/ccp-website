@@ -576,7 +576,7 @@ Englewood City Council will meet at 8pm Monday at the Englewood High School Fiel
 			id: '93955697-73e6-416f-a01b-39994cd7c512',
 			src: 'https://res.cloudinary.com/jdg-main/image/upload/v1768277451/ccp-website/concept-art/1960-08-14-site-plan.jpg',
 			caption: 'A 1960 site plan of the proposed shopping center on the KLZ Radio Tower property at Hampden and Franklin.',
-			attribution: '',
+			attribution: 'Colorado Historic Newspaper Collection',
 			alt: 'A 1960 site plan of the proposed shopping center on the KLZ Radio Tower property at Hampden and Franklin.',
 			title: '',
 			showBackgroundBlur: true,
