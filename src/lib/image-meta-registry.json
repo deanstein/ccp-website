@@ -522,5 +522,18 @@
       "toolbarJustification": "right",
       "version": "0.5.1"
     }
+  },
+  "gold_mall": {
+    "_1968_09_19_Joslins_opening": {
+      "id": "c1e0eb24-6863-47ad-8711-ca401dd37948",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768687898/ccp-website/gold-mall/1968-09-19-Joslins-opening.jpg",
+      "caption": "Mayor Elmer E. Schwab, left, of Englewood wields the shears at traditional ribbon-cutting ceremonies held Thursday as the new 100,000-square-foot Joslins Department store opened in Cinderella City. \n\nWatching are, from left: Gerri Von Frellick, developer of the 1.5 million-square-foot complex, Donald R. Chabot, Joslins president, and Andrew W. Bida, general manager of new store located on Gold Mall.",
+      "attribution": "The Denver Post - September 19, 1968",
+      "alt": "Mayor Elmer E. Schwab, left, of Englewood wields the shears at traditional ribbon-cutting ceremonies held Thursday as the new 100,000-square-foot Joslins Department store opened in Cinderella City. \n\nWatching are, from left: Gerri Von Frellick, developer of the 1.5 million-square-foot complex, Donald R. Chabot, Joslins president, and Andrew W. Bida, general manager of new store located on Gold Mall.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    }
   }
 }
