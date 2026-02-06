@@ -176,6 +176,14 @@ const imageAttributesCollection = {
 	}),
 
 	/*** BLUE MALL ***/
+	_1968_blue_mall_1: {
+		imgSrc: 'https://res.cloudinary.com/jdg-main/image/upload/v1767206588/ccp-website/blue-mall/1968-blue-mall.jpg',
+		showBackgroundBlur: true,
+		toolbarJustification: 'right',
+		imgAlt: 'The Blue Mall shortly before opening in 1968.',
+		attribution: 'Tone Journal of Interior Design, March 1968',
+		imgCaption: 'The Blue Mall shortly before opening in 1968.'
+	},
 	blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
 			'https://res.cloudinary.com/jdg-main/image/upload/v1770359633/ccp-website/blue-mall/blue-mall-60s70s-1.jpg',
