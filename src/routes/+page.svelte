@@ -228,18 +228,18 @@
 		<JDGBodyCopy paddingTop="0" simpleHyperlinkStyle={true}>
 			<ul>
 				<li>
-					June 22, 2024: <a href="./exhibit" target="_blank"
-						>The Cinderella City exhibit at the Historic Englewood Museum is now open</a
+					Jun 22, 2024: <a href="./exhibit" target="_blank"
+						>🖼️ The Cinderella City exhibit at the Historic Englewood Museum is now open</a
 					>
 				</li>
 				<li>
-					July 29, 2023: <a href="https://youtu.be/GUgowEJG9HY" target="_blank"
-						>See the latest progress: Simulation v0.7 update video</a
+					Jul 29, 2023: <a href="https://youtu.be/GUgowEJG9HY" target="_blank"
+						>📼 See the Cinderella City Simulation v0.7 update video</a
 					>
 				</li>
 				<li>
-					April 26, 2022: <a href="https://youtu.be/va9xoslXjQo" target="_blank"
-						>Watch the latest history and simulation presentation</a
+					Apr 26, 2022: <a href="https://youtu.be/va9xoslXjQo" target="_blank"
+						>📹 Watch the latest history and simulation presentation</a
 					>
 				</li>
 			</ul>
