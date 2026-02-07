@@ -177,7 +177,8 @@ const imageAttributesCollection = {
 
 	/*** BLUE MALL ***/
 	_1968_blue_mall_1: {
-		imgSrc: 'https://res.cloudinary.com/jdg-main/image/upload/v1767206588/ccp-website/blue-mall/1968-blue-mall.jpg',
+		imgSrc:
+			'https://res.cloudinary.com/jdg-main/image/upload/v1767206588/ccp-website/blue-mall/1968-blue-mall.jpg',
 		showBackgroundBlur: true,
 		toolbarJustification: 'right',
 		imgAlt: 'The Blue Mall shortly before opening in 1968.',
