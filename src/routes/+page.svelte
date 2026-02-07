@@ -239,7 +239,7 @@
 				</li>
 				<li>
 					Apr 26, 2022: <a href="https://youtu.be/va9xoslXjQo" target="_blank"
-						>📹 Watch the latest history and simulation presentation</a
+						>🎤 Watch the latest history and simulation presentation</a
 					>
 				</li>
 			</ul>
