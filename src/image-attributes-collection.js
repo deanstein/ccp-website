@@ -187,7 +187,7 @@ const imageAttributesCollection = {
 	},
 	blue_mall_60s70s_1: instantiateObject(jdgImageAttributes, {
 		imgSrc:
-			'https://res.cloudinary.com/jdg-main/image/upload/v1770359633/ccp-website/blue-mall/blue-mall-60s70s-1.jpg',
+			'https://res.cloudinary.com/jdg-main/image/upload/v1771565299/ccp-website/blue-mall/blue-mall-60s70s-1.jpg',
 		imgAlt:
 			'The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.',
 		imgCaption:
