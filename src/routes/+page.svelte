@@ -23,7 +23,7 @@
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection._1968_blue_mall_1}
+		imageAttributes={imageAttributesCollection.blue_mall_60s70s_1}
 		primaryText="STEP BACK IN TIME"
 		primaryTextFontFamily="Righteous"
 		secondaryText="to Cinderella City Mall"
