@@ -1,7 +1,7 @@
 <script>
-	import { scrollToAnchor } from 'jdg-ui-svelte/jdg-utils.js';
-
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import { onMount } from 'svelte';
+	import { jdgColors, jdgRepoOwner, scrollToAnchor } from 'jdg-ui-svelte';
+	import imageMetaRegistry from '$lib/image-meta-registry';
 
 	import {
 		JDGBodyCopy,
@@ -16,10 +16,7 @@
 		JDGJumpTo,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import Donate from '../../components/Donate.svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
-	import { onMount } from 'svelte';
-	import { jdgRepoOwner } from 'jdg-ui-svelte/jdg-persistence-management.js';
+	import Donate from '$lib/components/Donate.svelte';
 
 	// latest version of the simulation
 	let latestTag = { name: '', date: '', url: '' };
@@ -92,10 +89,10 @@
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.ccp_composite_2}
+		imageMeta={imageMetaRegistry.ccp_composite_2}
 		showOverlay={true}
 		overlayColorRgba="rgba(30, 30, 30, 0.4)"
-		overlayImageAttributes={imageAttributesCollection.ccp_ouatacc_white}
+		overlayImageAttributes={imageMetaRegistry.ccp_ouatacc_white}
 		primaryTextFontFamily="Righteous"
 		overlayImageText="An Immersive Retail History Experience"
 		overlayImageTextFontFamily="Righteous"
@@ -119,8 +116,8 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCompare
-				imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
-				imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
+				imageMeta1={imageMetaRegistry.ccp_blue_mall_60s70s_1}
+				imageMeta2={imageMetaRegistry.ccp_blue_mall_80s90s_1}
 				caption="Cinderella City's central Blue Mall as seen simulated in 1968-1978 and in 1987-1997."
 				maxHeight="60vh"
 				showBlurInUnfilledSpace={true}
@@ -140,7 +137,7 @@
 			backgroundColor={jdgColors.accentColorsCCP[1]}
 		>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1}
+				imageMeta={imageMetaRegistry.ccp_blue_mall_60s70s_exterior_1}
 				maxHeight={'400px'}
 				useAutoHeightOnMobile={true}
 			/>
@@ -154,8 +151,8 @@
 			imageAlign="right"
 		>
 			<JDGImageCompare
-				imageAttributes1={imageAttributesCollection.ccp_rose_mall_60s70s_1}
-				imageAttributes2={imageAttributesCollection.ccp_rose_mall_80s90s_1}
+				imageMeta1={imageMetaRegistry.ccp_rose_mall_60s70s_1}
+				imageMeta2={imageMetaRegistry.ccp_rose_mall_80s90s_1}
 				maxHeight="400px"
 				showBlurInUnfilledSpace={true}
 			/>
@@ -168,7 +165,7 @@
 			backgroundColor={jdgColors.accentColorsCCP[0]}
 		>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
+				imageMeta={imageMetaRegistry.ccp_historic_photos_gold_mall_60s70s_1}
 				maxHeight={'400px'}
 				useAutoHeightOnMobile={true}
 			/>
@@ -181,7 +178,7 @@
 			imageAlign="right"
 		>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.ccp_vaporwave_blue_mall_60s70s_1}
+				imageMeta={imageMetaRegistry.ccp_vaporwave_blue_mall_60s70s_1}
 				maxHeight={'400px'}
 				useAutoHeightOnMobile={true}
 			/>
@@ -358,7 +355,7 @@
 			Simulation v0.8.0 and newer supports an Xbox One controller attached to the PC.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.ccp_xbox_one_controller_diagram}
+			imageMeta={imageMetaRegistry.ccp_xbox_one_controller_diagram}
 			cropToFillContainer={false}
 		/>
 	</JDGContentBoxFloating>
@@ -381,13 +378,13 @@
 	<JDGUpNext
 		item1Label={'LEARN MORE ABOUT THE PROJECT'}
 		item1Href={'./about'}
-		item1ImageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+		item1ImageAttributes={imageMetaRegistry.ccp_construction_60s70s_4}
 		item2Label={'READ THE FULL HISTORY'}
 		item2Href="./history"
-		item2ImageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+		item2ImageAttributes={imageMetaRegistry.rose_mall_60s70s_construction_1}
 		item3Label="SEE THE EXHIBIT"
 		item3Href="./exhibit"
-		item3ImageAttributes={imageAttributesCollection.ccp_exhibit_4}
+		item3ImageAttributes={imageMetaRegistry.ccp_exhibit_4}
 	/>
 </JDGContentContainer>
 

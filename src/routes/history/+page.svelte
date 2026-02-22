@@ -1,5 +1,6 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '$lib/image-meta-registry';
+	import { jdgColors } from 'jdg-ui-svelte';
 	import {
 		JDGAccentBlockWithText,
 		JDGBodyCopy,
@@ -11,15 +12,14 @@
 		JDGImageTile,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
-	import Donate from '../../components/Donate.svelte';
+	import Donate from '$lib/components/Donate.svelte';
 
 	const showInProgressContent = false; // optionally hide during construction
 </script>
 
 <JDGContentContainer overlapWithHeader={true}>
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.concept_art_1}
+		imageMeta={imageMetaRegistry.concept_art_1}
 		primaryText="A FAIRYTALE CONCEPT"
 		primaryTextFontFamily="Righteous"
 		secondaryText="The Beginnings of Cinderella City Mall"
@@ -46,13 +46,13 @@
 	<JDGUpNext
 		item1Label={'LEARN MORE ABOUT THE PROJECT'}
 		item1Href={'./about'}
-		item1ImageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+		item1ImageAttributes={imageMetaRegistry.ccp_construction_60s70s_4}
 		item2Label={'SEE THE EXHIBIT'}
 		item2Href="./exhibit"
-		item2ImageAttributes={imageAttributesCollection.ccp_exhibit_4}
+		item2ImageAttributes={imageMetaRegistry.ccp_exhibit_4}
 		item3Label="EXPERIENCE THE SIMULATION"
 		item3Href="./simulation"
-		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+		item3ImageAttributes={imageMetaRegistry.ccp_blue_mall_60s70s_2}
 	/>
 </JDGContentContainer>
 {#if showInProgressContent}
@@ -74,10 +74,7 @@
 				experience in Colorado, which was seen as a major advantage over outdoor shopping centers like
 				Cherry Creek.
 				<br /><br />
-				<JDGImageTile
-					imageAttributes={imageAttributesCollection.lakeside_1}
-					cropToFillContainer={false}
-				/>
+				<JDGImageTile imageMeta={imageMetaRegistry.lakeside_1} cropToFillContainer={false} />
 				<br /><br />
 				After Lakeside, Von Frellick set his eyes on the southern suburbs. By 1960, he announced plans
 				to build a shopping mall on the KLZ radio tower land at East Hampden Ave and South University
@@ -99,10 +96,7 @@
 		</JDGContentBoxFloating>
 		<JDGContentBoxFloating>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.parking_blue_mall_1,
-					imageAttributesCollection.blue_mall_60s70s_1
-				]}
+				imageMetaSet={[imageMetaRegistry.parking_blue_mall_1, imageMetaRegistry.blue_mall_60s70s_1]}
 			/>
 		</JDGContentBoxFloating>
 	</JDGContentContainer>

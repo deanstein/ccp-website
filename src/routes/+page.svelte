@@ -1,6 +1,6 @@
 <script>
-	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
-	import imageAttributesCollection from '../image-attributes-collection';
+	import { jdgSharedUrlsStore } from 'jdg-ui-svelte';
+	import imageMetaRegistry from '../lib/image-meta-registry';
 
 	import {
 		JDGAccentBlockWithText,
@@ -17,13 +17,13 @@
 		JDGJumpTo,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
-	import Donate from '../components/Donate.svelte';
+	import { jdgColors } from 'jdg-ui-svelte';
+	import Donate from '$lib/components/Donate.svelte';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.blue_mall_60s70s_1}
+		imageMeta={imageMetaRegistry.blue_mall_60s70s_1}
 		primaryText="STEP BACK IN TIME"
 		primaryTextFontFamily="Righteous"
 		secondaryText="to Cinderella City Mall"
@@ -44,7 +44,7 @@
 			<JDGImageTile
 				label="DETAILED HISTORY"
 				href="./history"
-				imageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+				imageMeta={imageMetaRegistry.rose_mall_60s70s_construction_1}
 				labelJustification={'center'}
 				useAutoHeightOnMobile={false}
 				maxHeight={'300px'}
@@ -52,7 +52,7 @@
 			<JDGImageTile
 				label="ARCHITECTURAL ANALYSIS"
 				href="./analysis"
-				imageAttributes={imageAttributesCollection.plan_60s70s_1}
+				imageMeta={imageMetaRegistry.plan_60s70s_1}
 				labelJustification={'center'}
 				useAutoHeightOnMobile={false}
 				maxHeight={'300px'}
@@ -60,7 +60,7 @@
 			<JDGImageTile
 				label="IMMERSIVE SIMULATION"
 				href="./simulation"
-				imageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_1}
+				imageMeta={imageMetaRegistry.ccp_blue_mall_60s70s_1}
 				labelJustification={'center'}
 				useAutoHeightOnMobile={false}
 				maxHeight={'300px'}
@@ -78,10 +78,10 @@
 			<br /><br />
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.blue_mall_60s70s_parking_2,
-				imageAttributesCollection.blue_mall_60s70s_2,
-				imageAttributesCollection.cinder_alley_1
+			imageMetaSet={[
+				imageMetaRegistry.blue_mall_60s70s_parking_2,
+				imageMetaRegistry.blue_mall_60s70s_2,
+				imageMetaRegistry.cinder_alley_1
 			]}
 		/>
 		<JDGBodyCopy>
@@ -96,10 +96,7 @@
 		</JDGBodyCopy>
 		<JDGFullWidthContainer>
 			<JDGImageCarousel
-				imageAttributeObjects={[
-					imageAttributesCollection.aerial_60s_70s_1,
-					imageAttributesCollection.plan_60s70s_1
-				]}
+				imageMetaSet={[imageMetaRegistry.aerial_60s_70s_1, imageMetaRegistry.plan_60s70s_1]}
 			/>
 		</JDGFullWidthContainer>
 		<JDGBodyCopy>
@@ -114,10 +111,10 @@
 		</JDGBodyCopy>
 
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.rose_mall_60s70s_2,
-				imageAttributesCollection.city_campus_1,
-				imageAttributesCollection.blue_mall_60s70s_event_1
+			imageMetaSet={[
+				imageMetaRegistry.rose_mall_60s70s_2,
+				imageMetaRegistry.city_campus_1,
+				imageMetaRegistry.blue_mall_60s70s_event_1
 			]}
 		></JDGImageHybridGridCarousel>
 
@@ -134,10 +131,10 @@
 			development called CityCenter.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.rose_mall_80s90s_1,
-				imageAttributesCollection.blue_mall_80s90s_exterior_1,
-				imageAttributesCollection.blue_mall_80s90s_demolition_1
+			imageMetaSet={[
+				imageMetaRegistry.rose_mall_80s90s_1,
+				imageMetaRegistry.blue_mall_80s90s_exterior_1,
+				imageMetaRegistry.blue_mall_80s90s_demolition_1
 			]}
 		/>
 		<JDGBodyCopy>
@@ -162,7 +159,7 @@
 			past.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
+			imageMeta={imageMetaRegistry.blue_mall_80s90s_demolition_1}
 			cropToFillContainer={false}
 			showCaption={true}
 			maxHeight="40vh"
@@ -177,10 +174,10 @@
 			architecture, signage, and lighting.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.ccp_construction_60s70s_2,
-				imageAttributesCollection.ccp_blue_mall_60s70s_2,
-				imageAttributesCollection.ccp_blue_mall_60s70s_exterior_1
+			imageMetaSet={[
+				imageMetaRegistry.ccp_construction_60s70s_2,
+				imageMetaRegistry.ccp_blue_mall_60s70s_2,
+				imageMetaRegistry.ccp_blue_mall_60s70s_exterior_1
 			]}
 		/>
 		<JDGBodyCopy>
@@ -200,14 +197,14 @@
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageCompare
-				imageAttributes1={imageAttributesCollection.ccp_blue_mall_60s70s_1}
-				imageAttributes2={imageAttributesCollection.ccp_blue_mall_80s90s_1}
+				imageMeta1={imageMetaRegistry.ccp_blue_mall_60s70s_1}
+				imageMeta2={imageMetaRegistry.ccp_blue_mall_80s90s_1}
 				maxHeight="400px"
 				showBlurInUnfilledSpace={false}
 				caption={"Cinderella City's Blue Mall, seen in two distinct time periods."}
 			/>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.ccp_historic_photos_gold_mall_60s70s_1}
+				imageMeta={imageMetaRegistry.ccp_historic_photos_gold_mall_60s70s_1}
 				cropToFillContainer={true}
 				showCaption={true}
 				maxHeight="400px"
@@ -341,13 +338,13 @@
 	<JDGUpNext
 		item1Label={'LEARN MORE ABOUT THE PROJECT'}
 		item1Href={'./about'}
-		item1ImageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+		item1ImageAttributes={imageMetaRegistry.ccp_construction_60s70s_4}
 		item2Label={'READ THE FULL HISTORY'}
 		item2Href="./history"
-		item2ImageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+		item2ImageAttributes={imageMetaRegistry.rose_mall_60s70s_construction_1}
 		item3Label="EXPERIENCE THE SIMULATION"
 		item3Href="./simulation"
-		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+		item3ImageAttributes={imageMetaRegistry.ccp_blue_mall_60s70s_2}
 	/>
 </JDGContentContainer>
 

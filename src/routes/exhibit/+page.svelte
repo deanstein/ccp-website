@@ -1,6 +1,6 @@
 <script>
-	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import { jdgSharedUrlsStore } from 'jdg-ui-svelte';
+	import imageMetaRegistry from '$lib/image-meta-registry';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -10,12 +10,12 @@
 		JDGNotificationBanner,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import Donate from '../../components/Donate.svelte';
+	import Donate from '$lib/components/Donate.svelte';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.ccp_exhibit_composite}
+		imageMeta={imageMetaRegistry.ccp_exhibit_composite}
 		showOverlay={true}
 		overlayColorRgba="rgba(30, 30, 30, 0.5)"
 		primaryText="EXPERIENCE THE FAIRYTALE"
@@ -40,10 +40,10 @@
 			to its former glory.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageAttributeObjects={[
-				imageAttributesCollection.ccp_exhibit_4,
-				imageAttributesCollection.ccp_exhibit_2,
-				imageAttributesCollection.ccp_exhibit_3
+			imageMetaSet={[
+				imageMetaRegistry.ccp_exhibit_4,
+				imageMetaRegistry.ccp_exhibit_2,
+				imageMetaRegistry.ccp_exhibit_3
 			]}
 		/>
 		<JDGBodyCopy>
@@ -66,12 +66,12 @@
 	<JDGUpNext
 		item1Label={'LEARN ABOUT THE PROJECT'}
 		item1Href={'./about'}
-		item1ImageAttributes={imageAttributesCollection.ccp_construction_60s70s_4}
+		item1ImageAttributes={imageMetaRegistry.ccp_construction_60s70s_4}
 		item2Label={'READ THE FULL HISTORY'}
 		item2Href="./history"
-		item2ImageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+		item2ImageAttributes={imageMetaRegistry.rose_mall_60s70s_construction_1}
 		item3Label="MORE ON THE SIMULATION"
 		item3Href="./simulation"
-		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+		item3ImageAttributes={imageMetaRegistry.ccp_blue_mall_60s70s_2}
 	/>
 </JDGContentContainer>

@@ -1,4 +1,4 @@
-import imageAttributesCollection from '../image-attributes-collection';
+import imageMetaRegistry from '$lib/image-meta-registry';
 
 export const sharedStyles = {
 	overlayColorDarkRgba: 'rgba(50, 50, 50, 0.8)'
@@ -12,7 +12,7 @@ export const pageMeta = {
 		title: 'The Cinderella City Project',
 		description:
 			'An immersive journey into an unconvential mid-century "city under a roof" destination which failed in less than 30 years',
-		image: imageAttributesCollection.ccp_composite_2.imgSrc,
+		image: imageMetaRegistry.ccp_composite_2.imgSrc,
 		url: '/'
 	},
 	about: {
@@ -23,7 +23,7 @@ export const pageMeta = {
 	analysis: {
 		title: 'Mall Analysis',
 		description: 'Analyzing the good, bad, and ugly of Cinderella City Mall',
-		image: imageAttributesCollection.plan_60s70s_1.imgSrc,
+		image: imageMetaRegistry.plan_60s70s_1.imgSrc,
 		url: '/analysis'
 	},
 	contact: {
@@ -34,19 +34,19 @@ export const pageMeta = {
 	exhibit: {
 		title: 'Exhibit',
 		description: 'About the Cinderella City exhibit at the Englewood History Museum',
-		image: imageAttributesCollection.ccp_exhibit_2.imgSrc,
+		image: imageMetaRegistry.ccp_exhibit_2.imgSrc,
 		url: '/exhibit'
 	},
 	history: {
 		title: 'History of Cinderella City Mall',
 		description: 'The full history of Cinderella City Mall',
-		image: imageAttributesCollection.rose_mall_60s70s_construction_1.imgSrc,
+		image: imageMetaRegistry.rose_mall_60s70s_construction_1.imgSrc,
 		url: '/history'
 	},
 	simulation: {
 		title: 'Simulation',
 		description: 'About the Cinderella City Simulation',
-		image: imageAttributesCollection.ccp_blue_mall_60s70s_1.imgSrc,
+		image: imageMetaRegistry.ccp_blue_mall_60s70s_1.imgSrc,
 		url: '/simulation'
 	}
 };

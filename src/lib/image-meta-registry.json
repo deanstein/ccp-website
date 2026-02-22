@@ -110,9 +110,9 @@
     "caption": "A restored Cinder Alley sign salvaged from the mall hangs in the Historic Englewood museum space."
   },
   "ccp_xbox_one_controller_diagram": {
+    "showBackgroundBlur": false,
     "src": "https://res.cloudinary.com/jdg-main/image/upload/v1723785244/ccp-website/ccp/ccp-xbox-one-controller-diagram.jpg",
-    "caption": "Xbox One controller diagram for Once Upon a Time at Cinderella City",
-    "allowBackgroundBlur": false
+    "caption": "Xbox One controller diagram for Once Upon a Time at Cinderella City"
   },
   "concept_art_1": {
     "src": "https://res.cloudinary.com/jdg-main/image/upload/v1717546050/ccp-website/concept-art/concept-art-1_b4ppdd.jpg",
@@ -127,7 +127,7 @@
     "attribution": "Englewood Public Library"
   },
   "blue_mall_60s70s_1": {
-    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1716962799/ccp-website/blue-mall/blue-mall-60s70s-1_i9bssz.jpg",
+    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1771565299/ccp-website/blue-mall/blue-mall-60s70s-1.jpg",
     "alt": "The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain.",
     "caption": "The mall centered around a block-wide court called Blue Mall, which featured a stunning 35-foot fountain."
   },
@@ -546,5 +546,19 @@
       "toolbarJustification": "right",
       "version": "0.5.1"
     }
+  },
+  "_1968_blue_mall_1": {
+    "showBackgroundBlur": true,
+    "toolbarJustification": "right",
+    "attribution": "Tone Journal of Interior Design, March 1968",
+    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767206588/ccp-website/blue-mall/1968-blue-mall.jpg",
+    "alt": "The Blue Mall shortly before opening in 1968.",
+    "caption": "The Blue Mall shortly before opening in 1968."
+  },
+  "city_campus_1": {
+    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767408411/ccp-website/rose-mall/1970-08-13-city-campus.png",
+    "alt": "City Campus, an extension of Englewood High School, was on the mezzanine level.",
+    "caption": "City Campus, an extension of Englewood High School, was on the mezzanine level.",
+    "attribution": "Englewood Public Library"
   }
 }
