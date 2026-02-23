@@ -113,7 +113,7 @@
 		<JDGImageHybridGridCarousel
 			imageMetaSet={[
 				imageMetaRegistry.rose_mall_60s70s_2,
-				imageMetaRegistry.city_campus_1,
+				imageMetaRegistry.rose_mall.city_campus_1,
 				imageMetaRegistry.blue_mall_60s70s_event_1
 			]}
 		></JDGImageHybridGridCarousel>

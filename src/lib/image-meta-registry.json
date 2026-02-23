@@ -1,4 +1,296 @@
 {
+  "concept_art": {
+    "_1967_01_01_blue_mall_exterior_rendering": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767159604/ccp-website/concept-art/1967-01-01-blue-mall-exterior-rendering.jpg",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.3.0",
+      "alt": "A 1967 rendering of the southeast Blue Mall entrance.",
+      "title": "",
+      "attribution": "",
+      "caption": "A 1967 rendering of the southeast Blue Mall entrance.",
+      "id": "ab8d8722-ffae-4178-8198-418b8800ea76"
+    },
+    "_1963_01_10_aerial_rendering": {
+      "id": "9732476a-3fdd-4922-a03b-6e56159f61d6",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767468902/ccp-website/concept-art/1963-01-10-aerial-rendering.jpg",
+      "caption": "A 1963 aerial rendering of Cinderella City at the east Hampden and Franklin site",
+      "attribution": "Denver Public Library",
+      "alt": "A 1963 aerial rendering of Cinderella City at the east Hampden and Franklin site",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    },
+    "_1963_01_10_Denver_rendering": {
+      "id": "05bd2762-d151-4f6b-87e7-ea5e75ad6fd0",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767468960/ccp-website/concept-art/1963-01-10-Denver-rendering.jpg",
+      "caption": "A 1963 rendering of the Cinderella City Denver Dry Goods department store at the east Hampden and Franklin site",
+      "attribution": "Denver Public Library",
+      "alt": "A 1963 rendering of the Cinderella City Denver Dry Goods department store at the east Hampden and Franklin site",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    },
+    "_1963_01_10_Montgomery_Ward_rendering": {
+      "id": "2a06578b-ba10-424f-8fc2-86986434eb70",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767470494/ccp-website/concept-art/1963-01-10-Montgomery-Ward-rendering.jpg",
+      "caption": "A 1963 rendering of the Montgomery Ward building at the east Hampden and Franklin site for Cinderella City.",
+      "attribution": "Denver Public Library",
+      "alt": "A 1963 rendering of the Montgomery Ward building at the east Hampden and Franklin site for Cinderella City.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    },
+    "_1960_rendering": {
+      "id": "d637d891-dbd3-45da-be4f-29e11ca13fce",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767470860/ccp-website/concept-art/1960-rendering.jpg",
+      "caption": "A 1960 rendering of Cinderella City at the east Hampden and Franklin site, when the design still featured Victorian architecture.",
+      "attribution": "Denver Public Library",
+      "alt": "A 1960 rendering of Cinderella City at the east Hampden and Franklin site, when the design still featured Victorian architecture.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    },
+    "_1960_08_14_aerial_rendering": {
+      "id": "7cace405-3343-4fbb-8d77-9f2010506ca2",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768278265/ccp-website/concept-art/1960-08-14-aerial-rendering.jpg",
+      "caption": "A 1960 aerial rendering of the shopping center on the KLZ Radio Tower site at Hampden and Franklin.",
+      "attribution": "Colorado Historic Newspaper Collection",
+      "alt": "A 1960 aerial rendering of the shopping center on the KLZ Radio Tower site at Hampden and Franklin.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    },
+    "_1960_08_14_site_plan": {
+      "id": "93955697-73e6-416f-a01b-39994cd7c512",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768277451/ccp-website/concept-art/1960-08-14-site-plan.jpg",
+      "caption": "A 1960 site plan of the proposed shopping center on the KLZ Radio Tower property at Hampden and Franklin.",
+      "attribution": "Colorado Historic Newspaper Collection",
+      "alt": "A 1960 site plan of the proposed shopping center on the KLZ Radio Tower property at Hampden and Franklin.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    }
+  },
+  "history": {
+    "_1978_12_30_von_frellick": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767158668/ccp-website/history/1978-12-30-von-frellick.jpg",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.3.0",
+      "alt": "Von Frellick sells interest in Cinderella City.",
+      "title": "",
+      "attribution": "",
+      "caption": "Von Frellick sells interest in Cinderella City.",
+      "id": "0293235f-5cfc-4009-b1bb-d20575b80576"
+    },
+    "_1962_11_06_council_meeting": {
+      "id": "6a70330f-88e7-4ead-ace3-89bddd15276d",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767459227/ccp-website/history/1962-11-06-council-meeting.jpg",
+      "caption": "A contentious 6-hour City Council meeting where citizens and business expressed opposition to a shopping center on the east Hampden site.",
+      "attribution": "Englewood Public Library",
+      "alt": "A contentious 6-hour City Council meeting where citizens and business expressed opposition to a shopping center on the east Hampden site.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.6.0"
+    },
+    "_1968_03_07_Von_Frellicks_start_fountain": {
+      "id": "d768c245-0c5a-4f9e-82eb-9711e8cc32e9",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767460067/ccp-website/history/1968-03-07-Von-Frellicks-start-fountain.jpg",
+      "caption": "The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. \n\nFrom left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick",
+      "attribution": "Denver Public Library",
+      "alt": "The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. \n\nFrom left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    },
+    "_1966_03_31_groundbreaking": {
+      "id": "bbab8973-89d6-4248-a703-31294d3006f9",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767460808/ccp-website/history/1966-03-31-groundbreaking.jpg",
+      "caption": "Groundbreaking for Cinderella City. \n\nFrom right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick",
+      "attribution": "Rocky Mountain News - March 31, 1966",
+      "alt": "Groundbreaking for Cinderella City. \n\nFrom right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    },
+    "_1961_06_19_protestors": {
+      "id": "73497767-162f-4a42-b2fa-ff71081d52e0",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768198895/ccp-website/history/1961-06-19-protestors.jpg",
+      "caption": "William Urban and Mrs. Kass Nachazel display some of the 97 posters painted by youngsters at a picnic rally of the Northeast Englewood Citizens Committee to drum up support for the committee's fight against the proposed Cinderella City shopping center. \nEnglewood City Council will meet at 8pm Monday at the Englewood High School Field House to decide on rezoning for the area of the proposed center - the KLZ Radio Towers site on East Hampden Ave., just west of S. University Blvd.",
+      "attribution": "Denver Post - June 19, 1961",
+      "alt": "William Urban and Mrs. Kass Nachazel display some of the 97 posters painted by youngsters at a picnic rally of the Northeast Englewood Citizens Committee to drum up support for the committee's fight against the proposed Cinderella City shopping center. \nEnglewood City Council will meet at 8pm Monday at the Englewood High School Field House to decide on rezoning for the area of the proposed center - the KLZ Radio Towers site on East Hampden Ave., just west of S. University Blvd.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    },
+    "_1962_11_06_Von_Frellick_at_City_Council": {
+      "id": "202629da-4904-41a7-8621-e344078bcfa3",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768755686/ccp-website/history/1962-11-06-Von-Frellick-at-City-Council.jpg",
+      "caption": "Gerri Von Frellick represents Cinderella City during a City Council meeting. He said opponents face judgment of expert planners.",
+      "attribution": "Denver Post - November 6, 1962",
+      "alt": "Gerri Von Frellick represents Cinderella City during a City Council meeting. He said opponents face judgment of expert planners.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.6.0"
+    }
+  },
+  "blue_mall": {
+    "_1968_blue_mall_1": {
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "attribution": "Tone Journal of Interior Design, March 1968",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767206588/ccp-website/blue-mall/1968-blue-mall.jpg",
+      "alt": "The Blue Mall shortly before opening in 1968.",
+      "caption": "The Blue Mall shortly before opening in 1968."
+    },
+    "_1968_03_07_von_frellick": {
+      "id": "70e86128-3043-4452-b1a5-d6a788b8d00a",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767073265/ccp-website/blue-mall/1968-03-07-von-frellick.png",
+      "alt": "Gerri Von Frellick stands on a Blue Room stair landing while grand opening festivities take place below",
+      "caption": "Gerri Von Frellick stands on a Blue Room stair landing while grand opening festivities take place below",
+      "attribution": "Englewood Public Library",
+      "toolbarJustification": "",
+      "title": "",
+      "showBackgroundBlur": true,
+      "version": "0.3.0"
+    },
+    "_1968_03_07_grand_opening_crowds_1": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767147844/ccp-website/blue-mall/1968-03-07-grand-opening-crowds-1.jpg",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.3.0",
+      "alt": "Crowds in the Blue Room at Cinderella City's grand opening",
+      "title": "",
+      "attribution": "Gerri Lu Von Frellick",
+      "caption": "Crowds in the Blue Room at Cinderella City's grand opening",
+      "id": "a3e00938-3c21-42ff-abad-c00e61195ff0"
+    },
+    "_1981_12_23_center_court_sketch": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767159240/ccp-website/blue-mall/1981-12-23-center-court-sketch.jpg",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.3.0",
+      "alt": "A 1981 sketch of the renovated Blue Mall center court.",
+      "title": "",
+      "attribution": "",
+      "caption": "A 1981 sketch of the renovated Blue Mall center court.",
+      "id": "62235e40-3eec-42ed-b836-3ffc08269371"
+    },
+    "_1983_05_19_blue_mall_and_food_court": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767159486/ccp-website/blue-mall/1983-05-19-blue-mall-and-food-court.jpg",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.3.0",
+      "alt": "The newly-renovated Blue Mall and Food Court.",
+      "title": "",
+      "attribution": "",
+      "caption": "The newly-renovated Blue Mall and Food Court.",
+      "id": "2946f95d-8497-4bb7-8906-66c06c6628a8"
+    },
+    "_1968_blue_mall": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767206588/ccp-website/blue-mall/1968-blue-mall.jpg",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.3.0",
+      "alt": "The Blue Mall shortly before opening in 1968.",
+      "title": "",
+      "attribution": "Tone Journal of Interior Design, March 1968",
+      "caption": "The Blue Mall shortly before opening in 1968.",
+      "id": "66b6c736-c69f-47ad-b112-20c91613da56"
+    },
+    "_1978_03_09_boat_show_2": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767404923/ccp-website/blue-mall/1978-03-09-boat-show-2.jpg",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1",
+      "alt": "A boat show in the Blue Room, as part of the 1978 Fall Fun Fest event series",
+      "id": "1f111173-9ce8-4f80-9f86-f8b373af96d9",
+      "title": "",
+      "attribution": "Englewood Public Library",
+      "caption": "A boat show in the Blue Room, as part of the 1978 Fall Fun Fest event series"
+    }
+  },
+  "gold_mall": {
+    "_1968_09_19_Joslins_opening": {
+      "id": "c1e0eb24-6863-47ad-8711-ca401dd37948",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768687898/ccp-website/gold-mall/1968-09-19-Joslins-opening.jpg",
+      "caption": "Mayor Elmer E. Schwab, left, of Englewood wields the shears at traditional ribbon-cutting ceremonies held Thursday as the new 100,000-square-foot Joslins Department store opened in Cinderella City. \n\nWatching are, from left: Gerri Von Frellick, developer of the 1.5 million-square-foot complex, Donald R. Chabot, Joslins president, and Andrew W. Bida, general manager of new store located on Gold Mall.",
+      "attribution": "The Denver Post - September 19, 1968",
+      "alt": "Mayor Elmer E. Schwab, left, of Englewood wields the shears at traditional ribbon-cutting ceremonies held Thursday as the new 100,000-square-foot Joslins Department store opened in Cinderella City. \n\nWatching are, from left: Gerri Von Frellick, developer of the 1.5 million-square-foot complex, Donald R. Chabot, Joslins president, and Andrew W. Bida, general manager of new store located on Gold Mall.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    }
+  },
+  "rose_mall": {
+    "_1981_06_25_rose_mall_sketch": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767159179/ccp-website/rose-mall/1981-06-25-rose-mall-sketch.jpg",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.3.0",
+      "alt": "A 1981 sketch of the renovated Rose Mall.",
+      "title": "",
+      "attribution": "",
+      "caption": "A 1981 sketch of the renovated Rose Mall.",
+      "id": "4f7f3f49-14e4-4096-b26c-b8e5a392234e"
+    },
+    "_1970_08_13_city_campus": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767408411/ccp-website/rose-mall/1970-08-13-city-campus.png",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1",
+      "alt": "Two students and a teacher enter the Englewood High School city campus on the mezzanine level of Cinderella City.",
+      "id": "d68b90d2-e0f2-4c48-94de-dfae39f4b3d0",
+      "title": "",
+      "attribution": "Denver Public Library",
+      "caption": "Two students and a teacher enter the Englewood High School city campus on the mezzanine level of Cinderella City."
+    },
+    "city_campus_1": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767408411/ccp-website/rose-mall/1970-08-13-city-campus.png",
+      "alt": "City Campus, an extension of Englewood High School, was on the mezzanine level.",
+      "caption": "City Campus, an extension of Englewood High School, was on the mezzanine level.",
+      "attribution": "Englewood Public Library"
+    }
+  },
+  "demolition": {
+    "_1998_08_18_demolition_celebration__1_": {
+      "id": "7c4e3c1f-a679-403b-b82c-97411f0c347a",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767496678/ccp-website/demolition/1998-08-18-demolition-celebration-%281%29.jpg",
+      "caption": "Englewood Mayor Tom Burns addresses the crowd before demolition beings in August 1998.",
+      "attribution": "City of Englewood, Colorado",
+      "alt": "Englewood Mayor Tom Burns addresses the crowd before demolition beings in August 1998.",
+      "title": "",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1"
+    }
+  },
+  "parking": {
+    "_1968_03_07_parking": {
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767406888/ccp-website/parking/1968-03-07-parking.jpg",
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.5.1",
+      "alt": "Cinderella City's parking deck as seen on opening day.",
+      "id": "12cfb95d-aaa6-4adb-8d78-90d5cde3fa96",
+      "title": "",
+      "attribution": "Englewood Public Library",
+      "caption": "Cinderella City's parking deck as seen on opening day."
+    }
+  },
   "ccp_ouatacc_white": {
     "src": "https://res.cloudinary.com/jdg-main/image/upload/v1716962802/ccp-website/ccp/ouatacc-white_gxewfm.png",
     "alt": "Once Upon a Time at Cinderella City."
@@ -248,317 +540,6 @@
   "villa_italia_grand_opening_1": {
     "src": "https://res.cloudinary.com/jdg-main/image/upload/v1740175711/ccp-website/villa-italia/villa-italia-grand-opening-1.jpg",
     "caption": "Villa Italia during its grand opening in March of 1966.",
-    "attribution": "Englewood Public Library"
-  },
-  "reupload_test": {
-    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1765245473/jdg-ui-svelte/image-testing/reupload-test2.jpg",
-    "alt": "This is a reupload test!",
-    "caption": "This is a reupload test!",
-    "attribution": "Some attribution"
-  },
-  "blue_mall": {
-    "_1968_03_07_von_frellick": {
-      "id": "70e86128-3043-4452-b1a5-d6a788b8d00a",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767073265/ccp-website/blue-mall/1968-03-07-von-frellick.png",
-      "alt": "Gerri Von Frellick stands on a Blue Room stair landing while grand opening festivities take place below",
-      "caption": "Gerri Von Frellick stands on a Blue Room stair landing while grand opening festivities take place below",
-      "attribution": "Englewood Public Library",
-      "toolbarJustification": "",
-      "title": "",
-      "showBackgroundBlur": true,
-      "version": "0.3.0"
-    },
-    "_1968_03_07_grand_opening_crowds_1": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767147844/ccp-website/blue-mall/1968-03-07-grand-opening-crowds-1.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.3.0",
-      "alt": "Crowds in the Blue Room at Cinderella City's grand opening",
-      "title": "",
-      "attribution": "Gerri Lu Von Frellick",
-      "caption": "Crowds in the Blue Room at Cinderella City's grand opening",
-      "id": "a3e00938-3c21-42ff-abad-c00e61195ff0"
-    },
-    "_1981_12_23_center_court_sketch": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767159240/ccp-website/blue-mall/1981-12-23-center-court-sketch.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.3.0",
-      "alt": "A 1981 sketch of the renovated Blue Mall center court.",
-      "title": "",
-      "attribution": "",
-      "caption": "A 1981 sketch of the renovated Blue Mall center court.",
-      "id": "62235e40-3eec-42ed-b836-3ffc08269371"
-    },
-    "_1983_05_19_blue_mall_and_food_court": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767159486/ccp-website/blue-mall/1983-05-19-blue-mall-and-food-court.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.3.0",
-      "alt": "The newly-renovated Blue Mall and Food Court.",
-      "title": "",
-      "attribution": "",
-      "caption": "The newly-renovated Blue Mall and Food Court.",
-      "id": "2946f95d-8497-4bb7-8906-66c06c6628a8"
-    },
-    "_1968_blue_mall": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767206588/ccp-website/blue-mall/1968-blue-mall.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.3.0",
-      "alt": "The Blue Mall shortly before opening in 1968.",
-      "title": "",
-      "attribution": "Tone Journal of Interior Design, March 1968",
-      "caption": "The Blue Mall shortly before opening in 1968.",
-      "id": "66b6c736-c69f-47ad-b112-20c91613da56"
-    },
-    "_1978_03_09_boat_show_2": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767404923/ccp-website/blue-mall/1978-03-09-boat-show-2.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1",
-      "alt": "A boat show in the Blue Room, as part of the 1978 Fall Fun Fest event series",
-      "id": "1f111173-9ce8-4f80-9f86-f8b373af96d9",
-      "title": "",
-      "attribution": "Englewood Public Library",
-      "caption": "A boat show in the Blue Room, as part of the 1978 Fall Fun Fest event series"
-    }
-  },
-  "history": {
-    "_1978_12_30_von_frellick": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767158668/ccp-website/history/1978-12-30-von-frellick.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.3.0",
-      "alt": "Von Frellick sells interest in Cinderella City.",
-      "title": "",
-      "attribution": "",
-      "caption": "Von Frellick sells interest in Cinderella City.",
-      "id": "0293235f-5cfc-4009-b1bb-d20575b80576"
-    },
-    "_1962_11_06_council_meeting": {
-      "id": "6a70330f-88e7-4ead-ace3-89bddd15276d",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767459227/ccp-website/history/1962-11-06-council-meeting.jpg",
-      "caption": "A contentious 6-hour City Council meeting where citizens and business expressed opposition to a shopping center on the east Hampden site.",
-      "attribution": "Englewood Public Library",
-      "alt": "A contentious 6-hour City Council meeting where citizens and business expressed opposition to a shopping center on the east Hampden site.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.6.0"
-    },
-    "_1968_03_07_Von_Frellicks_start_fountain": {
-      "id": "d768c245-0c5a-4f9e-82eb-9711e8cc32e9",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767460067/ccp-website/history/1968-03-07-Von-Frellicks-start-fountain.jpg",
-      "caption": "The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. \n\nFrom left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick",
-      "attribution": "Denver Public Library",
-      "alt": "The Von Frellick family pulls a lever to start the 35-foot fountain in the Blue Room on opening day. \n\nFrom left to right: Gerri Lu Von Frellick, Reba Mae Von Frellick, Gerri Von Frellick",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    },
-    "_1966_03_31_groundbreaking": {
-      "id": "bbab8973-89d6-4248-a703-31294d3006f9",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767460808/ccp-website/history/1966-03-31-groundbreaking.jpg",
-      "caption": "Groundbreaking for Cinderella City. \n\nFrom right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick",
-      "attribution": "Rocky Mountain News - March 31, 1966",
-      "alt": "Groundbreaking for Cinderella City. \n\nFrom right to left: Frank Johns, Denver Dry Goods Co.; Myron Neusteter, president of Neusteters; Larry Laman, J.C. Penney Co.; and Gerri Von Frellick",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    },
-    "_1961_06_19_protestors": {
-      "id": "73497767-162f-4a42-b2fa-ff71081d52e0",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768198895/ccp-website/history/1961-06-19-protestors.jpg",
-      "caption": "William Urban and Mrs. Kass Nachazel display some of the 97 posters painted by youngsters at a picnic rally of the Northeast Englewood Citizens Committee to drum up support for the committee's fight against the proposed Cinderella City shopping center. \nEnglewood City Council will meet at 8pm Monday at the Englewood High School Field House to decide on rezoning for the area of the proposed center - the KLZ Radio Towers site on East Hampden Ave., just west of S. University Blvd.",
-      "attribution": "Denver Post - June 19, 1961",
-      "alt": "William Urban and Mrs. Kass Nachazel display some of the 97 posters painted by youngsters at a picnic rally of the Northeast Englewood Citizens Committee to drum up support for the committee's fight against the proposed Cinderella City shopping center. \nEnglewood City Council will meet at 8pm Monday at the Englewood High School Field House to decide on rezoning for the area of the proposed center - the KLZ Radio Towers site on East Hampden Ave., just west of S. University Blvd.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    },
-    "_1962_11_06_Von_Frellick_at_City_Council": {
-      "id": "202629da-4904-41a7-8621-e344078bcfa3",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768755686/ccp-website/history/1962-11-06-Von-Frellick-at-City-Council.jpg",
-      "caption": "Gerri Von Frellick represents Cinderella City during a City Council meeting. He said opponents face judgment of expert planners.",
-      "attribution": "Denver Post - November 6, 1962",
-      "alt": "Gerri Von Frellick represents Cinderella City during a City Council meeting. He said opponents face judgment of expert planners.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.6.0"
-    }
-  },
-  "rose_mall": {
-    "_1981_06_25_rose_mall_sketch": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767159179/ccp-website/rose-mall/1981-06-25-rose-mall-sketch.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.3.0",
-      "alt": "A 1981 sketch of the renovated Rose Mall.",
-      "title": "",
-      "attribution": "",
-      "caption": "A 1981 sketch of the renovated Rose Mall.",
-      "id": "4f7f3f49-14e4-4096-b26c-b8e5a392234e"
-    },
-    "_1970_08_13_city_campus": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767408411/ccp-website/rose-mall/1970-08-13-city-campus.png",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1",
-      "alt": "Two students and a teacher enter the Englewood High School city campus on the mezzanine level of Cinderella City.",
-      "id": "d68b90d2-e0f2-4c48-94de-dfae39f4b3d0",
-      "title": "",
-      "attribution": "Denver Public Library",
-      "caption": "Two students and a teacher enter the Englewood High School city campus on the mezzanine level of Cinderella City."
-    }
-  },
-  "concept_art": {
-    "_1967_01_01_blue_mall_exterior_rendering": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767159604/ccp-website/concept-art/1967-01-01-blue-mall-exterior-rendering.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.3.0",
-      "alt": "A 1967 rendering of the southeast Blue Mall entrance.",
-      "title": "",
-      "attribution": "",
-      "caption": "A 1967 rendering of the southeast Blue Mall entrance.",
-      "id": "ab8d8722-ffae-4178-8198-418b8800ea76"
-    },
-    "_1963_01_10_aerial_rendering": {
-      "id": "9732476a-3fdd-4922-a03b-6e56159f61d6",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767468902/ccp-website/concept-art/1963-01-10-aerial-rendering.jpg",
-      "caption": "A 1963 aerial rendering of Cinderella City at the east Hampden and Franklin site",
-      "attribution": "Denver Public Library",
-      "alt": "A 1963 aerial rendering of Cinderella City at the east Hampden and Franklin site",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    },
-    "_1963_01_10_Denver_rendering": {
-      "id": "05bd2762-d151-4f6b-87e7-ea5e75ad6fd0",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767468960/ccp-website/concept-art/1963-01-10-Denver-rendering.jpg",
-      "caption": "A 1963 rendering of the Cinderella City Denver Dry Goods department store at the east Hampden and Franklin site",
-      "attribution": "Denver Public Library",
-      "alt": "A 1963 rendering of the Cinderella City Denver Dry Goods department store at the east Hampden and Franklin site",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    },
-    "_1963_01_10_Montgomery_Ward_rendering": {
-      "id": "2a06578b-ba10-424f-8fc2-86986434eb70",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767470494/ccp-website/concept-art/1963-01-10-Montgomery-Ward-rendering.jpg",
-      "caption": "A 1963 rendering of the Montgomery Ward building at the east Hampden and Franklin site for Cinderella City.",
-      "attribution": "Denver Public Library",
-      "alt": "A 1963 rendering of the Montgomery Ward building at the east Hampden and Franklin site for Cinderella City.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    },
-    "_1960_rendering": {
-      "id": "d637d891-dbd3-45da-be4f-29e11ca13fce",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767470860/ccp-website/concept-art/1960-rendering.jpg",
-      "caption": "A 1960 rendering of Cinderella City at the east Hampden and Franklin site, when the design still featured Victorian architecture.",
-      "attribution": "Denver Public Library",
-      "alt": "A 1960 rendering of Cinderella City at the east Hampden and Franklin site, when the design still featured Victorian architecture.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    },
-    "_1960_08_14_aerial_rendering": {
-      "id": "7cace405-3343-4fbb-8d77-9f2010506ca2",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768278265/ccp-website/concept-art/1960-08-14-aerial-rendering.jpg",
-      "caption": "A 1960 aerial rendering of the shopping center on the KLZ Radio Tower site at Hampden and Franklin.",
-      "attribution": "Colorado Historic Newspaper Collection",
-      "alt": "A 1960 aerial rendering of the shopping center on the KLZ Radio Tower site at Hampden and Franklin.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    },
-    "_1960_08_14_site_plan": {
-      "id": "93955697-73e6-416f-a01b-39994cd7c512",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768277451/ccp-website/concept-art/1960-08-14-site-plan.jpg",
-      "caption": "A 1960 site plan of the proposed shopping center on the KLZ Radio Tower property at Hampden and Franklin.",
-      "attribution": "Colorado Historic Newspaper Collection",
-      "alt": "A 1960 site plan of the proposed shopping center on the KLZ Radio Tower property at Hampden and Franklin.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    }
-  },
-  "parking": {
-    "_1968_03_07_parking": {
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767406888/ccp-website/parking/1968-03-07-parking.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1",
-      "alt": "Cinderella City's parking deck as seen on opening day.",
-      "id": "12cfb95d-aaa6-4adb-8d78-90d5cde3fa96",
-      "title": "",
-      "attribution": "Englewood Public Library",
-      "caption": "Cinderella City's parking deck as seen on opening day."
-    }
-  },
-  "image_testing": {
-    "_1963_01_10_court_rendering": {
-      "id": "0c0481ce-c9ba-47d9-94dd-d50b2474b838",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767470533/ccp-website/image-testing/1963-01-10-court-rendering.jpg",
-      "caption": "A 1963 rendering of a central atrium at the east Hampden and Franklin site of Cinderella City.",
-      "attribution": "Denver Public Library",
-      "alt": "A 1963 rendering of a central atrium at the east Hampden and Franklin site of Cinderella City.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    }
-  },
-  "demolition": {
-    "_1998_08_18_demolition_celebration__1_": {
-      "id": "7c4e3c1f-a679-403b-b82c-97411f0c347a",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767496678/ccp-website/demolition/1998-08-18-demolition-celebration-%281%29.jpg",
-      "caption": "Englewood Mayor Tom Burns addresses the crowd before demolition beings in August 1998.",
-      "attribution": "City of Englewood, Colorado",
-      "alt": "Englewood Mayor Tom Burns addresses the crowd before demolition beings in August 1998.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    }
-  },
-  "gold_mall": {
-    "_1968_09_19_Joslins_opening": {
-      "id": "c1e0eb24-6863-47ad-8711-ca401dd37948",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1768687898/ccp-website/gold-mall/1968-09-19-Joslins-opening.jpg",
-      "caption": "Mayor Elmer E. Schwab, left, of Englewood wields the shears at traditional ribbon-cutting ceremonies held Thursday as the new 100,000-square-foot Joslins Department store opened in Cinderella City. \n\nWatching are, from left: Gerri Von Frellick, developer of the 1.5 million-square-foot complex, Donald R. Chabot, Joslins president, and Andrew W. Bida, general manager of new store located on Gold Mall.",
-      "attribution": "The Denver Post - September 19, 1968",
-      "alt": "Mayor Elmer E. Schwab, left, of Englewood wields the shears at traditional ribbon-cutting ceremonies held Thursday as the new 100,000-square-foot Joslins Department store opened in Cinderella City. \n\nWatching are, from left: Gerri Von Frellick, developer of the 1.5 million-square-foot complex, Donald R. Chabot, Joslins president, and Andrew W. Bida, general manager of new store located on Gold Mall.",
-      "title": "",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.5.1"
-    }
-  },
-  "_1968_blue_mall_1": {
-    "showBackgroundBlur": true,
-    "toolbarJustification": "right",
-    "attribution": "Tone Journal of Interior Design, March 1968",
-    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767206588/ccp-website/blue-mall/1968-blue-mall.jpg",
-    "alt": "The Blue Mall shortly before opening in 1968.",
-    "caption": "The Blue Mall shortly before opening in 1968."
-  },
-  "city_campus_1": {
-    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767408411/ccp-website/rose-mall/1970-08-13-city-campus.png",
-    "alt": "City Campus, an extension of Englewood High School, was on the mezzanine level.",
-    "caption": "City Campus, an extension of Englewood High School, was on the mezzanine level.",
     "attribution": "Englewood Public Library"
   }
 }
