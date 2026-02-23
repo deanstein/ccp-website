@@ -101,10 +101,9 @@
 
 <!-- GOOGLE ANALYTICS -->
 <svelte:head>
-	<!-- Google tag (gtag.js) -->
-	<!-- Google tag (gtag.js) -->
 	<script async src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}></script>
 	<script>
+		// Google tag (gtag.js)
 		window.dataLayer = window.dataLayer || [];
 		function gtag() {
 			dataLayer.push(arguments);
