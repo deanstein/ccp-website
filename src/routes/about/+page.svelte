@@ -1,7 +1,6 @@
 <script>
-	import jdgSharedUrlsStore from 'jdg-ui-svelte/stores/jdg-shared-urls-store.js';
-
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import { jdgSharedUrlsStore } from 'jdg-ui-svelte';
+	import imageMetaRegistry from '$lib/image-meta-registry';
 
 	import {
 		JDGBodyCopy,
@@ -13,12 +12,12 @@
 		JDGJumpTo,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import Donate from '../../components/Donate.svelte';
+	import Donate from '$lib/components/Donate.svelte';
 </script>
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
-		imageAttributes={imageAttributesCollection.ccp_construction_60s70s_3}
+		imageMeta={imageMetaRegistry.ccp_construction_60s70s_3}
 		showOverlay={true}
 		overlayColorRgba="rgba(30, 30, 30, 0.6)"
 		primaryText="THE ORIGIN"
@@ -54,7 +53,7 @@
 			car when they passed by a vast and shocking demolition site in Englewood, Colorado.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.blue_mall_80s90s_demolition_1}
+			imageMeta={imageMetaRegistry.blue_mall_80s90s_demolition_1}
 			cropToFillContainer={false}
 			showCaption={true}
 			maxHeight="40vh"
@@ -198,7 +197,7 @@
 		>
 		<JDGGridLayout>
 			<JDGImageTile
-				imageAttributes={imageAttributesCollection.ecc_abandoned_1}
+				imageMeta={imageMetaRegistry.ecc_abandoned_1}
 				showCaption
 				cropToFillContainer={false}
 			/>
@@ -209,7 +208,7 @@
 			ball and adaptively reused into its current form in 2000.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.ecc_existing_south}
+			imageMeta={imageMetaRegistry.ecc_existing_south}
 			showCaption
 			cropToFillContainer={false}
 		/>
@@ -224,7 +223,7 @@
 			space.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.ecc_reuse_opt_5_terraces}
+			imageMeta={imageMetaRegistry.ecc_reuse_opt_5_terraces}
 			showCaption
 			cropToFillContainer={false}
 		/>
@@ -240,7 +239,7 @@
 			<a href="./exhibit">Cinderella City exhibit</a>.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.ccp_exhibit_4}
+			imageMeta={imageMetaRegistry.ccp_exhibit_4}
 			showCaption
 			cropToFillContainer={false}
 		/>
@@ -253,7 +252,7 @@
 			an eerily similar timeline and trajectory.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageAttributes={imageAttributesCollection.villa_italia_grand_opening_1}
+			imageMeta={imageMetaRegistry.villa_italia_grand_opening_1}
 			showCaption
 			cropToFillContainer={false}
 		/>
@@ -271,13 +270,13 @@
 	<JDGUpNext
 		item1Label={'SEE THE EXHIBIT'}
 		item1Href={'./exhibit'}
-		item1ImageAttributes={imageAttributesCollection.ccp_exhibit_4}
+		item1ImageAttributes={imageMetaRegistry.ccp_exhibit_4}
 		item2Label={'READ THE FULL HISTORY'}
 		item2Href="./history"
-		item2ImageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+		item2ImageAttributes={imageMetaRegistry.rose_mall_60s70s_construction_1}
 		item3Label="EXPERIENCE THE SIMULATION"
 		item3Href="./simulation"
-		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+		item3ImageAttributes={imageMetaRegistry.ccp_blue_mall_60s70s_2}
 	/>
 </JDGContentContainer>
 

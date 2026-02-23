@@ -3,15 +3,13 @@
 	import { MetaTags } from 'svelte-meta-tags';
 	import extend from 'just-extend';
 
-	import jdgNavItem from 'jdg-ui-svelte/schemas/jdg-nav-item.js';
-	import { pageMeta } from '$lib/shared-strings';
+	import { ccpWebsiteRepoName, jdgColors, jdgNavItem, instantiateObject } from 'jdg-ui-svelte';
 
-	import { ccpWebsiteRepoName } from 'jdg-ui-svelte/jdg-persistence-management.js';
-	import { instantiateObject } from 'jdg-ui-svelte/jdg-utils.js';
+	import { pageMeta } from '$lib/shared-strings';
+	import imageMetaRegistry from '$lib/image-meta-registry';
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
-	import SocialMedia from '../components/SocialMedia.svelte';
-	import { jdgColors } from 'jdg-ui-svelte/jdg-shared-styles.js';
+	import SocialMedia from '$lib/components/SocialMedia.svelte';
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
@@ -104,6 +102,7 @@
 <!-- GOOGLE ANALYTICS -->
 <svelte:head>
 	<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
 	<script async src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -117,6 +116,7 @@
 </svelte:head>
 <MetaTags {...metaTags} />
 <JDGAppContainer
+	{imageMetaRegistry}
 	appLoadingIconSrc="./ccp-logo.png"
 	showHeaderStripes={true}
 	accentColors={jdgColors.accentColorsCCP}

@@ -1,5 +1,5 @@
 <script>
-	import imageAttributesCollection from '../../image-attributes-collection';
+	import imageMetaRegistry from '$lib/image-meta-registry';
 	import {
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -7,7 +7,7 @@
 		JDGImage,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
-	import Donate from '../../components/Donate.svelte';
+	import Donate from '$lib/components/Donate.svelte';
 </script>
 
 <JDGContentContainer>
@@ -18,7 +18,7 @@
 			</span>
 		</JDGBodyCopy>
 		<JDGImage
-			imageAttributes={imageAttributesCollection.construction_1}
+			imageMeta={imageMetaRegistry.construction_1}
 			maxHeight="60vh"
 			showCaption={true}
 			showAttribution={true}
@@ -28,12 +28,12 @@
 	<JDGUpNext
 		item1Label={'SEE THE EXHIBIT'}
 		item1Href={'./exhibit'}
-		item1ImageAttributes={imageAttributesCollection.ccp_exhibit_4}
+		item1ImageAttributes={imageMetaRegistry.ccp_exhibit_4}
 		item2Label={'READ THE FULL HISTORY'}
 		item2Href="./history"
-		item2ImageAttributes={imageAttributesCollection.rose_mall_60s70s_construction_1}
+		item2ImageAttributes={imageMetaRegistry.rose_mall_60s70s_construction_1}
 		item3Label="EXPERIENCE THE SIMULATION"
 		item3Href="./simulation"
-		item3ImageAttributes={imageAttributesCollection.ccp_blue_mall_60s70s_2}
+		item3ImageAttributes={imageMetaRegistry.ccp_blue_mall_60s70s_2}
 	/>
 </JDGContentContainer>
