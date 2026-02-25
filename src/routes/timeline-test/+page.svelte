@@ -52,12 +52,14 @@
 					</div>
 				</div>
 			{:else if $hostStore}
-				<JDGTimeline
-					timelineHost={$hostStore}
-					allowEditing={false}
-					minHeight="100%"
-					maxHeight="100%"
-				/>
+				<div class="timeline-slot">
+					<JDGTimeline
+						timelineHost={$hostStore}
+						minHeight="0"
+						maxHeight="100%"
+                        allowEditing={false}
+					/>
+				</div>
 			{:else}
 				<p class="timeline-empty">No timeline data available.</p>
 			{/if}
@@ -68,10 +70,35 @@
 <style>
 	.timeline-area {
 		position: relative;
-		/* Constrain to viewport so timeline doesn’t overflow the content container */
+		/* Fixed height so timeline + title bar stay inside the content box */
 		height: 70vh;
 		min-height: 300px;
 		max-height: 70vh;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* Force the timeline component to fit: flex shrink + min-height 0 so it can’t overflow */
+	.timeline-slot {
+		flex: 1 1 0;
+		min-height: 0;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* Timeline root (.timeline-wrapper) must fill the slot so maxHeight="100%" works */
+	.timeline-slot :global(.timeline-wrapper) {
+		height: 100%;
+		min-height: 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.timeline-slot :global(.timeline-container) {
+		flex: 1 1 0;
+		min-height: 0;
 	}
 
 	.timeline-loading-overlay {
