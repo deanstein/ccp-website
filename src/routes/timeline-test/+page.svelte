@@ -4,7 +4,7 @@
 
 	import {
 		// Helpers, constants, persistence
-        JDG_CONTEXTS,
+		JDG_CONTEXTS,
 		buildingDataCollectionKey,
 		fetchJsonFileList,
 		jdgBuildingDataRepoName,
@@ -41,8 +41,8 @@
 </script>
 
 <JDGContentContainer overlapWithHeader={false}>
-	<JDGContentBoxFloating title="Timeline Test" animateWhenVisible={false}>
-		<JDGBodyCopy>This is a test of the timeline component.</JDGBodyCopy>
+	<JDGContentBoxFloating title="Timeline Preview" animateWhenVisible={false}>
+		<JDGBodyCopy paddingTop="0">An in-progress look at the Cinderella City timeline</JDGBodyCopy>
 		<div class="timeline-area">
 			{#if loading}
 				<p class="timeline-empty">Loading timeline…</p>
