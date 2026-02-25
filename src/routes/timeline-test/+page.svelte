@@ -4,6 +4,7 @@
 
 	import {
 		// Helpers, constants, persistence
+        JDG_CONTEXTS,
 		buildingDataCollectionKey,
 		fetchJsonFileList,
 		jdgBuildingDataRepoName,
@@ -16,9 +17,9 @@
 		JDGTimeline
 	} from 'jdg-ui-svelte';
 
-	// Age-display wording for timeline events (use JDG_CONTEXTS from jdg-contexts when the package exports it)
-	setContext('jdg-event-age-suffix-positive', 'after opening');
-	setContext('jdg-event-age-suffix-negative', 'before opening');
+	// Age-display wording for timeline events
+	setContext(JDG_CONTEXTS.EVENT_AGE_SUFFIX_POSITIVE, 'after opening');
+	setContext(JDG_CONTEXTS.EVENT_AGE_SUFFIX_NEGATIVE, 'before opening');
 
 	const hostStore = writable(undefined);
 	let loading = true;
