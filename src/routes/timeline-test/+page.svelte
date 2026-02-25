@@ -13,7 +13,6 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGLoadingSpinner,
 		JDGTimeline
 	} from 'jdg-ui-svelte';
 
@@ -45,19 +44,14 @@
 		<JDGBodyCopy>This is a test of the timeline component.</JDGBodyCopy>
 		<div class="timeline-area">
 			{#if loading}
-				<div class="timeline-loading-overlay" aria-busy="true" aria-label="Loading timeline">
-					<div class="timeline-loading-content">
-						<JDGLoadingSpinner strokeColor="#2c2c2c" spinnerHeightPx={40} strokeWidthPx={3} />
-						<span class="timeline-loading-text">Loading…</span>
-					</div>
-				</div>
-			{:else if $hostStore}
+				<p class="timeline-empty">Loading timeline…</p>
+			{:else if $hostStore !== undefined}
 				<div class="timeline-slot">
 					<JDGTimeline
 						timelineHost={$hostStore}
 						minHeight="0"
 						maxHeight="100%"
-                        allowEditing={false}
+						allowEditing={false}
 					/>
 				</div>
 			{:else}
@@ -99,29 +93,6 @@
 	.timeline-slot :global(.timeline-container) {
 		flex: 1 1 0;
 		min-height: 0;
-	}
-
-	.timeline-loading-overlay {
-		position: absolute;
-		inset: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: rgba(255, 255, 255, 0.9);
-		backdrop-filter: blur(4px);
-		z-index: 1;
-	}
-
-	.timeline-loading-content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 1rem;
-	}
-
-	.timeline-loading-text {
-		font-size: 1rem;
-		color: #2c2c2c;
 	}
 
 	.timeline-empty {
