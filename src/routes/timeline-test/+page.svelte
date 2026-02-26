@@ -44,12 +44,11 @@
 	<JDGContentBoxFloating title="Timeline Preview" animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0">An in-progress look at the Cinderella City timeline</JDGBodyCopy>
 		<div class="timeline-area">
-			{#if loading}
-				<p class="timeline-empty">Loading timeline…</p>
-			{:else if $hostStore !== undefined}
+			{#if $hostStore !== undefined || loading}
 				<div class="timeline-slot">
 					<JDGTimeline
 						timelineHost={$hostStore}
+						{loading}
 						minHeight="0"
 						maxHeight="100%"
 						allowEditing={false}
@@ -65,6 +64,8 @@
 <style>
 	.timeline-area {
 		position: relative;
+		align-self: stretch;
+		width: 100%;
 		/* Fixed height so timeline + title bar stay inside the content box */
 		height: 70vh;
 		min-height: 300px;
@@ -86,9 +87,12 @@
 	/* Timeline root (.timeline-wrapper) must fill the slot so maxHeight="100%" works */
 	.timeline-slot :global(.timeline-wrapper) {
 		height: 100%;
-		min-height: 0;
 		display: flex;
 		flex-direction: column;
+	}
+
+	.timeline-slot :global(.timeline-wrapper:not(.loading-overlay-visible)) {
+		min-height: 0;
 	}
 
 	.timeline-slot :global(.timeline-container) {
