@@ -22,20 +22,15 @@
 	setContext(JDG_CONTEXTS.EVENT_AGE_SUFFIX_NEGATIVE, 'before opening');
 
 	const hostStore = writable(undefined);
-	let loading = true;
 
 	onMount(async () => {
-		try {
-			const files = await fetchJsonFileList(jdgRepoOwner, jdgBuildingDataRepoName);
-			if (files?.length) {
-				const data = await readJsonFileFromRepo(jdgRepoOwner, jdgBuildingDataRepoName, files[0]);
-				const hosts = data?.[buildingDataCollectionKey];
-				if (hosts?.length) {
-					hostStore.set(hosts[0]);
-				}
+		const files = await fetchJsonFileList(jdgRepoOwner, jdgBuildingDataRepoName);
+		if (files?.length) {
+			const data = await readJsonFileFromRepo(jdgRepoOwner, jdgBuildingDataRepoName, files[0]);
+			const hosts = data?.[buildingDataCollectionKey];
+			if (hosts?.length) {
+				hostStore.set(hosts[0]);
 			}
-		} finally {
-			loading = false;
 		}
 	});
 </script>
@@ -44,19 +39,14 @@
 	<JDGContentBoxFloating title="Timeline Preview" animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0">An in-progress look at the Cinderella City timeline</JDGBodyCopy>
 		<div class="timeline-area">
-			{#if $hostStore !== undefined || loading}
-				<div class="timeline-slot">
-					<JDGTimeline
-						timelineHost={$hostStore}
-						{loading}
-						minHeight="0"
-						maxHeight="100%"
-						allowEditing={false}
-					/>
-				</div>
-			{:else}
-				<p class="timeline-empty">No timeline data available.</p>
-			{/if}
+			<div class="timeline-slot">
+				<JDGTimeline
+					timelineHost={$hostStore}
+					minHeight="0"
+					maxHeight="100%"
+					allowEditing={false}
+				/>
+			</div>
 		</div>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
@@ -91,22 +81,8 @@
 		flex-direction: column;
 	}
 
-	.timeline-slot :global(.timeline-wrapper:not(.loading-overlay-visible)) {
-		min-height: 0;
-	}
-
 	.timeline-slot :global(.timeline-container) {
 		flex: 1 1 0;
 		min-height: 0;
-	}
-
-	.timeline-empty {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 70vh;
-		min-height: 300px;
-		margin: 0;
-		color: var(--jdg-color-text-secondary, #666);
 	}
 </style>
