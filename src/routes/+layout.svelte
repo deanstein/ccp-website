@@ -3,13 +3,22 @@
 	import { MetaTags } from 'svelte-meta-tags';
 	import extend from 'just-extend';
 
-	import { ccpWebsiteRepoName, jdgColors, jdgNavItem, instantiateObject } from 'jdg-ui-svelte';
+	import {
+		ccpWebsiteRepoName,
+		jdgColors,
+		jdgNavItem,
+		instantiateObject,
+		repoName
+	} from 'jdg-ui-svelte';
 
 	import { pageMeta } from '$lib/shared-strings';
 	import imageMetaRegistry from '$lib/image-meta-registry';
 
 	import { JDGAppContainer, JDGBackground, JDGFooter, JDGHeader } from 'jdg-ui-svelte';
 	import SocialMedia from '$lib/components/SocialMedia.svelte';
+
+	// Define the repo name
+	repoName.set(ccpWebsiteRepoName);
 
 	// META TAGS
 	// will be be sourced from +layout.js first,
