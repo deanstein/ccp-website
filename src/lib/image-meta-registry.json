@@ -551,11 +551,11 @@
       "attribution": "Rocky Mountain News",
       "alt": "Huge shopping center planned for KLZ site",
       "title": "",
+      "date": "1960-08-14",
       "isApprxDate": false,
-      "showBackgroundBlur": true,
+      "showBackgroundBlur": false,
       "toolbarJustification": "right",
-      "version": "0.7.1",
-      "date": "1960-08-14"
+      "version": "0.7.1"
     }
   }
 }
