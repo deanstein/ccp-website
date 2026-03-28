@@ -56,7 +56,8 @@
 	/>
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy>
-			Built in <b>1968</b> and demolished in <b>1997</b>, Cinderella City's legacy might seem short-lived.<br>Yet its story starts much earlier, and its unique impact continues to this
+			Built in <b>1968</b> and demolished in <b>1997</b>, Cinderella City's legacy might seem
+			short-lived.<br />Yet its story starts much earlier, and its unique impact continues to this
 			day.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
@@ -64,28 +65,20 @@
 <JDGContentContainer>
 	<JDGContentBoxFloating title="TIMELINE" animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0">
-			The official chronology of Cinderella City Mall as documented by a variety of sources including
-			newspapers, photographs, architectural drawings, and more.
+			The official chronology of Cinderella City Mall as documented by a variety of sources
+			including newspapers, photographs, architectural drawings, and more.
 			<br /><br />
-			This is a work in progress as The Cinderella City Project continues to uncovers the history
-			of this magical place. The timeline will also serve as the structure for the forthcoming full
-			written history. Check back often for updates.
+			This is a work in progress as The Cinderella City Project continues to uncovers the history of
+			this magical place. The timeline will also serve as the structure for the forthcoming full written
+			history. Check back often for updates.
 		</JDGBodyCopy>
-		<div class="timeline-area">
-			<div class="timeline-slot">
-				<JDGTimeline
-					timelineHost={$hostStore}
-					minHeight="0"
-					maxHeight="100%"
-					allowEditing={false}
-				/>
-			</div>
-		</div>
+		<JDGTimeline timelineHost={$hostStore} minHeight="70vh" maxHeight="70vh" allowEditing={false} />
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="VIDEO HISTORY" animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0">
 			<span style="display: flex; justify-content: center;">
-				Immerse yourself in the colorful history of Cinderella City, including a preview of the immersive simulation, as presented to a live audience at the Englewood Civic Center in 2022:
+				Immerse yourself in the colorful history of Cinderella City, including a preview of the
+				immersive simulation, as presented to a live audience at the Englewood Civic Center in 2022:
 			</span>
 			<br />
 			<JDGIFrame
@@ -162,36 +155,3 @@
 		/>
 	</JDGContentContainer>
 {/if}
-
-<style>
-	.timeline-area {
-		position: relative;
-		align-self: stretch;
-		width: 100%;
-		height: 70vh;
-		min-height: 300px;
-		max-height: 70vh;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.timeline-slot {
-		flex: 1 1 0;
-		min-height: 0;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.timeline-slot :global(.timeline-wrapper) {
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.timeline-slot :global(.timeline-container) {
-		flex: 1 1 0;
-		min-height: 0;
-	}
-</style>
