@@ -65,7 +65,7 @@
 <JDGContentContainer>
 	<JDGContentBoxFloating title="TIMELINE" animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0">
-			The official chronology of Cinderella City as documented by a variety of sources including
+			The official chronology of Cinderella City Mall as documented by a variety of sources including
 			newspapers, photographs, architectural drawings, and more.
 			<br /><br />
 			This is a work in progress as The Cinderella City Project continues to uncovers the history
