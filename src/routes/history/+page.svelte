@@ -56,8 +56,7 @@
 	/>
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy>
-			Built in <b>1968</b> and demolished in <b>1997</b>, Cinderella City Mall's legacy would seem
-			to be short-lived. But its story actually starts much earlier and its impact continues to this
+			Built in <b>1968</b> and demolished in <b>1997</b>, Cinderella City's legacy might seem short-lived.<br>Yet its story starts much earlier, and its unique impact continues to this
 			day.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
