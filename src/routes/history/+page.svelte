@@ -1,7 +1,18 @@
 <script>
+	import { onMount, setContext } from 'svelte';
+	import { writable } from 'svelte/store';
+
 	import imageMetaRegistry from '$lib/image-meta-registry';
-	import { jdgColors } from 'jdg-ui-svelte';
 	import {
+		buildingDataCollectionKey,
+		fetchJsonFileList,
+		jdgBuildingDataRepoName,
+		jdgColors,
+		jdgRepoOwner,
+		readJsonFileFromRepo
+	} from 'jdg-ui-svelte';
+	import {
+		JDG_CONTEXTS,
 		JDGAccentBlockWithText,
 		JDGBodyCopy,
 		JDGContentBoxFloating,
@@ -10,14 +21,31 @@
 		JDGImageCarousel,
 		JDGImageFullWidth,
 		JDGImageTile,
+		JDGTimeline,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import Donate from '$lib/components/Donate.svelte';
 
 	const showInProgressContent = false; // optionally hide during construction
+
+	setContext(JDG_CONTEXTS.EVENT_AGE_SUFFIX_POSITIVE, 'after opening');
+	setContext(JDG_CONTEXTS.EVENT_AGE_SUFFIX_NEGATIVE, 'before opening');
+
+	const hostStore = writable(undefined);
+
+	onMount(async () => {
+		const files = await fetchJsonFileList(jdgRepoOwner, jdgBuildingDataRepoName);
+		if (files?.length) {
+			const data = await readJsonFileFromRepo(jdgRepoOwner, jdgBuildingDataRepoName, files[0]);
+			const hosts = data?.[buildingDataCollectionKey];
+			if (hosts?.length) {
+				hostStore.set(hosts[0]);
+			}
+		}
+	});
 </script>
 
-<JDGContentContainer overlapWithHeader={true}>
+<JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
 		imageMeta={imageMetaRegistry.concept_art_1}
 		primaryText="A FAIRYTALE CONCEPT"
@@ -26,13 +54,39 @@
 		overlayColorRgba="rgba(30, 30, 30, 0.5)"
 		overlapWithHeader={true}
 	/>
-	<JDGContentBoxFloating title="COMING SOON" animateWhenVisible={false}>
+	<JDGContentBoxFloating animateWhenVisible={false}>
+		<JDGBodyCopy>
+			Built in <b>1968</b> and demolished in <b>1997</b>, Cinderella City Mall's legacy would seem
+			to be short-lived. But its story actually starts much earlier and its impact continues to this
+			day.
+		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+</JDGContentContainer>
+<JDGContentContainer>
+	<JDGContentBoxFloating title="TIMELINE" animateWhenVisible={false}>
+		<JDGBodyCopy paddingTop="0">
+			The official chronology of Cinderella City as documented by a variety of sources including
+			newspapers, photographs, architectural drawings, and more.
+			<br /><br />
+			This is a work in progress as The Cinderella City Project continues to uncovers the history
+			of this magical place. The timeline will also serve as the structure for the forthcoming full
+			written history. Check back often for updates.
+		</JDGBodyCopy>
+		<div class="timeline-area">
+			<div class="timeline-slot">
+				<JDGTimeline
+					timelineHost={$hostStore}
+					minHeight="0"
+					maxHeight="100%"
+					allowEditing={false}
+				/>
+			</div>
+		</div>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="VIDEO HISTORY" animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0">
 			<span style="display: flex; justify-content: center;">
-				The full written history of Cinderella City Mall is coming soon. Stay tuned!
-				<br /><br />
-				In the meantime, you can watch the history of Cinderella City presented to a live audience by
-				The Cinderella City Project, on YouTube:
+				Immerse yourself in the colorful history of Cinderella City, including a preview of the immersive simulation, as presented to a live audience at the Englewood Civic Center in 2022:
 			</span>
 			<br />
 			<JDGIFrame
@@ -109,3 +163,36 @@
 		/>
 	</JDGContentContainer>
 {/if}
+
+<style>
+	.timeline-area {
+		position: relative;
+		align-self: stretch;
+		width: 100%;
+		height: 70vh;
+		min-height: 300px;
+		max-height: 70vh;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.timeline-slot {
+		flex: 1 1 0;
+		min-height: 0;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.timeline-slot :global(.timeline-wrapper) {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.timeline-slot :global(.timeline-container) {
+		flex: 1 1 0;
+		min-height: 0;
+	}
+</style>
