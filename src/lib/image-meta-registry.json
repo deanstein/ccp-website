@@ -557,6 +557,19 @@
       "showBackgroundBlur": false,
       "toolbarJustification": "right",
       "version": "0.7.1"
+    },
+    "_1962_04_08_RMN_Cinderella_City_promoter_vows_to_start_over": {
+      "id": "78c4f0bf-f629-4bc4-8b6b-4e138cf9662a",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1775360445/ccp-website/articles/1962-04-08-RMN-Cinderella-City-promoter-vows-to-start-over.jpg",
+      "caption": "",
+      "attribution": "Rocky Mountain News",
+      "alt": "",
+      "title": "",
+      "isApprxDate": false,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "1962-04-08"
     }
   }
 }
