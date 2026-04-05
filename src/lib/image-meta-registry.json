@@ -584,20 +584,5 @@
       "version": "0.7.1",
       "date": "1960-12-14"
     }
-  },
-  "image_testing": {
-    "new_image": {
-      "id": "5f3d9bb2-a90d-4efb-8aa7-ac2900b94b02",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1775364367/ccp-website/articles/1960-12-14-DP-area-planners-reject.jpg",
-      "caption": "Area Planners Reject KLZ Tower Shop Area",
-      "attribution": "Denver Post",
-      "alt": "Area Planners Reject KLZ Tower Shop Area",
-      "title": "",
-      "date": "1960-12-14",
-      "isApprxDate": false,
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.7.1"
-    }
   }
 }
