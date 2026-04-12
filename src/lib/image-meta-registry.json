@@ -1,15 +1,16 @@
 {
   "concept_art": {
     "_1967_01_01_blue_mall_exterior_rendering": {
+      "id": "ab8d8722-ffae-4178-8198-418b8800ea76",
       "src": "https://res.cloudinary.com/jdg-main/image/upload/v1767159604/ccp-website/concept-art/1967-01-01-blue-mall-exterior-rendering.jpg",
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.3.0",
+      "caption": "A 1967 rendering of the southeast Blue Mall entrance.",
+      "attribution": "Denver Public Library",
       "alt": "A 1967 rendering of the southeast Blue Mall entrance.",
       "title": "",
-      "attribution": "",
-      "caption": "A 1967 rendering of the southeast Blue Mall entrance.",
-      "id": "ab8d8722-ffae-4178-8198-418b8800ea76"
+      "isApprxDate": false,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1"
     },
     "_1963_01_10_aerial_rendering": {
       "id": "9732476a-3fdd-4922-a03b-6e56159f61d6",
