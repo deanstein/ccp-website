@@ -596,6 +596,19 @@
       "showBackgroundBlur": true,
       "toolbarJustification": "right",
       "version": "0.7.1"
+    },
+    "_1962_11_20_DP_zone_change_falls_short_by_one_vote": {
+      "id": "974b8cda-dada-44df-ac55-da7caa0b890d",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1775966295/ccp-website/articles/1962-11-20-DP-zone-change-falls-short-by-one-vote.jpg",
+      "caption": "Zone Change Falls Short by One Vote",
+      "attribution": "",
+      "alt": "Zone Change Falls Short by One Vote",
+      "title": "",
+      "isApprxDate": false,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "1962-11-20"
     }
   }
 }
