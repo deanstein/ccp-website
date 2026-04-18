@@ -47,15 +47,15 @@
 			]}
 		/>
 		<JDGBodyCopy>
-			The exhibit also features the fully-interactive <a href="./simulation"
-				>Cinderella City Simulation</a
-			>, which guides visitors on a tour of historic photos inside both eras of the mall, and also
-			offers a game controller for intrepid mall walkers to take control and go where they please.
+			The exhibit includes a theater with a 175" projection screen showing the fully-interactive <a
+				href="./simulation">Cinderella City Simulation</a
+			>. <br /><br />Visitors can enjoy guided tours featuring real historic photos inside both eras
+			of the mall, or use the included game controller to walk anywhere in the mall they please.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
 			imageMetaSet={[
-				imageMetaRegistry.ccp.exhibit.theater_1,
-				imageMetaRegistry.ccp.exhibit.theater_2
+				imageMetaRegistry.ccp.exhibit.theater_2,
+				imageMetaRegistry.ccp.exhibit.theater_1
 			]}
 			showAttribution={false}
 			showCaption={false}
