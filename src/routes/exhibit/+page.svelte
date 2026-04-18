@@ -1,5 +1,5 @@
 <script>
-	import { jdgSharedUrlsStore } from 'jdg-ui-svelte';
+	import { jdgSharedUrlsStore, jdgNotificationTypes } from 'jdg-ui-svelte';
 	import imageMetaRegistry from '$lib/image-meta-registry';
 	import {
 		JDGBodyCopy,
@@ -26,7 +26,7 @@
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGNotificationBanner
 			message={'The Cinderella City exhibit was open from May 2024 through August 2025 and is now closed.'}
-			backgroundColor={'#f5e576'}
+			notificationType={jdgNotificationTypes.information}
 		/>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <b>Cinderella City Project</b> has teamed up with
@@ -51,13 +51,28 @@
 				>Cinderella City Simulation</a
 			>, which guides visitors on a tour of historic photos inside both eras of the mall, and also
 			offers a game controller for intrepid mall walkers to take control and go where they please.
-			<br /><br />
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageMetaSet={[
+				imageMetaRegistry.ccp.exhibit.theater_1,
+				imageMetaRegistry.ccp.exhibit.theater_2
+			]}
+			showAttribution={false}
+			showCaption={false}
+		/>
+		<JDGBodyCopy>
 			Adding a layer of nostalgia, the Cinderella City exhibit takes place inside the last surviving
 			piece of the mall: the Broadway Southwest department store constructed in 1985.
 		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageMetaSet={[imageMetaRegistry.ecc_abandoned_1, imageMetaRegistry.ecc_existing_south]}
+			showAttribution={false}
+			showCaption={false}
+		/>
+		<br />
 		<JDGNotificationBanner
 			message={'The Cinderella City exhibit was open from May 2024 through August 2025 and is now closed.'}
-			backgroundColor={'#f5e576'}
+			notificationType={jdgNotificationTypes.information}
 		/>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
