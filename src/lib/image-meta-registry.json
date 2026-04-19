@@ -386,9 +386,16 @@
     "caption": "The Cinderella City exhibit at the Historic Englewood Museum."
   },
   "ccp_exhibit_2": {
-    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1720559712/ccp-website/ccp/exhibit/ccp_exhibit_2.jpg",
+    "id": "f3f5cb72-cfad-4980-a4cb-b2e0cd139c89",
+    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1776640630/ccp-website/ccp/exhibit/ccp_exhibit_2.jpg",
+    "caption": "The Cinderella City Project at the Historic Englewood museum theater.",
+    "attribution": "",
     "alt": "The Cinderella City Project at the Historic Englewood museum theater.",
-    "caption": "The Cinderella City Project at the Historic Englewood museum theater."
+    "title": "",
+    "isApprxDate": false,
+    "showBackgroundBlur": true,
+    "toolbarJustification": "right",
+    "version": "0.7.1"
   },
   "ccp_exhibit_3": {
     "src": "https://res.cloudinary.com/jdg-main/image/upload/v1720559913/ccp-website/ccp/exhibit/ccp_exhibit_3.jpg",
@@ -615,31 +622,31 @@
   "ccp": {
     "exhibit": {
       "theater_1": {
-      "id": "80b3eca7-9cbb-4c0f-a38d-2f889a1d87d2",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1776547716/ccp-website/ccp/exhibit/theater-1.jpg",
-      "caption": "Visitors experience a walkthrough of the Cinderella City Simulation with creator Josh Goldstein in the Cinderella City exhibit theater.",
-      "attribution": "Chad Henderson",
-      "alt": "Visitors experience a walkthrough of the Cinderella City Simulation with creator Josh Goldstein in the Cinderella City exhibit theater.",
-      "title": "",
-      "date": "2025-08-30",
-      "isApprxDate": false,
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.7.1"
-    },
+        "id": "80b3eca7-9cbb-4c0f-a38d-2f889a1d87d2",
+        "src": "https://res.cloudinary.com/jdg-main/image/upload/v1776547716/ccp-website/ccp/exhibit/theater-1.jpg",
+        "caption": "Visitors experience a walkthrough of the Cinderella City Simulation with creator Josh Goldstein in the Cinderella City exhibit theater.",
+        "attribution": "Chad Henderson",
+        "alt": "Visitors experience a walkthrough of the Cinderella City Simulation with creator Josh Goldstein in the Cinderella City exhibit theater.",
+        "title": "",
+        "date": "2025-08-30",
+        "isApprxDate": false,
+        "showBackgroundBlur": true,
+        "toolbarJustification": "right",
+        "version": "0.7.1"
+      },
       "theater_2": {
-      "id": "924d42fd-7ffe-4d75-8677-90452da87f0c",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1776547881/ccp-website/ccp/exhibit/theater-2.jpg",
-      "caption": "Visitors experience a walkthrough of the Cinderella City Simulation with creator Josh Goldstein in the Cinderella City exhibit theater.",
-      "attribution": "Chad Henderson",
-      "alt": "Visitors experience a walkthrough of the Cinderella City Simulation with creator Josh Goldstein in the Cinderella City exhibit theater.",
-      "title": "",
-      "isApprxDate": false,
-      "showBackgroundBlur": true,
-      "toolbarJustification": "right",
-      "version": "0.7.1",
-      "date": "2025-08-30"
-    }
+        "id": "924d42fd-7ffe-4d75-8677-90452da87f0c",
+        "src": "https://res.cloudinary.com/jdg-main/image/upload/v1776547881/ccp-website/ccp/exhibit/theater-2.jpg",
+        "caption": "Visitors experience a walkthrough of the Cinderella City Simulation with creator Josh Goldstein in the Cinderella City exhibit theater.",
+        "attribution": "Chad Henderson",
+        "alt": "Visitors experience a walkthrough of the Cinderella City Simulation with creator Josh Goldstein in the Cinderella City exhibit theater.",
+        "title": "",
+        "isApprxDate": false,
+        "showBackgroundBlur": true,
+        "toolbarJustification": "right",
+        "version": "0.7.1",
+        "date": "2025-08-30"
+      }
     }
   }
 }
