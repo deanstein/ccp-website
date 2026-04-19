@@ -398,9 +398,16 @@
     "version": "0.7.1"
   },
   "ccp_exhibit_3": {
-    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1720559913/ccp-website/ccp/exhibit/ccp_exhibit_3.jpg",
+    "id": "a30a6fc1-e7bc-46a5-b66e-8d693b1cd777",
+    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1776641884/ccp-website/ccp/exhibit/ccp_exhibit_3.jpg",
+    "caption": "A salvaged flag from the 1980s Rose Mall renovation hangs in the Historic Englewood museum space.",
+    "attribution": "",
     "alt": "A salvaged flag from the 1980s Rose Mall renovation hangs in the Historic Englewood museum space.",
-    "caption": "A salvaged flag from the 1980s Rose Mall renovation hangs in the Historic Englewood museum space."
+    "title": "",
+    "isApprxDate": false,
+    "showBackgroundBlur": true,
+    "toolbarJustification": "right",
+    "version": "0.7.1"
   },
   "ccp_exhibit_4": {
     "src": "https://res.cloudinary.com/jdg-main/image/upload/v1720559357/ccp-website/ccp/exhibit/ccp_exhibit_4.jpg",
