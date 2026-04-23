@@ -77,7 +77,6 @@
 			minHeight="70vh"
 			maxHeight="70vh"
 			allowEditing={false}
-			previewOnly
 		/>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="VIDEO HISTORY" animateWhenVisible={false}>
