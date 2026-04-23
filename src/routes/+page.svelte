@@ -228,7 +228,7 @@
 			<ul>
 				<li>
 					Jun 22, 2024: <a href="./exhibit" target="_blank"
-						>🖼️ The Cinderella City exhibit at the Historic Englewood Museum is now open</a
+						>🖼️ The Cinderella City exhibit is now open</a
 					>
 				</li>
 				<li>
