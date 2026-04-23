@@ -377,8 +377,16 @@
     "caption": "Cinderella City's central Blue Mall as seen through a Vaporwave camera mode."
   },
   "ccp_exhibit_composite": {
-    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1718561285/ccp-website/ccp/exhibit/final_photo_collage_ewll6g.jpg",
-    "alt": "A composite image showing several view of the Cinderella City exhibit at the Historic Englewood Museum."
+    "id": "f25ed318-edef-44e2-8b26-eb7f90642c29",
+    "src": "https://res.cloudinary.com/jdg-main/image/upload/v1776920102/ccp-website/ccp/exhibit/final_photo_collage_ewll6g.jpg",
+    "caption": "",
+    "attribution": "",
+    "alt": "A composite image showing several view of the Cinderella City exhibit at the Historic Englewood Museum.",
+    "title": "",
+    "isApprxDate": false,
+    "showBackgroundBlur": true,
+    "toolbarJustification": "right",
+    "version": "0.7.1"
   },
   "ccp_exhibit_1": {
     "src": "https://res.cloudinary.com/jdg-main/image/upload/v1718411998/ccp-website/ccp/exhibit/ccp_exhibit_1.jpg",
