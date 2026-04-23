@@ -184,7 +184,6 @@
 			/>
 		</JDGFeatureCard>
 	</JDGContentBoxFloating>
-	<Donate />
 	<JDGContentBoxFloating title="DOWNLOAD">
 		<JDGBodyCopy paddingTop="0" textAlign="center">
 			Ready to try <b>Once Upon a Time at Cinderella City</b>?
@@ -375,6 +374,7 @@
 			Noticing an issue not listed? <a href="./contact">Get in touch</a>!
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
+	<Donate />
 	<JDGUpNext
 		item1Label={'LEARN MORE ABOUT THE PROJECT'}
 		item1Href={'./about'}
