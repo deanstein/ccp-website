@@ -17,11 +17,11 @@
 	<JDGImageFullWidth
 		imageMeta={imageMetaRegistry.ccp_exhibit_composite}
 		showOverlay={true}
-		overlayColorRgba="rgba(30, 30, 30, 0.5)"
+		overlayColorRgba="rgba(30, 30, 30, 0.7)"
 		primaryText="EXPERIENCE THE FAIRYTALE"
 		primaryTextFontFamily="Righteous"
 		secondaryText="at the Historic Englewood Museum"
-		overlapWithHeader={true}
+		overlapWithHeader={false}
 	/>
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGNotificationBanner
