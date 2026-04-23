@@ -34,13 +34,13 @@
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <strong>Cinderella City Project</strong> is an immersive journey into an unconventional
-			mid-century retail destination, hailed by its creator as a "city under a roof," which faded
+			mid-century retail destination, hailed by its designer as a "city under a roof," which faded
 			from fairytale to nightmare in just 30 years.
 			<br /><br />
 			Created by architectural designer and software developer
-			<a href={$jdgSharedUrlsStore.jdgLinkedIn}>Josh Goldstein</a>, a Colorado native whose career
-			path was unknowingly influenced by Cinderella City's demolition, the project's goal is to
-			document this unique place in <b>three ways</b>:
+			<a href={'https://jdeangoldstein.com'} target="_blank">Josh Goldstein</a>, a Colorado native
+			whose career path was unknowingly influenced by Cinderella City's demolition, the project's
+			goal is to document this unique place in <b>three ways</b>:
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
