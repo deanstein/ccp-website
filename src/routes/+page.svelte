@@ -24,6 +24,8 @@
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" paddingBottom="0" gap="0">
 	<JDGImageFullWidth
 		imageMeta={imageMetaRegistry.blue_mall_60s70s_1}
+		showOverlay={true}
+		overlayColorRgba="rgba(30, 30, 30, 0.5)"
 		primaryText="STEP BACK IN TIME"
 		primaryTextFontFamily="Righteous"
 		secondaryText="to Cinderella City Mall"
