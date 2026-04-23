@@ -72,7 +72,13 @@
 			this magical place. The timeline will also serve as the structure for the forthcoming full written
 			history. Check back often for updates.
 		</JDGBodyCopy>
-		<JDGTimeline timelineHost={$hostStore} minHeight="70vh" maxHeight="70vh" allowEditing={false} />
+		<JDGTimeline
+			timelineHost={$hostStore}
+			minHeight="70vh"
+			maxHeight="70vh"
+			allowEditing={false}
+			previewOnly
+		/>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="VIDEO HISTORY" animateWhenVisible={false}>
 		<JDGBodyCopy paddingTop="0">
