@@ -254,7 +254,7 @@
 			<h3>LATEST</h3>
 			<ul>
 				<li>
-					December 6, 2024 (<i>Westword</i>)
+					December 6, 2024 (<i>Westword</i>):
 					<a
 						href="https://www.westword.com/arts/cinderella-city-exhibit-brings-famed-metro-denver-mall-back-to-life-22705262"
 						target="_blank"
@@ -263,7 +263,7 @@
 					</a>
 				</li>
 				<li>
-					March 21, 2024 (<i>Englewood Herald</i>)
+					March 21, 2024 (<i>Englewood Herald</i>):
 					<a
 						href="https://coloradocommunitymedia.com/2024/03/21/englewood-historic-museum/"
 						target="_blank"
