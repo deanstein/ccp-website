@@ -72,9 +72,10 @@
 	navItemHistory.label = 'HISTORY';
 	navItemHistory.href = '/history';
 
-	const navItemAnatomy = instantiateObject(jdgNavItem);
-	navItemAnatomy.label = 'ANALYSIS';
-	navItemAnatomy.href = '/analysis';
+	/* Remove analysis page for now since it's not ready yet */
+	//const navItemAnatomy = instantiateObject(jdgNavItem);
+	//navItemAnatomy.label = 'ANALYSIS';
+	//navItemAnatomy.href = '/analysis';
 
 	const navItemSimulation = instantiateObject(jdgNavItem);
 	navItemSimulation.label = 'SIMULATION';
@@ -94,7 +95,7 @@
 		navItemPress,
 		navItemDonate,
 		navItemHistory,
-		navItemAnatomy,
+		/*navItemAnatomy,*/
 		navItemSimulation,
 		navItemExhibit,
 		navItemContact
