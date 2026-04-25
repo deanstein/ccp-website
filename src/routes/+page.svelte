@@ -228,7 +228,7 @@
 			<ul>
 				<li>
 					Mar 28, 2026: <a href="./history#timeline" target="_blank"
-						>📆 View the timeline of Cinderella City</a
+						>🕰️ View the timeline of Cinderella City</a
 					> (work in progress)
 				</li>
 				<li>
