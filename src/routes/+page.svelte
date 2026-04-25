@@ -227,8 +227,13 @@
 		<JDGBodyCopy paddingTop="0" simpleHyperlinkStyle={true}>
 			<ul>
 				<li>
+					Mar 28, 2026: <a href="./history#timeline" target="_blank"
+						>📆 View the timeline of Cinderella City</a
+					> (work in progress)
+				</li>
+				<li>
 					Jun 22, 2024: <a href="./exhibit" target="_blank"
-						>🖼️ The Cinderella City exhibit is now open</a
+						>🖼️ Experience the Cinderella City exhibit</a
 					>
 				</li>
 				<li>
