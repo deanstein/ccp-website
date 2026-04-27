@@ -6,8 +6,8 @@
 		JDGBodyCopy,
 		JDGContentBoxFloating,
 		JDGContentContainer,
-		JDGGridLayout,
 		JDGImageFullWidth,
+		JDGImageHybridGridCarousel,
 		JDGImageTile,
 		JDGJumpTo,
 		JDGUpNext
@@ -199,10 +199,13 @@
 			for Englewood's future.
 			<a href="./save-civic-center">Read about it and sign the petition</a>.
 		</JDGBodyCopy>
-		<JDGGridLayout>
-			<JDGImageTile imageMeta={imageMetaRegistry.ecc_existing_south} showCaption />
-			<JDGImageTile imageMeta={imageMetaRegistry.ecc_reuse_opt_5_terraces} showCaption />
-		</JDGGridLayout>
+		<JDGImageHybridGridCarousel
+			imageMetaSet={[
+				imageMetaRegistry.ecc_existing_south,
+				imageMetaRegistry.ecc_reuse_opt_5_terraces
+			]}
+			showCaption={true}
+		/>
 		<JDGBodyCopy paddingBottom="0">
 			<h3>Historic Englewood Museum</h3>
 			<!-- prettier-ignore -->
@@ -210,10 +213,14 @@
 			helped design and build Englewood's first history museum and its inaugural
 			<a href="./exhibit">Cinderella City exhibit</a>.
 		</JDGBodyCopy>
-		<JDGGridLayout>
-			<JDGImageTile imageMeta={imageMetaRegistry.ccp_exhibit_4} showCaption />
-			<JDGImageTile imageMeta={imageMetaRegistry.ccp.exhibit.theater_2} showCaption />
-		</JDGGridLayout>
+		<JDGImageHybridGridCarousel
+			imageMetaSet={[
+				imageMetaRegistry.ccp_exhibit_4,
+				imageMetaRegistry.ccp.exhibit.theater_2
+			]}
+			showCaption={true}
+			showAttribution={false}
+		/>
 		<JDGBodyCopy paddingBottom="0">
 			<h3>The Villa Italia Project</h3>
 			Villa Italia was Cinderella City's sister mall: Designed and developed by the same man and experiencing

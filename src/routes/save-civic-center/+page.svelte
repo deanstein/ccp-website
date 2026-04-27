@@ -1,5 +1,5 @@
 <script>
-	import { JDGGridLayout, JDGH3H4, JDGJumpTo, jdgSharedUrlsStore } from 'jdg-ui-svelte';
+	import { JDGH3H4, JDGJumpTo, jdgSharedUrlsStore } from 'jdg-ui-svelte';
 	import imageMetaRegistry from '$lib/image-meta-registry';
 
 	import {
@@ -7,6 +7,7 @@
 		JDGContentBoxFloating,
 		JDGContentContainer,
 		JDGImageFullWidth,
+		JDGImageHybridGridCarousel,
 		JDGImageTile,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
@@ -108,16 +109,14 @@
 			farmer's market, and adding a terraced park made possible by moving the parking garage to a new
 			location.
 		</JDGBodyCopy>
-		<JDGGridLayout>
-			<JDGImageTile
-				imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_heart}
-				cropToFillContainer={false}
-			/>
-			<JDGImageTile
-				imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_aerial}
-				cropToFillContainer={false}
-			/>
-		</JDGGridLayout>
+		<JDGImageHybridGridCarousel
+			imageMetaSet={[
+				imageMetaRegistry.save_civic_center.ecc_reuse_heart,
+				imageMetaRegistry.save_civic_center.ecc_reuse_aerial
+			]}
+			cropToFillContainer={false}
+			showCaption={false}
+		/>
 		<JDGBodyCopy>
 			But the building's specific use comes down to two options, depending on budget:
 		</JDGBodyCopy>
