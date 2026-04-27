@@ -197,7 +197,7 @@
 			<br /><br />
 			The Cinderella City Project thinks so and has presented options to save and reuse the building
 			for Englewood's future.
-			<a href="./save-englewood-civic-center">Read about it and sign the petition</a>.
+			<a href="./save-civic-center">Read about it and sign the petition</a>.
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile imageMeta={imageMetaRegistry.ecc_existing_south} showCaption />
