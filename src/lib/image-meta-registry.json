@@ -667,16 +667,16 @@
   "save_civic_center": {
     "ecc_reuse_opt_5_composite": {
       "id": "4dcad5e2-d900-4f39-98c5-e1f7aa3f74d2",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777249247/ccp-website/save-civic-center/ecc-reuse-opt-5-composite.png",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777267376/ccp-website/save-civic-center/ecc-reuse-opt-5-composite.jpg",
       "caption": "A composite view showing existing and new versions of the Englewood Civic Center's southwest facade.",
       "attribution": "",
       "alt": "A composite view showing existing and new versions of the Englewood Civic Center's southwest facade.",
       "title": "",
+      "date": "2021-01-25",
       "isApprxDate": false,
       "showBackgroundBlur": true,
       "toolbarJustification": "right",
-      "version": "0.7.1",
-      "date": "2021-01-25"
+      "version": "0.7.1"
     },
     "ecc_reuse_opt_4_terraces": {
       "id": "0dfa5cc1-8698-42ca-b3e6-d97eb192a376",
