@@ -1,5 +1,5 @@
 <script>
-	import { JDGH3H4, JDGJumpTo, jdgSharedUrlsStore } from 'jdg-ui-svelte';
+	import { JDGGridLayout, JDGH3H4, JDGJumpTo, jdgSharedUrlsStore } from 'jdg-ui-svelte';
 	import imageMetaRegistry from '$lib/image-meta-registry';
 
 	import {
@@ -54,9 +54,9 @@
 			of the Colorado market, leaving several Colorado malls with a sudden vacancy in a newly-constructed
 			building.
 			<br /><br />
-			In 1988, May D&F moved to the Broadway building from the former Denver Dry Good location at
-			the other end of the Rose Mall. In the 1990s, the May Company consolidated brands, and Cinderella
-			City's May D&F became Foley's.
+			In 1988, May D&F moved to the Broadway building from the former Denver Dry Good location at the
+			other end of the Rose Mall. In the 1990s, the May Company consolidated brands, and Cinderella City's
+			May D&F became Foley's.
 			<br /><br />
 			As Cinderella City aged, foot traffic tapered and stores began reconsidering their future at the
 			mall. In 1994, Foley's was one of several department stores to vacate Cinderella City in a mass
@@ -91,17 +91,34 @@
 			and his family often passed by Cinderella City Mall along Santa Fe Drive, closest to the former
 			Foley's building which had become a fading landmark standing silently as the mall decayed around
 			it.
-			<br /><br />
-			Inspired into an architecture and software career thanks to Cinderella City, Josh learned of the
-			Civic Center redevelopment plans and decided to combine his experience to illustrate a different
-			outcome: A future where the building is saved and Englewood benefits from extending its life once
-			more.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageMeta={imageMetaRegistry.ecc_abandoned_1}
+			cropToFillContainer={false}
+			showCaption
+		/>
+		<JDGBodyCopy>
+			After building a career in architecture and software inspired by Cinderella City, Josh learned
+			of the Civic Center redevelopment plans and decided to combine his experience to illustrate a
+			different outcome: A future where the building is saved and Englewood benefits from extending
+			its life once more.
 			<br /><br />
 			The reuse concept aims to become the new heart of Englewood City Center by creating new public
 			plazas with exhibits celebrating the site's history, reimagining the east paseo as a permanent
 			farmer's market, and adding a terraced park made possible by moving the parking garage to a new
 			location.
-			<br /><br />
+		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile
+				imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_heart}
+				cropToFillContainer={false}
+			/>
+			<JDGImageTile
+				imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_aerial}
+				cropToFillContainer={false}
+			/>
+		</JDGGridLayout>
+		<JDGBodyCopy>
 			But the building's specific use comes down to two options, depending on budget:
 		</JDGBodyCopy>
 		<JDGH3H4 h3String="Option 1: Food Hall + Coworking"></JDGH3H4>
@@ -138,7 +155,7 @@
 			to the City of Englewood encouraging them to consider alternatives to demolition for the Civic
 			Center building.
 			<br /><br />
-			Over 1,200 people have signed so far! Add yours at
+			Over 1,200 people have signed so far! Add your support at
 			<a href={$jdgSharedUrlsStore.ccpCivicCenterPetition} target="_blank">Change.org</a>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
