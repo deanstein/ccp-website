@@ -54,7 +54,7 @@
 			of the Colorado market, leaving several Colorado malls with a sudden vacancy in a newly-constructed
 			building.
 			<br /><br />
-			In the 1988, May D&F moved to the Broadway building from the former Denver Dry Good location at
+			In 1988, May D&F moved to the Broadway building from the former Denver Dry Good location at
 			the other end of the Rose Mall. In the 1990s, the May Company consolidated brands, and Cinderella
 			City's May D&F became Foley's.
 			<br /><br />
