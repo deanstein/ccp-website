@@ -677,6 +677,19 @@
       "toolbarJustification": "right",
       "version": "0.7.1",
       "date": "2021-01-25"
+    },
+    "ecc_reuse_opt_4_terraces": {
+      "id": "0dfa5cc1-8698-42ca-b3e6-d97eb192a376",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777261783/ccp-website/save-civic-center/ecc-reuse-opt-4-terraces.png",
+      "caption": "This option splits the building in the middle to support a hotel use on the upper floors. Like the other concept, this one benefits from new public plazas and parks in place of the former parking garage.",
+      "attribution": "",
+      "alt": "This option splits the building in the middle to support a hotel use on the upper floors. Like the other concept, this one benefits from new public plazas and parks in place of the former parking garage.",
+      "title": "",
+      "isApprxDate": false,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "2020-11-18"
     }
   }
 }
