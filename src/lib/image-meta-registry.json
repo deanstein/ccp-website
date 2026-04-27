@@ -663,5 +663,20 @@
         "date": "2025-08-30"
       }
     }
+  },
+  "save_civic_center": {
+    "ecc_reuse_opt_5_composite": {
+      "id": "4dcad5e2-d900-4f39-98c5-e1f7aa3f74d2",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777249247/ccp-website/save-civic-center/ecc-reuse-opt-5-composite.png",
+      "caption": "A composite view showing existing and new versions of the Englewood Civic Center's southwest facade.",
+      "attribution": "",
+      "alt": "A composite view showing existing and new versions of the Englewood Civic Center's southwest facade.",
+      "title": "",
+      "isApprxDate": false,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "2021-01-25"
+    }
   }
 }
