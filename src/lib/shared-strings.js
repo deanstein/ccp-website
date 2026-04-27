@@ -48,5 +48,11 @@ export const pageMeta = {
 		description: 'About the Cinderella City Simulation',
 		image: imageMetaRegistry.ccp_blue_mall_60s70s_1.imgSrc,
 		url: '/simulation'
+	},
+	saveCivicCenter: {
+		title: 'Save the Englewood Civic Center',
+		description: 'Adaptive reuse proposal for the last remaining piece of Cinderella City',
+		image: imageMetaRegistry.ecc_reuse_opt_5_terraces.imgSrc,
+		url: '/save-civic-center'
 	}
 };

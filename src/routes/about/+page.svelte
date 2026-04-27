@@ -187,50 +187,22 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="OTHER INITIATIVES">
 		<JDGBodyCopy paddingTop="0" paddingBottom="0" textAlign="center" textWrap="balance">
-			The creator of The Cinderella City Project is involved in other endeavors related to
-			Cinderella City and adjacent topics:
+			The creator of the Cinderella City Project is involved in other Cinderella City-adjacent
+			topics and projects:
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingBottom="0" textAlign="center" textWrap="balance">
 			<h3>Saving The Englewood Civic Center</h3>
-			<!-- prettier-ignore -->
-			One final piece of Cinderella City is still standing, but maybe not for long.</JDGBodyCopy
-		>
-		<JDGGridLayout>
-			<JDGImageTile
-				imageMeta={imageMetaRegistry.ecc_abandoned_1}
-				showCaption
-				cropToFillContainer={false}
-			/>
-		</JDGGridLayout>
-		<JDGBodyCopy paddingBottom="0" paddingTop="0">
-			Originally built as the Broadway Southwest in 1985 as part of Cinderella City's mid-life
-			renovation, the building now known as the Englewood Civic Center was saved from the wrecking
-			ball and adaptively reused into its current form in 2000.
-		</JDGBodyCopy>
-		<JDGImageTile
-			imageMeta={imageMetaRegistry.ecc_existing_south}
-			showCaption
-			cropToFillContainer={false}
-		/>
-		<JDGBodyCopy paddingBottom="0" paddingTop="0">
-			Now, the Englewood Civic Center may be razed as part of an Englewood redevelopment plan
-			currently taking shape.
+			One last piece of Cinderella City remains standing after it was saved from demolition in 1998.
+			As Englewood plots its future, can this building be saved again?
 			<br /><br />
-			Harnessing his experience in retail design and software engineering, Josh put together an adaptive
-			reuse concept for the City of Englewood to demonstrate the benefits and possibilities of reconfiguring
-			the building and extending its life once more. The design includes new uses like Englewood's first
-			food hall, public plazas with history exhibits, and other possible uses like a hotel and office
-			space.
+			The Cinderella City Project thinks so and has presented options to save and reuse the building
+			for Englewood's future.
+			<a href="./save-englewood-civic-center">Read about it and sign the petition</a>.
 		</JDGBodyCopy>
-		<JDGImageTile
-			imageMeta={imageMetaRegistry.ecc_reuse_opt_5_terraces}
-			showCaption
-			cropToFillContainer={false}
-		/>
-		<JDGBodyCopy paddingTop="0">
-			Check out the proposed concept and support it by signing your name at
-			<a href={$jdgSharedUrlsStore.ccpCivicCenterPetition} target="_blank">Change.org</a>.
-		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile imageMeta={imageMetaRegistry.ecc_existing_south} showCaption />
+			<JDGImageTile imageMeta={imageMetaRegistry.ecc_reuse_opt_5_terraces} showCaption />
+		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
 			<h3>Historic Englewood Museum</h3>
 			<!-- prettier-ignore -->
@@ -238,14 +210,10 @@
 			helped design and build Englewood's first history museum and its inaugural
 			<a href="./exhibit">Cinderella City exhibit</a>.
 		</JDGBodyCopy>
-		<JDGImageTile
-			imageMeta={imageMetaRegistry.ccp_exhibit_4}
-			showCaption
-			cropToFillContainer={false}
-		/>
-		<JDGBodyCopy paddingTop="0">
-			The Cinderella City exhibit is on now through July 26, 2025.
-		</JDGBodyCopy>
+		<JDGGridLayout>
+			<JDGImageTile imageMeta={imageMetaRegistry.ccp_exhibit_4} showCaption />
+			<JDGImageTile imageMeta={imageMetaRegistry.ccp.exhibit.theater_2} showCaption />
+		</JDGGridLayout>
 		<JDGBodyCopy paddingBottom="0">
 			<h3>The Villa Italia Project</h3>
 			Villa Italia was Cinderella City's sister mall: Designed and developed by the same man and experiencing

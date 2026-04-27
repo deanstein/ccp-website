@@ -1,0 +1,157 @@
+<script>
+	import { JDGH3H4, JDGJumpTo, jdgSharedUrlsStore } from 'jdg-ui-svelte';
+	import imageMetaRegistry from '$lib/image-meta-registry';
+
+	import {
+		JDGBodyCopy,
+		JDGContentBoxFloating,
+		JDGContentContainer,
+		JDGImageFullWidth,
+		JDGImageTile,
+		JDGUpNext
+	} from 'jdg-ui-svelte';
+	import Donate from '$lib/components/Donate.svelte';
+</script>
+
+<JDGContentContainer overlapWithHeader={true} paddingTop="0" gap="0">
+	<JDGImageFullWidth
+		imageMeta={imageMetaRegistry.ecc_abandoned_1}
+		showOverlay={true}
+		overlayColorRgba="rgba(30, 30, 30, 0.6)"
+		primaryText="SAVING THE ENGLEWOOD CIVIC CENTER"
+		primaryTextFontFamily="Righteous"
+		overlayImageTextFontFamily="Righteous"
+		overlapWithHeader={true}
+	/>
+	<JDGContentBoxFloating animateWhenVisible={false}>
+		<JDGBodyCopy
+			fontSizeMultiplier={1.15}
+			paddingTop="0"
+			paddingBottom="0"
+			textAlign="center"
+			textWrap="balance"
+		>
+			Spared from the wrecking ball once already, the last vestige of Cinderella City Mall may face
+			demolition again.
+			<br /><br /> As the City of Englewood plans the next evolution of the former Cinderella City Mall
+			site, can this former department store find a third life?
+		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+</JDGContentContainer>
+<JDGJumpTo />
+<JDGContentContainer>
+	<JDGContentBoxFloating title="HISTORY">
+		<JDGBodyCopy paddingBottom="0" paddingTop="0">
+			Today's Englewood Civic Center started life as a department store built specifically to
+			rejuvenate the aging <a href="./history">Cinderella City Mall</a>.
+			<br /><br />
+			Capping the third and final phase of a $15 million mall-wide renovation, Cinderella City announced
+			in 1983 that it planned to demolish the vacant Cinema and Neusteters and introduce a new brand
+			to the Colorado market: <b>Broadway Southwest</b>.
+			<br /><br />
+			Broadway Southwest opened at Cinderella City to great fanfare in October of 1985. Two years later
+			in an unfortunate twist, Broadway Southwest's parent company would announce it was pulling out
+			of the Colorado market, leaving several Colorado malls with a sudden vacancy in a newly-constructed
+			building.
+			<br /><br />
+			In the 1988, May D&F moved to the Broadway building from the former Denver Dry Good location at
+			the other end of the Rose Mall. In the 1990s, the May Company consolidated brands, and Cinderella
+			City's May D&F became Foley's.
+			<br /><br />
+			As Cinderella City aged, foot traffic tapered and stores began reconsidering their future at the
+			mall. In 1994, Foley's was one of several department stores to vacate Cinderella City in a mass
+			exodus.
+			<br /><br />
+			The building remained vacant through the mall's final days at the end of 1997. In 1998, the City
+			of Englewood announced it would save the building from demolition to serve as a new multi-use civic
+			center for the city. It would be detached from Cinderella City's west wing and remain standing
+			as the rest of the mall and its parking garage were demolished around it.
+		</JDGBodyCopy>
+		<JDGBodyCopy paddingBottom="0" paddingTop="0">
+			On the interior, the renovations gutted the existing building and added large interior
+			staircases to better connect its three levels. Outside, new windows, entrances, and
+			architectural expressions dramatically changed its street presence.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageMeta={imageMetaRegistry.ecc_existing_south}
+			showCaption
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy>
+			Over 40 years and two distinct lives later, the Englewood Civic Center building may be facing
+			its final reckoning. The City of Englewood is exploring a second redevelopment of the former
+			Cinderella City site, with some proposals calling for Civic Center demolition.
+		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="PROPOSAL">
+		<JDGBodyCopy paddingTop="0">
+			Growing up in nearby Littleton, <a href={'https://jdeangoldstein.com'} target="_blank"
+				>Josh Goldstein</a
+			>
+			and his family often passed by Cinderella City Mall along Santa Fe Drive, closest to the former
+			Foley's building which had become a fading landmark standing silently as the mall decayed around
+			it.
+			<br /><br />
+			Inspired into an architecture and software career thanks to Cinderella City, Josh learned of the
+			Civic Center redevelopment plans and decided to combine his experience to illustrate a different
+			outcome: A future where the building is saved and Englewood benefits from extending its life once
+			more.
+			<br /><br />
+			The reuse concept aims to become the new heart of Englewood City Center by creating new public
+			plazas with exhibits celebrating the site's history, reimagining the east paseo as a permanent
+			farmer's market, and adding a terraced park made possible by moving the parking garage to a new
+			location.
+			<br /><br />
+			But the building's specific use comes down to two options, depending on budget:
+		</JDGBodyCopy>
+		<JDGH3H4 h3String="Option 1: Food Hall + Coworking"></JDGH3H4>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
+			Economical and feasible: Keep the building intact, but add large windows to increase natural
+			lighting for spaces inside. Add a new Englewood food hall on the ground level with coworking
+			spaces and offices above.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageMeta={imageMetaRegistry.ecc_reuse_opt_5_terraces}
+			showCaption
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy paddingTop="0"></JDGBodyCopy>
+		<JDGH3H4 h3String="Option 2: Food Hall + Hotel"></JDGH3H4>
+		<JDGBodyCopy paddingTop="0" paddingBottom="0">
+			Expensive but exquisite: Split the building into two halves to support a hotel use on the
+			upper floors. Activate the lower levels with a history-focused alleyway flanked on either side
+			by a new Englewood food hall.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_opt_4_terraces}
+			showCaption
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy>
+			Read more about the options and support the project at
+			<a href={$jdgSharedUrlsStore.ccpCivicCenterPetition} target="_blank">Change.org</a>.
+		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+	<JDGContentBoxFloating title="PETITION">
+		<JDGBodyCopy paddingTop="0">
+			To demonstrate public interest in the concept, the Cinderella City Project created a petition
+			to the City of Englewood encouraging them to consider alternatives to demolition for the Civic
+			Center building.
+			<br /><br />
+			Over 1,200 people have signed so far! Add yours at
+			<a href={$jdgSharedUrlsStore.ccpCivicCenterPetition} target="_blank">Change.org</a>.
+		</JDGBodyCopy>
+	</JDGContentBoxFloating>
+	<Donate />
+	<JDGUpNext
+		item1Label={'ABOUT THE PROJECT'}
+		item1Href={'./about'}
+		item1ImageAttributes={imageMetaRegistry.ccp_construction_60s70s_3}
+		item2Label={'READ THE FULL HISTORY'}
+		item2Href="./history"
+		item2ImageAttributes={imageMetaRegistry.rose_mall_60s70s_construction_1}
+		item3Label="EXPERIENCE THE SIMULATION"
+		item3Href="./simulation"
+		item3ImageAttributes={imageMetaRegistry.ccp_blue_mall_60s70s_2}
+	/>
+</JDGContentContainer>

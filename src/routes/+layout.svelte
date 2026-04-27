@@ -85,6 +85,10 @@
 	navItemExhibit.label = 'EXHIBIT';
 	navItemExhibit.href = '/exhibit';
 
+	const navItemCivicCenter = instantiateObject(jdgNavItem);
+	navItemCivicCenter.label = 'CIVIC CENTER PETITION';
+	navItemCivicCenter.href = '/save-civic-center';
+
 	const navItemContact = instantiateObject(jdgNavItem);
 	navItemContact.label = 'CONTACT';
 	navItemContact.href = '/contact';
@@ -98,6 +102,7 @@
 		/*navItemAnatomy,*/
 		navItemSimulation,
 		navItemExhibit,
+		navItemCivicCenter,
 		navItemContact
 	];
 
