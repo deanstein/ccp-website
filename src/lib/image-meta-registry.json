@@ -690,6 +690,19 @@
       "toolbarJustification": "right",
       "version": "0.7.1",
       "date": "2020-11-18"
+    },
+    "ecc_reuse_heart": {
+      "id": "772c18d2-6ede-402d-bdac-c1f17fa12793",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777262579/ccp-website/save-civic-center/ecc-reuse-heart.png",
+      "caption": "The adaptive reuse concepts intend to create the heart of CityCenter by improving connectivity and embracing the site's terrain.",
+      "attribution": "",
+      "alt": "The adaptive reuse concepts intend to create the heart of CityCenter by improving connectivity and embracing the site's terrain.",
+      "title": "",
+      "isApprxDate": false,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "2020-11-18"
     }
   }
 }
