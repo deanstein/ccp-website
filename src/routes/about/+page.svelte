@@ -214,10 +214,7 @@
 			<a href="./exhibit">Cinderella City exhibit</a>.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
-			imageMetaSet={[
-				imageMetaRegistry.ccp_exhibit_4,
-				imageMetaRegistry.ccp.exhibit.theater_2
-			]}
+			imageMetaSet={[imageMetaRegistry.ccp_exhibit_4, imageMetaRegistry.ccp.exhibit.theater_2]}
 			showCaption={true}
 			showAttribution={false}
 		/>

@@ -84,14 +84,13 @@
 			Cinderella City site, with some proposals calling for Civic Center demolition.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="PROPOSAL">
+	<JDGContentBoxFloating title="THE IDEA">
 		<JDGBodyCopy paddingTop="0">
 			Growing up in nearby Littleton, <a href={'https://jdeangoldstein.com'} target="_blank"
 				>Josh Goldstein</a
 			>
-			and his family often passed by Cinderella City Mall along Santa Fe Drive, closest to the former
-			Foley's building which had become a fading landmark standing silently as the mall decayed around
-			it.
+			and his family often drove by Cinderella City Mall, passing closest to the former Foley's building
+			which had become a fading landmark standing silently as the mall splipped further into decline.
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageMeta={imageMetaRegistry.ecc_abandoned_1}
@@ -104,10 +103,9 @@
 			different outcome: A future where the building is saved and Englewood benefits from extending
 			its life once more.
 			<br /><br />
-			The reuse concept creates the new heart of Englewood City Center by building new public
-			plazas with exhibits celebrating the site's history, reimagining the east paseo as a permanent
-			farmer's market, and adding a terraced park made possible by moving the parking garage to a new
-			location.
+			The reuse concept creates the new heart of Englewood City Center by building new public plazas
+			with exhibits celebrating the site's history, reimagining the east paseo as a permanent farmer's
+			market, and adding a terraced park made possible by moving the parking garage to a new location.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
 			imageMetaSet={[
@@ -150,9 +148,8 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="PETITION">
 		<JDGBodyCopy paddingTop="0">
-			The Cinderella City Project created a friendly petition
-			to the City of Englewood encouraging them to consider alternatives to demolition for the Civic
-			Center building.
+			The Cinderella City Project created a friendly petition to the City of Englewood encouraging
+			them to consider alternatives to demolition for the Civic Center building.
 			<br /><br />
 			Over 1,200 people have signed so far! Add your support at
 			<a href={$jdgSharedUrlsStore.ccpCivicCenterPetition} target="_blank">Change.org</a>.
