@@ -18,7 +18,7 @@
 	<JDGImageFullWidth
 		imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_opt_5_composite}
 		showOverlay={true}
-		overlayColorRgba="rgba(30, 30, 30, 0.6)"
+		overlayColorRgba="rgba(30, 30, 30, 0.8)"
 		primaryText="REIMAGINING ENGLEWOOD CIVIC CENTER"
 		primaryTextFontFamily="Righteous"
 		overlayImageTextFontFamily="Righteous"
