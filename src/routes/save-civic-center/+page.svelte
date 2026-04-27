@@ -16,10 +16,10 @@
 
 <JDGContentContainer overlapWithHeader={true} paddingTop="0" gap="0">
 	<JDGImageFullWidth
-		imageMeta={imageMetaRegistry.ecc_abandoned_1}
+		imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_opt_5_composite}
 		showOverlay={true}
 		overlayColorRgba="rgba(30, 30, 30, 0.6)"
-		primaryText="SAVING THE ENGLEWOOD CIVIC CENTER"
+		primaryText="REIMAGINING ENGLEWOOD CIVIC CENTER"
 		primaryTextFontFamily="Righteous"
 		overlayImageTextFontFamily="Righteous"
 		overlapWithHeader={true}
@@ -99,12 +99,12 @@
 			showCaption
 		/>
 		<JDGBodyCopy>
-			After building a career in architecture and software inspired by Cinderella City, Josh learned
+			Having built a career in architecture and software inspired by Cinderella City, Josh learned
 			of the Civic Center redevelopment plans and decided to combine his experience to illustrate a
 			different outcome: A future where the building is saved and Englewood benefits from extending
 			its life once more.
 			<br /><br />
-			The reuse concept aims to become the new heart of Englewood City Center by creating new public
+			The reuse concept creates the new heart of Englewood City Center by building new public
 			plazas with exhibits celebrating the site's history, reimagining the east paseo as a permanent
 			farmer's market, and adding a terraced park made possible by moving the parking garage to a new
 			location.
@@ -118,7 +118,7 @@
 			showCaption={false}
 		/>
 		<JDGBodyCopy>
-			But the building's specific use comes down to two options, depending on budget:
+			But the Civic Center building's specific use comes down to two options, depending on budget:
 		</JDGBodyCopy>
 		<JDGH3H4 h3String="Option 1: Food Hall + Coworking"></JDGH3H4>
 		<JDGBodyCopy paddingTop="0" paddingBottom="0">
@@ -150,7 +150,7 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="PETITION">
 		<JDGBodyCopy paddingTop="0">
-			To demonstrate public interest in the concept, the Cinderella City Project created a petition
+			The Cinderella City Project created a friendly petition
 			to the City of Englewood encouraging them to consider alternatives to demolition for the Civic
 			Center building.
 			<br /><br />
