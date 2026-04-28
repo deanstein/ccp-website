@@ -47,8 +47,8 @@
 			rejuvenate the aging <a href="./history">Cinderella City Mall</a>.
 			<br /><br />
 			Capping the third and final phase of a $15 million mall-wide renovation, Cinderella City announced
-			in 1983 that it planned to demolish the vacant Cinema and Neusteters building and introduce a new brand
-			to the Colorado market: <b>Broadway Southwest</b>.
+			in 1983 that it planned to demolish the vacant Cinema and Neusteters building and introduce a new
+			brand to the Colorado market: <b>Broadway Southwest</b>.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
 			imageMetaSet={[
@@ -97,11 +97,9 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="THE IDEA">
 		<JDGBodyCopy paddingTop="0">
-			Growing up in nearby Littleton, <a href={'https://jdeangoldstein.com'} target="_blank"
-				>Josh Goldstein</a
-			>
+			<a href={'https://jdeangoldstein.com'} target="_blank">Josh Goldstein</a>
 			and his family often drove by Cinderella City Mall, passing closest to the former Foley's building
-			which had become a fading landmark standing silently as the mall splipped further into decline.
+			which had become a fading landmark, standing silently as the mall slipped further into decline.
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageMeta={imageMetaRegistry.ecc_abandoned_1}
