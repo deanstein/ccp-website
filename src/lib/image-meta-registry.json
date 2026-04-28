@@ -305,6 +305,19 @@
       "toolbarJustification": "right",
       "version": "0.7.1",
       "date": "1985-10-01"
+    },
+    "_1980s_broadway_southwest_bridge": {
+      "id": "9b422131-b751-4538-b252-194031f798c6",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777356082/ccp-website/rose-mall/1980s-broadway-southwest-bridge.jpg",
+      "caption": "The southeast entrance of the Broadway Southwest department store",
+      "attribution": "Englewood Public Library",
+      "alt": "The southeast entrance of the Broadway Southwest department store",
+      "title": "",
+      "isApprxDate": true,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "1985-01-01"
     }
   },
   "demolition": {
