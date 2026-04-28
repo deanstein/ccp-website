@@ -266,6 +266,19 @@
       "alt": "City Campus, an extension of Englewood High School, was on the mezzanine level.",
       "caption": "City Campus, an extension of Englewood High School, was on the mezzanine level.",
       "attribution": "Englewood Public Library"
+    },
+    "_1984_broadway_southwest_sign": {
+      "id": "c914d9bd-80a5-4e12-b8fc-646938184773",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777355703/ccp-website/rose-mall/1984-broadway-southwest-sign.jpg",
+      "caption": "A sign proclaiming Broadway Southwest during its construction at Cinderella City",
+      "attribution": "",
+      "alt": "A sign proclaiming Broadway Southwest during its construction at Cinderella City",
+      "title": "",
+      "isApprxDate": true,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "1984-01-01"
     }
   },
   "demolition": {
