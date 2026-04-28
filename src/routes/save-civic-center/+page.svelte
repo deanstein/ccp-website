@@ -60,7 +60,7 @@
 			showCaption={true}
 			showAttribution={false}
 		/>
-		<JDGBodyCopy paddingBottom="0">
+		<JDGBodyCopy>
 			On November 1, 1985, Broadway Southwest opened at Cinderella City to great fanfare. Just two
 			years later in an unfortunate twist, Broadway Southwest's parent company would announce it was
 			pulling out of the Colorado market, leaving several Colorado malls with a sudden vacancy in a
@@ -73,11 +73,17 @@
 			As Cinderella City aged, foot traffic tapered and stores began reconsidering their future at the
 			mall. In 1994, Foley's was one of several department stores to vacate Cinderella City in a mass
 			exodus.
-			<br /><br />
-			The building remained vacant through the mall's final days at the end of 1997. In 1998, the City
-			of Englewood announced it would save the building from demolition to serve as a new multi-use civic
-			center for the city. It would be detached from Cinderella City's west wing and remain standing
-			as the rest of the mall and its parking garage were demolished around it.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageMeta={imageMetaRegistry.ecc_abandoned_1}
+			showCaption
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			The building remained vacant through the mall's final days at the end of 1997. In 1998, the
+			City of Englewood announced it would save the building from demolition to serve as a new
+			multi-use civic center for the city. It would be detached from Cinderella City's west wing and
+			remain standing as the rest of the mall and its parking garage were demolished around it.
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0">
 			On the interior, the renovations gutted the existing building and added large interior
