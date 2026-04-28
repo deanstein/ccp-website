@@ -42,18 +42,29 @@
 <JDGJumpTo />
 <JDGContentContainer>
 	<JDGContentBoxFloating title="HISTORY">
-		<JDGBodyCopy paddingBottom="0" paddingTop="0">
+		<JDGBodyCopy paddingTop="0">
 			Today's Englewood Civic Center started life as a department store built specifically to
 			rejuvenate the aging <a href="./history">Cinderella City Mall</a>.
 			<br /><br />
 			Capping the third and final phase of a $15 million mall-wide renovation, Cinderella City announced
-			in 1983 that it planned to demolish the vacant Cinema and Neusteters and introduce a new brand
+			in 1983 that it planned to demolish the vacant Cinema and Neusteters building and introduce a new brand
 			to the Colorado market: <b>Broadway Southwest</b>.
-			<br /><br />
-			Broadway Southwest opened at Cinderella City to great fanfare in October of 1985. Two years later
-			in an unfortunate twist, Broadway Southwest's parent company would announce it was pulling out
-			of the Colorado market, leaving several Colorado malls with a sudden vacancy in a newly-constructed
-			building.
+		</JDGBodyCopy>
+		<JDGImageHybridGridCarousel
+			imageMetaSet={[
+				imageMetaRegistry.rose_mall._1984_neusteters_demolition_1,
+				imageMetaRegistry.rose_mall._1985_broadway_southwest_construction_1,
+				imageMetaRegistry.rose_mall._1984_broadway_southwest_sign
+			]}
+			cropToFillContainer={false}
+			showCaption={true}
+			showAttribution={false}
+		/>
+		<JDGBodyCopy paddingBottom="0">
+			On November 1, 1985, Broadway Southwest opened at Cinderella City to great fanfare. Just two
+			years later in an unfortunate twist, Broadway Southwest's parent company would announce it was
+			pulling out of the Colorado market, leaving several Colorado malls with a sudden vacancy in a
+			newly-constructed building.
 			<br /><br />
 			In 1988, May D&F moved to the Broadway building from the former Denver Dry Good location at the
 			other end of the Rose Mall. In the 1990s, the May Company consolidated brands, and Cinderella City's
@@ -68,7 +79,7 @@
 			center for the city. It would be detached from Cinderella City's west wing and remain standing
 			as the rest of the mall and its parking garage were demolished around it.
 		</JDGBodyCopy>
-		<JDGBodyCopy paddingBottom="0" paddingTop="0">
+		<JDGBodyCopy paddingTop="0">
 			On the interior, the renovations gutted the existing building and added large interior
 			staircases to better connect its three levels. Outside, new windows, entrances, and
 			architectural expressions dramatically changed its street presence.
