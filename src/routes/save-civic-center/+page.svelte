@@ -83,18 +83,21 @@
 			As Cinderella City aged, foot traffic tapered and stores began reconsidering their future at
 			the mall. In 1994, Foley's was one of several department stores to vacate Cinderella City in a
 			mass exodus.
+			<br /><br />
+			The building remained vacant through the mall's final days at the end of 1997. In 1998, the City
+			of Englewood announced it would save the building from demolition to serve as a new multi-use civic
+			center for the city. It would be detached from Cinderella City's west wing and remain standing
+			as the rest of the mall and its parking garage were demolished around it.
 		</JDGBodyCopy>
-		<JDGImageTile
-			imageMeta={imageMetaRegistry.ecc_abandoned_1}
-			showCaption
-			cropToFillContainer={false}
+		<JDGImageHybridGridCarousel
+			imageMetaSet={[
+				imageMetaRegistry.rose_mall._1998_foleys_detached_1,
+				imageMetaRegistry.rose_mall._1998_foleys_detached_2
+			]}
+			cropToFillContainer={true}
+			showCaption={true}
+			showAttribution={false}
 		/>
-		<JDGBodyCopy paddingBottom="0">
-			The building remained vacant through the mall's final days at the end of 1997. In 1998, the
-			City of Englewood announced it would save the building from demolition to serve as a new
-			multi-use civic center for the city. It would be detached from Cinderella City's west wing and
-			remain standing as the rest of the mall and its parking garage were demolished around it.
-		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0">
 			Inside, the renovations gutted the existing building and added large interior staircases to
 			better connect its three levels. Outside, new windows, entrances, and architectural
@@ -128,7 +131,7 @@
 			different outcome: A future where the building is saved and Englewood benefits from extending
 			its life once more.
 			<br /><br />
-			The reuse concept creates the new heart of Englewood City Center by building new public plazas
+			The reuse concept creates the new <b>Heart of Englewood City Center</b> by building new public plazas
 			with exhibits celebrating the site's history, reimagining the east paseo as a permanent farmer's
 			market, and adding a terraced park made possible by moving the parking garage to a new location.
 		</JDGBodyCopy>
