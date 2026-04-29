@@ -114,11 +114,11 @@
 			Cinderella City site, with some proposals calling for Civic Center demolition.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
-	<JDGContentBoxFloating title="THE IDEA">
+	<JDGContentBoxFloating title="ADAPTIVE REUSE">
 		<JDGBodyCopy paddingTop="0">
 			<a href={'https://jdeangoldstein.com'} target="_blank">Josh Goldstein</a>
 			and his family often drove by Cinderella City Mall, passing closest to the former Foley's building
-			which had become a fading landmark, standing silently as the mall slipped further into decline.
+			which had become a fading landmark standing silently as the mall slipped further into decline.
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageMeta={imageMetaRegistry.ecc_abandoned_1}
@@ -126,7 +126,7 @@
 			showCaption
 		/>
 		<JDGBodyCopy>
-			Having built a career in architecture and software inspired by Cinderella City, Josh learned
+			After building a career in architecture and software inspired by Cinderella City, Josh learned
 			of the Civic Center redevelopment plans and decided to combine his experience to illustrate a
 			different outcome: A future where the building is saved and Englewood benefits from extending
 			its life once more.
