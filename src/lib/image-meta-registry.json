@@ -810,16 +810,16 @@
     },
     "ecc_reuse_aerial": {
       "id": "d2f43a2b-bc6a-42e8-b1c0-0c273926ce6c",
-      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777262700/ccp-website/save-civic-center/ecc-reuse-aerial.png",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777437030/ccp-website/save-civic-center/ecc-reuse-aerial.png",
       "caption": "The adaptive reuse concepts share a common foundation: Removing the current parking garage and replacing it with a terraced promenade leading down to the ground level of the building. To replace the parking, the concept proposes constructing a new multifamily building on the southwest corner of the site with enough parking to support both the new building and the Civic Center.",
       "attribution": "",
       "alt": "The adaptive reuse concepts share a common foundation: Removing the current parking garage and replacing it with a terraced promenade leading down to the ground level of the building. To replace the parking, the concept proposes constructing a new multifamily building on the southwest corner of the site with enough parking to support both the new building and the Civic Center.",
       "title": "",
+      "date": "2020-11-18",
       "isApprxDate": false,
       "showBackgroundBlur": true,
       "toolbarJustification": "right",
-      "version": "0.7.1",
-      "date": "2020-11-18"
+      "version": "0.7.1"
     }
   }
 }
