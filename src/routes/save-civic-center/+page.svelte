@@ -61,17 +61,24 @@
 			showAttribution={false}
 		/>
 		<JDGBodyCopy>
-			On November 1, 1985, Broadway Southwest opened at Cinderella City to great fanfare. Just two years later, Broadway Southwest's parent company would announce it was
-			pulling out of the Colorado market, leaving several Colorado malls with a sudden vacancy in a
-			newly-constructed building.
+			On November 1, 1985, Broadway Southwest opened at Cinderella City to great fanfare. Just two
+			years later, Broadway Southwest's parent company would announce it was pulling out of the
+			Colorado market, leaving several Colorado malls with a sudden vacancy in a newly-constructed
+			building.
 			<br /><br />
 			In 1988, May D&F moved to the Broadway building from the former Denver Dry Good location at the
 			other end of the Rose Mall. In the 1990s, the May Company consolidated brands, and Cinderella City's
 			May D&F became Foley's.
-			<br /><br />
-			As Cinderella City aged, foot traffic tapered and stores began reconsidering their future at the
-			mall. In 1994, Foley's was one of several department stores to vacate Cinderella City in a mass
-			exodus.
+		</JDGBodyCopy>
+		<JDGImageTile
+			imageMeta={imageMetaRegistry.rose_mall._1992_01_22_foleys_bridge}
+			showCaption
+			cropToFillContainer={false}
+		/>
+		<JDGBodyCopy>
+			As Cinderella City aged, foot traffic tapered and stores began reconsidering their future at
+			the mall. In 1994, Foley's was one of several department stores to vacate Cinderella City in a
+			mass exodus.
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageMeta={imageMetaRegistry.ecc_abandoned_1}
@@ -85,9 +92,9 @@
 			remain standing as the rest of the mall and its parking garage were demolished around it.
 		</JDGBodyCopy>
 		<JDGBodyCopy paddingTop="0">
-			On the interior, the renovations gutted the existing building and added large interior
-			staircases to better connect its three levels. Outside, new windows, entrances, and
-			architectural expressions dramatically changed its street presence.
+			Inside, the renovations gutted the existing building and added large interior staircases to
+			better connect its three levels. Outside, new windows, entrances, and architectural
+			expressions dramatically changed its appearance.
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageMeta={imageMetaRegistry.ecc_existing_south}
