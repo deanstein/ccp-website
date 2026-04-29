@@ -70,10 +70,14 @@
 			other end of the Rose Mall. In the 1990s, the May Company consolidated brands, and Cinderella City's
 			May D&F became Foley's.
 		</JDGBodyCopy>
-		<JDGImageTile
-			imageMeta={imageMetaRegistry.rose_mall._1992_01_22_foleys_bridge}
-			showCaption
+		<JDGImageHybridGridCarousel
+			imageMetaSet={[
+				imageMetaRegistry.rose_mall._1990s_may_df_rose_mall_1,
+				imageMetaRegistry.rose_mall._1992_01_22_foleys_bridge
+			]}
 			cropToFillContainer={false}
+			showCaption={true}
+			showAttribution={false}
 		/>
 		<JDGBodyCopy>
 			As Cinderella City aged, foot traffic tapered and stores began reconsidering their future at
