@@ -18,7 +18,7 @@
 	<JDGImageFullWidth
 		imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_opt_5_composite}
 		showOverlay={true}
-		overlayColorRgba="rgba(30, 30, 30, 0.8)"
+		overlayColorRgba="rgba(30, 30, 30, 0.65)"
 		primaryText="REIMAGINING ENGLEWOOD CIVIC CENTER"
 		primaryTextFontFamily="Righteous"
 		overlayImageTextFontFamily="Righteous"
@@ -61,8 +61,7 @@
 			showAttribution={false}
 		/>
 		<JDGBodyCopy>
-			On November 1, 1985, Broadway Southwest opened at Cinderella City to great fanfare. Just two
-			years later in an unfortunate twist, Broadway Southwest's parent company would announce it was
+			On November 1, 1985, Broadway Southwest opened at Cinderella City to great fanfare. Just two years later, Broadway Southwest's parent company would announce it was
 			pulling out of the Colorado market, leaving several Colorado malls with a sudden vacancy in a
 			newly-constructed building.
 			<br /><br />
