@@ -116,9 +116,10 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="ADAPTIVE REUSE">
 		<JDGBodyCopy paddingTop="0">
-			<a href={'https://jdeangoldstein.com'} target="_blank">Josh Goldstein</a>
-			and his family often drove by Cinderella City Mall, passing closest to the former Foley's building
-			which had become a fading landmark standing silently as the mall slipped further into decline.
+			As a child, <a href={'https://jdeangoldstein.com'} target="_blank">Josh Goldstein</a>
+			and his family drove by Cinderella City Mall nearly every week, passing closest to the former Foley's
+			building which had become a fading landmark standing silently as the mall slipped further into
+			decline.
 		</JDGBodyCopy>
 		<JDGImageTile
 			imageMeta={imageMetaRegistry.ecc_abandoned_1}
@@ -131,9 +132,10 @@
 			different outcome: A future where the building is saved and Englewood benefits from extending
 			its life once more.
 			<br /><br />
-			The reuse concept creates the new <b>Heart of Englewood City Center</b> by building new public plazas
-			with exhibits celebrating the site's history, reimagining the east paseo as a permanent farmer's
-			market, and adding a terraced park made possible by moving the parking garage to a new location.
+			The reuse concept creates the new <b>Heart of Englewood City Center</b> by building new public
+			plazas with exhibits celebrating the site's history, reimagining the east paseo as a permanent
+			farmer's market, and adding a terraced park made possible by moving the parking garage to a new
+			location.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
 			imageMetaSet={[
