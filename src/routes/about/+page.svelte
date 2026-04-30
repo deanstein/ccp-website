@@ -202,7 +202,7 @@
 		<JDGImageHybridGridCarousel
 			imageMetaSet={[
 				imageMetaRegistry.ecc_existing_south,
-				imageMetaRegistry.ecc_reuse_opt_5_terraces
+				imageMetaRegistry.save_civic_center.ecc_reuse_opt_5_terraces_ai
 			]}
 			showCaption={true}
 		/>
