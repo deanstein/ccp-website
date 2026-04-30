@@ -820,6 +820,19 @@
       "showBackgroundBlur": true,
       "toolbarJustification": "right",
       "version": "0.7.1"
+    },
+    "ecc_reuse_opt_4_terraces_ai": {
+      "id": "5d13303b-653d-47a1-bb9b-01ec39afab1a",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777523787/ccp-website/save-civic-center/ecc-reuse-opt-4-terraces-ai.png",
+      "caption": "This option splits the building down the center, creating two hotel wings on the upper levels. In the middle, a new alleyway provides connectivity and offers exhibits showing the history of the site. As with the other options, the parking garage is replaced with terraces down to the ground level, with replacement parking in a multifamily building offscreen.",
+      "attribution": "Joshua Goldstein",
+      "alt": "This option splits the building down the center, creating two hotel wings on the upper levels. In the middle, a new alleyway provides connectivity and offers exhibits showing the history of the site. As with the other options, the parking garage is replaced with terraces down to the ground level, with replacement parking in a multifamily building offscreen.",
+      "title": "",
+      "isApprxDate": false,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "2026-04-25"
     }
   }
 }
