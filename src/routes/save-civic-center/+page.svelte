@@ -155,7 +155,7 @@
 			spaces and offices above.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageMeta={imageMetaRegistry.ecc_reuse_opt_5_terraces}
+			imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_opt_5_terraces_ai}
 			showCaption
 			cropToFillContainer={false}
 		/>
@@ -167,7 +167,7 @@
 			by a new Englewood food hall.
 		</JDGBodyCopy>
 		<JDGImageTile
-			imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_opt_4_terraces}
+			imageMeta={imageMetaRegistry.save_civic_center.ecc_reuse_opt_4_terraces_ai}
 			showCaption
 			cropToFillContainer={false}
 		/>
