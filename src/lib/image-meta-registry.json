@@ -833,6 +833,19 @@
       "toolbarJustification": "right",
       "version": "0.7.1",
       "date": "2026-04-25"
+    },
+    "ecc_reuse_opt_5_terraces_ai": {
+      "id": "107a604d-2cd5-4576-962f-aab9185658b5",
+      "src": "https://res.cloudinary.com/jdg-main/image/upload/v1777525555/ccp-website/save-civic-center/ecc-reuse-opt-5-terraces-ai.png",
+      "caption": "One option for reuse is installing a food hall in the lower level and peeling back the parking garage to reveal terraces down to the ground level, with replacement parking in a multifamily building offscreen.",
+      "attribution": "Joshua Goldstein",
+      "alt": "One option for reuse is installing a food hall in the lower level and peeling back the parking garage to reveal terraces down to the ground level, with replacement parking in a multifamily building offscreen.",
+      "title": "",
+      "isApprxDate": false,
+      "showBackgroundBlur": true,
+      "toolbarJustification": "right",
+      "version": "0.7.1",
+      "date": "2026-04-25"
     }
   }
 }
