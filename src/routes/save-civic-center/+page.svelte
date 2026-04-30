@@ -172,8 +172,10 @@
 			cropToFillContainer={false}
 		/>
 		<JDGBodyCopy>
-			Read more about the options and support the project at
-			<a href={$jdgSharedUrlsStore.ccpCivicCenterPetition} target="_blank">Change.org</a>.
+			To see detailed drawings and metrics, check out the <a
+				href="https://1drv.ms/b/s!Aqq9aYoi8d58nKQl5jqNYxcy4ddt9Q?e=rdTLya"
+				target="_blank">original vision book</a
+			>.
 		</JDGBodyCopy>
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="PETITION">
