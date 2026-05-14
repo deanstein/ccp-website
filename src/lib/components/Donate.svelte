@@ -1,4 +1,5 @@
 <script>
+	import { jdgSharedUrlsStore } from 'jdg-ui-svelte';
 	import { JDGBodyCopy, JDGContentBoxFloating } from 'jdg-ui-svelte';
 </script>
 
@@ -6,7 +7,7 @@
 	<JDGBodyCopy textAlign="center" paddingTop="0" textWrap="balance">
 		Digitally reconstructing a massive shopping center in two time periods is hard work! The
 		Cinderella City Project is self-funded and built by just <a
-			href="https://www.jdeangoldstein.com"
+			href={$jdgSharedUrlsStore.jdgWebsite}
 			target="_blank">one person</a
 		>, requiring dedication, time, and resources.
 		<br /><br />

@@ -7,6 +7,7 @@
 		ccpWebsiteRepoName,
 		jdgColors,
 		jdgNavItem,
+		jdgSharedUrlsStore,
 		instantiateObject,
 		repoName
 	} from 'jdg-ui-svelte';
@@ -152,7 +153,7 @@
 		{appVersion}
 		{disclaimer}
 		showDevToolsButton={true}
-		copyrightHref={'https://www.jdeangoldstein.com'}
+		copyrightHref={$jdgSharedUrlsStore.jdgWebsite}
 	>
 		<SocialMedia />
 	</JDGFooter>
