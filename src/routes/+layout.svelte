@@ -143,7 +143,6 @@
 		logoJustification="center"
 		{navItems}
 		useMobileNav={true}
-		showColorModeToggle
 	/>
 	<JDGBackground />
 	<!-- all content goes in this slot -->
