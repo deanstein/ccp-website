@@ -1,5 +1,5 @@
 <script>
-	import { jdgSharedUrlsStore, jdgNotificationTypes } from 'jdg-ui-svelte';
+	import { JDG_NOTIFICATION_TYPES, jdgSharedUrlsStore } from 'jdg-ui-svelte';
 	import imageMetaRegistry from '$lib/image-meta-registry';
 	import {
 		JDGBodyCopy,
@@ -26,7 +26,7 @@
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGNotificationBanner
 			message={'The Cinderella City exhibit was open from May 2024 through August 2025 and is now closed.'}
-			notificationType={jdgNotificationTypes.information}
+			notificationType={JDG_NOTIFICATION_TYPES.information}
 		/>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
 			The <b>Cinderella City Project</b> has teamed up with
@@ -72,7 +72,7 @@
 		<br />
 		<JDGNotificationBanner
 			message={'The Cinderella City exhibit was open from May 2024 through August 2025 and is now closed.'}
-			notificationType={jdgNotificationTypes.information}
+			notificationType={JDG_NOTIFICATION_TYPES.information}
 		/>
 	</JDGContentBoxFloating>
 </JDGContentContainer>
