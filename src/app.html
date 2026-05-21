@@ -3,6 +3,22 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Apply color mode before render to prevent flash of wrong mode -->
+		<script>
+			(function() {
+				var STORAGE_KEY = 'jdg-color-mode-preference';
+				var saved = null;
+				try { saved = localStorage.getItem(STORAGE_KEY); } catch(e) {}
+				var prefersDark = saved === 'dark' ||
+					(saved !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+				if (prefersDark) {
+					document.documentElement.style.backgroundColor = 'rgb(30, 30, 30)';
+					document.documentElement.style.colorScheme = 'dark';
+					document.documentElement.dataset.theme = 'dark';
+				}
+			})();
+		</script>
+
 		%sveltekit.head%
 
 		<link rel="icon" href="%sveltekit.assets%/ccp-logo.png" />
