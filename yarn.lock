@@ -969,7 +969,7 @@ __metadata:
     eslint: "npm:^8.56.0"
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-svelte: "npm:^2.35.1"
-    jdg-ui-svelte: "npm:3.0.1"
+    jdg-ui-svelte: "npm:3.0.3"
     just-extend: "npm:^6.2.0"
     prettier: "npm:^3.1.1"
     prettier-plugin-svelte: "npm:^3.1.2"
@@ -2294,9 +2294,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jdg-ui-svelte@npm:3.0.1":
-  version: 3.0.1
-  resolution: "jdg-ui-svelte@npm:3.0.1"
+"jdg-ui-svelte@npm:3.0.3":
+  version: 3.0.3
+  resolution: "jdg-ui-svelte@npm:3.0.3"
   dependencies:
     "@emotion/css": "npm:^11.11.2"
     crypto-js: "npm:^4.2.0"
@@ -2305,7 +2305,7 @@ __metadata:
     uuid: "npm:^9.0.0"
   peerDependencies:
     svelte: ^4.0.0
-  checksum: ce2dd19029d4934a47f3d3f3dc705434856f1b2acde04308ad8368c785327e35dbcda35ad74b399a709ad23353ee950758731ecfcd2aff0a9742d6105cc74a68
+  checksum: 70f75f939a75b714d272891e4594bc7572c8f2362d5e1d14bafdc5c3e7d0fa1a9b08283311ffe432d38a17363b3629a4371cdecd88ef001de89e20091f971d93
   languageName: node
   linkType: hard
 
