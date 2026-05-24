@@ -1,6 +1,6 @@
 <script>
 	import { jdgSharedUrlsStore } from 'jdg-ui-svelte';
-	import imageMetaRegistry from '../lib/image-meta-registry';
+	import imageMetaRegistry from '$lib/image-meta-registry';
 
 	import {
 		JDGAccentBlockWithText,
