@@ -12,8 +12,7 @@
 		"lint": "prettier --check . && eslint .",
 		"prettier": "prettier --write \"{,!(node_modules|public|dist)/**/}*.{js,svelte}\"",
 		"prettier:check": "prettier --check \"{,!(node_modules|public|dist)/**/}*.{js,svelte}\"",
-		"format": "prettier --write .",
-		"convert-image-registry-to-json": "node src/tools/convert-image-registry-to-json.js"
+		"format": "prettier --write ."
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "^2.0.0",
