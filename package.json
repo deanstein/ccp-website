@@ -1,6 +1,6 @@
 {
 	"name": "ccp-website",
-	"version": "0.9.3",
+	"version": "0.10.0",
 	"private": true,
 	"packageManager": "yarn@4.0.2",
 	"scripts": {
