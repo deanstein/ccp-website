@@ -760,11 +760,12 @@
         "attribution": "Chad Henderson",
         "alt": "Visitors experience a walkthrough of the Cinderella City Simulation with creator Josh Goldstein in the Cinderella City exhibit theater.",
         "title": "",
+        "date": "2025-08-30",
         "isApprxDate": false,
         "showBackgroundBlur": true,
         "toolbarJustification": "right",
         "version": "0.7.1",
-        "date": "2025-08-30"
+        "showInTimeline": false
       }
     }
   },
