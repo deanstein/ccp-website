@@ -38,8 +38,7 @@
 			to nightmare in just three decades.
 			<br /><br />
 			<a href={'https://jdeangoldstein.com'} target="_blank">Josh Goldstein</a>, a Colorado native
-			whose career in architecture and software was influenced by Cinderella City's demolition in
-			his formative years, created the project to document this unique place in <b>three ways</b>:
+			whose career in architecture and software was influenced by Cinderella City's demolition, created the project to document this unique place in <b>three ways</b>:
 		</JDGBodyCopy>
 		<JDGGridLayout>
 			<JDGImageTile
