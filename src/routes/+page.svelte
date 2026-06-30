@@ -33,7 +33,7 @@
 	/>
 	<JDGContentBoxFloating animateWhenVisible={false}>
 		<JDGBodyCopy fontSizeMultiplier={1.15}>
-			The Cinderella City Project is an immersive journey into an unconventional mid‑century retail
+			The Cinderella City Project is an interactive journey into an unconventional mid‑century retail
 			destination once hailed as a futuristic “city under a roof,” yet destined to fade from
 			fairytale to nightmare in just three decades.
 			<br /><br />
