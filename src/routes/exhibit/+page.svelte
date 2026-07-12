@@ -8,6 +8,7 @@
 		JDGContentContainer,
 		JDGImageFullWidth,
 		JDGImageHybridGridCarousel,
+		JDGJumpTo,
 		JDGUpNext
 	} from 'jdg-ui-svelte';
 	import Donate from '$lib/components/Donate.svelte';
@@ -35,6 +36,7 @@
 	</JDGContentBoxFloating>
 </JDGContentContainer>
 <JDGContentContainer>
+	<JDGJumpTo />
 	<JDGContentBoxFloating title="FEATURES">
 		<JDGBodyCopy paddingTop="0">
 			Immerse yourself in Cinderella City's history and design with life-size photos, little-known
@@ -65,8 +67,8 @@
 	</JDGContentBoxFloating>
 	<JDGContentBoxFloating title="HISTORIC CONTEXT">
 		<JDGBodyCopy paddingTop="0">
-			Adding a layer of history to the experience, the exhibit takes place inside the last surviving piece of the mall: the
-			Broadway Southwest department store constructed in 1985.
+			Adding a layer of history to the experience, the exhibit takes place inside the last surviving
+			piece of the mall: the Broadway Southwest department store constructed in 1985.
 		</JDGBodyCopy>
 		<JDGImageHybridGridCarousel
 			imageMetaSet={[imageMetaRegistry.ecc_abandoned_1, imageMetaRegistry.ecc_existing_south]}
